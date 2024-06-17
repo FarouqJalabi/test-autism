@@ -606,3 +606,115 @@ Processing by QuestionsController#result as TURBO_STREAM
 Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1622)
 
 
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:14:37 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.1ms | Allocations: 30)
+  Rendered questions/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1968)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3058)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.1ms | Allocations: 3303)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:14:42 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"Fogado", "commit"=>"Save "}
+Redirected to http://0.0.0.0:3000/result
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/result" for 127.0.0.1 at 2024-06-17 16:14:42 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1250)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1490)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:22:16 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 4509)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 19711)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 1.1ms | Allocations: 21347)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:22:19 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sadf", "commit"=>"Save "}
+Redirected to http://0.0.0.0:3000/result?name=sadf
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 458)
+
+
+Started GET "/result?name=sadf" for 127.0.0.1 at 2024-06-17 16:22:19 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Parameters: {"name"=>"sadf"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1363)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1647)
+
+
+Started GET "/result?name=sadf" for 127.0.0.1 at 2024-06-17 16:22:33 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"name"=>"sadf"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1099)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1191)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1885)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `name' for an instance of #<Class:0x000073d13915e1a8>):
+    1: <h1>Result</h1>
+    2: <%= name %>
+  
+app/views/questions/result.html.erb:2
+Started GET "/result?name=sadf" for 127.0.0.1 at 2024-06-17 16:23:20 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"name"=>"sadf"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 15531)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 16239)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:23:27 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 4915)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 6000)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 1.7ms | Allocations: 7031)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:23:32 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"HC", "commit"=>"Save "}
+Redirected to http://0.0.0.0:3000/result?name=HC
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 396)
+
+
+Started GET "/result?name=HC" for 127.0.0.1 at 2024-06-17 16:23:32 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Parameters: {"name"=>"HC"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1269)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1554)
+
+

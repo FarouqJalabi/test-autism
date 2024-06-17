@@ -6,6 +6,6 @@ class QuestionsController < ApplicationController
 
   def calculate_answer
     puts "Farouq Jalabi"
-    redirect_to '/result'
+    redirect_to result_path(name: params["name"])
   end
 end
