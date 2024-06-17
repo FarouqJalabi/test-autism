@@ -1,3 +1,12 @@
 <h1>Questions</h1>
 
 <%= render @questions %>
+
+
+  <%= form_with url: questions_calculate_answer_path, method: :post do |form| %>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+    <%= form.submit %>
+  </div>
+<% end %>
