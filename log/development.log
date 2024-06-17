@@ -251,3 +251,358 @@ Processing by QuestionsController#index as HTML
 Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.1ms | Allocations: 2046)
 
 
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:01:38 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 4051)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 4143)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.1ms | Allocations: 5770)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for an instance of #<Class:0x000073d133a15978>):
+     5: 
+     6:   <%= form_tag('questions/calculate_answer', method: :post) do %>
+     7:   <div>
+     8:     <%= form.label :field1, "Field-1" %>
+     9:     <%= form.number_field :form_data[:field1] %>
+    10:   </div>
+    11: <% end %>
+  
+app/views/questions/index.html.erb:8
+app/views/questions/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:04:12 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 5321)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 5413)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.4ms | Allocations: 7037)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+     6:   <%= form_with url: questions_calculateAnswer_path, method: :post do |form| %>
+     7:   <div>
+     8:     <%= form.label :field1, "Field-1" %>
+     9:     <%= form.number_field :form_data[:field1] %>
+    10:   </div>
+    11: <% end %>
+  
+app/views/questions/index.html.erb:9:in `[]'
+app/views/questions/index.html.erb:9
+app/views/questions/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:04:14 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.1ms | Allocations: 30)
+  Rendered questions/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2052)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2143)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2377)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+     6:   <%= form_with url: questions_calculateAnswer_path, method: :post do |form| %>
+     7:   <div>
+     8:     <%= form.label :field1, "Field-1" %>
+     9:     <%= form.number_field :form_data[:field1] %>
+    10:   </div>
+    11: <% end %>
+  
+app/views/questions/index.html.erb:9:in `[]'
+app/views/questions/index.html.erb:9
+app/views/questions/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:04:25 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.6ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 5471)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 20671)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 1.5ms | Allocations: 22307)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:04:34 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.5ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 4994)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 20197)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 1.3ms | Allocations: 21833)
+
+
+Started POST "/questions/calculateAnswer" for 127.0.0.1 at 2024-06-17 16:04:35 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdf", "commit"=>"Save "}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 766)
+
+
+  
+NoMethodError (undefined method `put' for an instance of QuestionsController):
+  
+app/controllers/questions_controller.rb:8:in `calculate_answer'
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:04:55 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 4899)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 20098)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 1.3ms | Allocations: 21734)
+
+
+Started POST "/questions/calculateAnswer" for 127.0.0.1 at 2024-06-17 16:04:56 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdf", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.7ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1212)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1782)
+
+
+Started POST "/questions/calculateAnswer" for 127.0.0.1 at 2024-06-17 16:04:58 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdf", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1092)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1526)
+
+
+Started POST "/questions/calculateAnswer" for 127.0.0.1 at 2024-06-17 16:06:07 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/questions/calculateAnswer"):
+  
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:06:07 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 136)
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 4949)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 20148)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 1.4ms | Allocations: 21740)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:06:11 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdfasdfasd", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1210)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1787)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:06:11 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdfasdfasd", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1092)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1535)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:06:12 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.1ms | Allocations: 30)
+  Rendered questions/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1988)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3072)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.1ms | Allocations: 3317)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:06:13 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdfasdfasd", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1092)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1535)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:06:34 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdfasdfasd", "commit"=>"Save "}
+Redirected to 
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1230)
+
+
+  
+ActionController::Redirecting::UnsafeRedirectError (Unsafe redirect to "http://0.0.0.0:3000question/result", pass allow_other_host: true to redirect anyway.):
+  
+app/controllers/questions_controller.rb:9:in `calculate_answer'
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:07:03 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4911)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 20110)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 1.4ms | Allocations: 21748)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:07:05 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdfasdfasd", "commit"=>"Save "}
+Redirected to 
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1131)
+
+
+  
+ActionController::Redirecting::UnsafeRedirectError (Unsafe redirect to "http://0.0.0.0:3000question/result", pass allow_other_host: true to redirect anyway.):
+  
+app/controllers/questions_controller.rb:9:in `calculate_answer'
+Started GET "/result" for 127.0.0.1 at 2024-06-17 16:07:10 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/result"):
+  
+Started GET "/result" for 127.0.0.1 at 2024-06-17 16:07:15 +0200
+Processing by QuestionsController#result as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1117)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1209)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1903)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `category_a' for an instance of #<Class:0x000073d1333db9b8>):
+    1: <h1>Result</h1>
+    2: 
+    3: <%= category_a %>
+    4: <%= category_b %>
+  
+app/views/questions/result.html.erb:3
+Started GET "/result" for 127.0.0.1 at 2024-06-17 16:07:31 +0200
+Processing by QuestionsController#result as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1115)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1207)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1901)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `category_a' for an instance of #<Class:0x000073d13351b418>):
+    1: <h1>Result</h1>
+    2: 
+    3: <%= category_a %>
+    4: <%= category_b %>
+  
+app/views/questions/result.html.erb:3
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:07:35 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 4869)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 20118)
+Completed 200 OK in 25ms (Views: 15.6ms | ActiveRecord: 1.5ms | Allocations: 29102)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:07:38 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"dsafasdf", "commit"=>"Save "}
+Redirected to 
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1112)
+
+
+  
+ActionController::Redirecting::UnsafeRedirectError (Unsafe redirect to "http://0.0.0.0:3000result", pass allow_other_host: true to redirect anyway.):
+  
+app/controllers/questions_controller.rb:9:in `calculate_answer'
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:07:52 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.5ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 4948)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 20147)
+Completed 200 OK in 21ms (Views: 15.1ms | ActiveRecord: 1.4ms | Allocations: 21783)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:07:53 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"dsafasdf", "commit"=>"Save "}
+Redirected to http://0.0.0.0:3000/result
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 362)
+
+
+Started GET "/result" for 127.0.0.1 at 2024-06-17 16:07:53 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1110)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1201)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1482)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `category_a' for an instance of #<Class:0x000073d133b6c4e8>):
+    1: <h1>Result</h1>
+    2: 
+    3: <%= category_a %>
+    4: <%= category_b %>
+  
+app/views/questions/result.html.erb:3
+Started GET "/" for 127.0.0.1 at 2024-06-17 16:09:36 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.4ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 4905)
+  Rendered layout layouts/application.html.erb (Duration: 47.0ms | Allocations: 20104)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 1.3ms | Allocations: 21740)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-17 16:09:40 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"dsafasdf", "commit"=>"Save "}
+Redirected to http://0.0.0.0:3000/result
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 343)
+
+
+Started GET "/result" for 127.0.0.1 at 2024-06-17 16:09:40 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1338)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1622)
+
+
