@@ -718,3 +718,92 @@ Processing by QuestionsController#result as TURBO_STREAM
 Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1554)
 
 
+Started GET "/result?name=HC" for 127.0.0.1 at 2024-06-18 09:04:11 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"name"=>"HC"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1184)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1276)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1970)
+
+
+  
+ActionView::Template::Error (undefined method `any?' for an instance of ActionController::Parameters):
+    1: <h1>Result</h1>
+    2: <%= params %>
+    3: <% if params.any? %>
+    4:   <ul>
+    5:     <% params.each do |key, value| %>
+    6:       <li><strong><%= h key %>:</strong> <%= h value %></li>
+  
+app/views/questions/result.html.erb:3
+Started GET "/result?name=HC" for 127.0.0.1 at 2024-06-18 09:04:42 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"name"=>"HC"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.9ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 15745)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 16453)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:04:58 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (1.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.8ms | Allocations: 134)
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 4555)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 5645)
+Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 2.1ms | Allocations: 6676)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-18 09:05:00 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"hallo", "commit"=>"Save "}
+Redirected to http://0.0.0.0:3000/result?catagoery_1=hallo&catagoery_2=Test
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 424)
+
+
+Started GET "/result?catagoery_1=hallo&catagoery_2=Test" for 127.0.0.1 at 2024-06-18 09:05:00 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Parameters: {"catagoery_1"=>"hallo", "catagoery_2"=>"Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1286)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1570)
+
+
+Started GET "/result?catagoery_1=hallo&catagoery_2=Test" for 127.0.0.1 at 2024-06-18 09:06:09 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"catagoery_1"=>"hallo", "catagoery_2"=>"Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 1.1ms | Allocations: 275)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 15662)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 16370)
+
+
+Started GET "/result?catagoery_1=hallo&catagoery_2=Test" for 127.0.0.1 at 2024-06-18 09:06:25 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"catagoery_1"=>"hallo", "catagoery_2"=>"Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.9ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 15521)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 16229)
+
+
+Started GET "/result?catagoery_1=hallo&catagoery_2=Test" for 127.0.0.1 at 2024-06-18 09:07:01 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"catagoery_1"=>"hallo", "catagoery_2"=>"Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.9ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 15633)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 16341)
+
+
