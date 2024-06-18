@@ -20,6 +20,12 @@ class QuestionsController < ApplicationController
       unless score_by_category.key?(question_category)
         score_by_category[question_category] = 0
       end
+
+      if question.negative_key
+        reverse_option = {"5"=> "1", "4"=> "2", "3"=>"3", "2"=>"4", "1"=>"5" }
+        selected_option = reverse_option[selected_option]
+      end
+
       score_by_category[question_category] += selected_option.to_i
     end
 
