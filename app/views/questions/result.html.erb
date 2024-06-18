@@ -3,7 +3,7 @@
 <% if params.present? %>
   <ul>
     <% params.each do |key, value| %>
-      <% if key.include?("catagoery") %>
+      <% if key.include?("category") %>
         <li><strong><%= h key %>:</strong> <%= h value %></li>
       <% end %>
     <% end %>
