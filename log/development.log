@@ -1763,3 +1763,64 @@ Processing by QuestionsController#result as TURBO_STREAM
 Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1514)
 
 
+Started GET "/" for 127.0.0.1 at 2024-06-18 13:42:45 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (2.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered collection of questions/_question.html.erb [3 times] (Duration: 8.8ms | Allocations: 16423)
+  Rendered questions/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 17112)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 32322)
+Completed 200 OK in 35ms (Views: 22.3ms | ActiveRecord: 3.1ms | Allocations: 37104)
+
+
+  [1m[36mQuestion Update All (2.7ms)[0m  [1m[33mUPDATE "questions" SET "negative_key" = ?[0m  [["negative_key", "[FILTERED]"]]
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-18 13:43:12 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answers"=>{"5"=>"5", "6"=>"5", "7"=>"5"}, "commit"=>"Submit Answers"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:18:in `block in calculate_answer'
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 1677)
+
+
+  
+NoMethodError (undefined method `constant' for an instance of QuestionsController):
+  
+app/controllers/questions_controller.rb:25:in `block in calculate_answer'
+app/controllers/questions_controller.rb:17:in `calculate_answer'
+Started GET "/" for 127.0.0.1 at 2024-06-18 13:46:47 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered collection of questions/_question.html.erb [3 times] (Duration: 3.8ms | Allocations: 16424)
+  Rendered questions/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 17120)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 32326)
+Completed 200 OK in 19ms (Views: 13.6ms | ActiveRecord: 1.1ms | Allocations: 37564)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-18 13:46:53 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answers"=>{"5"=>"5", "6"=>"5", "7"=>"5"}, "commit"=>"Submit Answers"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:18:in `block in calculate_answer'
+  [1m[36mQuestion Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:18:in `block in calculate_answer'
+  [1m[36mQuestion Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:18:in `block in calculate_answer'
+Redirected to http://0.0.0.0:3000/result?category_20=1&category_height=2
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 2173)
+
+
+Started GET "/result?category_20=1&category_height=2" for 127.0.0.1 at 2024-06-18 13:46:53 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Parameters: {"category_20"=>"1", "category_height"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1488)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1772)
+
+
