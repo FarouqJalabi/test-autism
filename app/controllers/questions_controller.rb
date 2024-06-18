@@ -1,12 +1,7 @@
 class QuestionsController < ApplicationController
 
   def index
-    #  @questions = Question.all
-    @questions = [
-        { id: 1, content: "How outgoing are you?" },
-        { id: 2, content: "How organized are you?" },
-        { id: 3, content: "How adventurous are you?" }
-      ]
+    @questions = Question.all
     @answers = Array.new(@questions.length)
   end
 
