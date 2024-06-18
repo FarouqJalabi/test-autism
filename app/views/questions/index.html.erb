@@ -1,5 +1,3 @@
-<h1>Questions</h1>
-
 <%= form_with url: questions_calculate_answer_path, method: :post do |form| %>
   <%= render @questions, form:form %>
   <%= form.submit "Submit Answers" %>
