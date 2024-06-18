@@ -11,7 +11,6 @@ class QuestionsController < ApplicationController
   end
 
   def calculate_answer
-    test_score = 50
     @answers = params[:answers]
 
     total_score = 0
