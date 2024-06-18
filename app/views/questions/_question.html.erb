@@ -1,6 +1,54 @@
-<h3><%= question.question %></h3>
-<% (1..5).each do |option| %>
-  <%= form.radio_button("answers[#{question.id}]", option) %>
-  <%= form.label("answers[#{question.id}][#{option}]", option) %><br>
-<% end %>
-<br>
+<div class="question_container">
+  <div class="question_content">
+    <div class="question_box">
+      <div class="question">
+        <h3><%= question.question %></h3>
+      </div>
+      <div class="options">
+        <% (1..5).each do |option| %>
+          <label class="custom-radio">
+            <%= form.radio_button("answers[#{question.id}]", option, id: "option_#{question.id}_#{option}") %>
+            <span></span><br>
+            <%= option %><br>
+          </label><br>
+        <% end %>
+      </div>
+      <% if is_first_question %>
+        <%= form.submit "Submit", class: "submit_button" %>
+      <% end %>
+    </div>
+  </div>
+  <button class="show_previous">Show Previous Question</button>
+</div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('input[type=radio]').change(function() {
+      // Check if the radio button that triggered the change is checked
+      if ($(this).is(':checked')) {
+        // Hide only the parent .question_container
+        $(this).closest('.question_container').hide();
+      }
+    });
+
+    // Handle click on the "Show Previous Question" button
+    $(document).on('click', '.show_previous', function(event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      // Find the previous .question_container and show it
+      var prevQuestionContainer = $(this).closest('.question_container').prev('.question_container');
+      prevQuestionContainer.show();
+    });
+  });
+</script>
+
+
+
+
