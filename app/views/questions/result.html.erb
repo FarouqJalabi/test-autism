@@ -1,12 +1,27 @@
 <h1>Result</h1>
+
+<!-- Is params always available? -->
 <% if params.present? %>
   <ul>
+
     <% params.each do |key, value| %>
       <% if key.include?("category") %>
-        <li><strong><%= h key %>:</strong> <%= h value %></li>
+
+
+        <section>
+          <strong><%= key %></strong>
+          <%= value %>%
+          <div class="percentage_bar">
+            <div style="width: <%= value %>%;"></div>
+          </div>
+
+        </section>
+
       <% end %>
     <% end %>
+
   </ul>
+
 <% else %>
   <h1>ERROR</h1>
 <%end  %>

@@ -1,0 +1,12 @@
+.percentage_bar {
+    width: 200px;
+    height: 15px;
+    border-radius: 15px;
+    border: 1px solid #d3d3d3;
+    overflow: hidden;
+}
+
+.percentage_bar > div {
+    background-color: #d9d9d9;
+    height: 100%;
+}
