@@ -1,1 +1,13 @@
 <h1>Result</h1>
+
+<% if params.present? %>
+  <ul>
+    <% params.each do |key, value| %>
+      <% if key.include?("category") %>
+        <li><strong><%= h key %>:</strong> <%= h value %></li>
+      <% end %>
+    <% end %>
+  </ul>
+<% else %>
+  <h1>ERROR</h1>
+<%end  %>
