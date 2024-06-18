@@ -807,3 +807,202 @@ Processing by QuestionsController#result as HTML
 Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 16341)
 
 
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:14:08 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 0.9ms | Allocations: 136)
+  Rendered questions/index.html.erb within layouts/application (Duration: 18.1ms | Allocations: 4894)
+  Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 20093)
+Completed 200 OK in 42ms (Views: 36.2ms | ActiveRecord: 2.8ms | Allocations: 21730)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-18 09:14:11 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"sdfasdf", "commit"=>"Save "}
+Redirected to http://0.0.0.0:3000/result?category_1=sdfasdf&category_2=Test
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 406)
+
+
+Started GET "/result?category_1=sdfasdf&category_2=Test" for 127.0.0.1 at 2024-06-18 09:14:11 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Parameters: {"category_1"=>"sdfasdf", "category_2"=>"Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 1.0ms | Allocations: 257)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1517)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1801)
+
+
+Started GET "/result?category_1=sdfasdf&category_2=Test" for 127.0.0.1 at 2024-06-18 09:28:13 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"category_1"=>"sdfasdf", "category_2"=>"Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.9ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 15634)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 16342)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:28:14 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (1.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:6
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 1.6ms | Allocations: 1464)
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 4433)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4524)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 2.4ms | Allocations: 5551)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for an instance of #<Class:0x000073d13348f5a8>):
+    1: <h2><%= question.question %></h2>
+    2: <% (1..5).each do |option| %>
+    3:   <%= form.radio_button("answers[#{index}]", option) %>
+    4:   <%= form.label("answers[#{index}][#{option}]", option) %><br>
+    5: <% end %>
+  
+app/views/questions/_question.html.erb:3
+app/views/questions/_question.html.erb:2
+app/views/questions/index.html.erb:6
+app/views/questions/index.html.erb:5
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:29:01 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:6
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 2.1ms | Allocations: 1404)
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 4762)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4854)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 2.2ms | Allocations: 6479)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index' for an instance of #<Class:0x000073d133b73540>):
+    1: <h2><%= question.question %></h2>
+    2: <% (1..5).each do |option| %>
+    3:   <%= form.radio_button("answers[#{index}]", option) %>
+    4:   <%= form.label("answers[#{index}][#{option}]", option) %><br>
+    5: <% end %>
+  
+app/views/questions/_question.html.erb:3
+app/views/questions/_question.html.erb:2
+app/views/questions/index.html.erb:6
+app/views/questions/index.html.erb:5
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:29:39 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:6
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 9.9ms | Allocations: 11358)
+  Rendered questions/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 15074)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 30273)
+Completed 200 OK in 52ms (Views: 45.3ms | ActiveRecord: 2.9ms | Allocations: 31909)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:30:31 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:6
+  Rendered collection of questions/_question.html.erb [2 times] (Duration: 7.7ms | Allocations: 11046)
+  Rendered questions/index.html.erb within layouts/application (Duration: 17.9ms | Allocations: 14764)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 29963)
+Completed 200 OK in 40ms (Views: 33.0ms | ActiveRecord: 2.6ms | Allocations: 31599)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:32:06 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 14600)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 29803)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms | Allocations: 30726)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-18 09:32:12 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answers"=>{"0"=>"4", "1"=>"2", "2"=>"1"}, "commit"=>"Submit Answers"}
+Redirected to http://0.0.0.0:3000/result?category_1=50&category_2=25
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 394)
+
+
+Started GET "/result?category_1=50&category_2=25" for 127.0.0.1 at 2024-06-18 09:32:12 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Parameters: {"category_1"=>"50", "category_2"=>"25"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 1.0ms | Allocations: 256)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1498)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1782)
+
+
+Started GET "/result?category_1=50&category_2=25" for 127.0.0.1 at 2024-06-18 09:34:21 +0200
+Processing by QuestionsController#result as HTML
+  Parameters: {"category_1"=>"50", "category_2"=>"25"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.9ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 15638)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 16346)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:34:22 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 14631)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 15729)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 16046)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-18 09:34:26 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answers"=>{"0"=>"1", "1"=>"1", "2"=>"1"}, "commit"=>"Submit Answers"}
+Redirected to http://0.0.0.0:3000/result?category_2=25&category_total_score=3
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 427)
+
+
+Started GET "/result?category_2=25&category_total_score=3" for 127.0.0.1 at 2024-06-18 09:34:26 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Parameters: {"category_2"=>"25", "category_total_score"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1271)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1555)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-18 09:34:47 +0200
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 14314)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 15412)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 15661)
+
+
+Started POST "/questions/calculate_answer" for 127.0.0.1 at 2024-06-18 09:34:51 +0200
+Processing by QuestionsController#calculate_answer as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answers"=>{"0"=>"1", "1"=>"1", "2"=>"1"}, "commit"=>"Submit Answers"}
+Redirected to http://0.0.0.0:3000/result?category_2=25&category_total_score=3
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/result?category_2=25&category_total_score=3" for 127.0.0.1 at 2024-06-18 09:34:51 +0200
+Processing by QuestionsController#result as TURBO_STREAM
+  Parameters: {"category_2"=>"25", "category_total_score"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering questions/result.html.erb within layouts/application
+  Rendered questions/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1302)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1542)
+
+
