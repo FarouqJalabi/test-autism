@@ -1,4 +1,4 @@
-<h3><%= question.question %></h3>
+<h3><%= question.content %></h3>
 <% (1..5).each do |option| %>
   <%= form.radio_button("answers[#{question.id}]", option) %>
   <%= form.label("answers[#{question.id}][#{option}]", option) %><br>
