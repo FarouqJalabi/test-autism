@@ -1,6 +1,48 @@
-<h3><%= question.content %></h3>
-<% (1..5).each do |option| %>
-  <%= form.radio_button("answers[#{question.id}]", option) %>
-  <%= form.label("answers[#{question.id}][#{option}]", option) %><br>
-<% end %>
-<br>
+<div class="question_container" data-index="<%= index %>">
+  <div class="question_content">
+    <div class="question_box">
+      <div class="question">
+        <h3><%= question.question %></h3>
+      </div>
+      <div class="options">
+        <% (1..5).each do |option| %>
+          <label class="custom-radio">
+            <%= form.radio_button("answers[#{question.id}]", option, id: "option_#{question.id}_#{option}") %>
+            <span></span><br>
+            <%= option %><br>
+          </label><br>
+        <% end %>
+      </div>
+      <% if is_first_question && index == 0 %>
+        <%= form.submit "Submit", class: "submit_button" %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('input[type=radio]').change(function() {
+      var currentQuestionContainer = $(this).closest('.question_container');
+      var currentIndex = currentQuestionContainer.data('index');
+
+      if ($(this).is(':checked')) {
+        if (currentIndex != 0){
+          $(this).closest('.question_container').hide();
+        }
+      }
+    });
+  });
+</script>
+
+
+
+
