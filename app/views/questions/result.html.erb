@@ -5,15 +5,14 @@
       
           <% params.each do |key, value| %>
             <% if key.include?("category") %>
-      
-      
+
               <section>
                 <div class="progress_bar_data">
                   <p class="progress_bar_title">
                     <%= key.split("_")[1] %>:
                   </p>
                   <p class="progress_bar_percentage">
-                    <%= value %>%
+                    <%= value %>% (<%= percentage_to_label(value.to_f) %>)
                   </p>
 
                 </div>
