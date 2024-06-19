@@ -2,7 +2,7 @@
   <div class="question_content">
     <div class="question_box">
       <div class="question">
-        <h3><%= question.question %></h3>
+        <h3><%= question.content %></h3>
       </div>
       <div class="options">
         <% (1..5).each do |option| %>
@@ -13,6 +13,7 @@
           </label><br>
         <% end %>
       </div>
+      <input type="button" value="Back Button">
       <% if is_first_question && index == 0 %>
         <%= form.submit "Submit", class: "submit_button" %>
       <% end %>
@@ -30,6 +31,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
+
     $('input[type=radio]').change(function() {
       var currentQuestionContainer = $(this).closest('.question_container');
       var currentIndex = currentQuestionContainer.data('index');
@@ -40,6 +42,19 @@
         }
       }
     });
+    
+    $('input[type=button]').click(function() {
+        var currentQuestionContainer = $(this).closest('.question_container');
+        var currentIndex = currentQuestionContainer.data('index');
+        var targetIndex = currentIndex+1;
+
+            var targetQuestionContainer = $('.question_container[data-index=' + targetIndex + ']');
+            console.log(targetQuestionContainer)
+            console.log(targetIndex)
+            targetQuestionContainer.show()
+
+
+    })
   });
 </script>
 
