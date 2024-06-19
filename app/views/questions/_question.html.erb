@@ -35,7 +35,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
-    $('input[type=radio]').change(function() {
+    $('input[type=radio]').click(function() {
       var currentQuestionContainer = $(this).closest('.question_container');
       var currentIndex = currentQuestionContainer.data('index');
 
