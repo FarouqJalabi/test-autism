@@ -5,11 +5,11 @@
         <p><%= question.content %></p>
       </div>
       <div class="options">
-        <% (1..5).each do |option| %>
+        <% [0,0,1,1].each_with_index  do |value, index| %>
           <label class="custom-radio">
-            <%= form.radio_button("answers[#{question.id}]", option, id: "option_#{question.id}_#{option}") %>
+            <%= form.radio_button("answers[#{question.id}]", value, id: "option_#{question.id}_#{value}") %>
             <span></span><br>
-            <%= option %><br>
+            <%= index %><br>
           </label><br>
         <% end %>
       </div>
