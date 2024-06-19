@@ -79,9 +79,28 @@ input[type="radio"] {
     transform: translate(-50%, -50%);
   }
 
+  .question_buttons {
+      display: flex;
+  }
+.question_buttons > * {
+    transition: 100ms;
+}
 
+.question_buttons > *:hover {
+    transform: scale(1.1);
+
+}
+  .question_buttons > button {
+      cursor: pointer;
+      background-color: transparent;
+      border: transparent;
+      margin-right: auto;
+  }
   
-
+.question_buttons > button:hover {
+    transform: scale(1.1);
+    transition: 100ms;
+}
 
 .submit_button {
     background-color: #d9d9d9;
@@ -92,14 +111,4 @@ input[type="radio"] {
     padding: 15px 32px;
     cursor: pointer;
     border-radius: 4px;
-    transition: 100ms;
 }
-  
-.submit_button:hover {
-    transform: scale(1.1);
-}
-  
-
-
-
-

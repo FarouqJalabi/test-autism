@@ -13,10 +13,16 @@
           </label><br>
         <% end %>
       </div>
-      <input type="button" value="Back Button">
-      <% if is_first_question && index == 0 %>
-        <%= form.submit "Submit", class: "submit_button" %>
-      <% end %>
+
+      <div class="question_buttons">
+        <button type="button" >
+          <%= image_tag 'Arrow.svg' %>
+        </button>
+        <% if is_first_question && index == 0 %>
+          <%= form.submit "Submit", class: "submit_button" %>
+        <% end %>
+      </div>
+
     </div>
   </div>
 </div>
@@ -43,10 +49,11 @@
       }
     });
     
-    $('input[type=button]').click(function() {
+    $('button').click(function() {
         var currentQuestionContainer = $(this).closest('.question_container');
         var currentIndex = currentQuestionContainer.data('index');
         var targetIndex = currentIndex+1;
+        console.log("Heloo")
 
             var targetQuestionContainer = $('.question_container[data-index=' + targetIndex + ']');
             console.log(targetQuestionContainer)
