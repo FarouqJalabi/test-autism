@@ -13,5 +13,10 @@ export default class extends Controller {
 }
   back_clicked() {
     console.log("back clicked")
+    let targetIndex = Number(this.index) + 1;
+
+    let targetQuestionContainer = document.querySelector('.question_container[data-index="' + targetIndex + '"]');
+    targetQuestionContainer.classList.add('current');
+    this.currentQuestionContainer.classList.remove('slide-out-left');
   }
 }

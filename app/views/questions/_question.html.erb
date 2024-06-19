@@ -31,32 +31,3 @@
     </div>
   </div>
 </div>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $(document).ready(function() {
-    $('input[type=radio]').click(function() {
-      var currentQuestionContainer = $(this).closest('.question_container');
-      var currentIndex = currentQuestionContainer.data('index');
-
-      if ($(this).is(':checked')) {
-        if (currentIndex != 0) {
-          // currentQuestionContainer.addClass('slide-out-left').removeClass('current');
-        }
-      }
-    });
-
-    $('button').click(function() {
-      var currentQuestionContainer = $(this).closest('.question_container');
-      var currentIndex = currentQuestionContainer.data('index');
-      var targetIndex = currentIndex + 1;
-      
-      var targetQuestionContainer = $('.question_container[data-index=' + targetIndex + ']');
-      targetQuestionContainer.addClass('slide-out-right current');
-
-      setTimeout(function() {
-        currentQuestionContainer.removeClass('slide-out-left');
-      }, 500);
-    });
-  });
-</script>
