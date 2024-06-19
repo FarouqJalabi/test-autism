@@ -16,7 +16,7 @@
 
       <div class="question_buttons">
         <button type="button" >
-          <%= image_tag 'Arrow.svg' %>
+          <%= image_tag 'Arrow.svg', alt: "Arrow pointing to left" %>
         </button>
         <% if is_first_question && index == 0 %>
           <%= form.submit "Submit", class: "submit_button" %>
