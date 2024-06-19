@@ -1,20 +1,20 @@
-.question_container{
+.container{
     height: 100%;
     width: 100%;
     position: absolute;
     background-color: white;
 }
-.question_container h3{
+.container h3{
     font-size: 2rem;
 }
-.question_content{
+.content{
     height: 100%;
     width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
 }
-.question_box{
+.box{
     gap: 3rem;
     display: grid;
 }
