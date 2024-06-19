@@ -1,3 +1,14 @@
+.progress_bar_data{
+    display: flex;
+    gap: 1rem;
+}
+.progress_bar_data p{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: .7rem;
+}
+
+
 .percentage_bar {
     width: 30rem;
     height: 2rem;
