@@ -2333,3 +2333,130 @@ Processing by QuestionsController#result as TURBO_STREAM
 Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 16388)
 
 
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:15:32 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 16.0ms | Allocations: 3417)
+  Rendered questions/_question.html.erb (Duration: 16.6ms | Allocations: 2598)
+  Rendered questions/_question.html.erb (Duration: 1.4ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 47.2ms | Allocations: 10831)
+  Rendered layout layouts/application.html.erb (Duration: 162.1ms | Allocations: 46717)
+Completed 200 OK in 240ms (Views: 170.7ms | ActiveRecord: 2.6ms | Allocations: 67102)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:15:51 +0200
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 2.7ms | Allocations: 3156)
+  Rendered questions/_question.html.erb (Duration: 1.7ms | Allocations: 2598)
+  Rendered questions/_question.html.erb (Duration: 1.7ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 9009)
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 24698)
+Completed 200 OK in 72ms (Views: 55.6ms | ActiveRecord: 3.3ms | Allocations: 30752)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:16:39 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 1.1ms | Allocations: 3098)
+  Rendered questions/_question.html.erb (Duration: 0.5ms | Allocations: 2598)
+  Rendered questions/_question.html.erb (Duration: 0.4ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 9063)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 24856)
+Completed 200 OK in 26ms (Views: 21.0ms | ActiveRecord: 1.4ms | Allocations: 30100)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:17:00 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 2.0ms | Allocations: 3157)
+  Rendered questions/_question.html.erb (Duration: 1.2ms | Allocations: 2598)
+  Rendered questions/_question.html.erb (Duration: 1.1ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 9113)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 24842)
+Completed 200 OK in 36ms (Views: 25.6ms | ActiveRecord: 2.5ms | Allocations: 30059)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:17:28 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 3.3ms | Allocations: 3099)
+  Rendered questions/_question.html.erb (Duration: 2.6ms | Allocations: 2598)
+  Rendered questions/_question.html.erb (Duration: 2.9ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 9052)
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 24835)
+Completed 200 OK in 57ms (Views: 44.5ms | ActiveRecord: 3.1ms | Allocations: 30060)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:17:56 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 2.1ms | Allocations: 3158)
+  Rendered questions/_question.html.erb (Duration: 0.9ms | Allocations: 2598)
+  Rendered questions/_question.html.erb (Duration: 0.8ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 9109)
+  Rendered layout layouts/application.html.erb (Duration: 42.0ms | Allocations: 24799)
+Completed 200 OK in 55ms (Views: 44.6ms | ActiveRecord: 2.8ms | Allocations: 29997)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:19:32 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 2.1ms | Allocations: 3100)
+  Rendered questions/_question.html.erb (Duration: 2.5ms | Allocations: 2599)
+  Rendered questions/_question.html.erb (Duration: 1.4ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 9062)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 24819)
+Completed 200 OK in 42ms (Views: 29.3ms | ActiveRecord: 3.0ms | Allocations: 30063)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:19:44 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 1.8ms | Allocations: 2775)
+  Rendered questions/_question.html.erb (Duration: 1.5ms | Allocations: 2598)
+  Rendered questions/_question.html.erb (Duration: 11.9ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 17.7ms | Allocations: 8404)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 10122)
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 0.2ms | Allocations: 10793)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-19 09:19:59 +0200
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:5:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/_question.html.erb (Duration: 2.6ms | Allocations: 3155)
+  Rendered questions/_question.html.erb (Duration: 1.0ms | Allocations: 2598)
+  Rendered questions/_question.html.erb (Duration: 1.5ms | Allocations: 2598)
+  Rendered questions/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 9107)
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 24890)
+Completed 200 OK in 48ms (Views: 32.1ms | ActiveRecord: 3.8ms | Allocations: 30127)
+
+
