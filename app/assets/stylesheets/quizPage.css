@@ -117,3 +117,17 @@ input[type="radio"] {
   transform: scale(1.1);
   transition: 100ms;
 }
+
+.question_container {
+  position: absolute;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-out-left {
+  transform: translateX(-100%);
+}
+
+.current {
+  transform: translateX(0);
+}
