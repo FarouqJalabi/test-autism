@@ -2,7 +2,6 @@ class QuestionsController < ApplicationController
 
   def index
     @questions = Question.all
-    @answers = Array.new(@questions.length)
   end
 
   def calculate_answer
@@ -19,6 +18,7 @@ class QuestionsController < ApplicationController
     answers.each do |question_id, selected_option|
       question = Question.find_by(id: question_id)
       question_category = "category_"+question.category
+
       unless score_by_category.key?(question_category)
         score_by_category[question_category] = 0
         question_per_category[question_category] = 0
