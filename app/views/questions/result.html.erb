@@ -3,29 +3,27 @@
     <div class="content">
       <div class="box">
       
-          <% params.each do |key, value| %>
-            <% if key.include?("category") %>
+            <% if params.present? and params["score"].present? %>
 
               <section>
                 <div class="progress_bar_data">
                   <p class="progress_bar_title">
-                    <%= key.split("_")[1] %>:
+                    Autism score
                   </p>
                   <p class="progress_bar_percentage">
-                    <%= value %>% (<%= percentage_to_label(value.to_f) %>)
+                    <%= params["score"].to_f %>% (<%= percentage_to_label(params["score"].to_f) %>)
                   </p>
 
                 </div>
                 
                 <div class="percentage_bar">
-                  <div style="width: <%= value %>%;"></div>
+                  <div style="width: <%= params["score"].to_f %>%;"></div>
                 </div>
       
               </section>
       
             <% end %>
-          <% end %>
-      
+
 
       </div>
     </div>
