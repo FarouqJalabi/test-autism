@@ -1,26 +1,36 @@
-<h1>Result</h1>
-
-<!-- Is params always available? -->
 <% if params.present? %>
-  <ul>
+  <div class="container">
+    <div class="content">
+      <div class="box">
+      
+          <% params.each do |key, value| %>
+            <% if key.include?("category") %>
+      
+      
+              <section>
+                <div class="progress_bar_data">
+                  <p class="progress_bar_title">
+                    <%= key %>:
+                  </p>
+                  <p class="progress_bar_percentage">
+                    <%= value %>%
+                  </p>
 
-    <% params.each do |key, value| %>
-      <% if key.include?("category") %>
+                </div>
+                
+                <div class="percentage_bar">
+                  <div style="width: <%= value %>%;"></div>
+                </div>
+      
+              </section>
+      
+            <% end %>
+          <% end %>
+      
 
-
-        <section>
-          <strong><%= key %></strong>
-          <%= value %>%
-          <div class="percentage_bar">
-            <div style="width: <%= value %>%;"></div>
-          </div>
-
-        </section>
-
-      <% end %>
-    <% end %>
-
-  </ul>
+      </div>
+    </div>
+  </div>
 
 <% else %>
   <h1>ERROR</h1>
