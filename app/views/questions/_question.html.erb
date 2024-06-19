@@ -13,9 +13,16 @@
           </label><br>
         <% end %>
       </div>
-      <% if is_first_question && index == 0 %>
-        <%= form.submit "Submit", class: "submit_button" %>
-      <% end %>
+
+      <div class="question_buttons">
+        <button type="button" >
+          <%= image_tag 'Arrow.svg', alt: "Arrow pointing to left" %>
+        </button>
+        <% if is_first_question && index == 0 %>
+          <%= form.submit "Submit", class: "submit_button" %>
+        <% end %>
+      </div>
+
     </div>
   </div>
 </div>
@@ -30,6 +37,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
+
     $('input[type=radio]').change(function() {
       var currentQuestionContainer = $(this).closest('.question_container');
       var currentIndex = currentQuestionContainer.data('index');
@@ -40,6 +48,20 @@
         }
       }
     });
+    
+    $('button').click(function() {
+        var currentQuestionContainer = $(this).closest('.question_container');
+        var currentIndex = currentQuestionContainer.data('index');
+        var targetIndex = currentIndex+1;
+        console.log("Heloo")
+
+            var targetQuestionContainer = $('.question_container[data-index=' + targetIndex + ']');
+            console.log(targetQuestionContainer)
+            console.log(targetIndex)
+            targetQuestionContainer.show()
+
+
+    })
   });
 </script>
 
