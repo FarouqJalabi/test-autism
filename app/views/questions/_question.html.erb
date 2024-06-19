@@ -1,4 +1,4 @@
-<div class="container" data-index="<%= index %>">
+<div class="container question_container" data-index="<%= index %>">
   <div class="content">
     <div class="box">
       <div class="question">
@@ -31,7 +31,7 @@
 <script>
   $(document).ready(function() {
     $('input[type=radio]').change(function() {
-      var currentQuestionContainer = $(this).closest('.container');
+      var currentQuestionContainer = $(this).closest('.question_container');
       var currentIndex = currentQuestionContainer.data('index');
 
       if ($(this).is(':checked')) {
