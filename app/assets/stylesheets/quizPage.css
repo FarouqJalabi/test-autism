@@ -80,24 +80,19 @@ input[type="radio"] {
   }
 
   .question_buttons {
-      display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
   }
-.question_buttons > * {
-    transition: 100ms;
-}
 
-.question_buttons > *:hover {
-    transform: scale(1.1);
-
-}
-  .question_buttons > button {
+.question_buttons button {
       cursor: pointer;
       background-color: transparent;
       border: transparent;
-      margin-right: auto;
-  }
+ }
 
-.question_buttons > button:hover {
+.question_buttons button:hover {
     transform: scale(1.1);
     transition: 100ms;
 }
@@ -111,4 +106,8 @@ input[type="radio"] {
     padding: 15px 32px;
     cursor: pointer;
     border-radius: 4px;
+}
+.submit_button:hover {
+  transform: scale(1.1);
+  transition: 100ms;
 }
