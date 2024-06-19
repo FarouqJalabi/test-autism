@@ -8,8 +8,16 @@
       
       
               <section>
-                <strong><%= key %></strong>
-                <%= value %>%
+                <div class="progress_bar_data">
+                  <p class="progress_bar_title">
+                    <%= key %>:
+                  </p>
+                  <p class="progress_bar_percentage">
+                    <%= value %>%
+                  </p>
+
+                </div>
+                
                 <div class="percentage_bar">
                   <div style="width: <%= value %>%;"></div>
                 </div>
