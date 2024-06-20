@@ -34,7 +34,6 @@ module QuestionsHelper
       "Slightly agree"
     elsif index == 3
       "Agree"
-
     end
   end
 
