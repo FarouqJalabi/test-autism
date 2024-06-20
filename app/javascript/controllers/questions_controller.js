@@ -16,7 +16,9 @@ export default class extends Controller {
   back_clicked() {
     let targetIndex = Number(this.index) + 1;
 
-    let targetQuestionContainer = document.querySelector('.question_container[data-index="' + targetIndex + '"]');
+    let targetBoxContainer = document.querySelector('.question_container .content .box[data-index="' + targetIndex + '"]');
+    let targetQuestionContainer = targetBoxContainer.closest(".question_container")
+
     targetQuestionContainer.classList.add('current');
     this.currentQuestionContainer.classList.remove('slide-out-left');
   }
