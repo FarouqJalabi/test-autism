@@ -9,7 +9,7 @@
           <label class="custom-radio">
             <%= form.radio_button("answers[#{question.id}]", value, id: "option_#{question.id}_#{value}", "data-action":"click->questions#radio_clicked") %>
             <span></span><br>
-            <%= index %><br>
+            <%= index_to_label(index) %><br>
           </label><br>
         <% end %>
       </div>
