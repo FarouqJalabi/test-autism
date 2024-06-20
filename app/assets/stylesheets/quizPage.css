@@ -119,8 +119,14 @@ input[type="radio"] {
 .current {
   transform: translateX(0);
 }
+.arrow_icon {
+  width: 2rem;
+}
 
 @media (min-width:600px) {
+  .question{
+    padding: 0 10rem ;
+  } 
   .question p{
     font-size: 3rem;
   }
@@ -141,6 +147,12 @@ input[type="radio"] {
     margin: auto;
     height: 2.5rem;
     width: 2.5rem;
+  }
+  .arrow_icon {
+    width: 6rem;
+  }
+  .container{
+    padding: 0;
   }
 
 }
