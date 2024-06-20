@@ -1,15 +1,14 @@
 header{
     background-color: white;
-    padding: 3rem 10rem;
+    padding: 4rem 3.5rem;
 }
 header p {
     font-weight: 800;
     font-size: 1.3rem;
 }
 
-
 main {
-    padding: 0 20rem;
+    padding: 0 5rem;
 }
 
 main section {
@@ -21,9 +20,8 @@ main section {
 }
 
 section h1 {
-    width: 35rem;
     color: #3b3b3b;
-    font-size: 2.9rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,13 +82,15 @@ section:nth-child(2) p{
 .about_box {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .about_box > div {
     border: 2px solid #d3d3d3;
     padding: 2rem;
     margin: 1rem;
     border-radius: 2rem;
-    width: 30%;
+    width: 100%;
 }   
 
 .about_box .top_container{
@@ -100,4 +100,39 @@ section:nth-child(2) p{
     gap: 1.4rem;
     margin-bottom: 1rem;
 }
+@media (min-width:600px) {
 
+    main {
+        padding: 0 5rem;
+    }
+
+    section h1 {
+        width: 35rem;
+        font-size: 2.9rem;
+    }
+}
+@media (min-width:1025px) {
+    .about_box > div {
+        width: 30%;
+    }   
+    header{
+        background-color: white;
+        padding: 3rem 10rem;
+    }
+    main {
+        padding: 0 10rem;
+    }
+}
+
+@media (min-width:1281px) {
+    .about_box > div {
+        width: 30%;
+    }   
+    header{
+        background-color: white;
+        padding: 3rem 10rem;
+    }
+    main {
+        padding: 0 20rem;
+    }
+}
