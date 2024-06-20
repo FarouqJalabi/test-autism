@@ -1,4 +1,3 @@
-<% if params.present? %>
   <div class="container">
     <div class="content">
       <div class="box">
@@ -23,13 +22,12 @@
       
               </section>
       
-            <% end %>
-
+          <% else %>
+            <h1>ERROR: No result given!</h1>
+          <% end  %>
 
       </div>
     </div>
   </div>
 
-<% else %>
-  <h1>ERROR</h1>
-<%end  %>
+
