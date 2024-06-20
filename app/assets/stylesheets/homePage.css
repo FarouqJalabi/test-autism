@@ -1,8 +1,6 @@
 header{
     background-color: white;
     padding: 3rem 10rem;
-    position: fixed;
-    z-index: 10;
 }
 header p {
     font-weight: 800;
@@ -73,7 +71,6 @@ section:nth-child(2) h2{
 }
 section:nth-child(2) h3{
     font-size: 2rem;
-    margin-bottom: 1rem;
     color: #3b3b3b;
 
 }
@@ -88,9 +85,19 @@ section:nth-child(2) p{
     display: flex;
     flex-wrap: wrap;
 }
-.about_box div{
+.about_box > div {
     border: 2px solid #d3d3d3;
     padding: 2rem;
     margin: 1rem;
     border-radius: 2rem;
+    width: 30%;
 }   
+
+.about_box .top_container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1.4rem;
+    margin-bottom: 1rem;
+}
+
