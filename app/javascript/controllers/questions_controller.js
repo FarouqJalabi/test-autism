@@ -7,6 +7,7 @@ export default class extends Controller {
     this.currentQuestionContainer = this.element.closest('.question_container');
   }
   radio_clicked() {
+    // Last question don't move forward
     if (this.index !== "0"){
       this.currentQuestionContainer.classList.add('slide-out-left')
       this.currentQuestionContainer.classList.remove('current')
