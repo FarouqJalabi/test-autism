@@ -7,12 +7,12 @@ export default class extends Controller {
     this.currentQuestionContainer = this.element.closest('.question_container');
   }
   radio_clicked() {
-    console.log("Radio clicked")
-    this.currentQuestionContainer.classList.add('slide-out-left')
-    this.currentQuestionContainer.classList.remove('current')
+    if (this.index !== "0"){
+      this.currentQuestionContainer.classList.add('slide-out-left')
+      this.currentQuestionContainer.classList.remove('current')
+    }
 }
   back_clicked() {
-    console.log("back clicked")
     let targetIndex = Number(this.index) + 1;
 
     let targetQuestionContainer = document.querySelector('.question_container[data-index="' + targetIndex + '"]');
