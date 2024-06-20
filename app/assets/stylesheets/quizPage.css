@@ -36,6 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 80px;
 }
 
 
@@ -43,9 +44,11 @@
 input[type="radio"] {
     display: none;
 }
-  
+
   .custom-radio {
-    display: inline-block;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
     position: relative;
     padding-left: 3.5rem;
     cursor: pointer;
@@ -53,10 +56,8 @@ input[type="radio"] {
     user-select: none;
   }
   
-  .custom-radio input[type="radio"] + span {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .custom-radio-button {
+      margin: auto;
     height: 2.5rem;
     width: 2.5rem;
     background-color: white;
@@ -64,25 +65,13 @@ input[type="radio"] {
     border-radius: 50%;
   }
   
-  .custom-radio:hover input[type="radio"] + span {
+  .custom-radio:hover > .custom-radio-button {
     background-color: #f1f1f1;
   }
   
-  .custom-radio input[type="radio"]:checked + span {
+  .custom-radio input[type="radio"]:checked + .custom-radio-button {
     background-color: #d3d3d3;
     border-color: #d3d3d3;
-  }
-  
-  .custom-radio input[type="radio"]:checked + span:after {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 50%;
-    left: 50%;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
   }
 
   .question_buttons {

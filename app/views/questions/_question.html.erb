@@ -7,10 +7,13 @@
       <div class="options">
         <% [0,0,1,1].each_with_index  do |value, index| %>
           <label class="custom-radio">
+            <div class="custom-radio-label">
+              <%= index_to_label(index) %>
+            </div>
             <%= form.radio_button("answers[#{question.id}]", value, id: "option_#{question.id}_#{value}", "data-action":"click->questions#radio_clicked") %>
-            <span></span><br>
-            <%= index_to_label(index) %><br>
-          </label><br>
+            <div class="custom-radio-button"></div>
+
+          </label>
         <% end %>
       </div>
 
