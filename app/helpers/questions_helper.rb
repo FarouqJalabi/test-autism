@@ -25,4 +25,16 @@ module QuestionsHelper
     end
   end
 
+  def index_to_label(index)
+    if index == 0
+      "Disagree"
+    elsif index == 1
+      "Slightly disagree"
+    elsif index == 2
+      "Slightly agree"
+    elsif index == 3
+      "Agree"
+    end
+  end
+
 end
