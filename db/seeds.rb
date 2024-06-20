@@ -16,7 +16,9 @@ AQ_10 =[
   {content: "I find it difficult to work out people's intentions"},
 ]
 
-test = Test.find_or_create_by!(name:"AQ_10")
+test = Test.find_or_create_by!(name:"AQ-10")
+Test.find_or_create_by!(name:"AQ-50")
+Test.find_or_create_by!(name:"CAT-Q")
 
 AQ_10.each do |question|
   test.questions.find_or_create_by!(**question)
