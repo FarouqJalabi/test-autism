@@ -34,21 +34,24 @@ section h1 {
     gap: 3rem;
 }
 
-.button_container button {
+.button_container button,
+.button_container a{
     border: none;
     padding: .75rem 1.5rem;
     font-size: 1.1rem;
     border-radius: 1rem;
     transition: 100ms;
+    text-decoration: none;
+
 }
 
 .button_container button:hover {
     transform: scale(1.1);
 }
-
-.button_container button:nth-child(1){
+.button_container a{
     background-color: navy;
     color: white;
+
 }
 
 .button_container button:nth-child(2){
