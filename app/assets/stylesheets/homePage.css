@@ -1,0 +1,103 @@
+header{
+    background-color: white;
+    padding: 3rem 10rem;
+}
+header p {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+
+main {
+    padding: 0 20rem;
+}
+
+main section {
+    margin: 1rem 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem ;
+}
+
+section h1 {
+    width: 35rem;
+    color: #3b3b3b;
+    font-size: 2.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.button_container button {
+    border: none;
+    padding: .75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    transition: 100ms;
+}
+
+.button_container button:hover {
+    transform: scale(1.1);
+}
+
+.button_container button:nth-child(1){
+    background-color: navy;
+    color: white;
+}
+
+.button_container button:nth-child(2){
+    background-color: whitesmoke;
+    color: #3b3b3b;
+}
+
+
+section:nth-child(2) {
+    margin-top: 3rem;
+    border-top: 2px solid whitesmoke;
+}
+section:nth-child(2) h2{
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: #3b3b3b;
+
+}
+section:nth-child(2) h3{
+    font-size: 2rem;
+    color: #3b3b3b;
+
+}
+section:nth-child(2) p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #3b3b3b;
+
+}
+
+.about_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_box > div {
+    border: 2px solid #d3d3d3;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    width: 30%;
+}   
+
+.about_box .top_container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1.4rem;
+    margin-bottom: 1rem;
+}
+
