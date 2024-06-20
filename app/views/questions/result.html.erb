@@ -21,7 +21,8 @@
                 </div>
 
                 <div>
-                  <h1> You are <%= h percentage_to_label(params["score"].to_f) %> to have autism </h1>
+                  <h1> You are <%= percentage_to_label(params["score"].to_f) %> to have autism </h1>
+                  <p><%= percentage_to_description(params["score"].to_f) %></p>
                 </div>
       
               </section>
