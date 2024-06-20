@@ -42,19 +42,18 @@ section h1 {
     border-radius: 1rem;
     transition: 100ms;
     text-decoration: none;
-
 }
 
-.button_container button:hover {
+.button_container a:hover {
     transform: scale(1.1);
 }
-.button_container a{
+.button_container a:nth-child(1) {
     background-color: navy;
     color: white;
 
 }
 
-.button_container button:nth-child(2){
+.button_container a:nth-child(2){
     background-color: whitesmoke;
     color: #3b3b3b;
 }
