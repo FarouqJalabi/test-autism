@@ -12,5 +12,6 @@ Rails.application.routes.draw do
   post 'questions/calculate_answer', to: 'questions#calculate_answer'
 
   get "/tests", to: "tests#index"
-  get "/tests/:id", to: "tests#show"
+  resources :tests
+
 end
