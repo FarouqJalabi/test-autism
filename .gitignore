@@ -1,2 +1,15 @@
 /log/*
+!/log/.keep
+
 /tmp/*
+!/tmp/.keep
+
+/storage/*
+!/storage/.keep
+
+
+config/initializers/secret_token.rb
+config/master.key
+
+.env
+.env*.local
