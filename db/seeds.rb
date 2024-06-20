@@ -13,7 +13,7 @@ AQ_10 =[
   {content: "When I'm reading a story I find it difficult to work out the characters' intentions"},
   {content: "I like to collect information about categories of thing (e.g. type of car, types of bird, types of train, types of plant etc"},
   {content: "I find it easy to work out what someone is thinking or feeling just by looking at their face", negative_key:true},
-  {content: "I fid it difficult to work out people's intentions"},
+  {content: "I find it difficult to work out people's intentions"},
 ]
 
 AQ_10.each do |question|
