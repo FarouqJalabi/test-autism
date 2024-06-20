@@ -3,7 +3,8 @@
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 # Help https://embrace-autism.com/aq-10/
 # Source https://medium.com/@vtmacedo/an-artificial-inteligence-approach-to-the-autism-spectrum-quotient-aq-10-test-20e5b997a7fd
-AQ_10 =[
+
+AQ_10_question =[
   {content: "I often notice small sounds when other do not"},
   {content: "I usually concentrate more on the whole picture, rather than the small details", negative_key:true },
   {content: "I find it easy to do more than one thing at once", negative_key:true},
@@ -16,8 +17,8 @@ AQ_10 =[
   {content: "I find it difficult to work out people's intentions"},
 ]
 
-test = Test.find_or_create_by!(name:"AQ_10")
+AQ_10_test = Test.find_or_create_by!(name:"AQ_10")
 
-AQ_10.each do |question|
-  test.questions.find_or_create_by!(**question)
-  end
+AQ_10_question.each do |question|
+  AQ_10_test.questions.find_or_create_by!(**question)
+end
