@@ -1,3 +1,7 @@
+#result {
+    width: 500px;
+}
+
 .progress_bar_data{
     display: flex;
     gap: 1rem;
@@ -15,6 +19,7 @@
     border-radius: 15px;
     border: 1px solid #d3d3d3;
     overflow: hidden;
+    margin-bottom: 25px;
 }
 
 .percentage_bar > div {

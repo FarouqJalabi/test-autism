@@ -2,22 +2,23 @@
   <div class="container">
     <div class="content">
       <div class="box">
-      
+
             <% if params.present? and params["score"].present? %>
 
-              <section>
+              <section id="result">
                 <div class="progress_bar_data">
                   <p class="progress_bar_title">
-                    Autism score
+                    Autism score: <%= params["score"].to_f %>% (<%= percentage_to_label(params["score"].to_f) %>)
                   </p>
-                  <p class="progress_bar_percentage">
-                    <%= params["score"].to_f %>% (<%= percentage_to_label(params["score"].to_f) %>)
-                  </p>
-
                 </div>
                 
                 <div class="percentage_bar">
                   <div style="width: <%= params["score"].to_f %>%;"></div>
+                </div>
+
+                <div>
+                  <h1> You are <%= percentage_to_label(params["score"].to_f) %> to have autism </h1>
+                  <p><%= percentage_to_description(params["score"].to_f) %></p>
                 </div>
       
               </section>
