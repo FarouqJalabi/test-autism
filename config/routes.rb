@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   get 'result', to: 'questions#result'
   post 'questions/calculate_answer', to: 'questions#calculate_answer'
 
+  get "/tests", to: "tests#index"
+  get "/tests/:id", to: "tests#show"
 end
