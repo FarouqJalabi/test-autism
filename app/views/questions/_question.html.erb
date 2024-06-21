@@ -1,6 +1,6 @@
 <div class="container question_container current" >
   <div class="content">
-    <div class="box" data-controller="questions" data-index="<%= index %>" data-total="<%= questions_length %>" >
+    <div class="box" data-controller="questions" data-index="<%= index %>" data-total="<%= question_length(question) %>" >
       <div class="question">
         <p><%= question.content %></p>
       </div>
@@ -12,14 +12,13 @@
             </div>
             <%= form.radio_button("answers[#{question.id}]", value,  "data-action":"click->questions#radio_clicked") %>
             <div class="custom-radio-button"></div>
-
           </label>
         <% end %>
       </div>
 
       <div class="question_buttons">
       
-        <% if index + 1 != questions_length %>
+        <% if index + 1 != question.test.questions.count %>
           <button type="button" data-action="click->questions#back_clicked">
             <%= image_tag "Arrow.svg", alt: "Arrow pointing to left", class: "arrow_icon"%>
           </button>
