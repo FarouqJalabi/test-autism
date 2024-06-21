@@ -6,6 +6,6 @@ class TestsController < ApplicationController
 
   def show
     @test = Test.find(params[:id])
-    @questions = @test.questions
+    @questions = @test.questions.sort_by(&:order).reverse
   end
 end
