@@ -5,7 +5,5 @@
 </div>
 
 <%= form_with url: questions_calculate_answer_path, method: :post do |form| %>
-  <% @questions.each_with_index do |question, index| %>
-    <%= render partial: 'questions/question', locals: { question: question, form: form, index: index, } %>
-  <% end %>
+  <%= render partial: @questions, locals: { form: form, } %>
 <% end %>
