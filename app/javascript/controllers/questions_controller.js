@@ -2,27 +2,27 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
   connect() {
-    this.index = Number(this.element.dataset.index);
+    this.order = Number(this.element.dataset.order);
     this.totalQuestions = Number(this.element.dataset.total);
     this.currentQuestionContainer = this.element.closest('.question_container');
   }
 
   radio_clicked() {
-    if (this.index !== 0){
+    if (this.order !== this.totalQuestions){
       this.currentQuestionContainer.classList.add('slide-out-left');
       this.currentQuestionContainer.classList.remove('current');
     }
-    if (this.index == 0){
+    if (this.order === this.totalQuestions){
       document.querySelector(".submit_button").style.visibility = "visible"
     }
 
-    this.progress_bar(this.totalQuestions, this.index + 1);
+    this.progress_bar(this.totalQuestions, this.order + 1);
   }
 
   back_clicked() {
-    let targetIndex = this.index + 1;
+    let targetIndex = this.order-1 ;
 
-    let targetBoxContainer = document.querySelector('.question_container .content .box[data-index="' + targetIndex + '"]');
+    let targetBoxContainer = document.querySelector('.question_container .content .box[data-order="' + targetIndex + '"]');
     let targetQuestionContainer = targetBoxContainer.closest(".question_container");
 
     targetQuestionContainer.classList.add('current');
