@@ -38,7 +38,7 @@ module QuestionsHelper
   end
 
   # Recommend a test
-  def percentage_to_test(percentage)
+  def percentage_to_recommendation(percentage)
     if percentage >= 0.0 and percentage <= 50.0
       "We recommend that you take The CAT-Q test. It can reveal camouflaged autism traits. "
     elsif percentage >= 60.0
