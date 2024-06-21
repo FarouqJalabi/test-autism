@@ -31,8 +31,6 @@ export default class extends Controller {
 
   progress_bar(number_of_question, current_question) {
     let progress = (current_question / number_of_question) * 100;
-    console.log("number_of_question, current_question: ", number_of_question, current_question);
-    console.log("progress: ", progress);
 
     let progressBarFill = document.querySelector('.progress-bar-fill');
     progressBarFill.style.width = `${progress}%`;
