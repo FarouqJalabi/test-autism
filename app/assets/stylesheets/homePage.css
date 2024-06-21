@@ -64,6 +64,7 @@ section:nth-child(2) {
 }
 section:nth-child(2) h2{
     margin-top: 2rem;
+    margin-left: 1rem;
     font-size: 3rem;
     color: #3b3b3b;
 
