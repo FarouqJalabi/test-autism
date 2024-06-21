@@ -63,15 +63,16 @@ input[type="radio"] {
     background-color: white;
     border: 2px solid var(--primary-black);
     border-radius: 50%;
+    transition: 100ms;
   }
   
   .custom-radio:hover > .custom-radio-button {
-    background-color: #f1f1f1;
+    transform: scale(1.1);
   }
   
   .custom-radio input[type="radio"]:checked + .custom-radio-button {
-    background-color: #d3d3d3;
-    border-color: #d3d3d3;
+    background-color: var(--primary);
+    border: none;
   }
 
   .question_buttons {
