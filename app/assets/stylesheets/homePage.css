@@ -24,7 +24,8 @@ section h1 {
 }
 section p {
     font-size: 1.3rem;
-    color: #666666;
+    color: #666;
+    padding: 0 1rem;
 }
 .button_container {
     display: flex;
