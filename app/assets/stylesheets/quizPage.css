@@ -95,7 +95,7 @@ input[type="radio"] {
 .submit_button {
     background-color: #d9d9d9;
     color: var(--primary-black);
-    display: none;
+    visibility: hidden;
     border: none;
     font-weight: 800;
     font-size: 1.2rem;

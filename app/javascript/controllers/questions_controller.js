@@ -13,7 +13,7 @@ export default class extends Controller {
       this.currentQuestionContainer.classList.remove('current');
     }
     if (this.index == 0){
-      document.querySelector(".submit_button").style.display = "block"
+      document.querySelector(".submit_button").style.visibility = "visible"
     }
 
     this.progress_bar(this.totalQuestions, this.index + 1);
