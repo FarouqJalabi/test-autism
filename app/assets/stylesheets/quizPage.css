@@ -23,7 +23,7 @@
     justify-content: center;
 }
 .box{
-    gap: 3rem;
+    gap: 7rem;
     display: grid;
 }
 .question{
@@ -93,15 +93,15 @@ input[type="radio"] {
 }
 
 .submit_button {
-    background-color: #d9d9d9;
-    color: var(--primary-black);
+    background-color: var(--primary);
+    color: white;
     visibility: hidden;
     border: none;
     font-weight: 800;
     font-size: 1.2rem;
     padding: 15px 32px;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 1rem;
 }
 .submit_button:hover {
   transform: scale(1.1);
@@ -128,7 +128,7 @@ input[type="radio"] {
 
 @media (min-width:600px) {
   .question{
-    padding: 0 5Qrem ;
+    padding: 0 10rem ;
   } 
   .question p{
     font-size: 3rem;
@@ -160,17 +160,24 @@ input[type="radio"] {
 
 }
 
+.progress-bar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .progress-bar {
-  width: 100%;
+  width: 60rem;
   background-color: #f3f3f3;
   overflow: hidden;
   margin-bottom: 20px;
+  border-radius: 1rem;
 }
 
 .progress-bar-fill {
   height: 20px;
-  background-color: #4caf50;
+  background-color: var(--primary);
   width: 0%;
   transition: width 0.5s;
 }
