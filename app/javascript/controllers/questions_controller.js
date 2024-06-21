@@ -12,6 +12,9 @@ export default class extends Controller {
       this.currentQuestionContainer.classList.add('slide-out-left');
       this.currentQuestionContainer.classList.remove('current');
     }
+    if (this.index == 0){
+      document.querySelector(".submit_button").style.display = "block"
+    }
 
     this.progress_bar(this.totalQuestions, this.index + 1);
   }
