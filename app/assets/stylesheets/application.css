@@ -29,3 +29,6 @@
     --primary: purple;
 }
 
+.logo {
+    color: var(--primary);
+}
