@@ -5,7 +5,6 @@
     top: 0;
     z-index: -1;
     background-color: white;
-    padding: 1rem;
 }
 .question p{
     font-size: 1rem;
@@ -23,8 +22,9 @@
     justify-content: center;
 }
 .box{
-    gap: 3rem;
+    gap: 5rem;
     display: grid;
+    padding: 2.5rem;
 }
 .question{
     display: flex;
@@ -52,26 +52,27 @@ input[type="radio"] {
     flex-direction: column;
     position: relative;
     cursor: pointer;
-    font-size: .7rem;
+    font-size: .8rem;
     user-select: none;
   }
   
   .custom-radio-button {
     margin: auto;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 2rem;
+    width: 2rem;
     background-color: white;
     border: 2px solid var(--primary-black);
     border-radius: 50%;
+    transition: 100ms;
   }
   
   .custom-radio:hover > .custom-radio-button {
-    background-color: #f1f1f1;
+    transform: scale(1.1);
   }
   
   .custom-radio input[type="radio"]:checked + .custom-radio-button {
-    background-color: #d3d3d3;
-    border-color: #d3d3d3;
+    background-color: var(--primary);
+    border: none;
   }
 
   .question_buttons {
@@ -93,15 +94,15 @@ input[type="radio"] {
 }
 
 .submit_button {
-    background-color: #d9d9d9;
-    color: var(--primary-black);
+    background-color: var(--primary);
+    color: white;
     visibility: hidden;
     border: none;
     font-weight: 800;
     font-size: 1.2rem;
     padding: 15px 32px;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 1rem;
 }
 .submit_button:hover {
   transform: scale(1.1);
@@ -123,18 +124,21 @@ input[type="radio"] {
   transform: translateX(0);
 }
 .arrow_icon {
-  width: 2rem;
+  width: 3rem;
 }
 
 @media (min-width:600px) {
   .question{
-    padding: 0 5Qrem ;
+    padding: 0 10rem ;
   } 
   .question p{
     font-size: 3rem;
   }
   .options{
     gap: 2rem;
+  }
+  .box{
+    padding: 0;
   }
   .custom-radio {
     display: flex;
@@ -156,21 +160,29 @@ input[type="radio"] {
   }
   .container{
     padding: 0;
-  }
+    padding: 1rem;
+}
 
 }
 
+.progress-bar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .progress-bar {
-  width: 100%;
+  width: 60rem;
   background-color: #f3f3f3;
   overflow: hidden;
   margin-bottom: 20px;
+  border-radius: 1rem;
 }
 
 .progress-bar-fill {
   height: 20px;
-  background-color: #4caf50;
+  background-color: var(--primary);
   width: 0%;
   transition: width 0.5s;
 }
