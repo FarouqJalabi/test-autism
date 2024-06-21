@@ -1,4 +1,7 @@
 module QuestionsHelper
+  def question_length(question)
+    question.test.questions.count
+  end
   def percentage_to_label(percentage)
     if percentage >= 0.0 and percentage <= 30.0
       "very unlikely"
