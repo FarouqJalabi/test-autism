@@ -18,6 +18,9 @@
                 <div>
                   <h1> You are <%= percentage_to_label(params["score"].to_f) %> to have autism </h1>
                   <p><%= percentage_to_description(params["score"].to_f) %></p>
+                  <br>
+
+                  <p><%= percentage_to_recommendation(params["score"].to_f) %></p>
                 </div>
       
               </section>
