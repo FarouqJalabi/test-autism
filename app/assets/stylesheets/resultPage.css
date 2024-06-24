@@ -26,3 +26,37 @@
     background-color: #d9d9d9;
     height: 100%;
 }
+
+
+.result-progress-container {
+    width: 80%;
+    max-width: 600px;
+}
+
+.result-progress-bar {
+    position: relative;
+    height: 10px;
+    background-color: var(--secondary-white);
+    border-radius: 5px;
+}
+
+.result-progress {
+    height: 100%;
+    background-color: var(--primary);
+    border-radius: 5px;
+    position: relative;
+}
+
+.result-progress-percentage {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    font-weight: 800;
+    transform: translateX(50%);
+    border: 2px solid var(--secondary-white);
+    color: var(--primary-white);
+    padding: .2rem .5rem;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1;
+}
