@@ -36,10 +36,10 @@
 }
 
 nav{
-    padding: 4rem 3.5rem;
+    padding: 2rem 1rem;
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 10px;
 }
 
 nav a {
@@ -67,12 +67,15 @@ nav a {
     background-color: var(--primary);
 }
 
-@media (min-width:1025px) {
+
+@media (min-width:600px) {
     nav {
-        padding: 3rem 10rem;
+        padding: 4rem 3.5rem;
+        gap: 25px;
     }
+
 }
-@media (min-width:1281px) {
+@media (min-width:1025px) {
     nav {
         padding: 3rem 10rem;
     }
