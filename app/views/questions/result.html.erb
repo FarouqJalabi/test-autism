@@ -5,14 +5,12 @@
             <% if params.present? and params["score"].present? %>
 
               <section id="result">
-                <div class="progress_bar_data">
-                  <p class="progress_bar_title">
-                    Autism score: <%= params["score"].to_f %>% (<%= percentage_to_label(params["score"].to_f) %>)
-                  </p>
-                </div>
-                
-                <div class="percentage_bar">
-                  <div style="width: <%= params["score"].to_f %>%;"></div>
+                <div class="result-progress-container">
+                  <div class="result-progress-bar">
+                    <div class="result-progress" style="width: <%= params["score"].to_f %>%;">
+                      <div class="result-progress-percentage"><%= percentage_to_label(params["score"].to_f) %></div>
+                    </div>
+                  </div>
                 </div>
 
                 <div>
