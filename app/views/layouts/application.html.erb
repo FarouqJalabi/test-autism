@@ -19,7 +19,7 @@
 
       <%= link_to "Home", root_path, class: ('selected_nav_element' if on_home?) %>
       <%= link_to "Take a test", test_path(1), class: ('selected_nav_element' if on_test?) %>
-      <%= link_to "About", "#about", class: ('selected_nav_element' if on_about?) %>
+      <%= link_to "About", root_path+"#about", class: ('selected_nav_element' if on_about?) %>
       
     </nav>
 
