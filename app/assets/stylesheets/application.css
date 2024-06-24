@@ -31,4 +31,49 @@
 
 .logo {
     color: var(--primary);
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+nav{
+    padding: 4rem 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav a {
+    font-weight: normal;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+}
+
+.selected_nav_element{
+    position: relative;
+}
+
+.selected_nav_element::after {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 5px;
+
+    left: 0;
+    bottom: -5px;
+    border-radius: 50px;
+
+    background-color: var(--primary);
+}
+
+@media (min-width:1025px) {
+    nav {
+        padding: 3rem 10rem;
+    }
+}
+@media (min-width:1281px) {
+    nav {
+        padding: 3rem 10rem;
+    }
 }
