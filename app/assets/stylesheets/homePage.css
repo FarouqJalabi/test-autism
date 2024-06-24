@@ -52,23 +52,23 @@ section p {
 }
 
 
-section:nth-child(2) {
+.about {
     margin-top: 3rem;
     border-top: 2px solid whitesmoke;
 }
-section:nth-child(2) h2{
+.about h2{
     margin-top: 2rem;
     margin-left: 1rem;
     font-size: 3rem;
     color: #3b3b3b;
 
 }
-section:nth-child(2) h3{
+.about h3{
     font-size: 2rem;
     color: #3b3b3b;
 
 }
-section:nth-child(2) p{
+.about p{
     font-size: 1.1rem;
     margin-bottom: 1rem;
     color: #3b3b3b;
