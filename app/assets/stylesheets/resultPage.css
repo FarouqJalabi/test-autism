@@ -1,7 +1,17 @@
 #result {
-    max-width: 50rem;
+    max-width: 20rem;
 }
 
+#result h1 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 1rem;
+}
+#result p {
+    font-size: 1rem;
+}
 .progress_bar_data{
     display: flex;
     gap: 1rem;
@@ -49,7 +59,7 @@
 
 .result-progress-percentage {
     position: absolute;
-    top: -2.6rem;
+    top: -2.5rem;
     right: 0;
     font-weight: 800;
     transform: translateX(50%);
@@ -57,7 +67,7 @@
     color: var(--secondary-black);
     padding: .2rem .5rem;
     border-radius: .4rem;
-    font-size: 1rem;
+    font-size: .7rem;
     z-index: 1;
 }
 
@@ -75,3 +85,20 @@
 
 
 
+
+@media (min-width:600px) {
+
+    #result {
+        width: 44rem;
+        max-width: 50rem;
+    }
+    #result h1 {
+        font-size: 3rem;
+    }
+    #result p {
+        font-size: 1rem;
+    }
+    .result-progress-percentage {
+        font-size: 1rem;
+    }
+}
