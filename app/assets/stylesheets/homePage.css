@@ -1,11 +1,4 @@
-header{
-    padding: 4rem 3.5rem;
-}
 
-header p {
-    font-weight: 800;
-    font-size: 1.3rem;
-}
 
 main section {
     margin: 1rem 0 15rem 0;
@@ -122,9 +115,6 @@ section:nth-child(2) p{
     .about_box > div {
         width: 30%;
     }   
-    header{
-        padding: 3rem 10rem;
-    }
     main {
         padding: 0 10rem;
     }
@@ -134,9 +124,6 @@ section:nth-child(2) p{
     .about_box > div {
         width: 30%;
     }   
-    header{
-        padding: 3rem 10rem;
-    }
     main {
         padding: 0 20rem;
     }
