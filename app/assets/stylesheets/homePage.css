@@ -48,7 +48,7 @@ section p {
     transform: scale(1.1);
 }
 .button_container a:nth-child(1) {
-    background-color: navy;
+    background-color: var(--primary);
     color: white;
 
 }
