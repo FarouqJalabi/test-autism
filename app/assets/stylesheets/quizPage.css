@@ -64,15 +64,28 @@ input[type="radio"] {
     border: 2px solid var(--primary-black);
     border-radius: 50%;
     transition: 100ms;
+      position: relative;
   }
   
   .custom-radio:hover > .custom-radio-button {
     transform: scale(1.1);
   }
   
-  .custom-radio input[type="radio"]:checked + .custom-radio-button {
+  .custom-radio input[type="radio"]:checked + .custom-radio-button::after {
+      content: "";
+      position: absolute;
     background-color: var(--primary);
-    border: none;
+      width: 25px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+
+      left: 50%;
+      top: 50%;
+
+      transform: translate(-50%, -50%);
+
+      margin: auto;
+
   }
 
   .question_buttons {
