@@ -8,7 +8,7 @@
                 <div class="result-progress-container">
                   <div class="result-progress-bar">
                     <div class="result-progress" style="width: <%= params["score"].to_f %>%;">
-                      <div class="result-progress-percentage"><%= percentage_to_label(params["score"].to_f) %></div>
+                      <div class="result-progress-percentage"><span style="white-space: nowrap;"><%= percentage_to_label(params["score"].to_f) %></span></div>
                     </div>
                   </div>
                 </div>
