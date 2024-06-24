@@ -12,6 +12,24 @@ nav a {
     color: black;
 }
 
+.selected_nav_element{
+    position: relative;
+}
+
+.selected_nav_element::after {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 5px;
+
+    left: 0;
+    bottom: -5px;
+    border-radius: 50px;
+
+    background-color: var(--primary);
+}
+
 main section {
     margin: 1rem 0 15rem 0;
     display: grid;
