@@ -18,11 +18,11 @@ AQ_10_question =[
 ]
 
 
-Test.find_or_create_by!(name:"AQ-50")
-Test.find_or_create_by!(name:"CAT-Q")
 
 AQ_10_test = Test.find_or_create_by!(name:"AQ_10")
 
+# Test.find_or_create_by!(name:"AQ-50")
+# Test.find_or_create_by!(name:"CAT-Q")
 
 AQ_10_question.each do |question|
   AQ_10_test.questions.find_or_create_by!(**question)
