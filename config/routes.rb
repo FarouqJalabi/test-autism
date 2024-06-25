@@ -1,19 +1,24 @@
 Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
-  # Can be used by load balancers and uptime monitors to verify that the app is live.
+  # Health check route
   get "up" => "rails/health#show", as: :rails_health_check
 
-  # Defines the root path route ("/")
-  root "homes#index"
-  get 'quiz', to: 'questions#index'
-  get 'result', to: 'questions#result'
-  post 'questions/calculate_answer', to: 'questions#calculate_answer'
+  # Routes for language switching
+  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
+    # Define root path route ("/")
+    root "homes#index"
 
-  get "/tests", to: "tests#index"
-  resources :tests
+    get 'quiz', to: 'questions#index'
+    get 'result', to: 'questions#result'
+    post 'questions/calculate_answer', to: 'questions#calculate_answer'
 
-  match '*path', to: 'errors#not_found', via: :all
+    get "/tests", to: "tests#index"
+    resources :tests
+
+    match '*path', to: 'errors#not_found', via: :all
+  end
+
+  get '*path', to: redirect("/#{I18n.default_locale}/%{path}"), constraints: { path: /(?!#{I18n.available_locales.join("|")})/ }
 
 end
