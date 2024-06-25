@@ -51,15 +51,23 @@
 
   <body>
     <nav>
+      <div class="left_nav_container">
         <a href="/" class="logo" target="_blank">
           <%= image_tag "Logo.svg", alt: "logo" %>
         </a>
+        <div class="nav_button_container">
+          <%= link_to "Home", root_path, class: ('selected_nav_element' if on_home?) %>
+          <%= link_to "Take a test", test_path(1), class: ('selected_nav_element' if on_test?) %>
+          <%= link_to "About", root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+        </div>
+        
+      </div>
+      <div class="right_nav_container">
+        <div id="google_translate_element"></div>
+      </div>
 
-      <%= link_to "Home", root_path, class: ('selected_nav_element' if on_home?) %>
-      <%= link_to "Take a test", test_path(1), class: ('selected_nav_element' if on_test?) %>
-      <%= link_to "About", root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
       
-      <div id="google_translate_element"></div>
+      
     </nav>
 
     <%= yield %>
