@@ -14,9 +14,6 @@ Rails.application.routes.draw do
   get "/tests", to: "tests#index"
   resources :tests
 
-
-  match '/404', to: 'errors#not_found', via: :all
-  match '/422', to: 'errors#unacceptable', via: :all
-  match '/500', to: 'errors#internal_error', via: :all
+  match '*path', to: 'errors#not_found', via: :all
 
 end
