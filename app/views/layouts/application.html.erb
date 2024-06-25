@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>autism-test</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gain insights into your traits. This test is not a diagnostic tool but can help you understand yourself better.">
+    <title>Questioner</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -13,8 +15,8 @@
 
   <body>
     <nav>
-        <a href="/" class="logo">
-          <%= image_tag "Logo.svg" %>
+        <a href="/" class="logo" target="_blank">
+          <%= image_tag "Logo.svg", alt: "logo" %>
         </a>
 
       <%= link_to "Home", root_path, class: ('selected_nav_element' if on_home?) %>
