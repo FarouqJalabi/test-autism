@@ -43,7 +43,6 @@ section p {
 .button_container a:nth-child(1) {
     background-color: var(--primary);
     color: white;
-
 }
 
 .button_container a:nth-child(2){
