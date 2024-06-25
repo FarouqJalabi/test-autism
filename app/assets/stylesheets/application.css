@@ -82,15 +82,12 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: right;
-    gap: 1rem;
+    gap: 2rem;
     flex: .5;
 
 }
 .nav_button_container {
     display: none;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
 }
 .goog-te-gadget .goog-te-combo {
     border: none;
@@ -98,6 +95,55 @@ nav a {
     border-radius: 3px;
     color: var(--primary-black);
 }
+
+.dropbtn {
+    border: 1px solid var(--primary-white);
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: var(--primary);
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: .7rem;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.show {
+    display: block;
+}  
+  
 @media (min-width:600px) {
     nav {
         padding: 4rem 3.5rem;
@@ -111,6 +157,15 @@ nav a {
     }
     nav {
         padding: 3rem 10rem;
+    }
+    .dropdown {
+        display: none;
+    }
+    .nav_button_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
     }
 
 }
