@@ -37,6 +37,7 @@
 
 nav{
     padding: 2rem 1rem;
+    padding-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -90,6 +91,12 @@ nav a {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+}
+.goog-te-gadget .goog-te-combo {
+    border: none;
+    padding: .3rem .9rem;
+    border-radius: 3px;
+    color: var(--primary-black);
 }
 @media (min-width:600px) {
     nav {
