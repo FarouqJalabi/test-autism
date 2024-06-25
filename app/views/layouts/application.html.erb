@@ -13,8 +13,8 @@
 
   <body>
     <nav>
-        <a href="/" class="logo">
-          <%= image_tag "Logo.svg" %>
+        <a href="/" class="logo" target="_blank">
+          <%= image_tag "Logo.svg", alt: "logo" %>
         </a>
 
       <%= link_to "Home", root_path, class: ('selected_nav_element' if on_home?) %>
