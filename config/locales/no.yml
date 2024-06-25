@@ -1,0 +1,31 @@
+no:
+  home:
+    title: "Ta en 10-minutters autisme-test"
+    description: "Få innsikt i dine trekk. Denne testen er ikke et diagnostisk verktøy, men kan hjelpe deg å forstå deg selv bedre."
+
+    aboutUs:
+      title: "Om oss"
+      whoWeAre:
+        title: "Hvem vi er"
+        description: "Velkommen til [Navnet på ditt nettsted], en dedikert plattform skapt med mål om å tilby pålitelige og tilgjengelige ressurser for autismetester. Vårt team består av engasjerte individer, inkludert helsepersonell, lærere og forkjempere, som er forpliktet til å støtte autismesamfunnet."
+
+      ourMission:
+        title: "Vårt oppdrag"
+        description: "Vårt oppdrag er å styrke individer og familier ved å tilby nøyaktige, brukervennlige autismetester. Vi tror at tidlig oppdagelse og forståelse av autisme kan forbedre livskvaliteten betydelig og støtte tilgjengelig for de på spekteret."
+
+      whatWeOffer:
+        title: "Hva vi tilbyr"
+        description: "Hos [Navnet på ditt nettsted] tilbyr vi en rekke vitenskapelig validerte autismetester designet for å hjelpe med å identifisere potensielle autismespekterforstyrrelser (ASD) hos personer i alle aldre. Våre tester er utviklet og gjennomgått av eksperter på feltet for å sikre at de oppfyller høye standarder for nøyaktighet og pålitelighet."
+
+      ourApproach:
+        title: "Vår tilnærming"
+        description: "Vi forstår at hver person med autisme er unik, og det samme er deres reise. Vår tilnærming fokuserer på å tilby personlig innsikt og ressurser som dekker de ulike behovene i autismesamfunnet. Vi streber etter å gjøre våre verktøy så inkluderende og informative som mulig."
+
+    aboutTest:
+      title: "Om testen"
+      description1: "AQ-10 er et kort screeningsverktøy designet for å hjelpe med å identifisere trekk assosiert med autisme.
+                Utviklet av eksperter ved Autism Research Centre ved Cambridge University,
+                består det av 10 spørsmål som vurderer nøkkelområder som sosial kommunikasjon, oppmerksomhet på detaljer og tilpasningsevne."
+      description2: "Selv om AQ-10 ikke er et diagnostisk verktøy, kan det gi verdifulle innsikter om hvorvidt en mer
+                detaljert evaluering kan være gunstig. Det er en rask og enkel måte å forstå seg selv bedre på
+                og ta det første steget mot å søke ytterligere støtte om nødvendig."
