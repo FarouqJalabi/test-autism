@@ -47,6 +47,7 @@ nav a {
     font-size: 1.4rem;
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 }
 
 .selected_nav_element{
@@ -73,6 +74,10 @@ nav a {
         padding: 4rem 3.5rem;
         gap: 25px;
     }
+    nav a {
+        font-size: 1.5rem;
+    }
+
 
 }
 @media (min-width:1025px) {
