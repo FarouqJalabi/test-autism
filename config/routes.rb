@@ -9,15 +9,13 @@ Rails.application.routes.draw do
     get "/tests", to: "tests#index"
     get 'result', to: 'questions#result'
     post 'questions/calculate_answer', to: 'questions#calculate_answer'
+
   end
-
-
-
 
   # Redirect root without locale to default locale
   root to: redirect("/#{I18n.default_locale}", status: 302), as: :redirected_root
 
-
   match '*path', to: 'application#not_found!', via: :all
+
 
 end
