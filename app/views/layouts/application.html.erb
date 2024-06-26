@@ -16,8 +16,7 @@
       <meta name="twitter:site" content="@username">
       <meta name="twitter:creator" content="@username">
     -->
-    
-    
+
     <!-- Other meta tags for Open Graph -->
     <meta property="og:title" content="Questioner">
     <meta property="og:description" content="<%= t('home.description') %>">
@@ -88,6 +87,8 @@
             <option value="fr">Français</option>
           </select>
 
+
+      <%= render "layouts/languageSelector" %>
 
         <div class="dropdown">
           <button onclick="toggleDropdown()" class="dropbtn">
