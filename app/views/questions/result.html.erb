@@ -2,9 +2,7 @@
     <div class="content">
       <div class="box">
 
-            <% if params.present? and params["score"].present? %>
 
-            
             <section id="result">
                 <h1> You are <%= percentage_to_label(params["score"].to_f) %> to have autism </h1>
                 <div class="result-progress-container">
@@ -24,9 +22,6 @@
       
               </section>
       
-          <% else %>
-            <h1>ERROR: No result given!</h1>
-          <% end  %>
 
       </div>
     </div>
