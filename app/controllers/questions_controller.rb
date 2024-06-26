@@ -32,4 +32,11 @@ class QuestionsController < ApplicationController
     redirect_to result_path(score: total_score*10)
   end
 
+  def result
+    # Should maybe be in tests?
+    unless params.present? and params["score"].present?
+      not_found!
+    end
+  end
+
 end
