@@ -1,31 +1,40 @@
 no:
+  header:
+    homeButton: "Hjem"
+    takeTestButton: "Ta test"
+    aboutButton: "Om oss"
+
   home:
-    title: "Ta en 10-minutters autisme-test"
-    description: "Få innsikt i dine trekk. Denne testen er ikke et diagnostisk verktøy, men kan hjelpe deg å forstå deg selv bedre."
+    title: "Ta en 10-minutters autismetest"
+    description: "Få innsikt i dine egenskaper. Denne testen er ikke et diagnostisk verktøy, men kan hjelpe deg å forstå deg selv bedre."
+
+    button1: "Start test"
+    button2: "Om testen"
 
     aboutUs:
-      title: "Om oss"
+      title: "About Us"
       whoWeAre:
-        title: "Hvem vi er"
-        description: "Velkommen til [Navnet på ditt nettsted], en dedikert plattform skapt med mål om å tilby pålitelige og tilgjengelige ressurser for autismetester. Vårt team består av engasjerte individer, inkludert helsepersonell, lærere og forkjempere, som er forpliktet til å støtte autismesamfunnet."
+        title: "Who We Are"
+        description: "Welcome to [Your Website's Name], a dedicated platform created with the mission to provide reliable and accessible resources for autism tests. Our team consists of passionate individuals, including healthcare professionals, educators, and advocates, committed to supporting the autism community. "
+
 
       ourMission:
-        title: "Vårt oppdrag"
-        description: "Vårt oppdrag er å styrke individer og familier ved å tilby nøyaktige, brukervennlige autismetester. Vi tror at tidlig oppdagelse og forståelse av autisme kan forbedre livskvaliteten betydelig og støtte tilgjengelig for de på spekteret."
+        title: "Our Mission"
+        description: "Our mission is to empower individuals and families by providing accurate, user-friendly autism tests. We believe that early detection and understanding of autism can significantly improve the quality of life and the support available for those on the spectrum. "
 
       whatWeOffer:
-        title: "Hva vi tilbyr"
-        description: "Hos [Navnet på ditt nettsted] tilbyr vi en rekke vitenskapelig validerte autismetester designet for å hjelpe med å identifisere potensielle autismespekterforstyrrelser (ASD) hos personer i alle aldre. Våre tester er utviklet og gjennomgått av eksperter på feltet for å sikre at de oppfyller høye standarder for nøyaktighet og pålitelighet."
+        title: "What We Offer"
+        description: "At [Your Website's Name], we offer a variety of scientifically validated autism tests designed to help identify potential Autism Spectrum Disorders (ASD) in individuals of all ages. Our tests are developed and reviewed by experts in the field to ensure they meet high standards of accuracy and reliability."
 
       ourApproach:
-        title: "Vår tilnærming"
-        description: "Vi forstår at hver person med autisme er unik, og det samme er deres reise. Vår tilnærming fokuserer på å tilby personlig innsikt og ressurser som dekker de ulike behovene i autismesamfunnet. Vi streber etter å gjøre våre verktøy så inkluderende og informative som mulig."
+        title: "Our Approach"
+        description: "We understand that every person with autism is unique, and so is their journey. Our approach focuses on providing personalized insights and resources that cater to the diverse needs of the autism community. We strive to make our tools as inclusive and informative as possible."
 
     aboutTest:
-      title: "Om testen"
-      description1: "AQ-10 er et kort screeningsverktøy designet for å hjelpe med å identifisere trekk assosiert med autisme.
-                Utviklet av eksperter ved Autism Research Centre ved Cambridge University,
-                består det av 10 spørsmål som vurderer nøkkelområder som sosial kommunikasjon, oppmerksomhet på detaljer og tilpasningsevne."
-      description2: "Selv om AQ-10 ikke er et diagnostisk verktøy, kan det gi verdifulle innsikter om hvorvidt en mer
-                detaljert evaluering kan være gunstig. Det er en rask og enkel måte å forstå seg selv bedre på
-                og ta det første steget mot å søke ytterligere støtte om nødvendig."
+      title: "About the test"
+      description1: "The AQ-10 is a brief screening tool designed to help identify traits associated with autism.
+                Developed by experts at the Autism Research Centre at Cambridge University,
+                it consists of 10 questions that assess key areas such as social communication, attention to detail, and adaptability."
+      description2: "While the AQ-10 is not a diagnostic tool, it can provide valuable insights into whether a more
+                detailed evaluation might be beneficial. It's a quick and straightforward way to understand yourself
+                better and take the first step towards seeking further support if needed."
