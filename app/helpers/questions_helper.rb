@@ -4,13 +4,14 @@ module QuestionsHelper
   end
   def percentage_to_label(percentage)
     if percentage >= 0.0 and percentage <= 30.0
-      "very unlikely"
+      t("result.label1")
     elsif percentage >= 40.0 and percentage <= 50.0
-      "unlikely"
+      t("result.label2")
+
     elsif percentage >= 60.0 and percentage <= 70.0
-      "likely"
+      t("result.label3")
     else
-      "very likely"
+      t("result.label4")
     end
   end
 
@@ -18,25 +19,13 @@ module QuestionsHelper
   # If we get several tests they will be coded into the test themselves
   def percentage_to_description(percentage)
     if percentage >= 0.0 and percentage <= 30.0
-      "Your score suggests that it is very unlikely you have autism. The test results indicate minimal signs of ASD, and no further action is usually required. However, if you have specific concerns or behaviors causing worry, a consultation with a healthcare professional can provide additional reassurance and guidance."
+      t("result.description1")
     elsif percentage >= 40.0 and percentage <= 50.0
-      "Your score indicates that it is unlikely you have autism. The signs are not strong or numerous enough to suggest a high probability of ASD. However, if you have ongoing concerns or other symptoms, it may still be worthwhile to seek professional advice."
+      t("result.description2")
     elsif percentage >= 60.0 and percentage <= 70.0
-      "Your score suggests that it is likely you display several signs of autism. While not definitive, it indicates a considerable possibility of ASD. Consulting with a professional for a detailed evaluation is advisable to better understand your condition."
+      t("result.description3")
     else
-      "Your score indicates that it is very likely you exhibit significant signs of autism spectrum disorder (ASD). This suggests a high probability of autism, and it is strongly recommended that you seek a comprehensive assessment by a healthcare professional to explore this possibility further."
-    end
-  end
-
-  def index_to_label(index)
-    if index == 0
-      "Disagree"
-    elsif index == 1
-      "Slightly disagree"
-    elsif index == 2
-      "Slightly agree"
-    elsif index == 3
-      "Agree"
+      t("result.description4")
     end
   end
 

@@ -1,52 +1,61 @@
 nb:
   header:
+    title: "Autismetest"
+    description: "Ta vår gratis online autismetest for en nøyaktig, rask vurdering."
+  navigation:
     homeButton: "Hjem"
-    takeTestButton: "Ta test"
-    aboutButton: "Om oss"
-
+    takeTestButton: "Ta testen"
+    aboutButton: "Om"
   home:
     title: "Ta en 10-minutters autismetest"
-    description: "Få innsikt i dine egenskaper. Denne testen er ikke et diagnostisk verktøy, men kan hjelpe deg å forstå deg selv bedre."
-
+    description: "Få innsikt i dine egenskaper. Denne testen er ikke et diagnostisk verktøy, men kan hjelpe deg med å forstå deg selv bedre."
     button1: "Start test"
     button2: "Om testen"
-
     aboutUs:
-      title: "About Us"
+      title: "Om oss"
       whoWeAre:
-        title: "Who We Are"
-        description: "Welcome to [Your Website's Name], a dedicated platform created with the mission to provide reliable and accessible resources for autism tests. Our team consists of passionate individuals, including healthcare professionals, educators, and advocates, committed to supporting the autism community. "
-
-
+        title: "Hvem vi er"
+        description: "Velkommen til [Din Nettsides Navn], en dedikert plattform laget med mål om å tilby pålitelige og tilgjengelige ressurser for autismetester. Vårt team består av lidenskapelige individer, inkludert helsepersonell, lærere og talsmenn, som er forpliktet til å støtte autismesamfunnet."
       ourMission:
-        title: "Our Mission"
-        description: "Our mission is to empower individuals and families by providing accurate, user-friendly autism tests. We believe that early detection and understanding of autism can significantly improve the quality of life and the support available for those on the spectrum. "
-
+        title: "Vårt oppdrag"
+        description: "Vårt oppdrag er å styrke individer og familier ved å tilby nøyaktige, brukervennlige autismetester. Vi tror at tidlig oppdagelse og forståelse av autisme kan betydelig forbedre livskvaliteten og støtten tilgjengelig for de på spekteret."
       whatWeOffer:
-        title: "What We Offer"
-        description: "At [Your Website's Name], we offer a variety of scientifically validated autism tests designed to help identify potential Autism Spectrum Disorders (ASD) in individuals of all ages. Our tests are developed and reviewed by experts in the field to ensure they meet high standards of accuracy and reliability."
-
+        title: "Hva vi tilbyr"
+        description: "Hos [Din Nettsides Navn] tilbyr vi en rekke vitenskapelig validerte autismetester designet for å hjelpe med å identifisere potensielle autismespektrumlidelser (ASD) hos individer i alle aldre. Våre tester er utviklet og gjennomgått av eksperter på feltet for å sikre at de oppfyller høye standarder for nøyaktighet og pålitelighet."
       ourApproach:
-        title: "Our Approach"
-        description: "We understand that every person with autism is unique, and so is their journey. Our approach focuses on providing personalized insights and resources that cater to the diverse needs of the autism community. We strive to make our tools as inclusive and informative as possible."
-
-    aboutTest:
-      title: "About the test"
-      description1: "The AQ-10 is a brief screening tool designed to help identify traits associated with autism.
-                Developed by experts at the Autism Research Centre at Cambridge University,
-                it consists of 10 questions that assess key areas such as social communication, attention to detail, and adaptability."
-      description2: "While the AQ-10 is not a diagnostic tool, it can provide valuable insights into whether a more
-                detailed evaluation might be beneficial. It's a quick and straightforward way to understand yourself
-                better and take the first step towards seeking further support if needed."
-
+        title: "Vår tilnærming"
+        description: "Vi forstår at hver person med autisme er unik, og det samme er deres reise. Vår tilnærming fokuserer på å gi personlig innsikt og ressurser som imøtekommer de forskjellige behovene til autismesamfunnet. Vi streber etter å gjøre våre verktøy så inkluderende og informative som mulig."
+  aboutTest:
+    title: "Om testen"
+    description1: "AQ-10 er et kort screeningsverktøy designet for å hjelpe med å identifisere egenskaper assosiert med autisme. Utviklet av eksperter ved Autism Research Centre ved Cambridge University, består det av 10 spørsmål som vurderer nøkkelområder som sosial kommunikasjon, oppmerksomhet på detaljer og tilpasningsevne."
+    description2: "Selv om AQ-10 ikke er et diagnostisk verktøy, kan det gi verdifull innsikt i om en mer detaljert evaluering kan være gunstig. Det er en rask og enkel måte å forstå seg selv bedre og ta det første skrittet mot å søke ytterligere støtte om nødvendig."
   questions:
-    1: "I often notice small sounds when other do not"
-    2: "I usually concentrate more on the whole picture, rather than the small details"
-    3: "I find it easy to do more than one thing at once"
-    4: "If there is an interruption, I can switch back to what I was doing very quickly"
-    5: "I find it easy to read 'read between the lines' when someone is talking to me"
-    6: "I know how to tell if someone listening to me is getting bored"
-    7: "When I'm reading a story I find it difficult to work out the characters' intentions"
-    8: "I like to collect information about categories of thing (e.g. type of car, types of bird, types of train, types of plant etc"
-    9: "I find it easy to work out what someone is thinking or feeling just by looking at their face"
-    10: "I find it difficult to work out people's intentions"
+    1: "Jeg legger ofte merke til små lyder når andre ikke gjør det"
+    2: "Jeg pleier vanligvis å konsentrere meg mer om helheten enn de små detaljene"
+    3: "Jeg finner det lett å gjøre mer enn én ting om gangen"
+    4: "Hvis det er en avbrytelse, kan jeg raskt gå tilbake til det jeg holdt på med"
+    5: "Jeg synes det er lett å lese mellom linjene når noen snakker til meg"
+    6: "Jeg vet hvordan jeg kan fortelle om noen som lytter til meg begynner å kjede seg"
+    7: "Når jeg leser en historie, synes jeg det er vanskelig å finne ut karakterenes intensjoner"
+    8: "Jeg liker å samle informasjon om kategorier av ting (f.eks. type bil, typer fugl, typer tog, typer planter osv."
+    9: "Jeg synes det er lett å finne ut hva noen tenker eller føler bare ved å se på ansiktet deres"
+    10: "Jeg synes det er vanskelig å finne ut folks intensjoner"
+
+    choice0: "Uenig"
+    choice1: "Litt uenig"
+    choice2: "Litt enig"
+    choice3: "Enig"
+
+    backButton: "Tilbake"
+    submit: "Send inn"
+
+  result:
+    label1: "svært usannsynlig"
+    label2: "usannsynlig"
+    label3: "sannsynlig"
+    label4: "svært sannsynlig"
+
+    description1: "Din score antyder at det er svært usannsynlig at du har autisme. Testresultatene indikerer minimale tegn på ASD, og ingen videre tiltak er vanligvis nødvendig. Imidlertid, hvis du har spesifikke bekymringer eller atferd som forårsaker bekymring, kan en konsultasjon med en helsepersonell gi ytterligere trygghet og veiledning."
+    description2: "Din score indikerer at det er usannsynlig at du har autisme. Tegnene er ikke sterke eller mange nok til å antyde en høy sannsynlighet for ASD. Imidlertid, hvis du har vedvarende bekymringer eller andre symptomer, kan det fortsatt være verdt å søke profesjonell rådgivning."
+    description3: "Din score antyder at det er sannsynlig at du viser flere tegn på autisme. Selv om det ikke er definitivt, indikerer det en betydelig mulighet for ASD. Å konsultere en profesjonell for en detaljert evaluering er tilrådelig for å forstå din tilstand bedre."
+    description4: "Din score indikerer at det er svært sannsynlig at du viser betydelige tegn på autismespekterforstyrrelse (ASD). Dette antyder en høy sannsynlighet for autisme, og det anbefales sterkt at du søker en omfattende vurdering av en helsepersonell for å utforske denne muligheten videre."
