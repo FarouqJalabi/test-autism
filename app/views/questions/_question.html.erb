@@ -2,7 +2,7 @@
   <div class="content">
     <div class="box" data-controller="questions" data-order="<%= question.order %>" data-total="<%= question_length(question) %>" >
       <div class="question">
-        <p><%= question.content %></p>
+        <p><%= t("questions."+question.id.to_s) %></p>
       </div>
       <div class="options">
         <% [0,0,1,1].each_with_index  do |value, index| %>
