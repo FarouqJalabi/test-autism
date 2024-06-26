@@ -36,16 +36,6 @@
     <%= stylesheet_link_tag "quizPage", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement(
-                {pageLanguage: 'en'},
-                'google_translate_element'
-            );
-        }
-    </script>
-
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </head>
 
   <body>
@@ -58,7 +48,6 @@
       <%= link_to "Take a test", test_path(1), class: ('selected_nav_element' if on_test?) %>
       <%= link_to "About", root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
       
-      <div id="google_translate_element"></div>
     </nav>
 
     <%= yield %>
