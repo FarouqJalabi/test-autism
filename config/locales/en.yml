@@ -1,5 +1,9 @@
 en:
   header:
+    title: "Autism test"
+    description: "Take our free online autism test for an accurate, quick assessment."
+
+  navigation:
     homeButton: "Home"
     takeTestButton: "Take test"
     aboutButton: "About"
@@ -38,6 +42,7 @@ en:
       description2: "While the AQ-10 is not a diagnostic tool, it can provide valuable insights into whether a more
                 detailed evaluation might be beneficial. It's a quick and straightforward way to understand yourself
                 better and take the first step towards seeking further support if needed."
+
   questions:
     1: "I often notice small sounds when other do not"
     2: "I usually concentrate more on the whole picture, rather than the small details"
@@ -50,3 +55,21 @@ en:
     9: "I find it easy to work out what someone is thinking or feeling just by looking at their face"
     10: "I find it difficult to work out people's intentions"
 
+    choice0: "Disagree"
+    choice1: "Slightly disagree"
+    choice2: "Slightly agree"
+    choice3: "Agree"
+
+    backButton: "Back button"
+    submit: "Submit"
+
+  result:
+    label1: "very unlikely"
+    label2: "unlikely"
+    label3: "likely"
+    label4: "very likely"
+
+    description1: "Your score suggests that it is very unlikely you have autism. The test results indicate minimal signs of ASD, and no further action is usually required. However, if you have specific concerns or behaviors causing worry, a consultation with a healthcare professional can provide additional reassurance and guidance."
+    description2: "Your score indicates that it is unlikely you have autism. The signs are not strong or numerous enough to suggest a high probability of ASD. However, if you have ongoing concerns or other symptoms, it may still be worthwhile to seek professional advice."
+    description3: "Your score suggests that it is likely you display several signs of autism. While not definitive, it indicates a considerable possibility of ASD. Consulting with a professional for a detailed evaluation is advisable to better understand your condition."
+    description4: "Your score indicates that it is very likely you exhibit significant signs of autism spectrum disorder (ASD). This suggests a high probability of autism, and it is strongly recommended that you seek a comprehensive assessment by a healthcare professional to explore this possibility further."
