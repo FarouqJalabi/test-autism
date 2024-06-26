@@ -75,9 +75,9 @@
           <%= image_tag "Logo.svg", alt: "logo" %>
         </a>
         <div class="nav_button_container">
-          <%= link_to "Home", root_path, class: ('selected_nav_element' if on_home?) %>
-          <%= link_to "Take a test", test_path(1), class: ('selected_nav_element' if on_test?) %>
-          <%= link_to "About", root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+          <%= link_to t('header.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
+          <%= link_to t('header.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
+          <%= link_to t('header.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
         </div>
         
       </div>
@@ -91,9 +91,9 @@
             </svg>
           </button>
         <div id="myDropdown" class="dropdown-content">
-          <%= link_to "Home", root_path, class: ('selected_nav_element' if on_home?) %>
-          <%= link_to "Take test", test_path(1), class: ('selected_nav_element' if on_test?) %>
-          <%= link_to "About", root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+          <%= link_to t('header.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
+          <%= link_to t('header.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
+          <%= link_to t('header.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
         </div>
       </div>
       </div>
