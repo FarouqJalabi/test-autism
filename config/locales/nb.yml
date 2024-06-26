@@ -40,3 +40,22 @@ nb:
     8: "Jeg liker å samle informasjon om kategorier av ting (f.eks. type bil, typer fugl, typer tog, typer planter osv."
     9: "Jeg synes det er lett å finne ut hva noen tenker eller føler bare ved å se på ansiktet deres"
     10: "Jeg synes det er vanskelig å finne ut folks intensjoner"
+
+    choice0: "Uenig"
+    choice1: "Litt uenig"
+    choice2: "Litt enig"
+    choice3: "Enig"
+
+    backButton: "Tilbake"
+    submit: "Send inn"
+
+  result:
+    label1: "svært usannsynlig"
+    label2: "usannsynlig"
+    label3: "sannsynlig"
+    label4: "svært sannsynlig"
+
+    description1: "Din score antyder at det er svært usannsynlig at du har autisme. Testresultatene indikerer minimale tegn på ASD, og ingen videre tiltak er vanligvis nødvendig. Imidlertid, hvis du har spesifikke bekymringer eller atferd som forårsaker bekymring, kan en konsultasjon med en helsepersonell gi ytterligere trygghet og veiledning."
+    description2: "Din score indikerer at det er usannsynlig at du har autisme. Tegnene er ikke sterke eller mange nok til å antyde en høy sannsynlighet for ASD. Imidlertid, hvis du har vedvarende bekymringer eller andre symptomer, kan det fortsatt være verdt å søke profesjonell rådgivning."
+    description3: "Din score antyder at det er sannsynlig at du viser flere tegn på autisme. Selv om det ikke er definitivt, indikerer det en betydelig mulighet for ASD. Å konsultere en profesjonell for en detaljert evaluering er tilrådelig for å forstå din tilstand bedre."
+    description4: "Din score indikerer at det er svært sannsynlig at du viser betydelige tegn på autismespekterforstyrrelse (ASD). Dette antyder en høy sannsynlighet for autisme, og det anbefales sterkt at du søker en omfattende vurdering av en helsepersonell for å utforske denne muligheten videre."

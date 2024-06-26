@@ -40,3 +40,22 @@ es:
     8: "Me gusta recopilar información sobre categorías de cosas (por ejemplo, tipos de coches, tipos de aves, tipos de trenes, tipos de plantas, etc."
     9: "Me resulta fácil saber lo que alguien está pensando o sintiendo con solo mirar su rostro"
     10: "Me resulta difícil entender las intenciones de las personas"
+
+    choice0: "En desacuerdo"
+    choice1: "Ligeramente en desacuerdo"
+    choice2: "Ligeramente de acuerdo"
+    choice3: "De acuerdo"
+
+    backButton: "Volver"
+    submit: "Enviar"
+
+  result:
+    label1: "muy improbable"
+    label2: "improbable"
+    label3: "probable"
+    label4: "muy probable"
+
+    description1: "Tu puntuación sugiere que es muy improbable que tengas autismo. Los resultados del test indican signos mínimos de TEA, y no se requiere ninguna acción adicional. Sin embargo, si tienes preocupaciones específicas o comportamientos que causan preocupación, una consulta con un profesional de la salud puede proporcionar tranquilidad y orientación adicional."
+    description2: "Tu puntuación indica que es improbable que tengas autismo. Los signos no son lo suficientemente fuertes o numerosos como para sugerir una alta probabilidad de TEA. Sin embargo, si tienes preocupaciones persistentes u otros síntomas, puede ser útil buscar el consejo de un profesional."
+    description3: "Tu puntuación sugiere que es probable que presentes varios signos de autismo. Aunque no es definitivo, indica una posibilidad considerable de TEA. Se aconseja consultar a un profesional para una evaluación detallada con el fin de comprender mejor tu condición."
+    description4: "Tu puntuación indica que es muy probable que presentes signos significativos de trastorno del espectro autista (TEA). Esto sugiere una alta probabilidad de autismo, y se recomienda encarecidamente que busques una evaluación completa por parte de un profesional de la salud para explorar esta posibilidad más a fondo."
