@@ -27,7 +27,7 @@ module Questioner
     # Load all YAML files from the config/locales directory
     #  config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
 
-    config.i18n.available_locales = %i[en fr es de no]
+    config.i18n.available_locales = %i[en fr es de nb]
 
     config.i18n.default_locale = :en
     config.i18n.fallbacks = true
