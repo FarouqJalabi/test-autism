@@ -1,0 +1,34 @@
+de:
+  header:
+    homeButton: "Startseite"
+    takeTestButton: "Test machen"
+    aboutButton: "Über"
+
+  home:
+    title: "Machen Sie einen 10-minütigen Autismus-Test"
+    description: "Gewinnen Sie Einblicke in Ihre Merkmale. Dieser Test ist kein diagnostisches Werkzeug, kann Ihnen aber helfen, sich selbst besser zu verstehen."
+    button1: "Test starten"
+    button2: "Über den Test"
+
+    aboutUs:
+      title: "Über uns"
+      whoWeAre:
+        title: "Wer wir sind"
+        description: "Willkommen bei [Name Ihrer Website], einer engagierten Plattform, die mit dem Ziel geschaffen wurde, zuverlässige und zugängliche Ressourcen für Autismustests bereitzustellen."
+
+      ourMission:
+        title: "Unsere Mission"
+        description: "Unsere Mission ist es, Einzelpersonen und Familien zu stärken, indem wir genaue und benutzerfreundliche Autismustests bereitstellen. Wir glauben, dass eine frühzeitige Erkennung und das Verständnis von Autismus die Lebensqualität und die verfügbare Unterstützung für Betroffene erheblich verbessern können."
+
+      whatWeOffer:
+        title: "Was wir anbieten"
+        description: "Auf [Name Ihrer Website] bieten wir eine Vielzahl wissenschaftlich validierter Autismustests an, die darauf abzielen, potenzielle Autismus-Spektrum-Störungen (ASD) bei Menschen jeden Alters zu identifizieren. Unsere Tests werden von Experten entwickelt und überprüft, um sicherzustellen, dass sie hohen Standards in Genauigkeit und Zuverlässigkeit entsprechen."
+
+      ourApproach:
+        title: "Unser Ansatz"
+        description: "Wir verstehen, dass jeder Mensch mit Autismus einzigartig ist, ebenso wie sein Lebensweg. Unser Ansatz konzentriert sich darauf, personalisierte Einblicke und Ressourcen anzubieten, die den vielfältigen Bedürfnissen der Autismusgemeinschaft gerecht werden. Wir bemühen uns, unsere Werkzeuge so inklusiv und informativ wie möglich zu gestalten."
+
+    aboutTest:
+      title: "Über den Test"
+      description1: "Der AQ-10 ist ein kurzes Screening-Tool, das entwickelt wurde, um Merkmale zu identifizieren, die mit Autismus verbunden sind. Entwickelt von Experten des Autism Research Centre der Universität Cambridge, besteht er aus 10 Fragen, die Schlüsselbereiche wie soziale Kommunikation, Aufmerksamkeit für Details und Anpassungsfähigkeit bewerten."
+      description2: "Obwohl der AQ-10 kein diagnostisches Werkzeug ist, kann er wertvolle Einblicke darüber geben, ob eine ausführlichere Bewertung sinnvoll sein könnte. Es ist eine schnelle und unkomplizierte Möglichkeit, sich selbst besser zu verstehen und den ersten Schritt zu tun, um bei Bedarf weitere Unterstützung zu suchen."
