@@ -23,5 +23,14 @@ module Questioner
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    
+    # Load all YAML files from the config/locales directory
+    #  config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
+    config.i18n.available_locales = [:en, :fr, :es, :de, :no]  # Add more locales as needed
+
+    config.i18n.default_locale = :no
+    config.i18n.fallbacks = true
+
+  
   end
 end
