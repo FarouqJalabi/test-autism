@@ -1,34 +1,60 @@
 fr:
   header:
+    title: "Test d'autisme"
+    description: "Faites notre test d'autisme en ligne gratuit pour une évaluation précise et rapide."
+  navigation:
     homeButton: "Accueil"
-    takeTestButton: "Passer le test"
+    takeTestButton: "Faire le test"
     aboutButton: "À propos"
-
   home:
-    title: "Faites un test de 10 minutes sur l'autisme"
+    title: "Faire un test d'autisme de 10 minutes"
     description: "Obtenez des informations sur vos traits. Ce test n'est pas un outil de diagnostic mais peut vous aider à mieux vous comprendre."
-    button1: "Démarrer le test"
+    button1: "Commencer le test"
     button2: "À propos du test"
-
     aboutUs:
       title: "À propos de nous"
       whoWeAre:
-        title: "Qui sommes-nous"
-        description: "Bienvenue sur [Nom de votre site web], une plateforme dédiée créée dans le but de fournir des ressources fiables et accessibles pour les tests d'autisme. Notre équipe se compose de personnes passionnées, y compris des professionnels de la santé, des éducateurs et des défenseurs, engagés à soutenir la communauté autiste."
-
+        title: "Qui nous sommes"
+        description: "Bienvenue sur [Nom de Votre Site], une plateforme dédiée créée avec pour mission de fournir des ressources fiables et accessibles pour les tests d'autisme. Notre équipe est composée de personnes passionnées, y compris des professionnels de la santé, des éducateurs et des défenseurs, engagées à soutenir la communauté autistique."
       ourMission:
         title: "Notre mission"
-        description: "Notre mission est d'autonomiser les individus et les familles en fournissant des tests d'autisme précis et faciles à utiliser. Nous croyons que la détection précoce et la compréhension de l'autisme peuvent considérablement améliorer la qualité de vie et le soutien disponible pour ceux qui sont sur le spectre."
-
+        description: "Notre mission est de donner les moyens aux individus et aux familles en fournissant des tests d'autisme précis et conviviaux. Nous croyons que la détection précoce et la compréhension de l'autisme peuvent améliorer considérablement la qualité de vie et le soutien disponible pour les personnes du spectre."
       whatWeOffer:
         title: "Ce que nous offrons"
-        description: "Sur [Nom de votre site web], nous proposons une variété de tests d'autisme validés scientifiquement conçus pour aider à identifier les troubles du spectre autistique (TSA) potentiels chez les individus de tous âges. Nos tests sont développés et examinés par des experts du domaine pour garantir qu'ils répondent à des normes élevées de précision et de fiabilité."
-
+        description: "Chez [Nom de Votre Site], nous offrons une variété de tests d'autisme scientifiquement validés conçus pour aider à identifier les troubles potentiels du spectre autistique (TSA) chez les personnes de tous âges. Nos tests sont développés et révisés par des experts dans le domaine pour garantir qu'ils répondent à des normes élevées de précision et de fiabilité."
       ourApproach:
         title: "Notre approche"
-        description: "Nous comprenons que chaque personne autiste est unique, tout comme son parcours. Notre approche consiste à fournir des perspectives et des ressources personnalisées qui répondent aux besoins divers de la communauté autiste. Nous nous efforçons de rendre nos outils aussi inclusifs et informatifs que possible."
+        description: "Nous comprenons que chaque personne autiste est unique, tout comme son parcours. Notre approche se concentre sur la fourniture d'informations et de ressources personnalisées qui répondent aux besoins divers de la communauté autistique. Nous nous efforçons de rendre nos outils aussi inclusifs et informatifs que possible."
+  aboutTest:
+    title: "À propos du test"
+    description1: "L'AQ-10 est un outil de dépistage bref conçu pour aider à identifier les traits associés à l'autisme. Développé par des experts du Centre de recherche sur l'autisme de l'Université de Cambridge, il se compose de 10 questions qui évaluent des domaines clés tels que la communication sociale, l'attention aux détails et l'adaptabilité."
+    description2: "Bien que l'AQ-10 ne soit pas un outil de diagnostic, il peut fournir des informations précieuses sur l'opportunité d'une évaluation plus détaillée. C'est un moyen rapide et simple de mieux se comprendre et de faire le premier pas vers la recherche de soutien supplémentaire si nécessaire."
+  questions:
+    1: "J'entends souvent de petits bruits que les autres n'entendent pas"
+    2: "Je me concentre généralement plus sur l'ensemble que sur les petits détails"
+    3: "Je trouve facile de faire plusieurs choses à la fois"
+    4: "S'il y a une interruption, je peux rapidement revenir à ce que je faisais"
+    5: "Je trouve facile de lire entre les lignes quand quelqu'un me parle"
+    6: "Je sais comment savoir si quelqu'un qui m'écoute commence à s'ennuyer"
+    7: "Quand je lis une histoire, je trouve difficile de comprendre les intentions des personnages"
+    8: "J'aime collecter des informations sur des catégories de choses (par exemple, types de voitures, types d'oiseaux, types de trains, types de plantes, etc."
+    9: "Je trouve facile de savoir ce que quelqu'un pense ou ressent simplement en regardant son visage"
+    10: "Je trouve difficile de comprendre les intentions des gens"
 
-    aboutTest:
-      title: "À propos du test"
-      description1: "Le AQ-10 est un outil de dépistage bref conçu pour aider à identifier les traits associés à l'autisme. Développé par des experts du Autism Research Centre de l'Université de Cambridge, il se compose de 10 questions qui évaluent des domaines clés tels que la communication sociale, l'attention aux détails et l'adaptabilité."
-      description2: "Bien que le AQ-10 ne soit pas un outil de diagnostic, il peut fournir des informations précieuses sur la nécessité d'une évaluation plus détaillée. C'est une manière rapide et simple de mieux se comprendre et de faire le premier pas vers la recherche de soutien supplémentaire si nécessaire."
+    choice0: "Pas d'accord"
+    choice1: "Légèrement en désaccord"
+    choice2: "Légèrement d'accord"
+    choice3: "D'accord"
+    backButton: "Retour"
+    submit: "Soumettre"
+
+  result:
+    label1: "très improbable"
+    label2: "improbable"
+    label3: "probable"
+    label4: "très probable"
+
+    description1: "Votre score suggère qu'il est très improbable que vous ayez l'autisme. Les résultats du test indiquent des signes minimaux de TSA, et aucune action supplémentaire n'est généralement nécessaire. Cependant, si vous avez des préoccupations spécifiques ou des comportements inquiétants, une consultation avec un professionnel de la santé peut fournir une tranquillité d'esprit et des conseils supplémentaires."
+    description2: "Votre score indique qu'il est improbable que vous ayez l'autisme. Les signes ne sont pas assez forts ou nombreux pour suggérer une forte probabilité de TSA. Cependant, si vous avez des préoccupations persistantes ou d'autres symptômes, il peut toujours être utile de demander un avis professionnel."
+    description3: "Votre score suggère qu'il est probable que vous présentiez plusieurs signes d'autisme. Bien que non définitif, cela indique une possibilité considérable de TSA. Il est conseillé de consulter un professionnel pour une évaluation détaillée afin de mieux comprendre votre condition."
+    description4: "Votre score indique qu'il est très probable que vous présentiez des signes significatifs de trouble du spectre autistique (TSA). Cela suggère une forte probabilité d'autisme, et il est fortement recommandé de demander une évaluation complète par un professionnel de la santé pour explorer davantage cette possibilité."
