@@ -39,29 +39,7 @@
     <%= javascript_importmap_tags %>
 
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        const localeSelect = document.getElementById("locale-select");
 
-        localeSelect.addEventListener("change", function() {
-          const selectedLocale = this.value;
-          if (selectedLocale) {
-            const currentPath = window.location.pathname;
-            const pathParts = currentPath.split('/').filter(part => part);
-            
-            // Check if the first part of the path is a locale
-            if (pathParts.length > 0 && ['en', 'es', 'fr'].includes(pathParts[0])) {
-              pathParts[0] = selectedLocale;  // Replace existing locale
-            } else {
-              pathParts.unshift(selectedLocale);  // Add new locale
-            }
-            
-            const newPath = '/' + pathParts.join('/');
-            window.location.pathname = newPath;
-          }
-        });
-      });
-    </script>
     
   </head>
 
@@ -80,23 +58,17 @@
         
         </div>
         <div class="right_nav_container">
-          <select id="locale-select" name="locale">
-            <option value="">Change Language</option>
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-          </select>
 
 
-      <%= render "layouts/languageSelector" %>
+          <%= render "layouts/languageSelector" %>
 
-        <div class="dropdown">
-          <button onclick="toggleDropdown()" class="dropbtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-            </svg>
-          </button>
-        <div id="myDropdown" class="dropdown-content">
+          <div class="dropdown">
+            <button onclick="toggleDropdown()" class="dropbtn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+            </button>
+          <div id="myDropdown" class="dropdown-content">
           <%= link_to t('header.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
           <%= link_to t('header.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
           <%= link_to t('header.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
