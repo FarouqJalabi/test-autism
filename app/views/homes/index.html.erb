@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= I18n.locale %>">
 <head>
 </head>
 <body>
     <main>
         <section>
-            <h1>
-                Take a 10-Minute Autism Test
-            </h1>
-            <p>
-                Gain insights into your traits.
-                This test is not a diagnostic tool but can help you understand yourself better.
-            </p>
+            <h1><%= t('home.title') %></h1>
+
+            <p><%= t('home.description') %></p>
 
             <div class="button_container">
                 <%= link_to "Start test", test_path(1) %>
@@ -21,20 +17,17 @@
         </section>
 
         <section id="aboutUs" class="about">
-            <h2>About Us</h2>
+            <h2><%= t('home.aboutUs.title') %></h2>
             <div class="about_box">
                 <div>
                     <div class="top_container">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
                             <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
                         </svg>
-                        <h3>Who We Are</h3>
+                        <h3><%= t('home.aboutUs.whoWeAre.title') %></h3>
                     </div>
                     <div class="bottom_container">
-                        <p>
-                            Welcome to [Your Website's Name], a dedicated platform created with the mission to provide reliable and accessible resources for autism tests.
-                            Our team consists of passionate individuals, including healthcare professionals, educators, and advocates, committed to supporting the autism community.
-                        </p>
+                        <p><%= t('home.aboutUs.whoWeAre.description') %></p>
                     </div>
                 </div>
             
@@ -43,13 +36,10 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-flag" viewBox="0 0 16 16">
                             <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12 12 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A20 20 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a20 20 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21 21 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21 21 0 0 0 14 7.655V1.222z"/>
                         </svg>
-                        <h3>Our Mission</h3>
+                        <h3><%= t('home.aboutUs.ourMission.title') %></h3>
                     </div>
                     <div class="bottom_container">
-                        <p>
-                            Our mission is to empower individuals and families by providing accurate, user-friendly autism tests.
-                            We believe that early detection and understanding of autism can significantly improve the quality of life and the support available for those on the spectrum.
-                        </p>
+                        <p><%= t('home.aboutUs.ourMission.description') %></p>
                     </div>
                 </div>
             
@@ -59,13 +49,10 @@
                             <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
                             <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
                         </svg>
-                        <h3>What We Offer</h3>
+                        <h3><%= t('home.aboutUs.whatWeOffer.title') %></h3>
                     </div>
                     <div class="bottom_container">
-                        <p>
-                            At [Your Website's Name], we offer a variety of scientifically validated autism tests designed to help identify potential Autism Spectrum Disorders (ASD) in individuals of all ages.
-                            Our tests are developed and reviewed by experts in the field to ensure they meet high standards of accuracy and reliability.
-                        </p>
+                        <p><%= t('home.aboutUs.ourMission.description') %></p>
                     </div>
                 </div>
             
@@ -74,14 +61,10 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
                             <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
                         </svg>
-                        <h3>Our Approach</h3>
+                        <h3><%= t('home.aboutUs.ourApproach.title') %></h3>
                     </div>
                     <div class="bottom_container">
-                        <p>
-                            We understand that every person with autism is unique, and so is their journey.
-                            Our approach focuses on providing personalized insights and resources that cater to the diverse needs of the autism community.
-                            We strive to make our tools as inclusive and informative as possible.
-                        </p>
+                        <p><%= t('home.aboutUs.ourApproach.description') %></p>
                     </div>
                 </div>
             </div>
@@ -89,14 +72,9 @@
 
 
         <section id="aboutTest" class="about">
-            <h2>About the test</h2>
-            <p>The <%= link_to "AQ-10", "https://docs.autismresearchcentre.com/tests/AQ10.pdf" %> is a brief screening tool designed to help identify traits associated with autism.
-                Developed by experts at the Autism Research Centre at Cambridge University,
-                it consists of 10 questions that assess key areas such as social communication, attention to detail, and adaptability.</p>
-
-                <p>While the AQ-10 is not a diagnostic tool, it can provide valuable insights into whether a more
-                detailed evaluation might be beneficial. It's a quick and straightforward way to understand yourself
-                better and take the first step towards seeking further support if needed.</p>
+            <h2><%= t('home.aboutTest.title') %></h2>
+            <p><%= t('home.aboutTest.description1') %></p>
+            <p><%= t('home.aboutTest.description2') %></p>
         </section>
 
     </main>

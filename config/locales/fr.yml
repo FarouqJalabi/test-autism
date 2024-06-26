@@ -1,0 +1,34 @@
+fr:
+  header:
+    homeButton: "Accueil"
+    takeTestButton: "Passer le test"
+    aboutButton: "À propos"
+
+  home:
+    title: "Faites un test de 10 minutes sur l'autisme"
+    description: "Obtenez des informations sur vos traits. Ce test n'est pas un outil de diagnostic mais peut vous aider à mieux vous comprendre."
+    button1: "Démarrer le test"
+    button2: "À propos du test"
+
+    aboutUs:
+      title: "À propos de nous"
+      whoWeAre:
+        title: "Qui sommes-nous"
+        description: "Bienvenue sur [Nom de votre site web], une plateforme dédiée créée dans le but de fournir des ressources fiables et accessibles pour les tests d'autisme. Notre équipe se compose de personnes passionnées, y compris des professionnels de la santé, des éducateurs et des défenseurs, engagés à soutenir la communauté autiste."
+
+      ourMission:
+        title: "Notre mission"
+        description: "Notre mission est d'autonomiser les individus et les familles en fournissant des tests d'autisme précis et faciles à utiliser. Nous croyons que la détection précoce et la compréhension de l'autisme peuvent considérablement améliorer la qualité de vie et le soutien disponible pour ceux qui sont sur le spectre."
+
+      whatWeOffer:
+        title: "Ce que nous offrons"
+        description: "Sur [Nom de votre site web], nous proposons une variété de tests d'autisme validés scientifiquement conçus pour aider à identifier les troubles du spectre autistique (TSA) potentiels chez les individus de tous âges. Nos tests sont développés et examinés par des experts du domaine pour garantir qu'ils répondent à des normes élevées de précision et de fiabilité."
+
+      ourApproach:
+        title: "Notre approche"
+        description: "Nous comprenons que chaque personne autiste est unique, tout comme son parcours. Notre approche consiste à fournir des perspectives et des ressources personnalisées qui répondent aux besoins divers de la communauté autiste. Nous nous efforçons de rendre nos outils aussi inclusifs et informatifs que possible."
+
+    aboutTest:
+      title: "À propos du test"
+      description1: "Le AQ-10 est un outil de dépistage bref conçu pour aider à identifier les traits associés à l'autisme. Développé par des experts du Autism Research Centre de l'Université de Cambridge, il se compose de 10 questions qui évaluent des domaines clés tels que la communication sociale, l'attention aux détails et l'adaptabilité."
+      description2: "Bien que le AQ-10 ne soit pas un outil de diagnostic, il peut fournir des informations précieuses sur la nécessité d'une évaluation plus détaillée. C'est une manière rapide et simple de mieux se comprendre et de faire le premier pas vers la recherche de soutien supplémentaire si nécessaire."
