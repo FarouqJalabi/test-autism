@@ -1,0 +1,35 @@
+
+es:
+  header:
+    homeButton: "Inicio"
+    takeTestButton: "Tomar prueba"
+    aboutButton: "Acerca de"
+
+  home:
+    title: "Realiza una Prueba de Autismo de 10 Minutos"
+    description: "Obtén información sobre tus rasgos. Esta prueba no es una herramienta de diagnóstico, pero puede ayudarte a entenderte mejor."
+    button1: "Comenzar prueba"
+    button2: "Acerca de la prueba"
+
+    aboutUs:
+      title: "Sobre Nosotros"
+      whoWeAre:
+        title: "Quiénes Somos"
+        description: "Bienvenido/a a [Nombre de tu Sitio Web], una plataforma dedicada creada con la misión de proporcionar recursos confiables y accesibles para pruebas de autismo. Nuestro equipo está compuesto por individuos apasionados, incluidos profesionales de la salud, educadores y defensores, comprometidos con el apoyo a la comunidad autista."
+
+      ourMission:
+        title: "Nuestra Misión"
+        description: "Nuestra misión es capacitar a individuos y familias proporcionando pruebas de autismo precisas y fáciles de usar. Creemos que la detección temprana y la comprensión del autismo pueden mejorar significativamente la calidad de vida y el apoyo disponible para quienes están en el espectro."
+
+      whatWeOffer:
+        title: "Lo Que Ofrecemos"
+        description: "En [Nombre de tu Sitio Web], ofrecemos una variedad de pruebas de autismo validadas científicamente diseñadas para ayudar a identificar posibles Trastornos del Espectro Autista (TEA) en personas de todas las edades. Nuestras pruebas son desarrolladas y revisadas por expertos en el campo para garantizar que cumplan con altos estándares de precisión y confiabilidad."
+
+      ourApproach:
+        title: "Nuestro Enfoque"
+        description: "Entendemos que cada persona con autismo es única, al igual que su camino. Nuestro enfoque se centra en proporcionar perspectivas y recursos personalizados que atiendan las diversas necesidades de la comunidad autista. Nos esforzamos por hacer nuestras herramientas lo más inclusivas e informativas posible."
+
+    aboutTest:
+      title: "Acerca de la prueba"
+      description1: "El AQ-10 es una herramienta breve de detección diseñada para ayudar a identificar rasgos asociados con el autismo. Desarrollado por expertos del Autism Research Centre de la Universidad de Cambridge, consiste en 10 preguntas que evalúan áreas clave como la comunicación social, la atención al detalle y la adaptabilidad."
+      description2: "Si bien el AQ-10 no es una herramienta de diagnóstico, puede proporcionar información valiosa sobre si una evaluación más detallada podría ser beneficiosa. Es una manera rápida y sencilla de entenderte mejor y dar el primer paso hacia la búsqueda de apoyo adicional si es necesario."
