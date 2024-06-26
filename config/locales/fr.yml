@@ -40,3 +40,21 @@ fr:
     8: "J'aime collecter des informations sur des catégories de choses (par exemple, types de voitures, types d'oiseaux, types de trains, types de plantes, etc."
     9: "Je trouve facile de savoir ce que quelqu'un pense ou ressent simplement en regardant son visage"
     10: "Je trouve difficile de comprendre les intentions des gens"
+
+    choice0: "Pas d'accord"
+    choice1: "Légèrement en désaccord"
+    choice2: "Légèrement d'accord"
+    choice3: "D'accord"
+    backButton: "Retour"
+    submit: "Soumettre"
+
+  result:
+    label1: "très improbable"
+    label2: "improbable"
+    label3: "probable"
+    label4: "très probable"
+
+    description1: "Votre score suggère qu'il est très improbable que vous ayez l'autisme. Les résultats du test indiquent des signes minimaux de TSA, et aucune action supplémentaire n'est généralement nécessaire. Cependant, si vous avez des préoccupations spécifiques ou des comportements inquiétants, une consultation avec un professionnel de la santé peut fournir une tranquillité d'esprit et des conseils supplémentaires."
+    description2: "Votre score indique qu'il est improbable que vous ayez l'autisme. Les signes ne sont pas assez forts ou nombreux pour suggérer une forte probabilité de TSA. Cependant, si vous avez des préoccupations persistantes ou d'autres symptômes, il peut toujours être utile de demander un avis professionnel."
+    description3: "Votre score suggère qu'il est probable que vous présentiez plusieurs signes d'autisme. Bien que non définitif, cela indique une possibilité considérable de TSA. Il est conseillé de consulter un professionnel pour une évaluation détaillée afin de mieux comprendre votre condition."
+    description4: "Votre score indique qu'il est très probable que vous présentiez des signes significatifs de trouble du spectre autistique (TSA). Cela suggère une forte probabilité d'autisme, et il est fortement recommandé de demander une évaluation complète par un professionnel de la santé pour explorer davantage cette possibilité."

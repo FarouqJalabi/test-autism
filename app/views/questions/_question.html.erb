@@ -8,7 +8,7 @@
         <% [0,0,1,1].each_with_index  do |value, index| %>
           <label class="custom-radio">
             <div class="custom-radio-label">
-              <%= index_to_label(index) %>
+              <%= t("questions.choice"+index.to_s) %>
             </div>
             <%= form.radio_button("answers[#{question.id}]", value, autocomplete: "off",  "data-action":"click->questions#radio_clicked") %>
             <div class="custom-radio-button"></div>
@@ -20,12 +20,12 @@
       
         <% if question.order != 1 %>
           <button type="button" data-action="click->questions#back_clicked">
-            <%= image_tag "Arrow.svg", alt: "Arrow pointing to left", class: "arrow_icon"%>
+            <%= image_tag "Arrow.svg", alt: t("questions.backButton"), class: "arrow_icon"%>
           </button>
         <% end %>
 
         <% if question.order == question_length(question) %>
-          <%= form.submit "Submit", class: "submit_button" %>
+          <%= form.submit t("questions.submit"), class: "submit_button" %>
         <% end %>
       </div>
     </div>
