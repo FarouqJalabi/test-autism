@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="<%= t('home.description') %>">
+    <meta name="description" content="<%= t('header.description') %>">
     
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Questioner">
+    <meta name="twitter:title" content="<%= t('header.title') %>">
     <meta name="twitter:description" content="<%= t('home.description') %>">
     <meta name="twitter:image" content="/assets/Logo-9310ae8c0ed1466b3ea50baa4d45efa3e9718fb812e1b23d2ff608e05d3dfb63.svg">
     
@@ -18,8 +18,8 @@
     -->
 
     <!-- Other meta tags for Open Graph -->
-    <meta property="og:title" content="Questioner">
-    <meta property="og:description" content="<%= t('home.description') %>">
+    <meta property="og:title" content="<%= t('header.title') %>">
+    <meta property="og:description" content="<%= t('header.description') %>">
     <meta property="og:image" content="/assets/Logo-9310ae8c0ed1466b3ea50baa4d45efa3e9718fb812e1b23d2ff608e05d3dfb63.svg">
     <meta property="og:url" content="https://test-autism.rubynor.com/">
     <meta property="og:type" content="website">
@@ -28,7 +28,7 @@
 
 
 
-    <title>Questioner</title>
+    <title>Autism test</title>
     <link rel="icon" href="/assets/Logo-9310ae8c0ed1466b3ea50baa4d45efa3e9718fb812e1b23d2ff608e05d3dfb63.svg" sizes="any" type="image/svg+xml">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -38,9 +38,6 @@
     <%= stylesheet_link_tag "quizPage", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
-
-
-    
   </head>
 
   <body>
@@ -50,15 +47,14 @@
           <%= image_tag "Logo.svg", alt: "logo" %>
         </a>
         <div class="nav_button_container">
-          <%= link_to t('header.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
-          <%= link_to t('header.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
-          <%= link_to t('header.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+          <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
+          <%= link_to t('navigation.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
+          <%= link_to t('navigation.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
         </div>
 
         
         </div>
         <div class="right_nav_container">
-
 
           <%= render "layouts/languageSelector" %>
 
@@ -69,9 +65,9 @@
               </svg>
             </button>
           <div id="myDropdown" class="dropdown-content">
-          <%= link_to t('header.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
-          <%= link_to t('header.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
-          <%= link_to t('header.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+          <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
+          <%= link_to t('navigation.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
+          <%= link_to t('navigation.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
         </div>
       </div>
       </div>
