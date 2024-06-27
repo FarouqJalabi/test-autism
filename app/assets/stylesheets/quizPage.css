@@ -7,7 +7,7 @@
     background-color: white;
 }
 .question p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 800;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ input[type="radio"] {
     flex-direction: column;
     position: relative;
     cursor: pointer;
-    font-size: .8rem;
+    font-size: 1rem;
     user-select: none;
     gap: .6rem;
   }
