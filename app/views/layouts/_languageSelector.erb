@@ -25,11 +25,13 @@
   }
 
 </style>
-<%= link_to("helo", { locale: locale }, class: "language-link") %>
 <select id="locale-select" name="" id="" onchange="window.location.href=this.value">
 
-  <option value="<% url_for({locale: :nb}) %>">Change Language</option>
-  <option value="<%= url_for({locale: :en}) %>"><span>🇺🇸</span>English</option>
-  <option value="<%= url_for({locale: :es}) %>"><span>🇪🇸</span>Español</option>
-  <option value="<%= url_for({locale: :fr}) %>"><span>🇫🇷</span>Français</option>
+  <option value="">Change Language</option>
+  
+  <option value="<%= url_for(params.permit(:score).merge(locale: :en)) %>"><span>🇺🇸</span>English</option>
+  <option value="<%= url_for(params.permit(:score).merge(locale: :es)) %>"><span>🇪🇸</span>Español</option>
+  <option value="<%= url_for(params.permit(:score).merge(locale: :fr)) %>"><span>🇫🇷</span>Français</option>
+  <option value="<%= url_for(params.permit(:score).merge(locale: :nb)) %>"><span>🇳🇴</span>Norsk</option>
+
 </select>
