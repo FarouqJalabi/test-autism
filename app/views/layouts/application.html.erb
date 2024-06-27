@@ -20,7 +20,13 @@
     <!-- Other meta tags for Open Graph -->
     <meta property="og:title" content="<%= t('header.title') %>">
     <meta property="og:description" content="<%= t('header.description') %>">
-    <meta property="og:image" content="/assets/Logo-9310ae8c0ed1466b3ea50baa4d45efa3e9718fb812e1b23d2ff608e05d3dfb63.svg">
+
+    <% if params["score"].present?  %>
+      <meta property="og:image" content="https://image.spreadshirtmedia.net/image-server/v1/products/T1459A839PA4459PT28D157162510W8333H10000/views/1,width=550,height=550,appearanceId=839,backgroundColor=F2F2F2/nummer-10-nummer-ti-fotballspillmaker-team-klistremerke.jpg">
+    <% else %>
+      <meta property="og:image" content="/assets/Logo-9310ae8c0ed1466b3ea50baa4d45efa3e9718fb812e1b23d2ff608e05d3dfb63.svg">
+    <% end %>
+
     <meta property="og:url" content="https://test-autism.rubynor.com/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="https://test-autism.rubynor.com/">
