@@ -178,5 +178,8 @@ nav a {
         justify-content: center;
         gap: 1.5rem;
     }
+    #locale-select {
+        font-size: 1.2rem;
+    }
 
 }
