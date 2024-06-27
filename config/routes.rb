@@ -17,5 +17,6 @@ Rails.application.routes.draw do
 
   match '*path', to: 'application#not_found!', via: :all
 
+  resources :blog_posts, only: [:show, :index]
 
 end
