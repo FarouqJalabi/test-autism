@@ -54,6 +54,7 @@ input[type="radio"] {
     cursor: pointer;
     font-size: .8rem;
     user-select: none;
+    gap: .6rem;
   }
   
   .custom-radio-button {
@@ -178,11 +179,11 @@ input[type="radio"] {
 }
 
 .progress-bar-container {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+  padding: 0 2rem;
 }
 
 .progress-bar {
