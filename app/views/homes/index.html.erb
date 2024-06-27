@@ -5,9 +5,13 @@
 <body>
     <main>
         <section>
-            <h1><%= t('home.title') %></h1>
+            <div class="text_container">
+                <h1><%= t('home.title') %></h1>
+            </div>
+            <div class="text_container">
+                <p><%= t('home.description') %></p>
+            </div>
 
-            <p><%= t('home.description') %></p>
 
             <div class="button_container">
                 <%= link_to "Start test", test_path(1) %>
