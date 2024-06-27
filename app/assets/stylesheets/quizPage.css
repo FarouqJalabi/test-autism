@@ -7,7 +7,7 @@
     background-color: white;
 }
 .question p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 800;
     display: flex;
     align-items: center;
@@ -52,8 +52,9 @@ input[type="radio"] {
     flex-direction: column;
     position: relative;
     cursor: pointer;
-    font-size: .8rem;
+    font-size: 1rem;
     user-select: none;
+    gap: .6rem;
   }
   
   .custom-radio-button {
@@ -178,10 +179,11 @@ input[type="radio"] {
 }
 
 .progress-bar-container {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
+  padding: 0 2rem;
 }
 
 .progress-bar {
