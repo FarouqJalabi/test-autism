@@ -1,1 +1,10 @@
 # See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+
+User-agent: *
+Disallow: /en/result
+Disallow: /nb/result
+Disallow: /es/result
+Disallow: /fr/result
+
+Sitemap: https://test-autism.rubynor.com/sitemap.xml
+
