@@ -1,7 +1,8 @@
 nb:
   header:
-    title: "Autismetest"
+    title: "Gratis autismetest"
     description: "Ta vår gratis online autismetest for en nøyaktig, rask vurdering."
+
   navigation:
     homeButton: "Hjem"
     takeTestButton: "Ta testen"
