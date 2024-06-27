@@ -34,9 +34,11 @@
     margin-top: 2px;
     margin-right: 20px;
 }
-
+.logo img {
+    width: 2.5rem;
+}
 nav{
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
     padding-top: 3rem;
     display: flex;
     align-items: center;
@@ -147,7 +149,7 @@ nav a {
 #locale-select {
     background-color: transparent;
     border: none;
-    font-size: 1.2rem;
+    font-size: .8rem;
     padding: .4rem .8rem;
     border-radius: .3rem;
     background-color: var(--primary-white);
