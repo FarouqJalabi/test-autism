@@ -78,6 +78,7 @@ section h1 {
 .about svg {
     width: 1.7rem;
     height: 1.7rem;
+    fill: var(--primary);
 }
 .about_box {
     display: flex;
