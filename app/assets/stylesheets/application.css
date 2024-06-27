@@ -38,8 +38,7 @@
     width: 2.5rem;
 }
 nav{
-    padding: 2rem 1.5rem;
-    padding-top: 3rem;
+    padding: 2rem 1rem;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -167,7 +166,7 @@ nav a {
         display: flex;
     }
     nav {
-        padding: 3rem 10rem;
+        padding: 3rem 5rem;
     }
     .dropdown {
         display: none;
