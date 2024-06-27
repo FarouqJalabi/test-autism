@@ -37,6 +37,7 @@ class QuestionsController < ApplicationController
     unless params.present? and params["score"].present?
       not_found!
     end
+    params["score"] = params["score"].to_i.clamp(0,100)
   end
 
 end
