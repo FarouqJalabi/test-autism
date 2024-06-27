@@ -39,6 +39,7 @@
 
 .result-progress-container {
     margin-bottom: 3rem;
+    position: relative;
 }
 
 .result-progress-bar {
@@ -46,6 +47,7 @@
     height: 2rem;
     background-color: var(--secondary-white);
     border-radius: 1rem;
+    overflow: hidden;
 }
 
 .result-progress {
@@ -60,9 +62,11 @@
 .result-progress-percentage {
     position: absolute;
     top: -2.5rem;
-    right: 0;
+    /*right: 0;*/
+    white-space: nowrap;
     font-weight: 800;
-    transform: translateX(50%);
+    transform: translateX(-50%);
+    transform-origin: center;
     border: 2px solid var(--secondary-white);
     color: var(--secondary-black);
     padding: .2rem .5rem;
