@@ -152,7 +152,8 @@ nav a {
     font-size: .8rem;
     padding: .4rem .8rem;
     border-radius: .3rem;
-    background-color: var(--primary-white);
+    border: 1px solid var(--primary-white);
+    color: var(--primary-black);
 }
 @media (min-width:600px) {
     nav {
