@@ -102,6 +102,14 @@ section h1 {
     gap: 1.4rem;
     margin-bottom: 1rem;
 }
+#aboutTest {
+    padding: 0 1rem;
+}
+#aboutTest p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (min-width:600px) {
 
     main {
