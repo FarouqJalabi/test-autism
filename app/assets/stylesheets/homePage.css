@@ -61,7 +61,7 @@ section p {
 .about h2{
     margin-top: 2rem;
     margin-left: 1rem;
-    font-size: 3rem;
+    font-size: 2.2rem;
     color: #3b3b3b;
 
 }
@@ -76,7 +76,10 @@ section p {
     color: #3b3b3b;
 
 }
-
+.about svg {
+    width: 1.7rem;
+    height: 1.7rem;
+}
 .about_box {
     display: flex;
     flex-wrap: wrap;
