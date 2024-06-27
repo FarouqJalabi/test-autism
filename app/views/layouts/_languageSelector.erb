@@ -25,13 +25,10 @@
   }
 
 </style>
-<select id="locale-select" name="" id="" onchange="window.location.href=this.value">
 
-  <option value="">Change Language</option>
-  
-  <option value="<%= url_for(params.permit(:score).merge(locale: :en)) %>"><span>🇺🇸</span>English</option>
-  <option value="<%= url_for(params.permit(:score).merge(locale: :es)) %>"><span>🇪🇸</span>Español</option>
-  <option value="<%= url_for(params.permit(:score).merge(locale: :fr)) %>"><span>🇫🇷</span>Français</option>
-  <option value="<%= url_for(params.permit(:score).merge(locale: :nb)) %>"><span>🇳🇴</span>Norsk</option>
-
+<select id="locale-select" name="" onchange="window.location.href=this.value">
+  <option <%=  "selected" if I18n.locale == :en %> value="<%= url_for(params.permit(:score).merge(locale: :en)) %>"><span>🇺🇸</span>English</option>
+  <option <%=  "selected" if I18n.locale == :es %> value="<%= url_for(params.permit(:score).merge(locale: :es)) %>"><span>🇪🇸</span>Español</option>
+  <option <%=  "selected" if I18n.locale == :fr %> value="<%= url_for(params.permit(:score).merge(locale: :fr)) %>"><span>🇫🇷</span>Français</option>
+  <option <%=  "selected" if I18n.locale == :nb %> value="<%= url_for(params.permit(:score).merge(locale: :nb)) %>"><span>🇳🇴</span>Norsk</option>
 </select>
