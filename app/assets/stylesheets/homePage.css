@@ -1,24 +1,27 @@
-
+main {
+    padding: 0 1rem;
+}
 
 main section {
-    margin: 1rem 0 15rem 0;
+    margin: 1rem 0 10rem 0;
     display: grid;
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
 }
-
-section h1 {
-    color: #3b3b3b;
-    font-size: 2.3  rem;
+.text_container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-section p {
-    font-size: 1.3rem;
-    color: #666;
-    padding: 0 1rem;
+section:nth-child(1) p {
+    font-size: 1.5rem;
+    color: var(--secondary-black);
+    width: 90%;
+}
+section h1 {
+    font-size: 2.8rem;
+    width: 90%;
 }
 .button_container {
     display: flex;
@@ -58,22 +61,25 @@ section p {
 .about h2{
     margin-top: 2rem;
     margin-left: 1rem;
-    font-size: 3rem;
+    font-size: 2.2rem;
     color: #3b3b3b;
 
 }
 .about h3{
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #3b3b3b;
 
 }
 .about p{
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
+    font-size: 1rem;
     color: #3b3b3b;
 
 }
-
+.about svg {
+    width: 1.7rem;
+    height: 1.7rem;
+    fill: var(--primary);
+}
 .about_box {
     display: flex;
     flex-wrap: wrap;
@@ -81,11 +87,12 @@ section p {
     justify-content: center;
 }
 .about_box > div {
-    border: 2px solid #d3d3d3;
-    padding: 2rem;
+    border: 1px solid #d3d3d3;
+    padding: 1.4rem;
     margin: 1rem;
     border-radius: 2rem;
     width: 100%;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,.03),0px 2px 30px 0px rgba(0,0,0,.08),0px 0px 1px 0px rgba(0,0,0,.3);
 }   
 
 .about_box .top_container{
@@ -94,6 +101,14 @@ section p {
     justify-content: left;
     gap: 1.4rem;
     margin-bottom: 1rem;
+}
+#aboutTest {
+    padding: 0 1rem;
+}
+#aboutTest p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media (min-width:600px) {
 
