@@ -19,6 +19,6 @@
     </div>
 
     <!-- Allows links, br and safe html tags -->
-    <%= simple_format("Hello world <br> hello <a href='https://youtube.com' target='_blank'>hello</a>", {}, { sanitize_options: { attributes: %w[target href] } }) %>
+    <%= simple_format(@blog_post.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
 
 </main>
