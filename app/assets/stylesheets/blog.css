@@ -47,6 +47,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    width: 350px;
 }
 
 .inline_blog_post p:nth-child(1) {
