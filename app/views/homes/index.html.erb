@@ -4,7 +4,7 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="hero">
             <div class="text_container">
                 <h1><%= t('home.title') %></h1>
             </div>
@@ -82,6 +82,9 @@
             <p><%= t('home.aboutTest.description2') %></p>
         </section>
 
+      <section id="blogs">
+      <%= render @blog_posts %>
+      </section>
     </main>
 </body>
 </html>
