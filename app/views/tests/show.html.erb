@@ -1,8 +1,10 @@
+<main>
 <%= form_with url: questions_calculate_answer_path, method: :post do |form| %>
   <div class="progress-bar-container">
     <div class="progress-bar">
       <div class="progress-bar-fill" style="width: 0%;"></div>
     </div>
   </div>
-  <%= render partial: @questions, locals: { form: form, } %>
+  <%= render @questions, form: form %>
 <% end %>
+</main>
