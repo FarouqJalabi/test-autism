@@ -27,3 +27,25 @@ AQ_10_test = Test.find_or_create_by!(name:"AQ_10")
 AQ_10_question.each do |question|
   AQ_10_test.questions.find_or_create_by!(**question)
 end
+
+
+
+
+
+Blogs = [
+  {title: "Understanding Autism: Key Traits and Behaviors", content:"Autism spectrum disorder (ASD) encompasses a range of conditions characterized by challenges with social skills, repetitive behaviors, speech, and nonverbal communication. Understanding these traits can help foster better awareness and support.
+<br>
+
+<h2>Key Traits of Autism:</h2>
+<ul>
+    <li><strong>Social Communication Challenges:</strong> Difficulty with verbal and nonverbal communication, making it hard to engage in typical social interactions.</li>
+    <li><strong>Repetitive Behaviors:</strong> Engaging in repeated actions or rituals, such as hand-flapping or lining up objects.</li>
+    <li><strong>Restricted Interests:</strong> Intense focus on specific topics or activities, often to the exclusion of other interests.</li>
+    <li><strong>Sensory Sensitivities:</strong> Over- or under-sensitivity to sensory stimuli such as light, sound, or texture.</li>
+</ul>
+Recognizing these traits early can lead to timely interventions and support. For more detailed information, check out our <a href='https://test-autism.rubynor.com/tests/1>test</a>. The test is called AQ-10 and made by Cambridge university.", time_to_read:5, image_alt:"Diverse group with talking bubbles over head", image_src:"blog_images/diverse_group.jpg" }
+]
+
+Blogs.each do |blog|
+  BlogPost.find_or_create_by!(**blog)
+end
