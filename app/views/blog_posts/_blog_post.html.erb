@@ -1,5 +1,5 @@
 <a class="inline_blog_post" href="<%= blog_post_path(blog_post) %>">
-    <img class="blog_image" src="<%=  blog_post.image_src %>" alt="<%=  blog_post.image_alt %>" />
+    <%= image_tag blog_post.image_src, alt: blog_post.image_alt, class: "blog_image"  %>
 
     <h2>
         <%=  blog_post.title %>
