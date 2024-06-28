@@ -1,0 +1,54 @@
+footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+footer a {
+    color: var(--primary-black);
+}
+footer > div {
+    padding: 1.4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.footer_top_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    width: 100vw;
+}
+
+
+.footer_top_container > div {
+    display: flex;
+    align-items: center;
+}
+
+.top_container_left {
+    justify-content: left;
+    flex: .25;
+}
+
+.footer_middle_container {
+    gap: .8rem;
+    
+}
+
+
+
+.top_container_right {
+    justify-content: right;
+    flex: .3;
+    gap: 1rem;
+
+}
+
+.top_container_right a svg{
+    width: 2rem;
+    height: 2rem;
+}
