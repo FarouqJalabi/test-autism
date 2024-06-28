@@ -28,7 +28,9 @@
 
     --primary: #397ae8;
 }
-
+a {
+    text-decoration: none;
+}
 .logo {
     color: var(--primary);
     margin-top: 2px;
