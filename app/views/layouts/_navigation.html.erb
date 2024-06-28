@@ -20,30 +20,34 @@
             <ul
                 tabindex="0"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a>Item 1</a></li>
                 <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                </ul>
+                    <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
                 </li>
-                <li><a>Item 3</a></li>
+                <li>
+                    <%= link_to t('navigation.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
+                </li>
+                <li>
+                    <%= link_to t('navigation.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+                </li>
             </ul>
             </div>
-            <a class="btn btn-ghost text-xl">daisyUI</a>
+            <a class="btn btn-ghost text-xl">
+                <a href="<%= root_path %>" class="logo">
+                    <%= image_tag "Logo.svg", alt: "logo" %>
+                </a>
+            </a>
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-            <li>
-                <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
-            </li>
-            <li>
-                <%= link_to t('navigation.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
-            </li>
-            <li>
-                <%= link_to t('navigation.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
-            </li>
+                <li>
+                    <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
+                </li>
+                <li>
+                    <%= link_to t('navigation.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
+                </li>
+                <li>
+                    <%= link_to t('navigation.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+                </li>
             
             </ul>
         </div>
