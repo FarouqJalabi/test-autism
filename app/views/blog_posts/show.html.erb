@@ -5,11 +5,11 @@
 
     <div class="blog_image_container">
         <div>
-            <img class="blog_image" src="https://bigfive-test.com/blog/bad_communication.webp"/>
+            <img class="blog_image" src="<%= @blog_post.image %>"/>
 
             <div class="blog_image_text">
                 <div class="blog_text_container">
-                    <p>4 min read</p>
+                    <p><%= @blog_post.time_to_read %> min read</p>
                 </div>
                 <div class="blog_text_container">
                     <p><%= @blog_post.created_at.strftime('%b %d, %Y') %></p>
