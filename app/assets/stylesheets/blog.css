@@ -38,6 +38,17 @@
     justify-content: right;
 }
 
-.inline_blog_post {
+#blogs {
+    display: flex;
+}
 
+.inline_blog_post{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.inline_blog_post p:nth-child(1) {
+    margin-right: auto;
 }
