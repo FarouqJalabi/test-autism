@@ -1,7 +1,8 @@
 <main class="blog_post">
     <h1 class="blog_title">
-        How to Repair Communication Breakdowns in Your Relationship
+        <%= @blog_post.title %>
     </h1>
+
     <div class="blog_image_container">
         <div>
             <img class="blog_image" src="https://bigfive-test.com/blog/bad_communication.webp"/>
@@ -11,39 +12,13 @@
                     <p>4 min read</p>
                 </div>
                 <div class="blog_text_container">
-                    <p>June 25, 2024</p>
+                    <p><%= @blog_post.created_at.strftime('%b %d, %Y') %></p>
                 </div>
             </div>
         </div>
     </div>
-    <p>
-        Communication is the cornerstone of any healthy relationship, but not every couple masters this skill without a few bumps along the way. If you're facing challenges in your relationship due to poor communication, it's crucial to take steps to mend these issues. Here are practical strategies to enhance communication and strengthen your bond.
-    </p>
-    <p class="small_title">
-        1. Recognize Negative Communication Styles
-    </p>
-    <p>
-        Understanding the root of communication issues starts with recognizing negative styles. Whether it's passive-aggressive remarks, aggressive dominance, submissive silence, manipulative tactics, or assertive clarity, each style plays a role in your interactions. Identify these patterns in your relationship to start making meaningful changes.
-    </p>
-    <p class="small_title">
-        2. Identify Destructive Communication Patterns
-    </p>
-    <p>
-        Communication patterns are like dances that can spiral into negativity if not carefully managed. Recognize how certain words or behaviors trigger unhealthy cycles between you and your partner. For example, criticism may lead to defensiveness, stonewalling, or even contempt. Address these patterns by shifting towards more constructive styles, like assertiveness, which fosters respect and clarity.
-    </p>
-    <p class="small_title">
-        3. Shift the Focus to Experiences Over Facts
-    </p>
-    <p>
-        When conflicts arise, avoid getting bogged down by the 'facts' of past events, which often leads to disputes over accuracy rather than resolution. Instead, focus on how these events felt and the impact they had on each person. This approach prioritizes emotional understanding over factual accuracy, facilitating deeper empathy and connection.
-    </p>
-    <p class="small_title">
-        4. Cultivate a 'We' Attitude
-    </p>
-    <p>
-        Embrace a collaborative mindset by adopting a 'we' attitude. This means approaching problems together, seeking solutions, and finding common ground. By using inclusive language and focusing on shared goals, you create an environment of partnership and mutual support.
-    </p>
-    <p>
-    
-    </p>
+
+    <!-- Allows links, br and safe html tags -->
+    <%= simple_format("Hello world <br> hello <a href='https://youtube.com' target='_blank'>hello</a>", {}, { sanitize_options: { attributes: %w[target href] } }) %>
+
 </main>
