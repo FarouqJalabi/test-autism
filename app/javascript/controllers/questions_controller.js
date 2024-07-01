@@ -12,7 +12,7 @@ export default class extends Controller {
       this.element.style.visibility = "hidden"
     }
     if (this.order === this.totalQuestions){
-      document.querySelector(".submit_button").style.visibility = "visible"
+      document.querySelector("input[type=\"submit\"]").classList.remove("hidden")
     }
 
     this.progress_bar(this.totalQuestions, this.order + 1);
@@ -30,7 +30,7 @@ export default class extends Controller {
   progress_bar(number_of_question, current_question) {
     let progress = (current_question / number_of_question) * 100;
 
-    let progressBarFill = document.querySelector('.progress-bar-fill');
-    progressBarFill.style.width = `${progress}%`;
+    let progressBarFill = document.querySelector('.progress');
+    progressBarFill.value = progress;
   }
 }
