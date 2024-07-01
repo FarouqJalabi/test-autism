@@ -1,13 +1,9 @@
 <main class="">
-  <div class="progress-bar-container">
-    <div class="progress-bar">
-      <div class="progress-bar-fill" style="width: 0%;"></div>
-    </div>
-  </div>
+  <progress class="progress w-full" value="0" max="100"></progress>
 
-<%= form_with url: questions_calculate_answer_path, method: :post do |form| %>
+  <%= form_with url: questions_calculate_answer_path, method: :post do |form| %>
     <div class="relative h-80 w-full">
       <%= render @questions, form: form %>
     </div>
-<% end %>
+  <% end %>
 </main>
