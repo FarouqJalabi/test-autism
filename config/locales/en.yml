@@ -15,33 +15,19 @@ en:
     button1: "Start test"
     button2: "About Test"
 
-    aboutUs:
-      title: "About Us"
-      whoWeAre:
-        title: "Who We Are"
-        description: "Welcome to [Your Website's Name], a dedicated platform created with the mission to provide reliable and accessible resources for autism tests. Our team consists of passionate individuals, including healthcare professionals, educators, and advocates, committed to supporting the autism community. "
+    whatToExpect:
+      title: "What to Expect"
+      questions:
+        title: "Questions"
+        description: "50 multiple-choice questions."
 
+      time:
+        title: "Time"
+        description: "Approximately 10-15 minutes to complete."
 
-      ourMission:
-        title: "Our Mission"
-        description: "Our mission is to empower individuals and families by providing accurate, user-friendly autism tests. We believe that early detection and understanding of autism can significantly improve the quality of life and the support available for those on the spectrum. "
-
-      whatWeOffer:
-        title: "What We Offer"
-        description: "At [Your Website's Name], we offer a variety of scientifically validated autism tests designed to help identify potential Autism Spectrum Disorders (ASD) in individuals of all ages. Our tests are developed and reviewed by experts in the field to ensure they meet high standards of accuracy and reliability."
-        
-      ourApproach:
-        title: "Our Approach"
-        description: "We understand that every person with autism is unique, and so is their journey. Our approach focuses on providing personalized insights and resources that cater to the diverse needs of the autism community. We strive to make our tools as inclusive and informative as possible."
-
-    aboutTest:
-      title: "About the test"
-      description1: "The AQ-10 is a brief screening tool designed to help identify traits associated with autism.
-                Developed by experts at the Autism Research Centre at Cambridge University,
-                it consists of 10 questions that assess key areas such as social communication, attention to detail, and adaptability."
-      description2: "While the AQ-10 is not a diagnostic tool, it can provide valuable insights into whether a more
-                detailed evaluation might be beneficial. It's a quick and straightforward way to understand yourself
-                better and take the first step towards seeking further support if needed."
+      result:
+        title: "Results"
+        description: "Immediate feedback with recommendations."
 
   questions:
     1: "I often notice small sounds when other do not"
