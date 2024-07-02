@@ -32,7 +32,7 @@
                     <%= link_to t('navigation.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
                 </li>
                 <li>
-                    <%= link_to t('navigation.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+                    <%= link_to t('navigation.aboutButton'), static_pages_about_path, class: ('selected_nav_element' if on_about?) %>
                 </li>
             </ul>
             </div>
@@ -48,7 +48,7 @@
                     <%= link_to t('navigation.takeTestButton'), test_path(1), class: ('selected_nav_element' if on_test?) %>
                 </li>
                 <li>
-                    <%= link_to t('navigation.aboutButton'), root_path+"#aboutTest", class: ('selected_nav_element' if on_about?) %>
+                    <%= link_to t('navigation.aboutButton'), static_pages_about_path, class: ('selected_nav_element' if on_about?) %>
                 </li>
             
             </ul>
