@@ -1,9 +1,7 @@
 <a class="w-full md:w-1/4" href="<%= blog_post_path(blog_post) %>">
     <%= image_tag src="http://127.0.0.1:3000/assets/blog_images/diverse_group-ce50a403da2c72c260ea5866f0421aa5e5f512c2e186bbb6a1ae6aa861f5a1cb.jpg", alt: blog_post.image_alt, class: ""  %>
 
-    <h2>
-        <%=  blog_post.title %>
-    </h2>
+    <h2 class="font-bold text-xl"><%=  blog_post.title %></h2>
   <div class="blog_image_text">
       <p><%=  blog_post.time_to_read %> min read</p>
       <p><%=  blog_post.created_at.strftime('%b %d, %Y') %></p>
