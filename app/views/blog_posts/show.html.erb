@@ -1,22 +1,24 @@
-<main class="px-8">
-    <h1 class="my-12 text-4xl">
-        <%= @blog_post.title %>
-    </h1>
+<main class="px-96 w-full mb-20 flex items-center justify-center">
+    <div>
+        <h1 class="my-12 text-4xl">
+            <%= @blog_post.title %>
+        </h1>
 
-    <div class="w-full mb-20 flex items-center justify-center">
-        <div>
-          <%= image_tag @blog_post.image_src, alt: @blog_post.image_alt, class: "w-full" %>
+        <div class="">
+            <div>
+            <%= image_tag @blog_post.image_src, alt: @blog_post.image_alt, class: "w-full" %>
 
-            <div class="flex items-center justify-center">
-                <div class="flex-1 flex items-center justify-start">
-                    <p class="text-lg"><%= @blog_post.time_to_read %> min read</p>
-                </div>
-                <div class="flex-1 flex items-center justify-end">
-                    <p class="text-lg"><%= @blog_post.created_at.strftime('%b %d, %Y') %></p>
+                <div class="flex items-center justify-center">
+                    <div class="flex-1 flex items-center justify-start">
+                        <p class="text-lg"><%= @blog_post.time_to_read %> min read</p>
+                    </div>
+                    <div class="flex-1 flex items-center justify-end">
+                        <p class="text-lg"><%= @blog_post.created_at.strftime('%b %d, %Y') %></p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <%= simple_format(@blog_post.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
+        <%= simple_format(@blog_post.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
+    </div>
 </main>
