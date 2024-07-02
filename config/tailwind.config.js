@@ -1,16 +1,19 @@
 module.exports = {
   content: [
-    './app/**/*.html.erb',
-    './app/**/*.rb',
+    './public/*.html',
+    './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
-    './app/assets/stylesheets/**/*.css',
+    './app/views/**/*',
   ],
   theme: {
     extend: {},
   },
   plugins: [
+    require('daisyui'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
-    require('daisyui'),
   ],
+  daisyui: {
+    themes: ['light'], // Explicitly set to light theme
+  },
 }
