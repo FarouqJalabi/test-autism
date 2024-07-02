@@ -22,7 +22,7 @@ export default class extends Controller {
 
             // Won't call because event.preventdefault?
             // Or it only calls through Dom and not js
-            this.element.dispatchEvent(new Event('change' ));
+            this.element.dispatchEvent(new Event('click' ));
 
           }
         });

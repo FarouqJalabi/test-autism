@@ -15,7 +15,7 @@
       <label class="m-auto" for="question_<%= question.id %>_radio_<%= index %>">
           <%= t("questions.choice"+index.to_s) %>
       </label>
-        <%= form.radio_button("answers[#{question.id}]", value, id:"question_#{question.id }_radio_#{index}", autocomplete: "off", class:"radio radio-primary radio-lg", "data-controller":"radio",  "data-action":"change->questions#radio_clicked") %>
+        <%= form.radio_button("answers[#{question.id}]", value, id:"question_#{question.id }_radio_#{index}", autocomplete: "off", class:"radio radio-primary radio-lg", "data-controller":"radio",  "data-action":"click->questions#radio_clicked") %>
       </div>
     <% end %>
   </div>

@@ -29,8 +29,6 @@ export default class extends Controller {
     let targetIndex = this.order-1 ;
 
     let targetQuestion = document.querySelector('.question[data-order="' + targetIndex + '"]');
-    console.log(targetQuestion)
-
     targetQuestion.style.visibility = "visible"
   }
 
