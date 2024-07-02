@@ -1,33 +1,31 @@
-<div class="container question_container current" >
-  <div class="content">
-    <div class="box" data-controller="questions" data-order="<%= question.order %>" data-total="<%= question_length(question) %>" >
-      <div class="question">
-        <p><%= t("questions."+question.id.to_s) %></p>
-      </div>
-      <div class="options">
-        <% [0,0,1,1].each_with_index  do |value, index| %>
-          <label class="custom-radio">
-            <div class="custom-radio-label">
-              <%= t("questions.choice"+index.to_s) %>
-            </div>
-            <%= form.radio_button("answers[#{question.id}]", value, autocomplete: "off",  "data-action":"click->questions#radio_clicked") %>
-            <div class="custom-radio-button"></div>
-          </label>
-        <% end %>
-      </div>
+<!--hidden  invisible -->
+<div class="card bg-white h-full w-full absolute question" data-controller="questions" data-order="<%= question.order %>" data-total="<%= question_length(question) %>" >
 
-      <div class="question_buttons">
-      
-        <% if question.order != 1 %>
-          <button type="button" data-action="click->questions#back_clicked">
-            <%= image_tag "Arrow.svg", alt: t("questions.backButton"), class: "arrow_icon"%>
-          </button>
-        <% end %>
+  <div class="card-body justify-center">
+  <h1 class="card-title w-full h-32"><%= t("questions."+question.id.to_s) %></h1>
 
-        <% if question.order == question_length(question) %>
-          <%= form.submit t("questions.submit"), class: "submit_button" %>
-        <% end %>
+  <div class="flex gap-8">
+    <% [0,0,1,1].each_with_index  do |value, index| %>
+      <div class="flex flex-col items-center">
+
+      <label class="m-auto" for="question_<%= question.id %>_radio_<%= index %>">
+          <%= t("questions.choice"+index.to_s) %>
+      </label>
+        <%= form.radio_button("answers[#{question.id}]", value, id:"question_#{question.id }_radio_#{index}", autocomplete: "off", class:"radio radio-primary radio-lg",  "data-action":"click->questions#radio_clicked") %>
       </div>
+    <% end %>
+  </div>
+
+    <div class="card-actions h-12 w-full">
+    <% if question.order != 1 %>
+      <button type="button" data-action="click->questions#back_clicked" class="w-16 m-auto">
+        <%= image_tag "Arrow.svg", alt: t("questions.backButton"), class: "arrow_icon"%>
+      </button>
+    <% end %>
+
+    <% if question.order == question_length(question) %>
+      <%= form.submit t("questions.submit"), class: "btn btn-primary hidden m-auto" %>
+    <% end %>
     </div>
   </div>
 </div>
