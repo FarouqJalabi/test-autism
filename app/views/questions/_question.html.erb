@@ -1,5 +1,9 @@
 <!--hidden  invisible -->
-<div class="card bg-white h-full w-full absolute question" data-controller="questions" data-order="<%= question.order %>" data-total="<%= question_length(question) %>" >
+<div class="card bg-white h-full w-full absolute question"
+     style="<%= question.order != 1 ? 'visibility: hidden;' : '' %>"
+
+     data-controller="questions"
+     data-order="<%= question.order %>" data-total="<%= question_length(question) %>" >
 
   <div class="card-body justify-center">
   <h1 class="card-title w-full h-32"><%= t("questions."+question.id.to_s) %></h1>
