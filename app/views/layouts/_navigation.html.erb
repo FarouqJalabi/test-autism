@@ -2,7 +2,12 @@
 <nav>
     <div class="navbar bg-base-100">
         <div class="navbar-start">
-            <div class="dropdown">
+
+          <a href="<%= root_path %>" class="logo">
+            <%= image_tag "Logo.svg", alt: "logo" %>
+          </a>
+            <div class="dropdown dropdown-right">
+
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +24,7 @@
             </div>
             <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                class="dropdown-content menu  bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 <li>
                     <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
                 </li>
@@ -31,9 +36,7 @@
                 </li>
             </ul>
             </div>
-                <a href="<%= root_path %>" class="logo">
-                    <%= image_tag "Logo.svg", alt: "logo" %>
-                </a>
+
         </div>
 
       <div class="navbar-center hidden lg:flex">
@@ -50,6 +53,7 @@
             
             </ul>
         </div>
+
         <div class="navbar-end">
             <%= render "layouts/languageSelector" %>
         </div>
