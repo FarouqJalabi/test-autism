@@ -1,6 +1,6 @@
 module ApplicationHelper
   def on_home?
-    !(request.url.include? 'about') && !(request.url.include? '/test')
+    !(request.url.include? 'about') && !(request.url.include? '/tests')
   end
   def on_test?
     request.url.include? '/test'
