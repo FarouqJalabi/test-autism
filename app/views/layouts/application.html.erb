@@ -17,11 +17,6 @@
     <meta name="twitter:description" content="<%= t('home.description') %>">
     <meta name="twitter:image" content="/assets/Logo-9310ae8c0ed1466b3ea50baa4d45efa3e9718fb812e1b23d2ff608e05d3dfb63.svg">
 
-    <!--
-      <meta name="twitter:site" content="@username">
-      <meta name="twitter:creator" content="@username">
-    -->
-
     <!-- Other meta tags for Open Graph -->
     <meta property="og:title" content="<%= t('header.title') %>">
     <meta property="og:description" content="<%= t('header.description') %>">
@@ -30,11 +25,13 @@
     <meta property="og:url" content="https://test-autism.rubynor.com/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="https://test-autism.rubynor.com/">
-    
-    <link rel="icon" href="<%= image_url("Logo.svg") %>" sizes="any" type="image/svg+xml">
+
+    <!-- Need? It is already in root? -->
+    <link rel="shortcut icon" href="<%= image_url("favicon.ico") %>">
 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
     <script defer data-domain="test-autism.rubynor.com" src="https://plausible.io/js/script.js"></script>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
 
