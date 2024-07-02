@@ -1,8 +1,8 @@
-<main class="">
+<main class="grid px-3 gap-14 sm:px-40 lg:px-80">
   <progress class="progress progress-primary w-full" value="0" max="100"></progress>
 
   <%= form_with url: questions_calculate_answer_path, method: :post do |form| %>
-    <div class="relative h-80 w-96 m-auto">
+    <div class="relative h-80 w-full flex items-center justify-center">
       <%= render @questions, form: form %>
     </div>
   <% end %>
