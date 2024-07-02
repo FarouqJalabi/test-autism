@@ -11,3 +11,7 @@
 }
 
 */
+/* Not working on every browser*/
+progress {
+    transition: 1s;
+}
