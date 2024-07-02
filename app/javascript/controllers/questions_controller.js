@@ -15,6 +15,13 @@ export default class extends Controller {
       document.querySelector("input[type=\"submit\"]").classList.remove("hidden")
     }
 
+    // Next question visible
+    let nextQuestion = document.querySelector('.question[data-order="' + (Number(this.order)+1) + '"]');
+    nextQuestion.style.visibility = "visible"
+
+    // Select next question first radio button
+    nextQuestion.querySelector("input[type='radio']").focus()
+
     this.progress_bar(this.totalQuestions, this.order + 1);
   }
 
