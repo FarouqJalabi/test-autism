@@ -4,7 +4,6 @@ export default class extends Controller {
   connect() {
     this.order = Number(this.element.dataset.order);
     this.totalQuestions = Number(this.element.dataset.total);
-    this.element.hidden = true
   }
 
   radio_clicked(event) {
@@ -17,24 +16,32 @@ export default class extends Controller {
 
     // Next question visible
     let nextQuestion = document.querySelector('.question[data-order="' + (Number(this.order)+1) + '"]');
-    nextQuestion.style.visibility = "visible"
+    if (nextQuestion){
+      nextQuestion.style.visibility = "visible"
+      // Select next question first radio button
+      nextQuestion.querySelector("input[type='radio']").focus()
 
-    // Select next question first radio button
-    nextQuestion.querySelector("input[type='radio']").focus()
+    }
 
-    this.progress_bar(this.totalQuestions, this.order + 1);
+    this.update_progress_bar();
   }
 
   back_clicked() {
     let targetIndex = this.order-1 ;
+
+    this.element.style.visibility = "hidden"
 
     let targetQuestion = document.querySelector('.question[data-order="' + targetIndex + '"]');
     targetQuestion.style.visibility = "visible"
     targetQuestion.querySelector("input[type='radio']").focus()
   }
 
-  progress_bar(number_of_question, current_question) {
-    let progress = (current_question / number_of_question) * 100;
+  update_progress_bar() {
+
+    let number_of_question = document.querySelectorAll('.question ').length
+    let questions_answered = document.querySelectorAll('.question input:checked').length || 0
+
+    let progress = (questions_answered / number_of_question) * 100;
 
     let progressBarFill = document.querySelector('.progress');
     progressBarFill.value = progress;
