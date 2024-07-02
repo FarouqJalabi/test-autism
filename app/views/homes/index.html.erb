@@ -61,16 +61,18 @@
             </div>
         </section>
 
-        <section class="my-4 my-20 flex items-center justify-center gap-10 py-5 border-y-2 border-slate-300 flex justify-center items-center">
-            <h1 class="flex items-center justify-center text-4xl flex-1 md:text-6xl md:py-8">Test By Cambridge University</h1>
+        <section class="my-4 my-20 grid grid-cols-1 items-center justify-center gap-10 py-5 border-y-2 border-slate-300 flex justify-center items-center">
+            <h1 class="flex items-center justify-center text-4xl">
+                <%= t('home.madeBy') %>
+            </h1>
         </section>
 
 
 
       <section id="blogs" class="my-4 grid grid-cols-1 items-center justify-center gap-10">
-        
-        <h1 class="flex items-center w-full justify-center text-4xl font-bold pb-10 md:text-5xl">
-            Latest Blog Posts
+
+        <h1 class="flex items-center justify-center text-4xl font-bold pb-10 md:text-5xl">
+            <%= t('home.blogSectionTitle') %>
         </h1>
         <div class="flex flex-wrap items-center justify-center gap-32">
             <%= render @blog_posts %>

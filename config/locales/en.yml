@@ -28,6 +28,9 @@ en:
       result:
         title: "Results"
         description: "Immediate feedback with recommendations."
+    
+    madeBy: "Test By Cambridge University"
+    blogSectionTitle: "Latest Blog"
 
   questions:
     1: "I often notice small sounds when other do not"
