@@ -11,6 +11,10 @@ Rails.application.routes.draw do
     get 'result', to: 'questions#result'
     post 'questions/calculate_answer', to: 'questions#calculate_answer'
 
+
+    get 'static_pages/privacy_policy'
+    get 'static_pages/about'
+
   end
 
   # Redirect root without locale to default locale
