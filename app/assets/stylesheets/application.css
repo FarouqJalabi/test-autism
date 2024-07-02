@@ -160,6 +160,7 @@ nav a {
     border: 1px solid var(--primary-white);
     color: var(--primary-black);
 }
+
 @media (min-width:600px) {
     nav {
         padding: 4rem 3.5rem;
