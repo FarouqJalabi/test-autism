@@ -35,3 +35,7 @@ progress {
 
     @apply bg-primary;
 }
+.prose a {
+    @apply underline text-blue-600;
+}
+
