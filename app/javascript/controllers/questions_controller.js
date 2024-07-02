@@ -29,9 +29,8 @@ export default class extends Controller {
     let targetIndex = this.order-1 ;
 
     let targetQuestion = document.querySelector('.question[data-order="' + targetIndex + '"]');
-    console.log(targetQuestion)
-
     targetQuestion.style.visibility = "visible"
+    targetQuestion.querySelector("input[type='radio']").focus()
   }
 
   progress_bar(number_of_question, current_question) {
