@@ -138,9 +138,6 @@
 }
 
 @media (min-width:600px) {
-  .question{
-    padding: 0 10rem ;
-  } 
   .question p{
     font-size: 3rem;
   }
