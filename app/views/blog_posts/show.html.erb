@@ -1,5 +1,5 @@
 <main class="px-96 w-full mb-20 flex items-center justify-center">
-    <div>
+    <div class="m-auto">
         <h1 class="my-12 text-4xl">
             <%= @blog_post.title %>
         </h1>
@@ -18,7 +18,8 @@
                 </div>
             </div>
         </div>
-
-        <%= simple_format(@blog_post.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
+        <div class="prose m-auto">
+            <%= simple_format(@blog_post.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
+        </div>
     </div>
 </main>
