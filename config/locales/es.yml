@@ -27,8 +27,8 @@ es:
         description: "Entendemos que cada persona con autismo es única, al igual que su viaje. Nuestro enfoque se centra en proporcionar información y recursos personalizados que atiendan las diversas necesidades de la comunidad autista. Nos esforzamos por hacer que nuestras herramientas sean lo más inclusivas e informativas posible."
   aboutTest:
     title: "Sobre el test"
-    description1: "El AQ-10 es una herramienta de detección breve diseñada para ayudar a identificar rasgos asociados con el autismo. Desarrollado por expertos del Centro de Investigación del Autismo de la Universidad de Cambridge, consta de 10 preguntas que evalúan áreas clave como la comunicación social, la atención a los detalles y la adaptabilidad."
-    description2: "Aunque el AQ-10 no es una herramienta de diagnóstico, puede proporcionar información valiosa sobre si una evaluación más detallada podría ser beneficiosa. Es una forma rápida y sencilla de comprenderse mejor a sí mismo y dar el primer paso para buscar apoyo adicional si es necesario."
+    description1: "El AQ-50 es una herramienta de detección breve diseñada para ayudar a identificar rasgos asociados con el autismo. Desarrollado por expertos del Centro de Investigación del Autismo de la Universidad de Cambridge, consta de 10 preguntas que evalúan áreas clave como la comunicación social, la atención a los detalles y la adaptabilidad."
+    description2: "Aunque el AQ-50 no es una herramienta de diagnóstico, puede proporcionar información valiosa sobre si una evaluación más detallada podría ser beneficiosa. Es una forma rápida y sencilla de comprenderse mejor a sí mismo y dar el primer paso para buscar apoyo adicional si es necesario."
   questions:
     1: "Prefiero hacer cosas con otros en lugar de solo"
     2: "Prefiero hacer las cosas de la misma manera una y otra vez"

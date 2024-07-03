@@ -27,8 +27,8 @@ fr:
         description: "Nous comprenons que chaque personne autiste est unique, tout comme son parcours. Notre approche se concentre sur la fourniture d'informations et de ressources personnalisées qui répondent aux besoins divers de la communauté autistique. Nous nous efforçons de rendre nos outils aussi inclusifs et informatifs que possible."
   aboutTest:
     title: "À propos du test"
-    description1: "L'AQ-10 est un outil de dépistage bref conçu pour aider à identifier les traits associés à l'autisme. Développé par des experts du Centre de recherche sur l'autisme de l'Université de Cambridge, il se compose de 10 questions qui évaluent des domaines clés tels que la communication sociale, l'attention aux détails et l'adaptabilité."
-    description2: "Bien que l'AQ-10 ne soit pas un outil de diagnostic, il peut fournir des informations précieuses sur l'opportunité d'une évaluation plus détaillée. C'est un moyen rapide et simple de mieux se comprendre et de faire le premier pas vers la recherche de soutien supplémentaire si nécessaire."
+    description1: "L'AQ-50 est un outil de dépistage bref conçu pour aider à identifier les traits associés à l'autisme. Développé par des experts du Centre de recherche sur l'autisme de l'Université de Cambridge, il se compose de 10 questions qui évaluent des domaines clés tels que la communication sociale, l'attention aux détails et l'adaptabilité."
+    description2: "Bien que l'AQ-50 ne soit pas un outil de diagnostic, il peut fournir des informations précieuses sur l'opportunité d'une évaluation plus détaillée. C'est un moyen rapide et simple de mieux se comprendre et de faire le premier pas vers la recherche de soutien supplémentaire si nécessaire."
   questions:
     1: "Je préfère faire des choses avec les autres plutôt que seul"
     2: "Je préfère faire les choses de la même manière à chaque fois"
