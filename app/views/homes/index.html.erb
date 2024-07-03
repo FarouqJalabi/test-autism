@@ -1,4 +1,4 @@
-    <main class="px-2 sm:px-16 xl:px-64 md:grid md:gap-32 w-full">
+    <main class="px-2 sm:px-16 xl:px-64 md:grid w-full gap-5">
 
         <section class="hero">
           <div class="hero-content text-center flex-col max-w-md sm:max-w-lg">
@@ -12,8 +12,11 @@
           </div>
         </section>
 
-        <section id="aboutUs" class="my-4 grid grid-cols-1 items-center justify-center gap-10 mt-12 border-t-2 border-whitesmoke">
-            <h2 class="mt-8 ml-4 text-3xl text-gray-700"><%= t('home.whatToExpect.title') %></h2>
+      <div class="divider"></div>
+
+
+      <section id="aboutUs" class="grid grid-cols-1 items-center justify-center gap-10">
+            <h2 class="ml-4 text-3xl text-gray-700"><%= t('home.whatToExpect.title') %></h2>
 
             <div class="flex flex-wrap items-center justify-center">
                 <div class="border w-70 border-gray-300 p-5 m-4 rounded-xl shadow-md">
@@ -52,26 +55,24 @@
                         <p class="md:text-xl"><%= t('home.whatToExpect.result.description') %></p>
                     </div>
                 </div>
-            
-
             </div>
         </section>
 
-        <section class="my-4 my-20 grid grid-cols-1 items-center justify-center gap-10 py-5 border-y-2 border-slate-300 flex justify-center items-center">
-            <h1 class="flex w-full items-center justify-center text-5xl">
-                <%= t('home.madeBy') %>
-            </h1>
-        </section>
+      <div class="divider"></div>
 
+      <h1 class="m-auto text-center text-5xl font-bold">
+        <%= t('home.madeBy') %>
+      </h1>
 
+      <div class="divider"></div>
 
-      <section id="blogs" class="my-4 grid grid-cols-1 items-center justify-center gap-10">
-
-        <h1 class="flex w-full items-center justify-center text-4xl font-bold pb-10 md:text-5xl">
+      <section>
+        <h1 class="m-auto text-center text-4xl pb-10 md:text-5xl">
             <%= t('home.blogSectionTitle') %>
         </h1>
-        <div class="flex flex-wrap items-center justify-center gap-32">
-            <%= render @blog_posts %>
+
+        <div class="flex flex-wrap justify-center gap-12">
+            <%= render @blog_posts[0..2] %>
         </div>
       </section>
 </main>
