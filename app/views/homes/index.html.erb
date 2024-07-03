@@ -1,15 +1,15 @@
     <main class="px-2 sm:px-16 xl:px-64 md:grid w-full gap-5">
 
         <section class="hero">
-          <div class="hero-content text-center flex-col max-w-md sm:max-w-lg">
+            <div class="hero-content gap-12 flex items-center justify-start text-center flex-col max-w-md sm:max-w-lg">
                 <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold"><%= t('home.title') %></h1>
                 <p class="text-lg text-secondary-black md:text-3xl"><%= t('home.description') %></p>
 
-            <div>
-                <%= link_to "Start test", test_path(1), class: "btn btn-primary m-2 duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
-                <%= link_to "About the test", "#aboutTest", class: "btn color-white  m-2 duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
+                <div>
+                    <%= link_to "Start test", test_path(1), class: "btn btn-primary m-2 duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
+                    <%= link_to "About the test", "#aboutTest", class: "btn color-white  m-2 duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
+                </div>
             </div>
-          </div>
         </section>
 
       <div class="divider"></div>
