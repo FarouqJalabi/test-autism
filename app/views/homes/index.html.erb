@@ -1,23 +1,22 @@
+    <main class="px-2 sm:px-16 xl:px-64 md:grid w-full gap-5">
 
-    <main class="px-2 sm:px-16 xl:px-64 md:grid md:gap-32">
-        <section id="hero" class="my-4 grid grid-cols-1 items-center justify-center gap-10 md:px-16">
-            <div class="flex items-center justify-center">
-                <h1 class="text-3xl w-full sm:text-4xl md:text-6xl flex items-center justify-center font-bold"><%= t('home.title') %></h1>
+        <section class="hero">
+          <div class="hero-content text-center flex-col max-w-md sm:max-w-lg">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold"><%= t('home.title') %></h1>
+                <p class="text-lg text-secondary-black md:text-3xl"><%= t('home.description') %></p>
+
+            <div>
+                <%= link_to "Start test", test_path(1), class: "btn btn-primary m-2 duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
+                <%= link_to "About the test", "#aboutTest", class: "btn color-white  m-2 duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
             </div>
-            <div class="flex items-center justify-center">
-                <p class="text-lg text-secondary-black w-3/4 lg:w-2/3 md:text-3xl"><%= t('home.description') %></p>
-            </div>
-
-
-            <div class="flex items-center justify-center gap-12">
-                <%= link_to "Start test", test_path(1), class: "duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
-                <%= link_to "About the test", "#aboutTest", class: "duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
-            </div>
-
+          </div>
         </section>
 
-        <section id="aboutUs" class="my-4 grid grid-cols-1 items-center justify-center gap-10 mt-12 border-t-2 border-whitesmoke">
-            <h2 class="mt-8 ml-4 text-3xl text-gray-700"><%= t('home.whatToExpect.title') %></h2>
+      <div class="divider"></div>
+
+
+      <section id="aboutUs" class="grid grid-cols-1 items-center justify-center gap-10">
+            <h2 class="ml-4 text-3xl text-gray-700"><%= t('home.whatToExpect.title') %></h2>
 
             <div class="flex flex-wrap items-center justify-center">
                 <div class="border w-70 border-gray-300 p-5 m-4 rounded-xl shadow-md">
@@ -56,26 +55,24 @@
                         <p class="md:text-xl"><%= t('home.whatToExpect.result.description') %></p>
                     </div>
                 </div>
-            
-
             </div>
         </section>
 
-        <section class="my-4 my-20 grid grid-cols-1 items-center justify-center gap-10 py-5 border-y-2 border-slate-300 flex justify-center items-center">
-            <h1 class="flex w-full items-center justify-center text-5xl">
-                <%= t('home.madeBy') %>
-            </h1>
-        </section>
+      <div class="divider"></div>
 
+      <h1 class="m-auto text-center text-5xl font-bold">
+        <%= t('home.madeBy') %>
+      </h1>
 
+      <div class="divider"></div>
 
-      <section id="blogs" class="my-4 grid grid-cols-1 items-center justify-center gap-10">
-
-        <h1 class="flex w-full items-center justify-center text-4xl font-bold pb-10 md:text-5xl">
+      <section>
+        <h1 class="m-auto text-center text-4xl pb-10 md:text-5xl">
             <%= t('home.blogSectionTitle') %>
         </h1>
-        <div class="flex flex-wrap items-center justify-center gap-32">
-            <%= render @blog_posts %>
+
+        <div class="flex flex-wrap justify-center gap-12">
+            <%= render @blog_posts[0..2] %>
         </div>
       </section>
 </main>
