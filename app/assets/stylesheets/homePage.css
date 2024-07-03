@@ -25,32 +25,3 @@
     height: .125rem;
     width: 100%;
 }
-@media (min-width:600px) {
-
-    main {
-        padding: 0 5rem;
-    }
-
-    section h1 {
-        width: 44rem;
-        font-size: 3rem;
-    }
-}
-@media (min-width:1025px) {
-
-    .about_box > div {
-        width: 30%;
-    }   
-    main {
-        padding: 0 10rem;
-    }
-}
-
-@media (min-width:1281px) {
-    .about_box > div {
-        width: 30%;
-    }   
-    main {
-        padding: 0 20rem;
-    }
-}
