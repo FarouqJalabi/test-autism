@@ -1,0 +1,604 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/
+/* Not working on every browser*/
+
+progress {
+    transition: 1s;
+}
+
+
+.selected_nav_element{
+    position: relative;
+}
+
+.selected_nav_element::after {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 5px;
+
+    left: 0;
+    bottom: -5px;
+    border-radius: 50px;
+
+    @apply bg-primary;
+}
+.prose a {
+    @apply underline text-blue-600;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+footer a {
+    color: var(--primary-black);
+}
+footer > div {
+    padding: 1.4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.footer_top_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    width: 100vw;
+}
+
+
+.footer_top_container > div {
+    display: flex;
+    align-items: center;
+}
+
+.top_container_left {
+    justify-content: left;
+    flex: .25;
+}
+
+.footer_middle_container {
+    gap: .8rem;
+    
+}
+
+
+
+.top_container_right {
+    justify-content: right;
+    flex: .3;
+    gap: 1rem;
+
+}
+
+.top_container_right a svg{
+    width: 2rem;
+    height: 2rem;
+}
+@media (min-width:600px) {
+
+    main {
+        padding: 0 5rem;
+    }
+
+    section h1 {
+        width: 44rem;
+        font-size: 3rem;
+    }
+}
+@media (min-width:1025px) {
+
+    .about_box > div {
+        width: 30%;
+    }   
+    main {
+        padding: 0 10rem;
+    }
+}
+
+@media (min-width:1281px) {
+    .about_box > div {
+        width: 30%;
+    }   
+    main {
+        padding: 0 20rem;
+    }
+}
+.container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background-color: white;
+}
+.question p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    gap: 5rem;
+    display: grid;
+    padding: 2.5rem;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+
+  .custom-radio {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    font-size: 1rem;
+    user-select: none;
+    gap: .6rem;
+  }
+  
+  .custom-radio-button {
+    margin: auto;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border: 2px solid var(--primary-black);
+    border-radius: 50%;
+    transition: 100ms;
+      position: relative;
+  }
+  
+  .custom-radio:hover > .custom-radio-button {
+    transform: scale(1.1);
+  }
+  
+  .custom-radio input[type="radio"]:checked + .custom-radio-button::after {
+      content: "";
+      position: absolute;
+    background-color: var(--primary);
+      width: 25px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+
+      left: 50%;
+      top: 50%;
+
+      transform: translate(-50%, -50%);
+      transform-origin: center center;
+
+  }
+
+  .question_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+  }
+
+.question_buttons button {
+      cursor: pointer;
+      background-color: transparent;
+      border: transparent;
+ }
+
+.question_buttons button:hover {
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
+.submit_button {
+    background-color: var(--primary);
+    color: white;
+    visibility: hidden;
+    border: none;
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.submit_button:hover {
+  transform: scale(1.1);
+  transition: 100ms;
+}
+
+.question_container {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-out-left {
+  transform: translateX(-100%);
+}
+
+.current {
+  transform: translateX(0);
+}
+.arrow_icon {
+  width: 3rem;
+}
+
+@media (min-width:600px) {
+  .question p{
+    font-size: 3rem;
+  }
+  .options{
+    gap: 2rem;
+  }
+  .box{
+    padding: 0;
+  }
+  .custom-radio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    padding-left: 3.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    user-select: none;
+  }
+  .custom-radio-button {
+    margin: auto;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .arrow_icon {
+    width: 6rem;
+  }
+  .container{
+    padding: 0;
+    padding: 1rem;
+}
+
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+
+.progress-bar {
+  width: 60rem;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+}
+
+.progress-bar-fill {
+  height: 20px;
+  background-color: var(--primary);
+  width: 0%;
+  transition: width 0.5s;
+}
+
+
+
+#result {
+    max-width: 20rem;
+}
+
+#result h1 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 5rem;
+}
+#result p {
+    font-size: 1rem;
+}
+.progress_bar_data{
+    display: flex;
+    gap: 1rem;
+}
+.progress_bar_data p{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: .7rem;
+}
+
+
+.percentage_bar {
+    width: 30rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 1px solid #d3d3d3;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.percentage_bar > div {
+    background-color: #d9d9d9;
+    height: 100%;
+}
+
+.result-progress-container {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.result-progress-bar {
+    position: relative;
+    height: 2rem;
+    background-color: var(--secondary-white);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.result-progress {
+    height: 100%;
+    background-color: var(--primary);
+    
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: relative;
+}
+
+.result-progress-percentage {
+    position: absolute;
+    top: -2.5rem;
+    /*right: 0;*/
+    white-space: nowrap;
+    font-weight: 800;
+    transform: translateX(-50%);
+    transform-origin: center;
+    border: 2px solid var(--secondary-white);
+    color: var(--secondary-black);
+    padding: .2rem .5rem;
+    border-radius: .4rem;
+    font-size: .7rem;
+    z-index: 1;
+}
+
+
+.result-progress-percentage::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: .5rem;
+    border-style: solid;
+    border-color: var(--secondary-white) transparent transparent transparent;
+}
+
+
+
+
+@media (min-width:600px) {
+
+    #result {
+        width: 44rem;
+        max-width: 50rem;
+    }
+    #result h1 {
+        font-size: 3rem;
+    }
+    #result p {
+        font-size: 1.3rem;
+    }
+    .result-progress-percentage {
+        font-size: 1rem;
+    }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+:root {
+    --primary-white: #d9d9d9;
+    --secondary-white: #d4d4d4;
+    --primary-black: #333;
+    --secondary-black: #383838;
+
+    --primary: #397ae8;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    color: var(--primary);
+    margin-top: 2px;
+    margin-right: 20px;
+}
+.logo img {
+    width: 2.5rem;
+}
+nav{
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+nav a {
+    font-weight: normal;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+
+.left_nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    flex: .5;
+}
+.right_nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2rem;
+    flex: .5;
+
+}
+.nav_button_container {
+    display: none;
+}
+.goog-te-gadget .goog-te-combo {
+    border: none;
+    padding: .3rem .9rem;
+    border-radius: 3px;
+    color: var(--primary-black);
+}
+
+.dropbtn {
+    border: 1px solid var(--primary-white);
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: var(--primary);
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: .7rem;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.show {
+    display: block;
+}  
+
+#locale-select {
+    background-color: transparent;
+    border: none;
+    font-size: .8rem;
+    padding: .4rem .8rem;
+    border-radius: .3rem;
+    border: 1px solid var(--primary-white);
+    color: var(--primary-black);
+}
+
+@media (min-width:600px) {
+    nav {
+        padding: 4rem 3.5rem;
+        gap: 25px;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+    .nav_button_container {
+        display: flex;
+    }
+    nav {
+        padding: 3rem 5rem;
+    }
+    .dropdown {
+        display: none;
+    }
+    .nav_button_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    #locale-select {
+        font-size: 1.2rem;
+    }
+
+}

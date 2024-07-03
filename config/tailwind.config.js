@@ -5,15 +5,20 @@ module.exports = {
     './app/javascript/**/*.js',
     './app/views/**/*',
   ],
-  theme: {
-    extend: {},
-  },
+  theme: {},
   plugins: [
     require('daisyui'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
   daisyui: {
-    themes: ['light'], // Explicitly set to light theme
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          primary: "#1885ea",
+        },
+      },
+    ],
   },
 }
