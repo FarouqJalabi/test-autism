@@ -1,2 +1,5 @@
-web: bin/rails server
+web: bundle exec rails server
+js: yarn build --watch
 css: bin/rails tailwindcss:watch
+clockwork: bundle exec clockwork clock.rb
+solid_queue: bundle exec rake solid_queue:start
