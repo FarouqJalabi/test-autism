@@ -3,15 +3,16 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
-    resources :blog_posts, only: [:show, ]
+    resources :blog_posts, only: [:show]
 
     get "/blogs", to: "blog_posts#index"
 
     # Your routes here
     root "homes#index"
-    resources :tests, only: [:show]
-    get "/tests", to: "tests#index"
-    get 'result', to: 'questions#result'
+
+    get "/test", to: "tests#show"
+
+    get '/result', to: 'questions#result'
     post 'questions/calculate_answer', to: 'questions#calculate_answer'
 
 
