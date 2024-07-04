@@ -2,12 +2,12 @@
 
         <section class="hero">
             <div class="hero-content md:gap-12 gap-4 flex items-center justify-start text-center flex-col md:max-w-2/3">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold"><%= t('home.title') %></h1>
-                <p class="text-lg text-secondary-black md:text-3xl"><%= t('home.description') %></p>
+                <h1 class="text-5xl md:text-6xl font-bold"><%= t('home.title') %></h1>
+                <p class="text-lg text-secondary-black md:text-2xl md:px-20 lg:px-60"><%= t('home.description') %></p>
 
                 <div class="flex gap-8">
                     <%= link_to "Start test", test_path, class: "btn btn-primary m-2 duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
-                    <%= link_to "About the test", "#aboutTest", class: "btn color-white  m-2 duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
+                    <%= link_to "About Us", static_pages_about_path, class: "btn color-white  m-2 duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
                 </div>
             </div>
         </section>
@@ -66,7 +66,7 @@
 
       <div class="section-divider"></div>
 
-      <section>
+      <section class="px-8 mt-10">
         <h1 class="m-auto text-center text-4xl pb-10 md:text-5xl">
             <%= t('home.blogSectionTitle') %>
         </h1>

@@ -1,10 +1,10 @@
-<a class="w-full md:w-2/3 lg:w-96 duration-100 hover:scale-110" href="<%= blog_post_path(blog_post) %>">
+<a class="w-full md:w-2/5 lg:w-96 duration-100 hover:scale-110" href="<%= blog_post_path(blog_post) %>">
     <%= image_tag src=blog_post.image_src, alt: blog_post.image_alt, class: ""  %>
 
-    <h2 class="font-bold text-xl"><%=  blog_post.title %></h2>
+    <h2 class="font-bold text-lg"><%=  blog_post.title %></h2>
   <div class="blog_image_text">
-      <p><%=  blog_post.time_to_read %> min read</p>
-      <p><%=  blog_post.created_at.strftime('%b %d, %Y') %></p>
+      <p class="text-md"><%=  blog_post.time_to_read %> min read</p>
+      <p class="text-md"><%=  blog_post.created_at.strftime('%b %d, %Y') %></p>
   </div>
 
 
