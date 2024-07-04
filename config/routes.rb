@@ -16,6 +16,7 @@ Rails.application.routes.draw do
     post 'questions/calculate_answer', to: 'questions#calculate_answer'
 
 
+    get 'static_pages/translations'
     get 'static_pages/privacy_policy'
     get 'static_pages/about'
 
