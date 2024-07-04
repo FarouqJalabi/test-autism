@@ -143,6 +143,35 @@ nav a {
     color: var(--primary-black);
 }
 
+
+
+.section-divider {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    height: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    white-space: nowrap;
+}
+.section-divider::before {
+    --tw-content: "";
+    background-color: var(--fallback-bc,oklch(var(--bc)/.1));
+    content: var(--tw-content);
+    flex-grow: 1;
+    height: .125rem;
+    width: 100%;
+}
+.section-divider::after {
+    --tw-content: "";
+    background-color: var(--fallback-bc,oklch(var(--bc)/.1));
+    content: var(--tw-content);
+    flex-grow: 1;
+    height: .125rem;
+    width: 100%;
+}
+
 @media (min-width:600px) {
     nav {
         padding: 4rem 3.5rem;
