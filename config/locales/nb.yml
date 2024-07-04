@@ -125,15 +125,24 @@ nb:
     label3: "sannsynlig"
     label4: "svært sannsynlig"
 
+    fullLabel1: "Det er veldig usannsynlig at du har autisme"
+    fullLabel2: "Det er usannsynlig at du har autisme"
+    fullLabel3: "Det er sannsynlig at du har autisme"
+    fullLabel4: "Det er veldig sannsynlig at du har autisme"
+
+
     description1: "Din score antyder at det er svært usannsynlig at du har autisme. Testresultatene indikerer minimale tegn på ASD, og ingen ytterligere tiltak er vanligvis nødvendig. Hvis du imidlertid har spesifikke bekymringer eller atferd som forårsaker bekymring, kan en konsultasjon med en helsepersonell gi ekstra trygghet og veiledning."
     description2: "Din score indikerer at det er usannsynlig at du har autisme. Tegnene er ikke sterke eller tallrike nok til å antyde en høy sannsynlighet for ASD. Hvis du imidlertid har vedvarende bekymringer eller andre symptomer, kan det fortsatt være nyttig å søke profesjonell rådgivning."
     description3: "Din score antyder at det er sannsynlig at du viser flere tegn på autisme. Selv om det ikke er definitivt, indikerer det en betydelig mulighet for ASD. Det er tilrådelig å konsultere en profesjonell for en detaljert vurdering for å bedre forstå tilstanden din."
     description4: "Din score indikerer at det er svært sannsynlig at du viser betydelige tegn på autisme spektrum lidelse (ASD). Dette antyder en høy sannsynlighet for autisme, og det anbefales sterkt at du søker en omfattende vurdering av en helsepersonell for å utforske denne muligheten videre."
 
+
     share1: "Det er veldig usannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
     share2: "Det er usannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
     share3: "Det er sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
     share4: "Det er veldig sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
+
+    shareButton: "Del Resultat"
 
   footer:
     privacy: "Personvern"
