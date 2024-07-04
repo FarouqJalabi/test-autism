@@ -145,6 +145,63 @@ nav a {
 
 
 
+.result-progress-percentage {
+    position: absolute;
+    top: -2.5rem;
+    /*right: 0;*/
+    white-space: nowrap;
+    font-weight: 800;
+    transform: translateX(-50%);
+    transform-origin: center;
+    border: 2px solid var(--secondary-white);
+    color: var(--secondary-black);
+    padding: .2rem .5rem;
+    border-radius: .4rem;
+    font-size: .7rem;
+    z-index: 1;
+}
+
+.result-progress-percentage::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: .5rem;
+    border-style: solid;
+    border-color: var(--secondary-white) transparent transparent transparent;
+}
+
+
+.result-progress-percentage {
+    position: absolute;
+    top: -2.5rem;
+    /*right: 0;*/
+    white-space: nowrap;
+    font-weight: 800;
+    transform: translateX(-50%);
+    transform-origin: center;
+    border: 2px solid var(--secondary-white);
+    color: var(--secondary-black);
+    padding: .2rem .5rem;
+    border-radius: .4rem;
+    font-size: .7rem;
+    z-index: 1;
+}
+
+.result-progress-percentage::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: .5rem;
+    border-style: solid;
+    border-color: var(--secondary-white) transparent transparent transparent;
+}
+
+
+
 .section-divider {
     align-items: center;
     align-self: stretch;
