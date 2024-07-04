@@ -7,4 +7,3 @@ Disallow: /es/result
 Disallow: /fr/result
 
 Sitemap: https://test-autism.rubynor.com/sitemap.xml
-
