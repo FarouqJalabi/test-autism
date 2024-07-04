@@ -12,5 +12,9 @@
 
   <div>
     <p><%= percentage_to_description(params["score"].to_f) %></p>
+
   </div>
+
+
+  <button class="btn btn-primary text-xl m-auto hidden" data-controller="share" data-action="click->share#share_clicked">Share Result</button>
 </section>
