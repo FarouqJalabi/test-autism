@@ -1,11 +1,7 @@
 class TestsController < ApplicationController
-  def index
-    @tests = Test.all
-
-  end
 
   def show
-    @test = Test.find(params[:id])
+    @test = Test.first
     @questions = @test.questions.sort_by(&:order).reverse
   end
 end
