@@ -130,6 +130,11 @@ nb:
     description3: "Din score antyder at det er sannsynlig at du viser flere tegn på autisme. Selv om det ikke er definitivt, indikerer det en betydelig mulighet for ASD. Det er tilrådelig å konsultere en profesjonell for en detaljert vurdering for å bedre forstå tilstanden din."
     description4: "Din score indikerer at det er svært sannsynlig at du viser betydelige tegn på autisme spektrum lidelse (ASD). Dette antyder en høy sannsynlighet for autisme, og det anbefales sterkt at du søker en omfattende vurdering av en helsepersonell for å utforske denne muligheten videre."
 
+    share1: "Det er veldig usannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
+    share2: "Det er usannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
+    share3: "Det er sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
+    share4: "Det er veldig sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
+
   footer:
     privacy: "Personvern"
     about: "Om oss"
