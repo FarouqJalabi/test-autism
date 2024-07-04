@@ -13,7 +13,7 @@ en:
     description: "Gain insights into your traits. This test is not a diagnostic tool but can help you understand yourself better."
 
     button1: "Start test"
-    button2: "About Test"
+    button2: "About Us"
 
     whatToExpect:
       title: "What to Expect"
@@ -31,6 +31,32 @@ en:
     
     madeBy: "Test By Cambridge University"
     blogSectionTitle: "Latest Blog"
+
+  aboutUs:
+    title: "About Us"
+    description: "We are a dedicated team passionate about providing reliable and accessible information on autism. Our mission is to help individuals and families better understand autism spectrum disorder through accurate, evidence-based resources and tools. We aim to create a supportive community where people can find the information they need to navigate their journeys with autism"
+    
+    ourVision:
+      title: "Our Vision"
+      description: "Our vision is to foster a world where individuals with autism are understood, accepted, and supported. We strive to increase awareness and promote inclusivity through our educational content and practical tools."
+
+    ourTeam:
+      title: "Our Team"
+      description: "Our team consists of experts in psychology, education, and technology, all working together to bring you the best resources. We are committed to continuous learning and improvement to ensure that our content remains relevant and valuable."
+
+    contactUs:
+      title: "Contact Us"
+      description: "Whether to say hi or report a bug, we will always love to hear from you! Your feedback helps us improve and serve you better. Reach out to us at fogado@rubynor.com "
+
+  privacy:
+    title: "Privacy And Policy"
+    aboutData:
+      title: "About The Data We Collect"
+      description: "We don't collect any data about you. We use a third-party software, Plausible, to collect traffic data. This ensures that your privacy is protected while we gather the necessary insights to improve our website. Plausible provides us with anonymized, aggregated data, so your personal information remains completely private."
+
+    cookies:
+      title: "cookies"
+      description: "Our website does not use cookies to track your activity or collect personal information. We believe in providing a browsing experience free from invasive tracking technologies."
 
   questions:
     1: "I prefer to do things with others rather than on my own"
@@ -102,3 +128,10 @@ en:
     description2: "Your score indicates that it is unlikely you have autism. The signs are not strong or numerous enough to suggest a high probability of ASD. However, if you have ongoing concerns or other symptoms, it may still be worthwhile to seek professional advice."
     description3: "Your score suggests that it is likely you display several signs of autism. While not definitive, it indicates a considerable possibility of ASD. Consulting with a professional for a detailed evaluation is advisable to better understand your condition."
     description4: "Your score indicates that it is very likely you exhibit significant signs of autism spectrum disorder (ASD). This suggests a high probability of autism, and it is strongly recommended that you seek a comprehensive assessment by a healthcare professional to explore this possibility further."
+
+  footer:
+    privacy: "Privacy"
+    about: "About"
+    blogs: "Blogs"
+
+    holding: "© 2024 — Rubynor AS - all rights reserved."
