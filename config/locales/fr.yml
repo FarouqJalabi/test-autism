@@ -1,92 +1,122 @@
 fr:
   header:
-    title: "Test d'autisme gratuit"
-    description: "Faites notre test d'autisme en ligne gratuit pour une évaluation précise et rapide."
+    title: "Test gratuit d'autisme"
+    description: "Passez notre test gratuit en ligne pour une évaluation rapide et précise."
+
   navigation:
     homeButton: "Accueil"
-    takeTestButton: "Faire le test"
+    takeTestButton: "Passer le test"
     aboutButton: "À propos"
+
   home:
-    title: "Faire un test d'autisme de 10 minutes"
-    description: "Obtenez des informations sur vos traits. Ce test n'est pas un outil de diagnostic mais peut vous aider à mieux vous comprendre."
+    title: "Faites un test d'autisme de 10 minutes"
+    description: "Découvrez vos traits. Ce test n'est pas un outil de diagnostic mais peut vous aider à mieux vous comprendre."
+
     button1: "Commencer le test"
-    button2: "À propos du test"
-    aboutUs:
-      title: "À propos de nous"
-      whoWeAre:
-        title: "Qui nous sommes"
-        description: "Bienvenue sur [Nom de Votre Site], une plateforme dédiée créée avec pour mission de fournir des ressources fiables et accessibles pour les tests d'autisme. Notre équipe est composée de personnes passionnées, y compris des professionnels de la santé, des éducateurs et des défenseurs, engagées à soutenir la communauté autistique."
-      ourMission:
-        title: "Notre mission"
-        description: "Notre mission est de donner les moyens aux individus et aux familles en fournissant des tests d'autisme précis et conviviaux. Nous croyons que la détection précoce et la compréhension de l'autisme peuvent améliorer considérablement la qualité de vie et le soutien disponible pour les personnes du spectre."
-      whatWeOffer:
-        title: "Ce que nous offrons"
-        description: "Chez [Nom de Votre Site], nous offrons une variété de tests d'autisme scientifiquement validés conçus pour aider à identifier les troubles potentiels du spectre autistique (TSA) chez les personnes de tous âges. Nos tests sont développés et révisés par des experts dans le domaine pour garantir qu'ils répondent à des normes élevées de précision et de fiabilité."
-      ourApproach:
-        title: "Notre approche"
-        description: "Nous comprenons que chaque personne autiste est unique, tout comme son parcours. Notre approche se concentre sur la fourniture d'informations et de ressources personnalisées qui répondent aux besoins divers de la communauté autistique. Nous nous efforçons de rendre nos outils aussi inclusifs et informatifs que possible."
-  aboutTest:
-    title: "À propos du test"
-    description1: "L'AQ-50 est un outil de dépistage bref conçu pour aider à identifier les traits associés à l'autisme. Développé par des experts du Centre de recherche sur l'autisme de l'Université de Cambridge, il se compose de 10 questions qui évaluent des domaines clés tels que la communication sociale, l'attention aux détails et l'adaptabilité."
-    description2: "Bien que l'AQ-50 ne soit pas un outil de diagnostic, il peut fournir des informations précieuses sur l'opportunité d'une évaluation plus détaillée. C'est un moyen rapide et simple de mieux se comprendre et de faire le premier pas vers la recherche de soutien supplémentaire si nécessaire."
+    button2: "À propos de nous"
+
+    whatToExpect:
+      title: "À quoi s'attendre"
+      questions:
+        title: "Questions"
+        description: "50 questions à choix multiples."
+
+      time:
+        title: "Temps"
+        description: "Environ 10-15 minutes pour compléter."
+
+      result:
+        title: "Résultats"
+        description: "Retour immédiat avec des recommandations."
+    
+    madeBy: "Test par l'Université de Cambridge"
+    blogSectionTitle: "Dernier blog"
+
+  aboutUs:
+    title: "À propos de nous"
+    description: "Nous sommes une équipe dévouée et passionnée par la fourniture d'informations fiables et accessibles sur l'autisme. Notre mission est d'aider les individus et les familles à mieux comprendre le trouble du spectre autistique grâce à des ressources et des outils précis et fondés sur des preuves. Nous visons à créer une communauté solidaire où les gens peuvent trouver les informations dont ils ont besoin pour naviguer dans leur parcours avec l'autisme."
+    
+    ourVision:
+      title: "Notre vision"
+      description: "Notre vision est de favoriser un monde où les personnes autistes sont comprises, acceptées et soutenues. Nous nous efforçons d'accroître la sensibilisation et de promouvoir l'inclusivité grâce à notre contenu éducatif et à nos outils pratiques."
+
+    ourTeam:
+      title: "Notre équipe"
+      description: "Notre équipe est composée d'experts en psychologie, éducation et technologie, tous travaillant ensemble pour vous apporter les meilleures ressources. Nous nous engageons à un apprentissage et à une amélioration continus pour garantir que notre contenu reste pertinent et précieux."
+
+    contactUs:
+      title: "Contactez-nous"
+      description: "Que ce soit pour dire bonjour ou signaler un bug, nous aimerions toujours avoir de vos nouvelles ! Vos commentaires nous aident à nous améliorer et à mieux vous servir. Contactez-nous à l'adresse fogado@rubynor.com."
+
+  privacy:
+    title: "Confidentialité et politique"
+    aboutData:
+      title: "À propos des données que nous collectons"
+      description: "Nous ne collectons aucune donnée vous concernant. Nous utilisons un logiciel tiers, Plausible, pour collecter des données de trafic. Cela garantit que votre vie privée est protégée tout en nous permettant de recueillir les informations nécessaires pour améliorer notre site web. Plausible nous fournit des données anonymisées et agrégées, de sorte que vos informations personnelles restent entièrement privées."
+
+    cookies:
+      title: "Cookies"
+      description: "Notre site web n'utilise pas de cookies pour suivre votre activité ou collecter des informations personnelles. Nous croyons en une expérience de navigation exempte de technologies de suivi invasives."
+
+
   questions:
     1: "Je préfère faire des choses avec les autres plutôt que seul"
-    2: "Je préfère faire les choses de la même manière à chaque fois"
-    3: "Si j'essaie d'imaginer quelque chose, je trouve très facile de créer une image dans mon esprit"
+    2: "Je préfère faire les choses de la même manière encore et encore"
+    3: "Si j'essaie d'imaginer quelque chose, il me est très facile de créer une image dans mon esprit"
     4: "Je suis souvent tellement absorbé par une chose que je perds de vue les autres choses"
-    5: "J'entends souvent de petits bruits que les autres n'entendent pas"
+    5: "Je remarque souvent de petits sons quand les autres ne le font pas"
     6: "Je remarque généralement les plaques d'immatriculation ou des chaînes d'informations similaires"
-    7: "Les autres me disent souvent que ce que j'ai dit est impoli, alors que je pense que c'est poli"
-    8: "Quand je lis une histoire, je peux facilement imaginer à quoi les personnages pourraient ressembler"
+    7: "Les autres me disent souvent que ce que j'ai dit est impoli, même si je pense que c'est poli"
+    8: "Quand je lis une histoire, je peux facilement imaginer à quoi pourraient ressembler les personnages"
     9: "Je suis fasciné par les dates"
-    10: "Dans un groupe social, je peux facilement suivre plusieurs conversations différentes"
+    10: "Dans un groupe social, je peux facilement suivre les conversations de plusieurs personnes"
     11: "Je trouve les situations sociales faciles"
-    12: "J'ai tendance à remarquer des détails que les autres ne voient pas"
-    13: "Je préfère aller à la bibliothèque plutôt qu'à une fête"
+    12: "Je tends à remarquer des détails que les autres ne voient pas"
+    13: "Je préfère aller à la bibliothèque qu'à une fête"
     14: "Je trouve facile d'inventer des histoires"
-    15: "Je suis plus attiré par les gens que par les choses"
-    16: "J'ai tendance à avoir des intérêts très forts, ce qui me contrarie si je ne peux pas les poursuivre"
-    17: "J'aime le bavardage social"
+    15: "Je me sens plus attiré par les gens que par les choses"
+    16: "J'ai tendance à avoir des intérêts très forts, ce qui m'ennuie si je ne peux pas les poursuivre"
+    17: "J'aime les bavardages sociaux"
     18: "Quand je parle, ce n'est pas toujours facile pour les autres d'intervenir"
-    19: "Je suis fasciné par les nombres"
+    19: "Je suis fasciné par les chiffres"
     20: "Quand je lis une histoire, j'ai du mal à comprendre les intentions des personnages"
     21: "Je n'aime pas particulièrement lire de la fiction"
     22: "J'ai du mal à me faire de nouveaux amis"
     23: "Je remarque des motifs dans les choses tout le temps"
-    24: "Je préfère aller au théâtre plutôt qu'au musée"
+    24: "Je préfère aller au théâtre qu'au musée"
     25: "Cela ne me dérange pas si ma routine quotidienne est perturbée"
-    26: "Je trouve souvent que je ne sais pas comment faire durer une conversation"
-    27: "Je trouve facile de lire entre les lignes quand quelqu'un me parle"
+    26: "Je trouve souvent que je ne sais pas comment maintenir une conversation"
+    27: "Je trouve facile de 'lire entre les lignes' quand quelqu'un me parle"
     28: "Je me concentre généralement plus sur l'ensemble que sur les petits détails"
-    29: "Je ne suis pas très bon pour me souvenir des numéros de téléphone"
+    29: "Je ne suis pas très bon pour me rappeler des numéros de téléphone"
     30: "Je ne remarque généralement pas les petits changements dans une situation ou l'apparence d'une personne"
-    31: "Je sais comment savoir si quelqu'un qui m'écoute commence à s'ennuyer"
-    32: "Je trouve facile de faire plusieurs choses à la fois"
-    33: "Quand je parle au téléphone, je ne sais pas toujours quand c'est à mon tour de parler"
+    31: "Je sais comment dire si quelqu'un qui m'écoute s'ennuie"
+    32: "Je trouve facile de faire plus d'une chose à la fois"
+    33: "Quand je parle au téléphone, je ne suis pas sûr de quand c'est mon tour de parler"
     34: "J'aime faire des choses spontanément"
-    35: "Je suis souvent le dernier à comprendre la blague"
-    36: "Je trouve facile de comprendre ce que quelqu'un pense ou ressent rien qu'en regardant son visage"
-    37: "S'il y a une interruption, je peux rapidement revenir à ce que je faisais"
+    35: "Je suis souvent le dernier à comprendre la pointe d'une blague"
+    36: "Je trouve facile de comprendre ce que quelqu'un pense ou ressent juste en regardant son visage"
+    37: "S'il y a une interruption, je peux revenir à ce que je faisais très rapidement"
     38: "Je suis bon en bavardage social"
-    39: "Les gens me disent souvent que je continue à parler de la même chose"
-    40: "Quand j'étais jeune, j'aimais jouer à des jeux impliquant de faire semblant avec d'autres enfants"
-    41: "J'aime collecter des informations sur des catégories de choses (par exemple, types de voitures, types d'oiseaux, types de trains, types de plantes)"
-    42: "Je trouve difficile d'imaginer ce que ce serait d'être quelqu'un d'autre"
+    39: "Les gens me disent souvent que je continue de parler de la même chose"
+    40: "Quand j'étais jeune, j'aimais jouer à des jeux de simulation avec d'autres enfants"
+    41: "J'aime recueillir des informations sur des catégories de choses (par exemple, types de voitures, oiseaux, trains, plantes)"
+    42: "J'ai du mal à imaginer ce que cela pourrait être d'être quelqu'un d'autre"
     43: "J'aime planifier soigneusement toutes les activités auxquelles je participe"
     44: "J'aime les occasions sociales"
-    45: "Je trouve difficile de comprendre les intentions des gens"
+    45: "J'ai du mal à comprendre les intentions des gens"
     46: "Les nouvelles situations me rendent anxieux"
     47: "J'aime rencontrer de nouvelles personnes"
     48: "Je suis un bon diplomate"
-    49: "Je ne suis pas très bon pour me souvenir des dates de naissance des gens"
-    50: "Je trouve très facile de jouer à des jeux avec des enfants qui impliquent de faire semblant"
+    49: "Je ne suis pas très bon pour me rappeler les dates de naissance des gens"
+    50: "Je trouve très facile de jouer à des jeux avec des enfants impliquant de faire semblant"
 
-    choice0: "Pas d'accord"
+    choice0: "En désaccord"
     choice1: "Légèrement en désaccord"
     choice2: "Légèrement d'accord"
     choice3: "D'accord"
 
-    backButton: "Retour"
+    backButton: "Bouton de retour"
     submit: "Soumettre"
 
   result:
@@ -95,7 +125,15 @@ fr:
     label3: "probable"
     label4: "très probable"
 
-    description1: "Votre score suggère qu'il est très improbable que vous ayez l'autisme. Les résultats du test indiquent des signes minimaux de TSA, et aucune action supplémentaire n'est généralement nécessaire. Cependant, si vous avez des préoccupations spécifiques ou des comportements inquiétants, une consultation avec un professionnel de la santé peut fournir une tranquillité d'esprit et des conseils supplémentaires."
-    description2: "Votre score indique qu'il est improbable que vous ayez l'autisme. Les signes ne sont pas assez forts ou nombreux pour suggérer une forte probabilité de TSA. Cependant, si vous avez des préoccupations persistantes ou d'autres symptômes, il peut toujours être utile de demander un avis professionnel."
-    description3: "Votre score suggère qu'il est probable que vous présentiez plusieurs signes d'autisme. Bien que non définitif, cela indique une possibilité considérable de TSA. Il est conseillé de consulter un professionnel pour une évaluation détaillée afin de mieux comprendre votre condition."
-    description4: "Votre score indique qu'il est très probable que vous présentiez des signes significatifs de trouble du spectre autistique (TSA). Cela suggère une forte probabilité d'autisme, et il est fortement recommandé de demander une évaluation complète par un professionnel de la santé pour explorer davantage cette possibilité."
+    description1: "Votre score suggère qu'il est très improbable que vous ayez de l'autisme. Les résultats du test indiquent des signes minimes de TSA, et aucune action supplémentaire n'est généralement requise. Cependant, si vous avez des préoccupations spécifiques ou des comportements qui vous inquiètent, une consultation avec un professionnel de la santé peut fournir des assurances et des conseils supplémentaires."
+    description2: "Votre score indique qu'il est improbable que vous ayez de l'autisme. Les signes ne sont pas suffisamment forts ou nombreux pour suggérer une forte probabilité de TSA. Cependant, si vous avez des préoccupations continues ou d'autres symptômes, il peut être utile de demander l'avis d'un professionnel."
+    description3: "Votre score suggère qu'il est probable que vous montriez plusieurs signes d'autisme. Bien que non définitif, cela indique une possibilité considérable de TSA. Consulter un professionnel pour une évaluation détaillée est conseillé pour mieux comprendre votre condition."
+    description4: "Votre score indique qu'il est très probable que vous présentez des signes significatifs de trouble du spectre autistique (TSA). Cela suggère une forte probabilité d'autisme, et il est fortement recommandé de rechercher une évaluation complète par un professionnel de la santé pour explorer davantage cette possibilité."
+
+  footer:
+    privacy: "Confidentialité"
+    about: "À propos"
+    blogs: "Blogs"
+    translations: "Traductions"
+
+    holding: "© 2024 — Rubynor AS - tous droits réservés."
