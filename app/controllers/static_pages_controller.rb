@@ -1,4 +1,7 @@
 class StaticPagesController < ApplicationController
+  def translations
+  end
+
   def privacy_policy
   end
 
