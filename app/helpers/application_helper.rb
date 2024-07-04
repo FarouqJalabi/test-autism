@@ -1,12 +1,11 @@
 module ApplicationHelper
   def on_home?
-    !(request.url.include? 'about') && !(request.url.include? '/tests')
+    current_page?(root_path)
   end
   def on_test?
-    request.url.include? '/tests/'
+    current_page?(test_path)
   end
   def on_about?
-    # Doesn't work with #about
-    request.url.include? '/about'
+    current_page?(static_pages_about_path)
   end
 end
