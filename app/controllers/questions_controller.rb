@@ -28,8 +28,11 @@ class QuestionsController < ApplicationController
     end
 
 
+    # 50 max questions
+    percentage = total_score * 100 / 50
+
     # Result page expects score
-    redirect_to result_path(score: total_score*10)
+    redirect_to result_path(score: percentage)
   end
 
   def result
