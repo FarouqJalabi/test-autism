@@ -17,6 +17,6 @@
 
   <button class="btn btn-primary text-xl m-auto hidden"
           data-controller="share"
-          data-label="<%= percentage_to_label(params["score"].to_f) %>"
+          data-label="<%= percentage_to_share(params["score"].to_f) %>"
           data-action="click->share#share_clicked">Share Result</button>
 </section>

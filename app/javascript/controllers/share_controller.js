@@ -11,9 +11,8 @@ export default class extends Controller {
 
   async share_clicked() {
     if (navigator.canShare){
-        let share_data = {title: "Test-Autism", text: "My results on Autism test", url: "https://test-autism.rubynor.com/en"}
+        let share_data = {title: "Test-Autism", text: this.element.dataset.label, url: "https://test-autism.rubynor.com/en"}
         await navigator.share(share_data);
-        console.log(share_data)
     }
   }
 }

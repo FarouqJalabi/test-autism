@@ -29,5 +29,17 @@ module QuestionsHelper
     end
   end
 
+  def percentage_to_share(percentage)
+    if percentage >= 0.0 and percentage <= 20.0
+      t("result.share1")
+    elsif percentage >= 30.0 and percentage <= 40.0
+      t("result.share2")
+    elsif percentage >= 50.0 and percentage <= 60.0
+      t("result.share3")
+    else
+      t("result.share4")
+    end
+  end
+
 
 end
