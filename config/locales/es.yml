@@ -125,10 +125,22 @@ es:
     label3: "probable"
     label4: "muy probable"
 
+    fullLabel1: "Es muy poco probable que tenga autismo"
+    fullLabel2: "Es poco probable que tenga autismo"
+    fullLabel3: "Es probable que tenga autismo"
+    fullLabel4: "Es muy probable que tenga autismo"
+
     description1: "Tu puntuación sugiere que es muy improbable que tengas autismo. Los resultados de la prueba indican signos mínimos de TEA, y generalmente no se requiere ninguna acción adicional. Sin embargo, si tienes preocupaciones específicas o comportamientos que te preocupan, una consulta con un profesional de la salud puede proporcionar tranquilidad y orientación adicional."
     description2: "Tu puntuación indica que es improbable que tengas autismo. Los signos no son lo suficientemente fuertes o numerosos como para sugerir una alta probabilidad de TEA. Sin embargo, si tienes preocupaciones continuas u otros síntomas, puede ser útil buscar el consejo de un profesional."
     description3: "Tu puntuación sugiere que es probable que muestres varios signos de autismo. Aunque no es definitivo, indica una posibilidad considerable de TEA. Consultar con un profesional para una evaluación detallada es recomendable para entender mejor tu condición."
     description4: "Tu puntuación indica que es muy probable que exhibas signos significativos de trastorno del espectro autista (TEA). Esto sugiere una alta probabilidad de autismo, y se recomienda encarecidamente que busques una evaluación integral por parte de un profesional de la salud para explorar más a fondo esta posibilidad."
+
+    share1: "Es muy poco probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+    share2: "Es poco probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+    share3: "Es probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+    share4: "Es muy probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+
+    shareButton: "Compartir Resultado"
 
   footer:
     privacy: "Privacidad"
