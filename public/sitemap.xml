@@ -32,4 +32,53 @@
     <loc>https://test-autism.rubynor.com/fr/tests/1</loc>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://test-autism.rubynor.com/en/static_pages/privacy_policy</loc>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/fr/static_pages/privacy_policy</loc>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/es/static_pages/privacy_policy</loc>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/nb/static_pages/privacy_policy</loc>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/en/static_pages/about</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/fr/static_pages/about</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/es/static_pages/about</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/nb/static_pages/about</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/en/blogs</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/fr/blogs</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/es/blogs</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://test-autism.rubynor.com/nb/blogs</loc>
+    <priority>0.4</priority>
+  </url>
 </urlset>
