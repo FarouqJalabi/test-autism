@@ -43,13 +43,13 @@
       <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 flex gap-8">
                 <li>
-                    <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
+                    <%= link_to t('navigation.homeButton'), root_path, class: "#{'selected_nav_element' if on_home?} text-2xl" %>
                 </li>
                 <li>
-                    <%= link_to t('navigation.takeTestButton'), test_path, class: ('selected_nav_element' if on_test?) %>
+                    <%= link_to t('navigation.takeTestButton'), test_path, class: "#{'selected_nav_element' if on_test?} text-2xl" %>
                 </li>
                 <li>
-                    <%= link_to t('navigation.aboutButton'), static_pages_about_path, class: ('selected_nav_element' if on_about?) %>
+                    <%= link_to t('navigation.aboutButton'), static_pages_about_path, class: "#{'selected_nav_element' if on_about?} text-2xl" %>
                 </li>
             
             </ul>
