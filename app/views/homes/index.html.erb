@@ -6,8 +6,8 @@
                 <p class="text-lg text-secondary-black md:text-2xl md:px-20 lg:px-60"><%= t('home.description') %></p>
 
                 <div class="flex gap-8">
-                    <%= link_to "Start test", test_path, class: "btn btn-primary m-2 duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
-                    <%= link_to "About Us", static_pages_about_path, class: "btn color-white  m-2 duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
+                    <%= link_to t('home.button1'), test_path(1), class: "btn btn-primary m-2 duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
+                    <%= link_to t('home.button2'), static_pages_about_path, class: "btn color-white  m-2 duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
                 </div>
             </div>
         </section>
