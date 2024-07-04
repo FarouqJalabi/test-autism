@@ -124,10 +124,17 @@ en:
     label3: "likely"
     label4: "very likely"
 
+    fullLabel1: "You are very unlikely to have autism"
+    fullLabel2: "You are unlikely to have autism"
+    fullLabel3: "You are likely to have autism"
+    fullLabel4: "You are very likely to have autism"
+
     description1: "Your score suggests that it is very unlikely you have autism. The test results indicate minimal signs of ASD, and no further action is usually required. However, if you have specific concerns or behaviors causing worry, a consultation with a healthcare professional can provide additional reassurance and guidance."
     description2: "Your score indicates that it is unlikely you have autism. The signs are not strong or numerous enough to suggest a high probability of ASD. However, if you have ongoing concerns or other symptoms, it may still be worthwhile to seek professional advice."
     description3: "Your score suggests that it is likely you display several signs of autism. While not definitive, it indicates a considerable possibility of ASD. Consulting with a professional for a detailed evaluation is advisable to better understand your condition."
     description4: "Your score indicates that it is very likely you exhibit significant signs of autism spectrum disorder (ASD). This suggests a high probability of autism, and it is strongly recommended that you seek a comprehensive assessment by a healthcare professional to explore this possibility further."
+
+    shareButton: "Share Result"
 
     share1: "I am very unlikely to have autism. Take the test to see how likely you are!"
     share2: "I am unlikely to have autism. Take the test to see how likely you are!"
