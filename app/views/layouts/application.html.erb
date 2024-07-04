@@ -26,6 +26,12 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="https://test-autism.rubynor.com/">
 
+
+    <% if I18n.locale == :en && request.path == '/'%>
+      <link rel="canonical" href="https://test-autism.rubynor.com/en">
+    <% end %>
+
+
     <!-- Need? It is already in root? -->
     <link rel="shortcut icon" href="<%= image_url("favicon.ico") %>">
 
