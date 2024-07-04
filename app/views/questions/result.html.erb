@@ -2,10 +2,13 @@
   <h1 class="text-2xl md:text-5xl mb-10"><%= percentage_to_header(params["score"].to_f) %></h1>
 
   <div class="relative">
-    <div class="result-progress-percentage" style="left: <%= params["score"].to_f %>%;">
-      <span style="white-space: nowrap;"><%= percentage_to_label(params["score"].to_f) %></span>
+    <div class="absolute result-progress-percentage" style="left: <%= params["score"].to_f %>%;">
+      <span class="whitespace-nowrap">
+        <%= percentage_to_label(params["score"].to_f) %>
+      </span>
     </div>
   </div>
+
 
 
   <progress class="progress progress-primary w-full" value="<%= params["score"].to_f %>" max="100"></progress>
