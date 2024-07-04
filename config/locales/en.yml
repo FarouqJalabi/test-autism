@@ -129,6 +129,11 @@ en:
     description3: "Your score suggests that it is likely you display several signs of autism. While not definitive, it indicates a considerable possibility of ASD. Consulting with a professional for a detailed evaluation is advisable to better understand your condition."
     description4: "Your score indicates that it is very likely you exhibit significant signs of autism spectrum disorder (ASD). This suggests a high probability of autism, and it is strongly recommended that you seek a comprehensive assessment by a healthcare professional to explore this possibility further."
 
+    share1: "I am very unlikely to have autism. Take the test to see how likely you are!"
+    share2: "I am unlikely to have autism. Take the test to see how likely you are!"
+    share3: "I am likely to have autism. Take the test to see how likely you are!"
+    share4: "I am very likely to have autism. Take the test to see how likely you are!"
+
   footer:
     privacy: "Privacy"
     about: "About"

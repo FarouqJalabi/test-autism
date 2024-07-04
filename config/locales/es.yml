@@ -130,6 +130,12 @@ es:
     description3: "Tu puntuación sugiere que es probable que muestres varios signos de autismo. Aunque no es definitivo, indica una posibilidad considerable de TEA. Consultar con un profesional para una evaluación detallada es recomendable para entender mejor tu condición."
     description4: "Tu puntuación indica que es muy probable que exhibas signos significativos de trastorno del espectro autista (TEA). Esto sugiere una alta probabilidad de autismo, y se recomienda encarecidamente que busques una evaluación integral por parte de un profesional de la salud para explorar más a fondo esta posibilidad."
 
+    share1: "Es muy poco probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+    share2: "Es poco probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+    share3: "Es probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+    share4: "Es muy probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+
+
   footer:
     privacy: "Privacidad"
     about: "Acerca de"
