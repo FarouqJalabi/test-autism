@@ -142,6 +142,7 @@ es:
     shareButton: "Compartir Resultado"
 
   footer:
+    resources: "Recursos"
     privacy: "Privacidad"
     about: "Acerca de"
     blogs: "Blogs"
