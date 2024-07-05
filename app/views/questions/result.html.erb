@@ -1,16 +1,27 @@
 <section class="max-w-80 md:max-w-[50rem] m-auto">
-  <h1 class="text-2xl md:text-5xl mb-10"> You are <%= percentage_to_label(params["score"].to_f) %> to have autism </h1>
+  <h1 class="text-2xl md:text-5xl mb-10"><%= percentage_to_header(params["score"].to_f) %></h1>
 
   <div class="relative">
-    <div class="result-progress-percentage" style="left: <%= params["score"].to_f %>%;">
-      <span style="white-space: nowrap;"><%= percentage_to_label(params["score"].to_f) %></span>
+    <div class="absolute result-progress-percentage" style="left: <%= params["score"].to_f %>%;">
+      <span class="whitespace-nowrap">
+        <%= percentage_to_label(params["score"].to_f) %>
+      </span>
     </div>
   </div>
+
 
 
   <progress class="progress progress-primary w-full" value="<%= params["score"].to_f %>" max="100"></progress>
 
   <div>
     <p><%= percentage_to_description(params["score"].to_f) %></p>
+    <button class="btn btn-primary text-lg mt-3 w-full md:w-1/4 hidden"
+            data-controller="share"
+            data-label="<%= percentage_to_share(params["score"].to_f) %>"
+            data-language="<%= I18n.locale %>"
+            data-action="click->share#share_clicked"><%= t("result.shareButton") %></button>
+
   </div>
+
+
 </section>

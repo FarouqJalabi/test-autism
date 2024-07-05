@@ -125,10 +125,22 @@ fr:
     label3: "probable"
     label4: "très probable"
 
+    fullLabel1: "Il est très peu probable que vous ayez de l'autisme"
+    fullLabel2: "Il est peu probable que vous ayez de l'autisme"
+    fullLabel3: "Il est probable que vous ayez de l'autisme"
+    fullLabel4: "Il est très probable que vous ayez de l'autisme"
+
     description1: "Votre score suggère qu'il est très improbable que vous ayez de l'autisme. Les résultats du test indiquent des signes minimes de TSA, et aucune action supplémentaire n'est généralement requise. Cependant, si vous avez des préoccupations spécifiques ou des comportements qui vous inquiètent, une consultation avec un professionnel de la santé peut fournir des assurances et des conseils supplémentaires."
     description2: "Votre score indique qu'il est improbable que vous ayez de l'autisme. Les signes ne sont pas suffisamment forts ou nombreux pour suggérer une forte probabilité de TSA. Cependant, si vous avez des préoccupations continues ou d'autres symptômes, il peut être utile de demander l'avis d'un professionnel."
     description3: "Votre score suggère qu'il est probable que vous montriez plusieurs signes d'autisme. Bien que non définitif, cela indique une possibilité considérable de TSA. Consulter un professionnel pour une évaluation détaillée est conseillé pour mieux comprendre votre condition."
     description4: "Votre score indique qu'il est très probable que vous présentez des signes significatifs de trouble du spectre autistique (TSA). Cela suggère une forte probabilité d'autisme, et il est fortement recommandé de rechercher une évaluation complète par un professionnel de la santé pour explorer davantage cette possibilité."
+
+    share1: "Il est très peu probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
+    share2: "Il est peu probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
+    share3: "Il est probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
+    share4: "Il est très probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
+
+    shareButton: "Partager le Résultat"
 
   footer:
     privacy: "Confidentialité"
