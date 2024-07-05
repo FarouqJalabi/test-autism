@@ -1,7 +1,7 @@
 nb:
   header:
     title: "Gratis Autismetest"
-    description: "Ta vår gratis online autismetest for en nøyaktig og rask vurdering."
+    description: "Ta vår gratis online autismetest for en nøyaktig og rask vurdering. Vår autismetest er ikke kort og nøyaktig. Autismetesten er AQ-50 fra autismeforskningssenteret."
 
   navigation:
     homeButton: "Hjem"
@@ -9,8 +9,9 @@ nb:
     aboutButton: "Om oss"
 
   home:
-    title: "Ta en 10-minutters Autismetest"
-    description: "Få innsikt i dine egenskaper. Denne testen er ikke et diagnostisk verktøy, men kan hjelpe deg med å forstå deg selv bedre."
+    title: "Gratis Autismetest"
+    description: "Ta vår raske og nøyaktige autismetest. Autismetesten heter AQ-50 og er kjent for å være et pålitelig screeningsverktøy."
+
 
     button1: "Start test"
     button2: "Om oss"
@@ -27,32 +28,32 @@ nb:
 
       result:
         title: "Resultater"
-        description: "Umiddelbar tilbakemelding med anbefalinger."
+        description: "Testen gir umiddelbare tilbakemeldinger."
     
     madeBy: "Test av Cambridge University"
     blogSectionTitle: "Siste blogg"
 
   aboutUs:
     title: "Om oss"
-    description: "Vi er et dedikert team som brenner for å tilby pålitelig og tilgjengelig informasjon om autisme. Vår oppgave er å hjelpe enkeltpersoner og familier til bedre å forstå autismespekterforstyrrelse gjennom nøyaktige, evidensbaserte ressurser og verktøy. Vi ønsker å skape et støttende fellesskap hvor folk kan finne informasjonen de trenger for å navigere sin reise med autisme."
-    
+    description: "Vi er et dedikert team som brenner for å tilby pålitelige og tilgjengelige autismetester. Vårt oppdrag er å hjelpe enkeltpersoner og familier til bedre å forstå autismespekterforstyrrelser gjennom nøyaktige, evidensbaserte ressurser og verktøy. Vi har som mål å skape et støttende samfunn der folk kan finne informasjonen de trenger for å navigere sine reiser med autisme."
+
     ourVision:
       title: "Vår visjon"
       description: "Vår visjon er å fremme en verden hvor personer med autisme blir forstått, akseptert og støttet. Vi streber etter å øke bevisstheten og fremme inkludering gjennom vårt pedagogiske innhold og praktiske verktøy."
 
     ourTeam:
       title: "Vårt team"
-      description: "Vårt team består av eksperter innen psykologi, utdanning og teknologi, som alle jobber sammen for å bringe deg de beste ressursene. Vi er forpliktet til kontinuerlig læring og forbedring for å sikre at vårt innhold forblir relevant og verdifullt."
+      description: "Vårt team består av flere programvareutviklere som jobber sammen for å gi deg den beste autismetesten og ressursene tilgjengelig på en enkel å forstå nettside. Vi er forpliktet til kontinuerlig læring og forbedring for å sikre at innholdet vårt forblir relevant og verdifullt."
 
     contactUs:
       title: "Kontakt oss"
-      description: "Enten for å si hei eller rapportere en feil, vi vil alltid gjerne høre fra deg! Din tilbakemelding hjelper oss med å forbedre og betjene deg bedre. Ta kontakt med oss på fogado@rubynor.com."
+      description: "Enten for å si hei eller rapportere en feil, vil vi alltid gjerne høre fra deg! Din tilbakemelding hjelper oss med å forbedre og betjene deg bedre. Ta kontakt med oss på "
 
   privacy:
     title: "Personvern og retningslinjer"
     aboutData:
       title: "Om dataene vi samler inn"
-      description: "Vi samler ikke inn noen data om deg. Vi bruker en tredjepartsprogramvare, Plausible, for å samle trafikkdata. Dette sikrer at ditt personvern er beskyttet mens vi samler nødvendige innsikter for å forbedre nettstedet vårt. Plausible gir oss anonymiserte, aggregerte data, slik at din personlige informasjon forblir helt privat."
+      description: "Vi samler ikke inn noen data om deg. Vi samler ikke inn noen av dine svar på autismetesten. Vi bruker tredjeparts programvare, Plausible, for å samle inn trafikkdata. Dette sikrer at personvernet ditt er beskyttet mens vi samler inn nødvendig innsikt for å forbedre nettstedet vårt. Plausible gir oss anonymiserte, aggregerte data, slik at din personlige informasjon forblir helt privat."
 
     cookies:
       title: "Informasjonskapsler"
