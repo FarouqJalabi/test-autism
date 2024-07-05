@@ -67,6 +67,29 @@ es:
     header2: "Nuestro Compromiso"
     description2: "Estamos comprometidos a proporcionar traducciones de alta calidad y apreciamos su colaboración en este esfuerzo. ¡Juntos podemos garantizar que nuestro contenido sea accesible y útil para la mayor cantidad de personas posible!"
 
+  faq:
+    question1: "¿Qué significa mi puntaje en el test de autismo?"
+    answer1: "El test es solo una herramienta de detección. Si obtiene una puntuación alta, le recomendamos que busque una evaluación por parte de un profesional de la salud para una investigación más detallada."
+
+    question2: "¿Dónde puedo encontrar más información sobre el test de autismo?"
+    answer2: "Utilizamos un test de autismo conocido llamado AQ-50. Fue creado por el centro de investigación de autismo de la Universidad de Cambridge. Para más información, debe consultar el artículo: "
+
+    question3: "¿Mis datos son privados y seguros?"
+    answer3: "Sí, damos prioridad a su privacidad y seguridad. No recopilamos datos personales. Utilizamos un software de terceros, Plausible, para recopilar datos de tráfico anonimizados, asegurando que su información personal permanezca completamente privada."
+
+    question4: "¿Qué pasa si obtengo una puntuación alta en el test de autismo?"
+    answer4: "Una puntuación alta en el test de autismo sugiere que puede tener algunos rasgos asociados con el autismo. Se recomienda buscar una evaluación profesional para obtener un diagnóstico."
+
+    question5: "Encontré un error de traducción, ¿qué debo hacer?"
+    answer5: "Por favor, contáctenos en: "
+
+    question6: "No veo mi idioma, ¿dónde puedo agregarlo?"
+    answer6: "La mejor manera de traducir a su propio idioma es hacerlo a través de GitHub. Traduce las preguntas y las agregaremos a nuestro sitio web. Vea nuestro sitio de GitHub: "
+
+    question7: "¿Dónde puedo encontrar el código?"
+    answer7: "Nuestro código es de código abierto y está disponible en línea. Puede visitarlo aquí: "
+
+
 
   questions:
     1: "Prefiero hacer cosas con otros en lugar de por mi cuenta"
