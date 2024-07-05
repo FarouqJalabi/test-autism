@@ -1,6 +1,6 @@
 <!--hidden  invisible -->
-<div class="card bg-white h-full w-full absolute question"
-     style="<%= question.order != 1 ? 'visibility: hidden;' : '' %>"
+<div class="card bg-white h-full w-full absolute question duration-500"
+     style="<%= question.order != 1 ? 'visibility: hidden; transform: translateX(100vw);' : '' %> "
 
      data-controller="questions"
      data-order="<%= question.order %>" data-total="<%= question_length(question) %>" >
