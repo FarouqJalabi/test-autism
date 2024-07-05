@@ -6,8 +6,9 @@ SitemapGenerator::Sitemap.create do
   paths = [
     { path: '', priority: 0.5 },
     { path: '/test', priority: 0.8 },
-    { path: '/static_pages/privacy_policy', priority: 0.2 },
     { path: '/static_pages/about', priority: 0.4 },
+    { path: '/static_pages/faq', priority: 0.4 },
+    { path: '/static_pages/privacy_policy', priority: 0.2 },
     { path: '/static_pages/translations', priority: 0.2 },
     { path: '/blogs', priority: 0.4 }
   ]
