@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/
+/* Not working on every browser*/
+
+progress {
+    transition: 1s;
+}
+
+
+.selected_nav_element{
+    position: relative;
+}
+
+.selected_nav_element::after {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 5px;
+
+    left: 0;
+    bottom: -5px;
+    border-radius: 50px;
+
+    @apply bg-primary;
+}
+.prose a {
+    @apply underline text-blue-600;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+:root {
+    --primary-white: #d9d9d9;
+    --secondary-white: #d4d4d4;
+    --primary-black: #333;
+    --secondary-black: #383838;
+
+    --primary: #397ae8;
+}
+a {
+    text-decoration: none;
+}
+
+.section-divider {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    height: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    white-space: nowrap;
+}
+.section-divider::before {
+    --tw-content: "";
+    background-color: var(--fallback-bc,oklch(var(--bc)/.1));
+    content: var(--tw-content);
+    flex-grow: 1;
+    height: .125rem;
+    width: 100%;
+}
+.section-divider::after {
+    --tw-content: "";
+    background-color: var(--fallback-bc,oklch(var(--bc)/.1));
+    content: var(--tw-content);
+    flex-grow: 1;
+    height: .125rem;
+    width: 100%;
+}
+
+.result-progress-percentage {
+    position: absolute;
+    top: -2.5rem;
+    /*right: 0;*/
+    white-space: nowrap;
+    font-weight: 800;
+    transform: translateX(-50%);
+    transform-origin: center;
+    border: 2px solid var(--secondary-white);
+    color: var(--secondary-black);
+    padding: .2rem .5rem;
+    border-radius: .4rem;
+    font-size: .7rem;
+    z-index: 1;
+}
+
+.result-progress-percentage::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: .5rem;
+    border-style: solid;
+    border-color: var(--secondary-white) transparent transparent transparent;
+}
