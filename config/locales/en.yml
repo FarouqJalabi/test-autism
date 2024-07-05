@@ -57,6 +57,39 @@ en:
       title: "Cookies"
       description: "Our website does not use cookies to track your activity or collect personal information. We believe in providing a browsing experience free from invasive tracking technologies."
 
+
+  translation:
+    title: "Translations"
+    description: "We want our content to reach as many people as possible, so we use a ChatGPT for translations. While it usually does a great job, it can slip up now and then. If you notice any mistakes, we’d appreciate your help!"
+
+    header1: "Help Us Improve!"
+    description1: "If you spot something wrong in our translations, please let us know! Your feedback is invaluable in making sure our content is clear and accurate. Reach out to us at: "
+
+    header2: "Our Commitment"
+    description2: "We are committed to providing high-quality translations and appreciate your collaboration in this effort. Together, we can ensure that our content is accessible and helpful to as many people as possible!"
+
+  faq:
+      question1: "What does my autism test score mean?"
+      answer1: "The test is just a screening tool. If you score high we recommended that you seek an assessment by a healthcare professional for further investigation."
+
+      question2: "Where can I find more information about the autism test?"
+      answer2: "We use a known autism test called AQ-50. It is made by autism research center at Cambridge University. For more information you should view the paper:  "
+
+      question3: "Is my data private and secure?"
+      answer3: "Yes, we prioritize your privacy and security. We do not collect personal data. We use a third-party software, Plausible, to collect anonymized traffic data, ensuring that your personal information remains completely private."
+
+      question4: "What happens if I score high on the autism test?"
+      answer4: "A high score on the autism test suggest that you may have some traits associated with autism. It is recommended to seek a professional evaluation for a diagnosis."
+
+      question5: "I found a translation error, what should I do?"
+      answer5: "Please contact us at: "
+
+      question6: "I don't see my language where do I add it?"
+      answer6: "The best way to translate to your own language is to do it via github. Translate the questions and we will add it to our website. See our github site: "
+
+      question7: "Where can i find the code?"
+      answer7: "Our code is open source and available online. you can visit it here: "
+
   questions:
     1: "I prefer to do things with others rather than on my own"
     2: "I prefer to do things the same way over and over again"
