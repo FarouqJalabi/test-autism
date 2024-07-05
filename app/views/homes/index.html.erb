@@ -1,9 +1,9 @@
-    <main class="px-2 sm:px-16 xl:px-64 md:grid w-full gap-5">
+    <main class="px-2 xl:px-40 w-full gap-5">
 
         <section class="hero">
-            <div class="hero-content md:gap-12 gap-4 flex items-center justify-start text-center flex-col md:max-w-2/3">
+            <div class="hero-content md:gap-12 gap-4 text-center flex-col">
                 <h1 class="text-5xl md:text-6xl font-bold"><%= t('home.title') %></h1>
-                <p class="text-lg text-secondary-black md:text-2xl md:px-20 lg:px-60"><%= t('home.description') %></p>
+                <p class="text-lg text-secondary-black md:text-2xl md:px-20"><%= t('home.description') %></p>
 
                 <div class="flex gap-8">
                     <%= link_to t('home.button1'), test_path, class: "btn btn-primary m-2 duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
@@ -71,7 +71,7 @@
             <%= t('home.blogSectionTitle') %>
         </h2>
 
-        <div class="flex flex-wrap justify-center gap-12">
+        <div class="flex flex-wrap justify-center gap-10">
             <%= render @blog_posts[0..2] %>
         </div>
       </section>
