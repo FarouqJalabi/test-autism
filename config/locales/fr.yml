@@ -58,6 +58,16 @@ fr:
       title: "Cookies"
       description: "Notre site web n'utilise pas de cookies pour suivre votre activité ou collecter des informations personnelles. Nous croyons en une expérience de navigation exempte de technologies de suivi invasives."
 
+  translation:
+    title: "Traductions"
+    description: "Nous voulons que notre contenu atteigne le plus grand nombre de personnes possible, nous utilisons donc ChatGPT pour les traductions. Bien qu'il fasse généralement un excellent travail, il peut parfois se tromper. Si vous remarquez des erreurs, nous apprécierions votre aide !"
+
+    header1: "Aidez-nous à Améliorer !"
+    description1: "Si vous repérez une erreur dans nos traductions, veuillez nous le faire savoir ! Vos retours sont inestimables pour nous assurer que notre contenu soit clair et précis. Contactez-nous à : "
+
+    header2: "Notre Engagement"
+    description2: "Nous nous engageons à fournir des traductions de haute qualité et nous apprécions votre collaboration dans cet effort. Ensemble, nous pouvons garantir que notre contenu soit accessible et utile au plus grand nombre de personnes possible !"
+
 
   questions:
     1: "Je préfère faire des choses avec les autres plutôt que seul"

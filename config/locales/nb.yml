@@ -59,6 +59,16 @@ nb:
       title: "Informasjonskapsler"
       description: "Vårt nettsted bruker ikke informasjonskapsler for å spore din aktivitet eller samle inn personlig informasjon. Vi tror på å tilby en nettleseropplevelse fri fra invasive sporings-teknologier."
 
+    translation:
+      title: "Oversettelser"
+      description: "Vi ønsker at innholdet vårt skal nå så mange som mulig, så vi bruker ChatGPT til oversettelser. Selv om det vanligvis gjør en god jobb, kan det noen ganger gjøre feil. Hvis du legger merke til noen feil, setter vi pris på din hjelp!"
+
+      header1: "Hjelp Oss å Forbedre!"
+      description1: "Hvis du finner feil i oversettelsene våre, vennligst gi oss beskjed! Din tilbakemelding er uvurderlig for å sikre at innholdet vårt er klart og nøyaktig. Kontakt oss på: "
+
+      header2: "Vårt Forpliktelse"
+      description2: "Vi er forpliktet til å levere oversettelser av høy kvalitet og setter pris på ditt samarbeid i denne innsatsen. Sammen kan vi sikre at innholdet vårt er tilgjengelig og nyttig for så mange som mulig!"
+
 
   questions:
     1: "Jeg foretrekker å gjøre ting sammen med andre i stedet for alene"
