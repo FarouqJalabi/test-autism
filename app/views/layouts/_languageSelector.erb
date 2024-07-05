@@ -1,4 +1,4 @@
-<select class="border border-gray-300 md:text-xl p-2 pr-8" name="" aria-label="Language selector" onchange="window.location.href=this.value">
+<select class="border border-gray-300 md:text-xl p-2 pr-8 bg-white rounded" name="" aria-label="Language selector" onchange="window.location.href=this.value">
   <option <%=  "selected" if I18n.locale == :en %> value="<%= url_for(params.permit(:score).merge(locale: :en)) %>"><span>🇺🇸</span>English</option>
   <option <%=  "selected" if I18n.locale == :es %> value="<%= url_for(params.permit(:score).merge(locale: :es)) %>"><span>🇪🇸</span>Español</option>
   <option <%=  "selected" if I18n.locale == :fr %> value="<%= url_for(params.permit(:score).merge(locale: :fr)) %>"><span>🇫🇷</span>Français</option>
