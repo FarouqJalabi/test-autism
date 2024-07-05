@@ -146,6 +146,7 @@ nb:
     shareButton: "Del Resultat"
 
   footer:
+    resources: "Ressurser"
     privacy: "Personvern"
     about: "Om oss"
     blogs: "Blogger"
