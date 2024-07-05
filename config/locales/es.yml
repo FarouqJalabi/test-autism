@@ -1,8 +1,7 @@
 es:
   header:
-    title: "Prueba gratuita de autismo"
-    description: "Toma nuestra prueba gratuita de autismo en línea para una evaluación rápida y precisa."
-
+    title: "Test de Autismo Gratis"
+    description: "Tome nuestro test de autismo en línea gratis para una evaluación rápida y precisa. Nuestro test de autismo no es corto y preciso. El test de autismo es el AQ-50 del centro de investigación del autismo."
   navigation:
     homeButton: "Inicio"
     takeTestButton: "Tomar prueba"
@@ -10,7 +9,7 @@ es:
 
   home:
     title: "Haz una prueba de autismo de 10 minutos"
-    description: "Obtén información sobre tus rasgos. Esta prueba no es una herramienta de diagnóstico, pero puede ayudarte a entenderte mejor."
+    description: "Tome nuestro test de autismo rápido y preciso. El test de autismo se llama AQ-50 y es conocido por ser una herramienta de detección confiable."
 
     button1: "Comenzar prueba"
     button2: "Acerca de nosotros"
@@ -27,14 +26,14 @@ es:
 
       result:
         title: "Resultados"
-        description: "Retroalimentación inmediata con recomendaciones."
+        description: "El test proporciona comentarios inmediatos."
     
     madeBy: "Prueba por la Universidad de Cambridge"
     blogSectionTitle: "Último Blog"
 
   aboutUs:
     title: "Sobre nosotros"
-    description: "Somos un equipo dedicado y apasionado por proporcionar información confiable y accesible sobre el autismo. Nuestra misión es ayudar a las personas y a las familias a comprender mejor el trastorno del espectro autista a través de recursos y herramientas precisas y basadas en evidencia. Nuestro objetivo es crear una comunidad de apoyo donde las personas puedan encontrar la información que necesitan para navegar en sus trayectorias con el autismo."
+    description: "Somos un equipo dedicado y apasionado por proporcionar pruebas de autismo confiables y accesibles. Nuestra misión es ayudar a individuos y familias a comprender mejor el trastorno del espectro autista a través de recursos y herramientas precisas y basadas en evidencia. Nuestro objetivo es crear una comunidad de apoyo donde las personas puedan encontrar la información que necesitan para navegar en sus viajes con el autismo."
     
     ourVision:
       title: "Nuestra visión"
@@ -42,17 +41,17 @@ es:
 
     ourTeam:
       title: "Nuestro equipo"
-      description: "Nuestro equipo está compuesto por expertos en psicología, educación y tecnología, todos trabajando juntos para brindarte los mejores recursos. Nos comprometemos a un aprendizaje y mejora continuos para garantizar que nuestro contenido siga siendo relevante y valioso."
+      description: "Nuestro equipo está compuesto por varios desarrolladores de software que trabajan juntos para brindarle el mejor test de autismo y recursos disponibles en un sitio web fácil de entender. Estamos comprometidos con el aprendizaje continuo y la mejora para garantizar que nuestro contenido siga siendo relevante y valioso."
 
     contactUs:
       title: "Contáctanos"
-      description: "Ya sea para decir hola o para informar sobre un error, ¡siempre nos encantará saber de ti! Tus comentarios nos ayudan a mejorar y servirte mejor. Contáctanos en fogado@rubynor.com."
+      description: "¡Ya sea para saludar o informar un error, siempre nos encantará saber de usted! Sus comentarios nos ayudan a mejorar y servirle mejor. Contáctenos en "
 
   privacy:
     title: "Privacidad y política"
     aboutData:
       title: "Sobre los datos que recopilamos"
-      description: "No recopilamos ningún dato sobre ti. Utilizamos un software de terceros, Plausible, para recopilar datos de tráfico. Esto garantiza que tu privacidad esté protegida mientras recopilamos los conocimientos necesarios para mejorar nuestro sitio web. Plausible nos proporciona datos anonimizados y agregados, por lo que tu información personal permanece completamente privada."
+      description: "No recopilamos ningún dato sobre usted. No recopilamos ninguna de sus respuestas al test de autismo. Utilizamos un software de terceros, Plausible, para recopilar datos de tráfico. Esto asegura que su privacidad esté protegida mientras reunimos la información necesaria para mejorar nuestro sitio web. Plausible nos proporciona datos anónimos y agregados, por lo que su información personal permanece completamente privada."
 
     cookies:
       title: "Cookies"
