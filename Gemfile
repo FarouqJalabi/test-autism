@@ -8,6 +8,9 @@ gem 'tailwindcss-rails'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 
+# Generates sitemap for us [https://github.com/kjvarga/sitemap_generator]
+gem "sitemap_generator"
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 #
