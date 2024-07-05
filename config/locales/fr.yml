@@ -68,6 +68,28 @@ fr:
     header2: "Notre Engagement"
     description2: "Nous nous engageons à fournir des traductions de haute qualité et nous apprécions votre collaboration dans cet effort. Ensemble, nous pouvons garantir que notre contenu soit accessible et utile au plus grand nombre de personnes possible !"
 
+  faq:
+    question1: "Que signifie mon score au test de l'autisme ?"
+    answer1: "Le test est simplement un outil de dépistage. Si vous obtenez un score élevé, nous vous recommandons de consulter un professionnel de la santé pour une évaluation plus approfondie."
+
+    question2: "Où puis-je trouver plus d'informations sur le test de l'autisme ?"
+    answer2: "Nous utilisons un test d'autisme connu sous le nom d'AQ-50. Il a été créé par le centre de recherche sur l'autisme de l'Université de Cambridge. Pour plus d'informations, vous devriez consulter l'article : "
+
+    question3: "Mes données sont-elles privées et sécurisées ?"
+    answer3: "Oui, nous privilégions votre vie privée et votre sécurité. Nous ne collectons pas de données personnelles. Nous utilisons un logiciel tiers, Plausible, pour collecter des données de trafic anonymisées, garantissant que vos informations personnelles restent complètement privées."
+
+    question4: "Que se passe-t-il si j'obtiens un score élevé au test de l'autisme ?"
+    answer4: "Un score élevé au test de l'autisme suggère que vous pourriez avoir certains traits associés à l'autisme. Il est recommandé de consulter un professionnel pour une évaluation diagnostique."
+
+    question5: "J'ai trouvé une erreur de traduction, que dois-je faire ?"
+    answer5: "Veuillez nous contacter à : "
+
+    question6: "Je ne vois pas ma langue, où puis-je l'ajouter ?"
+    answer6: "La meilleure façon de traduire dans votre propre langue est de le faire via GitHub. Traduisez les questions et nous les ajouterons à notre site Web. Consultez notre site GitHub : "
+
+    question7: "Où puis-je trouver le code ?"
+    answer7: "Notre code est open source et disponible en ligne. Vous pouvez le visiter ici : "
+
 
   questions:
     1: "Je préfère faire des choses avec les autres plutôt que seul"
