@@ -8,7 +8,13 @@ export default class extends Controller {
 
   radio_clicked(event) {
     if (this.order !== this.totalQuestions){
-      this.element.style.visibility = "hidden"
+      // this.element.style.visibility = "hidden"
+      this.element.style.transform = "translateX(-100vw)"
+
+      setTimeout(() => {
+        this.element.style.visibility = "hidden"
+      }, "500");
+
     }
     if (this.order === this.totalQuestions){
       document.querySelector("input[type=\"submit\"]").classList.remove("hidden")
@@ -18,6 +24,7 @@ export default class extends Controller {
     let nextQuestion = document.querySelector('.question[data-order="' + (Number(this.order)+1) + '"]');
     if (nextQuestion){
       nextQuestion.style.visibility = "visible"
+      nextQuestion.style.transform = "translateX(0vw)"
       // Select next question first radio button
       nextQuestion.querySelector("input[type='radio']").focus()
 
@@ -33,6 +40,8 @@ export default class extends Controller {
 
     let targetQuestion = document.querySelector('.question[data-order="' + targetIndex + '"]');
     targetQuestion.style.visibility = "visible"
+    targetQuestion.style.transform = "translateX(0vw)"
+
     targetQuestion.querySelector("input[type='radio']").focus()
   }
 
