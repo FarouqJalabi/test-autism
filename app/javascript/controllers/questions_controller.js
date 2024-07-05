@@ -13,7 +13,7 @@ export default class extends Controller {
 
       setTimeout(() => {
         this.element.style.visibility = "hidden"
-      }, "500");
+      }, "502");
 
     }
     if (this.order === this.totalQuestions){
@@ -25,8 +25,12 @@ export default class extends Controller {
     if (nextQuestion){
       nextQuestion.style.visibility = "visible"
       nextQuestion.style.transform = "translateX(0vw)"
+
       // Select next question first radio button
-      nextQuestion.querySelector("input[type='radio']").focus()
+      setTimeout(() => {
+        nextQuestion.querySelector("input[type='radio']").focus()
+      }, "502");
+
 
     }
 
