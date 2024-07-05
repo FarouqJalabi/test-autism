@@ -59,6 +59,38 @@ nb:
       title: "Informasjonskapsler"
       description: "Vårt nettsted bruker ikke informasjonskapsler for å spore din aktivitet eller samle inn personlig informasjon. Vi tror på å tilby en nettleseropplevelse fri fra invasive sporings-teknologier."
 
+  translation:
+    title: "Oversettelser"
+    description: "Vi ønsker at innholdet vårt skal nå så mange som mulig, så vi bruker ChatGPT til oversettelser. Selv om det vanligvis gjør en god jobb, kan det noen ganger gjøre feil. Hvis du legger merke til noen feil, setter vi pris på din hjelp!"
+
+    header1: "Hjelp Oss å Forbedre!"
+    description1: "Hvis du finner feil i oversettelsene våre, vennligst gi oss beskjed! Din tilbakemelding er uvurderlig for å sikre at innholdet vårt er klart og nøyaktig. Kontakt oss på: "
+
+    header2: "Vårt Forpliktelse"
+    description2: "Vi er forpliktet til å levere oversettelser av høy kvalitet og setter pris på ditt samarbeid i denne innsatsen. Sammen kan vi sikre at innholdet vårt er tilgjengelig og nyttig for så mange som mulig!"
+
+  faq:
+    question1: "Hva betyr autismetestresultatet mitt?"
+    answer1: "Testen er bare et verktøy for screening. Hvis du får høy score, anbefaler vi at du søker en vurdering hos en helsepersonell for videre undersøkelse."
+
+    question2: "Hvor kan jeg finne mer informasjon om autismetesten?"
+    answer2: "Vi bruker en kjent autismetest kalt AQ-50. Den er laget av autismeforskningssenteret ved Cambridge University. For mer informasjon bør du se på artikkelen: "
+
+    question3: "Er dataene mine private og sikre?"
+    answer3: "Ja, vi prioriterer ditt personvern og din sikkerhet. Vi samler ikke inn personopplysninger. Vi bruker tredjeparts programvare, Plausible, for å samle anonymisert trafikkdata, noe som sikrer at dine personlige opplysninger forblir helt private."
+
+    question4: "Hva skjer hvis jeg får høy score på autismetesten?"
+    answer4: "En høy score på autismetesten tyder på at du kan ha noen trekk forbundet med autisme. Det anbefales å søke en profesjonell evaluering for en diagnose."
+
+    question5: "Jeg fant en oversettelsesfeil, hva skal jeg gjøre?"
+    answer5: "Vennligst kontakt oss på: "
+
+    question6: "Jeg ser ikke språket mitt, hvor kan jeg legge det til?"
+    answer6: "Den beste måten å oversette til ditt eget språk på er å gjøre det via GitHub. Oversett spørsmålene og vi legger dem til på nettsiden vår. Se vår GitHub-side: "
+
+    question7: "Hvor kan jeg finne koden?"
+    answer7: "Koden vår er åpen kildekode og tilgjengelig online. Du kan besøke den her: "
+
 
   questions:
     1: "Jeg foretrekker å gjøre ting sammen med andre i stedet for alene"
