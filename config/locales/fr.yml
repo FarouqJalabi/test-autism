@@ -143,6 +143,7 @@ fr:
     shareButton: "Partager le Résultat"
 
   footer:
+    resources: "Ressources"
     privacy: "Confidentialité"
     about: "À propos"
     blogs: "Blogs"
