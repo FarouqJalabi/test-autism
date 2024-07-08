@@ -49,7 +49,10 @@ export default class extends Controller {
     targetQuestion.style.visibility = "visible"
     targetQuestion.style.transform = "translateX(0vw)"
 
-    targetQuestion.querySelector("input[type='radio']").focus()
+    setTimeout(() => {
+      targetQuestion.querySelector("input[type='radio']").focus()
+    }, "502"); // Reason for 502 is because animation lasts is 500
+
   }
 
   update_progress_bar() {
