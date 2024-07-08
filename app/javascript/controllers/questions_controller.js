@@ -13,7 +13,7 @@ export default class extends Controller {
 
       setTimeout(() => {
         this.element.style.visibility = "hidden"
-      }, "502");
+      }, "502"); // Reason for 502 is because animation lasts is 500
 
     }
     if (this.order === this.totalQuestions){
@@ -29,7 +29,7 @@ export default class extends Controller {
       // Select next question first radio button
       setTimeout(() => {
         nextQuestion.querySelector("input[type='radio']").focus()
-      }, "502");
+      }, "502"); // Reason for 502 is because animation lasts is 500
 
 
     }
@@ -40,6 +40,9 @@ export default class extends Controller {
   back_clicked() {
     let targetIndex = this.order-1 ;
 
+
+    this.element.style.transform = "translateX(100vw)"
+    
     this.element.style.visibility = "hidden"
 
     let targetQuestion = document.querySelector('.question[data-order="' + targetIndex + '"]');
