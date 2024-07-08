@@ -12,7 +12,7 @@ es:
     description: "Tome nuestro test de autismo rápido y preciso. El test de autismo se llama AQ-50 y es conocido por ser una herramienta de detección confiable."
 
     button1: "Comenzar prueba"
-    button2: "Acerca de nosotros"
+    button2: "Nosotros"
 
     whatToExpect:
       title: "Qué esperar"
