@@ -1,3 +1,25 @@
+
+<dialog id="disclaimer_modal" class="modal">
+  <div class="modal-box">
+    <h3 class="text-2xl font-bold"><%= t("aboutUs.disclaimer.title") %></h3>
+    <p class="py-4"><%= t("aboutUs.disclaimer.description1") %></p>
+    <p class="py-4"><%= t("aboutUs.disclaimer.description2") %></p>
+
+    <div class="modal-action">
+      <form method="dialog">
+        <button class="btn">Close</button>
+      </form>
+    </div>
+
+  </div>
+</dialog>
+
+<script>
+ // It pop up on the start
+ disclaimer_modal.showModal()
+</script>
+
+
 <main class="grid px-3 md:gap-36 sm:px-20 lg:px-40">
   <progress class="progress progress-primary w-full" value="0" max="100"></progress>
 
@@ -6,4 +28,6 @@
       <%= render @questions, form: form %>
     </div>
   <% end %>
+
+
 </main>

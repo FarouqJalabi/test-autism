@@ -48,6 +48,12 @@ fr:
       title: "Contactez-nous"
       description: "Que ce soit pour dire bonjour ou signaler un bug, nous aimerions toujours avoir de vos nouvelles ! Vos commentaires nous aident à nous améliorer et à mieux vous servir. Contactez-nous à "
 
+    disclaimer:
+      title: "Avertissement!"
+      description1: "Nous ne sommes pas des professionnels de la santé, et les outils fournis sur ce site Web (le test AQ-50) sont uniquement destinés à être des outils de dépistage. Ces tests sont conçus pour aider à identifier les traits associés à l'autisme et ne sont pas des instruments de diagnostic."
+      description2: "En utilisant notre site Web et les outils de dépistage fournis, vous reconnaissez et acceptez que ces outils sont uniquement à des fins informatives et de divertissement et ne doivent pas être considérés comme des conseils médicaux."
+
+
   privacy:
     title: "Confidentialité et politique"
     aboutData:
