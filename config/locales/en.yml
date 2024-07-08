@@ -47,6 +47,11 @@ en:
       title: "Contact Us"
       description: "Whether to say hi or report a bug, we will always love to hear from you! Your feedback helps us improve and serve you better. Reach out to us at "
 
+    disclaimer:
+      title: "Disclaimer!"
+      description1: "We are not medical professionals, and the tools provided on this website (The AQ-50 test) are intend solely as screening tools. These test are designed to help identify traits associated with autism and are not diagnosis instruments."
+      description2: "By using our website and the screening tools provided, you acknowledge and agree that these tools are for informational and entertainment purposes only and should not be considered as medical advice."
+
   privacy:
     title: "Privacy And Policy"
     aboutData:
