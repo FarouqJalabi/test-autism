@@ -1,7 +1,8 @@
 en:
   header:
     title: "Free Autism Test"
-    description: "Take our free online autism test for an accurate, quick assessment. Our autism test is not is short and accurate. The autism test is the AQ-50 from autism research center"
+    description: "Take our free online autism test for a quick, accurate assessment. Our AQ-50 autism test from the Autism Research Center ensures reliable results."
+
   navigation:
     homeButton: "Home"
     takeTestButton: "Take test"
