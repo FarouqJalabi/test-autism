@@ -48,6 +48,11 @@ nb:
     contactUs:
       title: "Kontakt oss"
       description: "Enten for å si hei eller rapportere en feil, vil vi alltid gjerne høre fra deg! Din tilbakemelding hjelper oss med å forbedre og betjene deg bedre. Ta kontakt med oss på "
+      
+    disclaimer:
+      title: "Ansvarsfraskrivelse!"
+      description1: "Vi er ikke medisinske fagpersoner, og verktøyene som tilbys på denne nettsiden (AQ-50 testen) er kun ment som screeningverktøy. Disse testene er utformet for å hjelpe med å identifisere trekk forbundet med autisme og er ikke diagnostiske instrumenter."
+      description2: "Ved å bruke vårt nettsted og screeningverktøyene som tilbys, erkjenner og godtar du at disse verktøyene kun er for informasjons- og underholdningsformål og ikke skal anses som medisinsk rådgivning."
 
   privacy:
     title: "Personvern og retningslinjer"
