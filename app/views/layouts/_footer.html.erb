@@ -1,31 +1,31 @@
-<footer class="pt-32 grid items-center justify-center pb-20">
-    <div class="py-[1.4rem] flex items-center justify-center gap-5 w-screen">
-        <div class="flex items-center justify-start flex-[0.25]">        
-            <%= image_tag "Logo.svg", alt: "logo", class: "w-fit h-fit"%>
-        </div>
-        <div  class="grid items-center justify-end flex-[0.3] gap-2 md:gap-3">
-            <h1 class="text-xl font-bold md:text-2xl lg:text-3xl">
-                <%= t('footer.resources') %>
-            </h1>
-            <div class="flex items-center justify-end gap-2 md:gap-5">
+<footer class="footer footer-center bg-base-200 text-base-content rounded p-10 mt-28">
+  <nav class="grid grid-flow-col gap-4">
 
-              <a href="https://docs.autismresearchcentre.com/papers/2001_BCetal_AQ.pdf" target="_blank" class="block w-12">
-                <%= image_tag "university-of-cambridge-2.svg", alt: "cambridge university logo", class: "w-fit h-fit"%>
-              </a>
-              <a href="https://www.wired.com/2001/12/aqtest/" target="_blank">
-                <%= image_tag "wired.svg", alt: "wired logo", class: "w-fit h-fit"%>
-              </a>
-            </div>
+    <a href="<%= static_pages_privacy_policy_path %>" class="link link-hover"><%= t('footer.privacy') %></a>
+    <a href="<%= static_pages_about_path %>" class="link link-hover"><%= t('footer.about') %></a>
+    <a href="<%= static_pages_translations_path %>" class="link link-hover"><%= t('footer.translations') %></a>
+    <a href="<%= static_pages_faq_path %>" class="link link-hover">FAQ</a>
+    <a href="<%= blogs_path %>" class="link link-hover"><%= t('footer.blogs') %></a>
+  </nav>
+  <nav>
+    <div class="grid grid-flow-col gap-4">
+      <div  class="grid items-center justify-end flex-[0.3] gap-2 md:gap-3">
+        <h1 class="text-lg md:text-xl lg:text-2xl">
+            <%= t('footer.resources') %>
+        </h1>
+        <div class="flex items-center justify-end gap-2 md:gap-5">
+
+          <a href="https://docs.autismresearchcentre.com/papers/2001_BCetal_AQ.pdf" target="_blank" class="block w-12">
+            <%= image_tag "university-of-cambridge-2.svg", alt: "cambridge university logo", class: "w-fit h-fit"%>
+          </a>
+          <a href="https://www.wired.com/2001/12/aqtest/" target="_blank">
+            <%= image_tag "wired.svg", alt: "wired logo", class: "w-fit h-fit"%>
+          </a>
         </div>
+      </div>
     </div>
-    <div class="py-[1.4rem] flex items-center justify-center gap-[.8rem]">
-        <a href="<%= static_pages_privacy_policy_path %>"><%= t('footer.privacy') %></a>
-        <a href="<%= static_pages_about_path %>"><%= t('footer.about') %></a>
-        <a href="<%= static_pages_translations_path %>"><%= t('footer.translations') %></a>
-      <a href="<%= static_pages_faq_path %>">FAQ</a>
-        <a href="<%= blogs_path %>"><%= t('footer.blogs') %></a>
-    </div>
-    <div class="py-[1.4rem] flex items-center justify-center">
-        <p><%= t('footer.holding') %></p>
-    </div>
+  </nav>
+  <aside>
+    <p><%= t('footer.holding') %></p>
+  </aside>
 </footer>
