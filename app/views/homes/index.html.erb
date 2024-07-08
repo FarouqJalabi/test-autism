@@ -1,21 +1,21 @@
-    <main class="px-2 xl:px-40 w-full gap-5">
+    <main class="px-2 md:px-16 xl:px-40 w-full grid gap-24">
 
         <section class="hero">
-            <div class="hero-content md:gap-12 gap-4 text-center flex-col">
+            <div class="grid items-center justify-center gap-12 md:gap-12 text-center">
                 <h1 class="text-5xl md:text-6xl font-bold"><%= t('home.title') %></h1>
-                <p class="text-lg text-secondary-black md:text-2xl md:px-20"><%= t('home.description') %></p>
+                <p class="text-lg text-secondary-black md:text-2xl md:px-40 lg:px-64"><%= t('home.description') %></p>
 
-                <div class="flex gap-8">
+                <div class="flex items-center justify-center gap-8">
                     <%= link_to t('home.button1'), test_path, class: "btn btn-primary m-2 duration-100 hover:scale-110 bg-primary text-white px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
                     <%= link_to t('home.button2'), static_pages_about_path, class: "btn color-white  m-2 duration-100 hover:scale-110 bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
                 </div>
             </div>
         </section>
+        
 
-      <div class="section-divider"></div>
 
-
-      <section id="aboutUs" class="grid grid-cols-1 items-center justify-center gap-10">
+        <section id="aboutUs" class="grid grid-cols-1 items-center justify-center gap-10">
+            <div class="section-divider"></div>
             <h2 class="ml-4 text-3xl text-gray-700"><%= t('home.whatToExpect.title') %></h2>
 
             <div class="flex flex-wrap items-center justify-center">
@@ -58,25 +58,25 @@
             </div>
         </section>
 
-      <div class="section-divider"></div>
-
-      <h2 class="m-auto text-center text-5xl font-bold">
-        <a href="https://docs.autismresearchcentre.com/papers/2001_BCetal_AQ.pdf">
-            <%= t('home.madeBy') %>
-        <a/>
-      </h2>
+        <section class="grid gap-8">
+            <div class="section-divider"></div>
+            <h2 class="m-auto text-center text-5xl font-bold">
+            <a href="https://docs.autismresearchcentre.com/papers/2001_BCetal_AQ.pdf">
+                <%= t('home.madeBy') %>
+            <a/>
+            </h2>
+            <div class="section-divider"></div>
+        </section>
 
       
-      <div class="section-divider"></div>
-      
-        <section class="py-8 px-4 md:px-16 grid gap-5 mb-5 md:text-4x">
-            <h2 class="text-center text-3xl font-bold"><%= t('aboutUs.disclaimer.title')%></h2>
-            <p class="text-center text-xl"><%= t('aboutUs.disclaimer.description1')%></p>
-            <p class="text-center text-xl"><%= t('aboutUs.disclaimer.description2')%></p>
+        <section class="px-4 md:px-32 grid gap-5 md:text-4x">
+            <h2 class="text-center text-4xl md:text-5xl mb-2 md:mb-4"><%= t('aboutUs.disclaimer.title')%></h2>
+            <p class="text-center text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description1')%></p>
+            <p class="text-center text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description2')%></p>
 
         </section>
 
-      <section class="px-8 mt-10 grid gap-10">
+      <section class="px-8 grid gap-2 md:gap-10">
         <h2 class="m-auto text-center text-4xl md:text-5xl">
             <%= t('home.blogSectionTitle') %>
         </h2>
