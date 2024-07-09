@@ -12,7 +12,7 @@ export default class extends Controller {
 
   async share_clicked() {
     if (navigator.canShare){
-        let share_data = {title: "Test-Autism", text: this.element.dataset.label, url: "https://test-autism.rubynor.com/"+this.element.dataset.language+"/test"}
+        let share_data = {title: "Test-Autism", text: this.element.dataset.label, url: "https://test-autism.com/"+this.element.dataset.language+"/test"}
         await navigator.share(share_data);
     }
   }
