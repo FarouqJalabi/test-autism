@@ -45,7 +45,72 @@
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
-    <%= yield :head %>
+    <% if current_page?(static_pages_faq_path) %>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "<%= t('faq.question1') %>",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p><%= t('faq.answer1') %></p>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "<%= t('faq.question2') %>",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p><%= t('faq.answer2') %><a href='https://docs.autismresearchcentre.com/papers/2001_BCetal_AQ.pdf' target='_blank'>Research paper</a></p>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "<%= t('faq.question3') %>",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p><%= t('faq.answer3') %></p>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "<%= t('faq.question4') %>",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p><%= t('faq.answer4') %></p>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "<%= t('faq.question5') %>",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p><%= t('faq.answer5') %> <a href='mailto:farouq@rubynor.com'>farouq@rubynor.com</a></p>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "<%= t('faq.question6') %>",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p><%= t('faq.answer6') %> <a href='https://github.com/FarouqJalabi/test-autism' target='_blank'>Github</a></p>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "<%= t('faq.question7') %>",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p><%= t('faq.answer7') %> <a href='https://github.com/farouqjalabi/test-autism' target='_blank'>Github</a></p>"
+              }
+            }
+          ]
+        }
+      </script>
+    <% end %>
 
   </head>
 
