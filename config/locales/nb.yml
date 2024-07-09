@@ -1,7 +1,7 @@
 nb:
   header:
-    title: "Gratis Autismetest"
-    description: "Ta vår gratis online autismetest for en nøyaktig og rask vurdering. Vår autismetest er ikke kort og nøyaktig. Autismetesten er AQ-50 fra autismeforskningssenteret."
+    title: "Gratis Autisme test"
+    description: "Ta vår gratis online autisme test for en nøyaktig og rask vurdering. Vår autisme test er ikke kort og nøyaktig. Autisme testen er AQ-50 fra autismeforskningssenteret."
 
   navigation:
     homeButton: "Hjem"
@@ -9,8 +9,8 @@ nb:
     aboutButton: "Om oss"
 
   home:
-    title: "Gratis Autismetest"
-    description: "Ta vår raske og nøyaktige autismetest. Autismetesten heter AQ-50 og er kjent for å være et pålitelig screeningsverktøy."
+    title: "Gratis Autisme test"
+    description: "Ta vår raske og nøyaktige autisme test. Autisme testen heter AQ-50 og er kjent for å være et pålitelig screeningsverktøy."
 
 
     button1: "Start test"
@@ -36,7 +36,7 @@ nb:
 
   aboutUs:
     title: "Om oss"
-    description: "Vi er et dedikert team som brenner for å tilby pålitelige og tilgjengelige autismetester. Vårt oppdrag er å hjelpe enkeltpersoner og familier til bedre å forstå autismespekterforstyrrelser gjennom nøyaktige, evidensbaserte ressurser og verktøy. Vi har som mål å skape et støttende samfunn der folk kan finne informasjonen de trenger for å navigere sine reiser med autisme."
+    description: "Vi er et dedikert team som brenner for å tilby pålitelige og tilgjengelige autisme tester. Vårt oppdrag er å hjelpe enkeltpersoner og familier til bedre å forstå autismespekterforstyrrelser gjennom nøyaktige, evidensbaserte ressurser og verktøy. Vi har som mål å skape et støttende samfunn der folk kan finne informasjonen de trenger for å navigere sine reiser med autisme."
 
     ourVision:
       title: "Vår visjon"
@@ -44,7 +44,7 @@ nb:
 
     ourTeam:
       title: "Vårt team"
-      description: "Vårt team består av flere programvareutviklere som jobber sammen for å gi deg den beste autismetesten og ressursene tilgjengelig på en enkel å forstå nettside. Vi er forpliktet til kontinuerlig læring og forbedring for å sikre at innholdet vårt forblir relevant og verdifullt."
+      description: "Vårt team består av flere programvareutviklere som jobber sammen for å gi deg den beste autisme testen og ressursene tilgjengelig på en enkel å forstå nettside. Vi er forpliktet til kontinuerlig læring og forbedring for å sikre at innholdet vårt forblir relevant og verdifullt."
 
     contactUs:
       title: "Kontakt oss"
@@ -59,7 +59,7 @@ nb:
     title: "Personvern og retningslinjer"
     aboutData:
       title: "Om dataene vi samler inn"
-      description: "Vi samler ikke inn noen data om deg. Vi samler ikke inn noen av dine svar på autismetesten. Vi bruker tredjeparts programvare, Plausible, for å samle inn trafikkdata. Dette sikrer at personvernet ditt er beskyttet mens vi samler inn nødvendig innsikt for å forbedre nettstedet vårt. Plausible gir oss anonymiserte, aggregerte data, slik at din personlige informasjon forblir helt privat."
+      description: "Vi samler ikke inn noen data om deg. Vi samler ikke inn noen av dine svar på autisme testen. Vi bruker tredjeparts programvare, Plausible, for å samle inn trafikkdata. Dette sikrer at personvernet ditt er beskyttet mens vi samler inn nødvendig innsikt for å forbedre nettstedet vårt. Plausible gir oss anonymiserte, aggregerte data, slik at din personlige informasjon forblir helt privat."
 
     cookies:
       title: "Informasjonskapsler"
@@ -76,17 +76,17 @@ nb:
     description2: "Vi er forpliktet til å levere oversettelser av høy kvalitet og setter pris på ditt samarbeid i denne innsatsen. Sammen kan vi sikre at innholdet vårt er tilgjengelig og nyttig for så mange som mulig!"
 
   faq:
-    question1: "Hva betyr autismetestresultatet mitt?"
+    question1: "Hva betyr autisme test resultatet mitt?"
     answer1: "Testen er bare et verktøy for screening. Hvis du får høy score, anbefaler vi at du søker en vurdering hos en helsepersonell for videre undersøkelse."
 
-    question2: "Hvor kan jeg finne mer informasjon om autismetesten?"
-    answer2: "Vi bruker en kjent autismetest kalt AQ-50. Den er laget av autismeforskningssenteret ved Cambridge University. For mer informasjon bør du se på artikkelen: "
+    question2: "Hvor kan jeg finne mer informasjon om autisme testen?"
+    answer2: "Vi bruker en kjent autisme test kalt AQ-50. Den er laget av autismeforskningssenteret ved Cambridge University. For mer informasjon bør du se på artikkelen: "
 
     question3: "Er dataene mine private og sikre?"
     answer3: "Ja, vi prioriterer ditt personvern og din sikkerhet. Vi samler ikke inn personopplysninger. Vi bruker tredjeparts programvare, Plausible, for å samle anonymisert trafikkdata, noe som sikrer at dine personlige opplysninger forblir helt private."
 
-    question4: "Hva skjer hvis jeg får høy score på autismetesten?"
-    answer4: "En høy score på autismetesten tyder på at du kan ha noen trekk forbundet med autisme. Det anbefales å søke en profesjonell evaluering for en diagnose."
+    question4: "Hva skjer hvis jeg får høy score på autisme testen?"
+    answer4: "En høy score på autisme testen tyder på at du kan ha noen trekk forbundet med autisme. Det anbefales å søke en profesjonell evaluering for en diagnose."
 
     question5: "Jeg fant en oversettelsesfeil, hva skal jeg gjøre?"
     answer5: "Vennligst kontakt oss på: "
