@@ -6,4 +6,4 @@ Disallow: /nb/result
 Disallow: /es/result
 Disallow: /fr/result
 
-Sitemap: https://test-autism.rubynor.com/sitemap.xml
+Sitemap: https://test-autism.com/sitemap.xml
