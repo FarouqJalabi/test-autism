@@ -20,3 +20,8 @@ config/master.key
 /public/packs
 /public/packs-test
 /public/assets
+
+
+# Ignore node modules eg. tailwind
+node_modules/
+
