@@ -28,9 +28,11 @@ fr:
       result:
         title: "Résultats"
         description: "Le test donne des résultats immédiats."
+
     
     madeBy: "Test par l'Université de Cambridge"
     blogSectionTitle: "Dernier blog"
+    otherBlogs: "Voir tous les blogs"
 
   aboutUs:
     title: "À propos de nous"

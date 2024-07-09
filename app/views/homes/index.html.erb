@@ -61,7 +61,7 @@
             <h2 class="m-auto text-center text-5xl font-bold">
                 <a href="https://docs.autismresearchcentre.com/papers/2001_BCetal_AQ.pdf">
                     <%= t('home.madeBy') %>
-                <a/>
+                </a>
             </h2>
             <div class="section-divider"></div>
         </section>
@@ -81,7 +81,10 @@
 
 
         <div class="flex gap-10 overflow-x-auto overflow-y-auto">
-            <%= render @blog_posts %>
+            <!-- 5 newest blogs -->
+            <%= render @blog_posts[0..4] %>
         </div>
+
+        <%= link_to t('home.otherBlogs'), blogs_path, class: "btn color-white  m-2 mx-auto bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
       </section>
 </main>
