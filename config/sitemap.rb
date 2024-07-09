@@ -1,5 +1,5 @@
 # Set the host name for URL creation
-SitemapGenerator::Sitemap.default_host = "https://test-autism.rubynor.com"
+SitemapGenerator::Sitemap.default_host = "https://test-autism.com"
 SitemapGenerator::Sitemap.compress = false
 
 SitemapGenerator::Sitemap.create do
