@@ -4,7 +4,7 @@ class BlogPostsController < ApplicationController
     end
   
     def index
-      @blog_posts = BlogPost.all
+      @blog_posts = BlogPost.all.sort_by(&:updated_at).reverse
     end
   end
   

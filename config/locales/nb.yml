@@ -32,6 +32,7 @@ nb:
     
     madeBy: "Test av Cambridge University"
     blogSectionTitle: "Siste blogg"
+    otherBlogs: "Se alle blogger"
 
   aboutUs:
     title: "Om oss"
