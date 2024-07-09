@@ -81,8 +81,9 @@
             <%= t('home.blogSectionTitle') %>
         </h2>
 
-        <div class="flex flex-wrap justify-center gap-10">
-            <%= render @blog_posts[0..2] %>
+
+        <div class="flex gap-10 overflow-x-auto overflow-y-auto">
+            <%= render @blog_posts %>
         </div>
       </section>
 </main>
