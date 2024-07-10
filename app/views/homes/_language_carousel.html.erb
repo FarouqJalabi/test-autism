@@ -5,16 +5,16 @@
         <h2 class="m-auto text-center mb-12 text-5xl font-bold">
             <%= t("footer.translations") %>!
         </h2>
-        <ol class="gap-6 flex animate-carousel align-center justify-left min-w-screen absolute ">
+        <ol class="gap-10 flex animate-carousel align-center justify-left min-w-screen absolute ">
             <% @languages.each do |key, value| %>
-            <li class="flex shadow-md w-64 items-center m-2 p-2">
+            <li class="flex w-64 items-center p-2">
               <p>Take autism test on English!</p>
               <%= image_tag key, alt: "flag icon", class: "w-12 aspect-square" %>
             </li>
             <% end %>
           <!-- Repeat twice for invite scroll, don't need to repeat twice way to much-->
           <% @languages.each do |key, value| %>
-            <li class="flex shadow-md w-64 items-center m-2 p-2">
+            <li class="flex w-64 items-center p-2">
               <p>Take autism test on English!</p>
               <%= image_tag key, alt: "flag icon", class: "w-12 aspect-square" %>
             </li>
