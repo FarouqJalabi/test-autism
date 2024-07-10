@@ -1,0 +1,236 @@
+sv:
+  header:
+    title: "Gratis Autismtest"
+    description: "Ta vår gratis autismtest online för en snabb och exakt bedömning. Vår AQ-50 autismtest från Autism Research Center säkerställer pålitliga resultat."
+
+  navigation:
+    homeButton: "Hem"
+    takeTestButton: "Ta testet"
+    aboutButton: "Om"
+
+  home:
+    title: "Gör en 10-minuters Autismtest"
+    description: "Gör vår snabba och precisa autismtest. Autismtestet kallas AQ-50 och är känt för att vara ett pålitligt screeningsverktyg."
+
+    button1: "Starta testet"
+    button2: "Om oss"
+
+    whatToExpect:
+      title: "Vad du kan förvänta dig"
+      questions:
+        title: "Frågor"
+        description: "50 flervalsfrågor."
+
+      time:
+        title: "Tid"
+        description: "Ungefär 10-15 minuter att slutföra."
+
+      result:
+        title: "Resultat"
+        description: "Testet ger omedelbar återkoppling."
+    
+    madeBy: "Test utvecklad av Cambridge University"
+    blogSectionTitle: "Senaste Blogg"
+    otherBlogs: "Se alla bloggar"
+
+  aboutUs:
+    title: "Om Oss"
+    description: "Vi är ett dedikerat team passionerade om att erbjuda pålitliga och tillgängliga autismtester. Vår mission är att hjälpa individer och familjer att bättre förstå autismpektrumstörningar genom precisa, evidensbaserade resurser och verktyg. Vi strävar efter att skapa en stödjande gemenskap där människor kan hitta den information de behöver för att navigera sina resor med autism."
+    
+    ourVision:
+      title: "Vår Vision"
+      description: "Vår vision är att främja en värld där personer med autism förstås, accepteras och stöds. Vi strävar efter att öka medvetenheten och främja inkludering genom vårt utbildningsinnehåll och praktiska verktyg."
+
+    ourTeam:
+      title: "Vårt Team"
+      description: "Vårt team består av flera mjukvaruutvecklare som arbetar tillsammans för att erbjuda dig den bästa autismtesten och de bästa resurserna tillgängliga på en lättförståelig webbplats. Vi är engagerade i kontinuerligt lärande och förbättring för att säkerställa att vårt innehåll förblir relevant och värdefullt."
+sv:
+  header:
+    title: "Gratis autismtest"
+    description: "Ta vår gratis online autismtest för en snabb och noggrann bedömning. Vår AQ-50 autismtest från Autism Research Center garanterar tillförlitliga resultat."
+
+  navigation:
+    homeButton: "Hem"
+    takeTestButton: "Ta testet"
+    aboutButton: "Om oss"
+
+  home:
+    title: "Ta en 10-minuters autismtest"
+    description: "Ta vår snabba och precisa autismtest. Autismtestet kallas AQ-50 och är erkänt som ett tillförlitligt screeningsverktyg."
+
+    button1: "Starta testet"
+    button2: "Om oss"
+
+    whatToExpect:
+      title: "Vad du kan förvänta dig"
+      questions:
+        title: "Frågor"
+        description: "50 flervalsfrågor."
+
+      time:
+        title: "Tid"
+        description: "Cirka 10-15 minuter att slutföra."
+
+      result:
+        title: "Resultat"
+        description: "Testet ger omedelbar feedback."
+    
+    madeBy: "Test från University of Cambridge"
+    blogSectionTitle: "Senaste bloggen"
+    otherBlogs: "Se alla bloggar"
+
+  aboutUs:
+    title: "Om oss"
+    description: "Vi är ett dedikerat team som passionerat arbetar med att erbjuda tillförlitliga och tillgängliga autismtester. Vårt uppdrag är att hjälpa individer och familjer att bättre förstå autismtillstånd genom precisa, evidensbaserade resurser och verktyg. Vi strävar efter att skapa en stöttande gemenskap där människor kan hitta den information de behöver för att hantera sina autismresor."
+
+    ourVision:
+      title: "Vår vision"
+      description: "Vår vision är att främja en värld där personer med autism förstås, accepteras och stöds. Vi arbetar med att öka medvetenheten och inkluderingen genom vårt utbildningsinnehåll och praktiska verktyg."
+
+    ourTeam:
+      title: "Vårt team"
+      description: "Vårt team består av flera programutvecklare som samarbetar för att erbjuda dig det bästa autismtestet och de bästa tillgängliga resurserna på en lättförståelig webbplats. Vi strävar efter kontinuerlig lärande och förbättring för att säkerställa att vårt innehåll förblir relevant och värdefullt."
+
+    contactUs:
+      title: "Kontakta oss"
+      description: "Oavsett om det är för att säga hej eller rapportera en bugg, hör vi alltid gärna från dig! Ditt feedback hjälper oss att förbättra oss och betjäna dig bättre. Kontakta oss på "
+
+    disclaimer:
+      title: "Ansvarsfriskrivning!"
+      description1: "Vi är inte medicinska professionella och verktygen på denna webbplats (AQ-50-testet) är endast screeningsverktyg. Dessa tester är utformade för att identifiera drag relaterade till autism och är inte diagnostiska verktyg."
+      description2: "Genom att använda vår webbplats och de tillhandahållna screeningsverktygen erkänner och accepterar du att dessa verktyg endast är avsedda för informations- och underhållningssyften och inte bör betraktas som medicinsk rådgivning."
+
+  privacy:
+    title: "Integritets- och policy"
+    aboutData:
+      title: "Om de data vi samlar in"
+      description: "Vi samlar inte in data om dig. Vi samlar inte in dina svar på autismtestet. Vi använder en tredjepartsprogramvara, Plausible, för att samla in trafikdata. Detta säkerställer att din integritet skyddas samtidigt som vi samlar in de insikter som behövs för att förbättra vår webbplats. Plausible ger oss anonymiserade, aggregerade data så att dina personliga uppgifter förblir helt privata."
+
+    cookies:
+      title: "Cookies"
+      description: "Vår webbplats använder inte cookies för att spåra dina aktiviteter eller samla in personliga data. Vi tror på att erbjuda en webbläsarupplevelse fri från invasiva spårningstekniker."
+
+
+  translation:
+    title: "Översättningar"
+    description: "Vi strävar efter att nå så många människor som möjligt med vårt innehåll, så vi använder ChatGPT för översättningar. Även om han vanligtvis gör ett bra jobb kan det ibland finnas fel. Om du upptäcker några felaktigheter skulle vi uppskatta din hjälp!"
+
+    header1: "Hjälp oss att bli bättre!"
+    description1: "Om du märker något fel i våra översättningar, låt oss veta det gärna! Ditt feedback är ovärderligt för att säkerställa att vårt innehåll är tydligt och korrekt. Kontakta oss på: "
+
+    header2: "Vårt åtagande"
+    description2: "Vi strävar efter att erbjuda högkvalitativa översättningar och uppskattar ditt samarbete i denna strävan. Tillsammans kan vi säkerställa att vårt innehåll är tillgängligt och användbart för så många människor som möjligt!"
+
+  faq:
+    question1: "Vad betyder min autismtestscore?"
+    answer1: "Testet är endast ett screeningsverktyg. Om du får höga poäng rekommenderar vi att du överväger en bedömning från en hälso- och sjukvårdspersonal för ytterligare undersökning."
+
+    question2: "Var kan jag hitta mer information om autismtestet?"
+    answer2: "Vi använder ett välkänt autismtest kallat AQ-50. Det har utvecklats av Autism Research Center vid University of Cambridge. För mer information kan du se dokumentet: "
+
+    question3: "Är mina data privata och säkra?"
+    answer3: "Ja, vi värdesätter din integritet och säkerhet. Vi samlar inte in personliga data. Vi använder en tredjepartsprogramvara, Plausible, för att samla in anonymiserad trafikdata så att dina personuppgifter förblir helt privata."
+
+    question4: "Vad händer om jag får en hög score i autismtestet?"
+    answer4: "En hög score i autismtestet tyder på att du kanske har vissa drag relaterade till autism. Det rekommenderas starkt att få en grundlig bedömning av en hälso- och sjukvårdspersonal för att utforska detta ytterligare."
+
+    question5: "Jag har hittat en översättningsfel, vad ska jag göra?"
+    answer5: "Vänligen kontakta oss på: "
+
+    question6: "Jag kan inte se mitt språk, var ska jag lägga till det?"
+    answer6: "Det bästa sättet att översätta till ditt eget språk är via GitHub. Översätt frågorna och vi kommer att lägga till dem på vår webbplats. Besök vår GitHub-sida: "
+
+    question7: "Var kan jag hitta koden?"
+    answer7: "Vår kod är öppen källkod och tillgänglig online. Du kan besöka den här: "
+
+  questions:
+    1: "Jag föredrar att göra saker tillsammans med andra istället för ensam"
+    2: "Jag föredrar alltid att göra saker på samma sätt"
+    3: "När jag försöker föreställa mig något är det mycket lätt för mig att skapa en bild i mitt huvud"
+    4: "Jag blir ofta så djupt engagerad i något att jag förlorar synen för andra saker"
+    5: "Jag märker ofta små ljud som andra inte märker"
+    6: "Jag märker vanligtvis nummerplåtar eller liknande informationssekvenser"
+    7: "Andra människor berättar ofta för mig att det jag sa var oartigt, även om jag tyckte att det var artigt"
+    8: "När jag läser en berättelse kan jag lätt föreställa mig hur karaktärerna kan se ut"
+    9: "Jag fascineras av datum"
+    10: "I en social grupp kan jag lätt hålla reda på flera olika personers samtal"
+    11: "Jag tycker att sociala situationer är lätta"
+    12: "Jag tenderar att lägga märke till detaljer som andra inte gör"
+    13: "Jag skulle hellre gå till ett bibliotek än på fest"
+    14: "Jag tycker att det är lätt att hitta på historier"
+    15: "Jag dras starkare till människor än till saker"
+    16: "Jag har oftast väldigt starka intressen, vilket jag blir upprörd över om jag inte kan följa dem"
+    17: "Jag tycker om socialt småprat"
+    18: "När jag pratar är det inte alltid lätt för andra att få in ett ord edgewise"
+    19: "Jag fascineras av siffror"
+    20: "När jag läser en berättelse är det svårt för mig att lista ut karaktärernas avsikter"
+    21: "Jag njuter inte speciellt av att läsa skönlitteratur"
+    22: "Jag tycker det är svårt att skaffa nya vänner"
+    23: "Jag lägger märke till mönster i saker hela tiden"
+    24: "Jag skulle hellre gå på teater än på museum"
+    25: "Det stör mig inte om min dagliga rutin blir störd"
+    26: "Jag upplever ofta att jag inte vet hur man håller en konversation igång"
+    27: "Jag tycker det är lätt att 'läsa mellan raderna' när någon pratar med mig"
+    28: "Jag koncentrerar mig vanligtvis mer på helheten än på små detaljer"
+    29: "Jag är inte så bra på att komma ihåg telefonnummer"
+    30: "Jag märker inte vanligtvis små förändringar i en situation eller en persons utseende"
+    31: "Jag vet hur man kan se om någon som lyssnar på mig blir uttråkad"
+    32: "Jag tycker det är lätt att göra mer än en sak samtidigt"
+    33: "När jag pratar i telefon är jag inte säker på när det är min tur att prata"
+    34: "Jag tycker om att göra saker spontant"
+    35: "Jag är ofta den sista som förstår poängen med ett skämt"
+    36: "Jag tycker det är lätt att lista ut vad någon tänker eller känner bara genom att titta på deras ansikte"
+    37: "Om det är ett avbrott kan jag växla tillbaka till vad jag höll på med väldigt snabbt"
+    38: "Jag är bra på socialt småprat"
+    39: "Människor säger ofta till mig att jag fortsätter prata om samma sak om och om igen"
+    40: "När jag var ung tyckte jag om att leka spel som involverade att låtsas med andra barn"
+    41: "Jag gillar att samla information om olika typer av saker (t.ex. bilar, fåglar, tåg, växter)"
+    42: "Jag tycker det är svårt att föreställa mig hur det skulle vara att vara någon annan"
+    43: "Jag gillar att noggrant planera alla aktiviteter jag deltar i"
+    44: "Jag tycker om sociala tillställningar"
+    45: "Jag tycker det är svårt att lista ut människors avsikter"
+    46: "Nya situationer gör mig orolig"
+    47: "Jag tycker om att träffa nya människor"
+    48: "Jag är en bra diplomat"
+    49: "Jag är inte så bra på att komma ihåg människors födelsedatum"
+    50: "Jag tycker det är väldigt lätt att leka spel med barn som involverar att låtsas"
+
+    choice0: "Håller inte med"
+    choice1: "Håller något med"
+    choice2: "Håller ganska mycket med"
+    choice3: "Håller helt med"
+
+    backButton: "Tillbaka"
+    submit: "Skicka in"
+
+  result:
+    label1: "Mycket osannolikt"
+    label2: "Osannolikt"
+    label3: "Troligt"
+    label4: "Mycket troligt"
+
+    fullLabel1: "Det är mycket osannolikt att du har autism"
+    fullLabel2: "Det är osannolikt att du har autism"
+    fullLabel3: "Det är troligt att du har autism"
+    fullLabel4: "Det är mycket troligt att du har autism"
+
+    description1: "Ditt resultat tyder på att det är mycket osannolikt att du har autism. Testresultaten indikerar minimala tecken på ASD, och inga ytterligare åtgärder behövs vanligtvis. Om du har specifika bekymmer eller beteenden som oroar dig kan en konsultation med en hälso- och sjukvårdspersonal ge ytterligare trygghet och vägledning."
+    description2: "Ditt resultat tyder på att det är osannolikt att du har autism. Tecknen är inte tillräckligt starka eller många för att föreslå en hög sannolikhet för ASD. Om du har fortsatta bekymmer eller andra symptom kan det fortfarande vara värt att söka professionell rådgivning."
+    description3: "Ditt resultat tyder på att du visar flera tecken på autism. Även om det inte är definitivt indikerar det en betydande möjlighet till ASD. Det är rådligt att konsultera en professionell för en detaljerad utvärdering för att bättre förstå din situation."
+    description4: "Ditt resultat tyder på att du uppvisar betydande tecken på autism spectrum disorder (ASD). Detta indikerar en hög sannolikhet för autism, och det rekommenderas starkt att du söker en omfattande bedömning av en hälso- och sjukvårdspersonal för att utforska denna möjlighet ytterligare."
+
+    shareButton: "Dela resultatet"
+
+    share1: "Det är mycket osannolikt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
+    share2: "Det är osannolikt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
+    share3: "Det är troligt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
+    share4: "Det är mycket troligt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
+
+  footer:
+    resources: "Resurser"
+    privacy: "Integritet"
+    about: "Om oss"
+    blogs: "Bloggar"
+    translations: "Översättningar"
+
+    holding: "© 2024 — Rubynor AS - alla rättigheter förbehållna."

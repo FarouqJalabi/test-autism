@@ -1,0 +1,190 @@
+da:
+  header:
+    title: "Gratis autismetest"
+    description: "Tag vores gratis online autismetest for en hurtig og præcis vurdering. Vores AQ-50 autismetest fra Autism Research Center garanterer pålidelige resultater."
+
+  navigation:
+    homeButton: "Hjem"
+    takeTestButton: "Tag testen"
+    aboutButton: "Om os"
+
+  home:
+    title: "Tag en 10-minutters autismetest"
+    description: "Tag vores hurtige og præcise autismetest. Autismetesten kaldes AQ-50 og er anerkendt som et pålideligt screeningværktøj."
+
+    button1: "Start testen"
+    button2: "Om os"
+
+    whatToExpect:
+      title: "Hvad du kan forvente"
+      questions:
+        title: "Spørgsmål"
+        description: "50 multiple-choice spørgsmål."
+
+      time:
+        title: "Tid"
+        description: "Cirka 10-15 minutter til at fuldføre."
+
+      result:
+        title: "Resultater"
+        description: "Testen giver øjeblikkelig feedback."
+    
+    madeBy: "Test fra University of Cambridge"
+    blogSectionTitle: "Seneste blog"
+    otherBlogs: "Se alle blogs"
+
+  aboutUs:
+    title: "Om os"
+    description: "Vi er et dedikeret team, der passioneret arbejder på at tilbyde pålidelige og tilgængelige autismetests. Vores mission er at hjælpe enkeltpersoner og familier med at forstå autismespektrumforstyrrelse bedre gennem præcise, evidensbaserede ressourcer og værktøjer. Vi stræber efter at skabe et støttende fællesskab, hvor folk kan finde de oplysninger, de har brug for, til at håndtere deres rejser med autisme."
+    
+    ourVision:
+      title: "Vores vision"
+      description: "Vores vision er at fremme en verden, hvor mennesker med autisme bliver forstået, accepteret og støttet. Vi arbejder på at øge bevidstheden og inklusionen gennem vores uddannelsesmæssige indhold og praktiske værktøjer."
+
+    ourTeam:
+      title: "Vores team"
+      description: "Vores team består af flere softwareudviklere, der samarbejder om at tilbyde dig den bedste autismetest og de bedste tilgængelige ressourcer på en letforståelig hjemmeside. Vi stræber efter kontinuerlig læring og forbedring for at sikre, at vores indhold forbliver relevant og værdifuldt."
+
+    contactUs:
+      title: "Kontakt os"
+      description: "Uanset om det er for at sige hej eller rapportere en fejl, hører vi altid gerne fra dig! Dit feedback hjælper os med at forbedre os og betjene dig bedre. Kontakt os på "
+
+    disclaimer:
+      title: "Ansvarsfraskrivelse!"
+      description1: "Vi er ikke medicinske fagfolk, og værktøjerne på denne hjemmeside (AQ-50-testen) er kun screeningsværktøjer. Disse tests er designet til at identificere træk relateret til autisme og er ikke diagnosticeringsinstrumenter."
+      description2: "Ved at bruge vores hjemmeside og de leverede screeningsværktøjer anerkender og accepterer du, at disse værktøjer kun er til informations- og underholdningsformål og ikke bør betragtes som medicinsk rådgivning."
+
+  privacy:
+    title: "Privatlivs- og politik"
+    aboutData:
+      title: "Om de data, vi indsamler"
+      description: "Vi indsamler ikke data om dig. Vi indsamler ikke dine svar på autismetesten. Vi bruger en tredjeparts software, Plausible, til at indsamle trafikdata. Dette sikrer, at dit privatliv er beskyttet, mens vi indsamler de nødvendige indsigter for at forbedre vores hjemmeside. Plausible giver os anonymiserede, aggregerede data, så dine personlige oplysninger forbliver fuldstændig private."
+
+    cookies:
+      title: "Cookies"
+      description: "Vores hjemmeside bruger ikke cookies til at spore dine aktiviteter eller indsamle personlige data. Vi tror på at tilbyde en browseroplevelse fri for invasive sporings teknologier."
+
+
+  translation:
+    title: "Oversættelser"
+    description: "Vi ønsker at nå så mange mennesker som muligt med vores indhold, så vi bruger ChatGPT til oversættelser. Selvom han normalt gør et godt stykke arbejde, kan der lejlighedsvis være fejl. Hvis du bemærker fejl, vil vi sætte pris på din hjælp!"
+
+    header1: "Hjælp os med at blive bedre!"
+    description1: "Hvis du opdager noget forkert i vores oversættelser, så lad os venligst vide det! Dit feedback er uvurderligt for at sikre, at vores indhold er klart og præcist. Kontakt os på: "
+
+    header2: "Vores forpligtelse"
+    description2: "Vi stræber efter at tilbyde høj kvalitet oversættelser, og vi værdsætter dit samarbejde i denne bestræbelse. Sammen kan vi sikre, at vores indhold er tilgængeligt og nyttigt for så mange mennesker som muligt!"
+
+  faq:
+    question1: "Hvad betyder min autismetest score?"
+    answer1: "Testen er kun et screeningsværktøj. Hvis du scorer højt, anbefaler vi, at du overvejer en vurdering fra en sundhedspersonale for yderligere undersøgelser."
+
+    question2: "Hvor kan jeg finde mere information om autismetesten?"
+    answer2: "Vi bruger en kendt autismetest kaldet AQ-50. Den er udviklet af Autism Research Center på University of Cambridge. For yderligere information, kan du se papiret: "
+
+    question3: "Er mine data private og sikre?"
+    answer3: "Ja, vi sætter pris på dit privatliv og sikkerhed. Vi indsamler ikke personlige data. Vi bruger en tredjeparts software, Plausible, til at indsamle anonymiserede trafikdata, så dine personlige oplysninger forbliver fuldstændig private."
+
+    question4: "Hvad sker der, hvis jeg opnår en høj score i autismetesten?"
+    answer4: "En høj score i autismetesten tyder på, at du måske har nogle træk relateret til autisme. Det anbefales at få en grundig vurdering fra en sundhedspersonale for at udforske denne mulighed yderligere."
+
+    question5: "Jeg har fundet en oversættelsesfejl, hvad skal jeg gøre?"
+    answer5: "Venligst kontakt os på: "
+
+    question6: "Jeg kan ikke se mit sprog, hvor skal jeg tilføje det?"
+    answer6: "Den bedste måde at oversætte til dit eget sprog er via GitHub. Oversæt spørgsmålene, og vi tilføjer dem til vores hjemmeside. Besøg vores GitHub-side: "
+
+    question7: "Hvor kan jeg finde koden?"
+    answer7: "Vores kode er open source og tilgængelig online. Du kan besøge den her: "
+
+  questions:
+    1: "Jeg foretrækker at gøre ting sammen med andre i stedet for alene"
+    2: "Jeg foretrækker altid at gøre tingene på samme måde"
+    3: "Når jeg prøver at forestille mig noget, finder jeg det meget let at skabe et billede i mit hoved"
+    4: "Jeg bliver ofte så dybt involveret i en ting, at jeg mister synet for andre ting"
+    5: "Jeg bemærker ofte små lyde, som andre ikke bemærker"
+    6: "Jeg bemærker normalt nummerplader eller lignende informationssekvenser"
+    7: "Andre mennesker fortæller mig ofte, at hvad jeg sagde, var uhøfligt, selvom jeg synes, det er høfligt"
+    8: "Når jeg taler i telefonen, er det ikke altid nemt at fortælle, hvornår det er min tur til at tale"
+    9: "Jeg finder det let at lade være med at tale, selvom jeg burde"
+    10: "Jeg er god til at gøre ting hurtigt"
+    11: "Jeg har altid fundet sociale situationer lette"
+    12: "Jeg har en tendens til at bemærke detaljer, som andre ikke gør"
+    13: "Jeg foretrækker at gå på biblioteket frem for at gå til en fest"
+    14: "Jeg finder det let at opfinde historier"
+    15: "Jeg føler mig mere tiltrukket af mennesker end af ting"
+    16: "Jeg har ofte meget stærke interesser, som jeg bliver frustreret over, hvis jeg ikke kan forfølge dem"
+    17: "Jeg kan lide smalltalk"
+    18: "Når jeg taler, er det ikke altid let for andre at komme ind"
+    19: "Jeg er fascineret af tal"
+    20: "Når jeg læser en historie, finder jeg det svært at finde ud af karakterernes intentioner"
+    21: "Jeg kan ikke lide at læse fiktion"
+    22: "Jeg finder det svært at finde nye venner"
+    23: "Jeg bemærker konstant mønstre i ting"
+    24: "Jeg foretrækker at gå i teatret frem for på museum"
+    25: "Det generer mig ikke, når min daglige rutine forstyrres"
+    26: "Jeg finder ofte ud af, at jeg ikke ved, hvordan jeg skal holde en samtale kørende"
+    27: "Jeg finder det let at 'læse mellem linjerne', når nogen taler med mig"
+    28: "Jeg fokuserer normalt mere på det store billede end på små detaljer"
+    29: "Jeg er ikke særlig god til at huske telefonnumre"
+    30: "Jeg bemærker normalt ikke små ændringer i en situation eller en persons udseende"
+    31: "Jeg ved, hvordan jeg kan fortælle, om nogen lytter til mig, at de keder sig"
+    32: "Jeg finder det let at gøre mere end en ting på én gang"
+    33: "Når jeg taler i telefon, er jeg ikke sikker på, hvornår det er min tur til at tale"
+    34: "Jeg nyder at gøre spontane ting"
+    35: "Jeg er ofte den sidste til at forstå en joke"
+    36: "Jeg finder det let at finde ud af, hvad nogen tænker eller føler bare ved at se på dem"
+    37: "Hvis der er en afbrydelse, kan jeg hurtigt vende tilbage til, hvad jeg lavede"
+    38: "Jeg er god til smalltalk"
+    39: "Folk fortæller mig ofte, at jeg gentager det samme emne igen og igen"
+    40: "Da jeg var ung, nød jeg at lege med andre børn, der udgav sig for at være noget"
+    41: "Jeg kan godt lide at indsamle information om kategorier af ting (f.eks. biler, fugle, tog, planter)"
+    42: "Jeg finder det svært at forestille mig, hvordan det ville være at være nogen anden"
+    43: "Jeg planlægger gerne enhver aktivitet, jeg deltager i, omhyggeligt"
+    44: "Jeg nyder sociale begivenheder"
+    45: "Jeg finder det svært at forstå menneskers intentioner"
+    46: "Nye situationer gør mig nervøs"
+    47: "Jeg nyder at møde nye mennesker"
+    48: "Jeg er en god diplomat"
+    49: "Jeg er ikke særlig god til at huske menneskers fødselsdage"
+    50: "Jeg finder det meget let at lege med børn, der udgiver sig for at være noget"
+
+    choice0: "Stemmer overhovedet ikke overens"
+    choice1: "Stemmer ikke helt overens"
+    choice2: "Stemmer delvist overens"
+    choice3: "Stemmer overens"
+
+    backButton: "Tilbage"
+    submit: "Indsend"
+
+  result:
+    label1: "Meget usandsynligt"
+    label2: "Usandsynligt"
+    label3: "Sandsynligt"
+    label4: "Meget sandsynligt"
+
+    fullLabel1: "Det er meget usandsynligt, at du har autisme"
+    fullLabel2: "Det er usandsynligt, at du har autisme"
+    fullLabel3: "Det er sandsynligt, at du har autisme"
+    fullLabel4: "Det er meget sandsynligt, at du har autisme"
+
+    description1: "Din score indikerer, at det er meget usandsynligt, at du har autisme. Testresultaterne antyder minimale tegn på ASD, og der er normalt ikke behov for yderligere handling. Hvis du dog har specifikke bekymringer eller adfærdsmæssige problemer, der bekymrer dig, kan konsultation med en sundhedsfaglig give yderligere beroligelse og vejledning."
+    description2: "Din score viser, at det er usandsynligt, at du har autisme. Tegnene er ikke tilstrækkeligt stærke eller talrige til at indikere en høj sandsynlighed for ASD. Hvis du dog har vedvarende bekymringer eller andre symptomer, kan det stadig være fornuftigt at søge professionel rådgivning."
+    description3: "Din score antyder, at det er sandsynligt, at du viser flere tegn på autisme. Selvom det ikke er endeligt, tyder dette på en betydelig mulighed for ASD. Det anbefales at gennemgå en detaljeret vurdering af en specialist for bedre at forstå din situation."
+    description4: "Din score tyder på, at det er meget sandsynligt, at du viser betydelige tegn på autismespektrumforstyrrelse (ASD). Dette antyder en høj sandsynlighed for autisme, og det anbefales kraftigt at overveje en omfattende vurdering af en sundhedsfaglig for at undersøge dette nærmere."
+
+    shareButton: "Del resultat"
+
+    share1: "Det er meget usandsynligt, at jeg har autisme. Tag testen for at se, hvor sandsynligt det er for dig!"
+    share2: "Det er usandsynligt, at jeg har autisme. Tag testen for at se, hvor sandsynligt det er for dig!"
+    share3: "Det er sandsynligt, at jeg har autisme. Tag testen for at se, hvor sandsynligt det er for dig!"
+    share4: "Det er meget sandsynligt, at jeg har autisme. Tag testen for at se, hvor sandsynligt det er for dig!"
+
+  footer:
+    resources: "Ressourcer"
+    privacy: "Privatliv"
+    about: "Om os"
+    blogs: "Blogs"
+    translations: "Oversættelser"
+
+    holding: "© 2024 — Rubynor AS - alle rettigheder forbeholdes."
