@@ -7,40 +7,52 @@ class QuestionsController < ApplicationController
   def calculate_answer
     answers = params[:answers]
 
-    # No answers received
-    unless answers.present?
-      redirect_to result_path
+    if answers.blank?
+      redirect_to result_path and return
     end
 
-    total_score = 0
-    # Sum up key by category
-    answers.each do |question_id, selected_option|
-      question = Question.find_by(id: question_id)
+    total_score = calculate_total_score(answers)
 
+    percentage = calculate_percentage(total_score, 50)
 
-      # Reverse key if needed
-      if question.negative_key
-        reverse_option = {"0"=> "1", "1"=>"0"}
-        selected_option = reverse_option[selected_option]
-      end
-
-      total_score += selected_option.to_i
-    end
-
-
-    # 50 max questions
-    percentage = total_score * 100 / 50
-
-    # Result page expects score
     redirect_to result_path(score: percentage)
   end
 
   def result
-    # Should maybe be in tests?
-    unless params.present? and params["score"].present?
+    if params[:score].blank?
       not_found!
+    else
+      params[:score] = params[:score].to_i.clamp(0, 100)
     end
-    params["score"] = params["score"].to_i.clamp(0,100)
   end
 
+  private
+
+  def calculate_total_score(answers)
+    total_score = 0
+
+    answers.each do |question_id, selected_option|
+      question = Question.find_by(id: question_id)
+      next unless question
+
+      selected_option = reverse_option_if_needed(question, selected_option)
+
+      total_score += selected_option.to_i
+    end
+
+    total_score
+  end
+
+  def reverse_option_if_needed(question, selected_option)
+    if question.negative_key
+      reverse_option = { "0" => "1", "1" => "0" }
+      selected_option = reverse_option[selected_option]
+    end
+
+    selected_option
+  end
+
+  def calculate_percentage(score, max_score)
+    (score * 100) / max_score
+  end
 end
