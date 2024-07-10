@@ -1,4 +1,6 @@
-    <main class="px-2 md:px-16 xl:px-40 w-full grid gap-24">
+
+    
+    <main class="px-2 md:px-16 xl:px-40 w-full grid gap-36">
 
         <section class="hero">
             <div class="grid items-center justify-center gap-12 md:gap-12 text-center">
@@ -73,16 +75,24 @@
             <p class="text-center text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description2')%></p>
 
         </section>
+        
+        <section class="flag-section text-center w-full">
+            <div class="section-divider"></div>
 
-      <section class="prose m-auto text-center">
-        <h1><%= t("footer.translations") %>!</h1>
-        <p class="md:text-xl">
-          You can take autism test in english 🇺🇸<br>
-          Puedes tomar el test de autismo en español 🇪🇸<br>
-          Vous pouvez passer le test de l'autisme en français 🇫🇷 <br>
-          Du kan ta autisme test på norsk 🇳🇴
-        </p>
-      </section>
+            <div class="py-10">
+                <h2 class="m-auto text-center mb-12 text-5xl font-bold">
+                    <%= t("footer.translations") %>!
+                </h2>
+                <div class="scroll">
+                    <div class="m-scroll">
+                        <% @languages.each do |key, value| %>
+                            <%= image_tag key, alt: "flag icon", class: "w-20 h-20 language-flag" %>
+                        <% end %>
+                    </div>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+        </section>
 
       <section class="px-8 grid gap-2 md:gap-10">
         <h2 class="m-auto text-center text-4xl md:text-5xl mb-2 md:mb-4">
