@@ -73,22 +73,8 @@
             <p class="text-center text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description2')%></p>
 
         </section>
-        
-        <section class="text-center w-full">
-            <div class="section-divider"></div>
-            <div class="py-10">
-                <h2 class="m-auto text-center mb-12 text-5xl font-bold">
-                    <%= t("footer.translations") %>!
-                </h2>
-                <ol class="list-none gap-16 flex align-center justify-left w-full overflow-scroll">
-                    <% @languages.each do |key, value| %>
-                        <%= image_tag key, alt: "flag icon", class: "w-20 h-20" %>
-                    <% end %>
-                </ol>
-            </div>
-            <div class="section-divider"></div>
-        
-        </section>
+
+      <%= render partial: "language_carousel" %>
 
       <section class="px-8 grid gap-2 md:gap-10">
         <h2 class="m-auto text-center text-4xl md:text-5xl mb-2 md:mb-4">
