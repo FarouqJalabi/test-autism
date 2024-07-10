@@ -3,8 +3,12 @@ Take the popular and well known autism test AQ-50 online for free!
 
 Take the test at: [test-autism.com](https://test-autism.com/)
 
-![Hero of website](https://github.com/FarouqJalabi/test-autism/assets/139611840/fd49ab90-2f43-44cd-ba6d-91fa4c351b2f) ![Website AQ-50 test](https://github.com/FarouqJalabi/test-autism/assets/139611840/23614b39-7248-4532-87e1-140c1ccf03a1)
+![]()![]()
 
+<div style="width:100%; display:flex; alignt-items:center;">
+  <img src="https://github.com/FarouqJalabi/test-autism/assets/139611840/c2496dc8-55fe-46e1-9c66-bb14520b9b0d" width="49%" alt="Hero of website" />
+  <img src="https://github.com/FarouqJalabi/test-autism/assets/139611840/23614b39-7248-4532-87e1-140c1ccf03a1" width="49%" alt="Website AQ-50 test" /> 
+</div>
 
 # Features:
 - **Translations:** for 4 languages: English 🇺🇸, Español 🇪🇸, Français 🇫🇷, Norsk 🇳🇴
