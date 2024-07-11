@@ -17,11 +17,11 @@ SitemapGenerator::Sitemap.create do
     paths.each do |path_info|
       add "/#{lang}#{path_info[:path]}", priority: path_info[:priority], changefreq: 'weekly'
     end
+  end
 
-    # Blogs posts
-    BlogPost.find_each do |blog|
-      add blog_post_url(blog, locale:lang, only_path: true), lastmod: blog.updated_at, changefreq: 'daily', priority: 0.5
-    end
+  # Blogs posts
+  BlogPost.find_each do |blog|
+    add blog_post_url(blog, locale: :en, only_path: true), lastmod: blog.updated_at, changefreq: 'daily', priority: 0.5
   end
 
 end
