@@ -1,4 +1,8 @@
 es:
+  language_name: "Español"
+  language_phrase: "Toma el test de autismo en español"
+  flag_emoji: "🇪🇸"
+
   header:
     title: "Test de Autismo Gratis"
     description: "Tome nuestro test de autismo en línea gratis para una evaluación rápida y precisa. Nuestro test de autismo no es corto y preciso. El test de autismo es el AQ-50 del centro de investigación del autismo."
