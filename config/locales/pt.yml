@@ -1,6 +1,7 @@
 pt:
   language_name: "Português"
   language_phrase: "Faça o teste de autismo em português"
+  flag_emoji: "🇵🇹"
 
   header:
     title: "Teste Gratuito de Autismo"

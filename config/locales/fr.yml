@@ -1,6 +1,7 @@
 fr:
   language_name: "Français"
   language_phrase: "Passez le test de l'autisme en français"
+  flag_emoji: "🇫🇷"
 
   header:
     title: "Test d'Autisme Gratuit"
