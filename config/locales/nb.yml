@@ -1,6 +1,7 @@
 nb:
   language_name: "Norsk"
   language_phrase: "Ta autisme test på norsk"
+  flag_emoji: "🇳🇴"
 
   header:
     title: "Gratis Autisme test"

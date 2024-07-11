@@ -1,6 +1,7 @@
 da:
   language_name: "Dansk"
   language_phrase: "Tag autisme test på dansk"
+  flag_emoji: "🇩🇰"
 
   header:
     title: "Gratis autismetest"
