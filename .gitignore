@@ -23,6 +23,5 @@ config/master.key
 
 
 # Ignore node modules eg. tailwind
-# Dokku funker med ikke uten node_modules installert. Last ned npm for test-autism?
-#node_modules/
+node_modules/
 
