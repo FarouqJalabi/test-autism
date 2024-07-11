@@ -2,56 +2,35 @@ module QuestionsHelper
   def question_length(question)
     question.test.questions.count
   end
+
   def percentage_to_header(percentage)
-    if percentage >= 0.0 and percentage <= 29.9
-      t("result.fullLabel1")
-    elsif percentage >= 30.0 and percentage <= 49.9
-      t("result.fullLabel2")
-
-    elsif percentage >= 50.0 and percentage <= 69.9
-      t("result.fullLabel3")
-    else
-      t("result.fullLabel4")
-    end
+    percentage_to_translation(percentage, "result.fullLabel")
   end
+
   def percentage_to_label(percentage)
-    if percentage >= 0.0 and percentage <= 29.0
-      t("result.label1")
-    elsif percentage >= 30.0 and percentage <= 49.0
-      t("result.label2")
-
-    elsif percentage >= 50.0 and percentage <= 69.9
-      t("result.label3")
-    else
-      t("result.label4")
-    end
+    percentage_to_translation(percentage, "result.label")
   end
 
-  # For now we have descriptions hard coded
-  # If we get several tests they will be coded into the test themselves
   def percentage_to_description(percentage)
-    if percentage >= 0.0 and percentage <= 30.0
-      t("result.description1")
-    elsif percentage >= 30.0 and percentage <= 49.0
-      t("result.description2")
-    elsif percentage >= 50.0 and percentage <= 69.9
-      t("result.description3")
-    else
-      t("result.description4")
-    end
+    percentage_to_translation(percentage, "result.description")
   end
 
   def percentage_to_share(percentage)
-    if percentage >= 0.0 and percentage <= 30.0
-      t("result.share1")
-    elsif percentage >= 30.0 and percentage <= 49.0
-      t("result.share2")
-    elsif percentage >= 50.0 and percentage <= 69.9
-      t("result.share3")
-    else
-      t("result.share4")
-    end
+    percentage_to_translation(percentage, "result.share")
   end
 
+  private
 
+  def percentage_to_translation(percentage, base_key)
+    case percentage
+    when 0.0..29.9
+      t("#{base_key}1")
+    when 30.0..49.9
+      t("#{base_key}2")
+    when 50.0..69.9
+      t("#{base_key}3")
+    else
+      t("#{base_key}4")
+    end
+  end
 end
