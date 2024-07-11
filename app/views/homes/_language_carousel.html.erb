@@ -6,19 +6,23 @@
             <%= t("footer.translations") %>!
         </h2>
         <ol class="gap-10 flex animate-carousel align-center justify-left min-w-screen absolute ">
-            <% @languages.each do |key, value| %>
+
+            <% I18n.available_locales.each do |lang| %>
             <li class="flex w-64 items-center p-2">
-              <p>Take autism test on English!</p>
-              <%= image_tag key, alt: "flag icon", class: "w-12 aspect-square" %>
+              <p><%= t("language_phrase", locale: lang) %></p>
+              <%= image_tag  "flags/language/"+(lang.to_s)+".svg", alt: "flag icon", class: "w-12 aspect-square" %>
+
             </li>
             <% end %>
+
           <!-- Repeat twice for invite scroll, don't need to repeat twice way to much-->
-          <% @languages.each do |key, value| %>
+            <% I18n.available_locales.each do |lang| %>
             <li class="flex w-64 items-center p-2">
-              <p>Take autism test on English!</p>
-              <%= image_tag key, alt: "flag icon", class: "w-12 aspect-square" %>
+              <p><%= t("language_phrase", locale: lang) %></p>
+              <%= image_tag  "flags/language/"+(lang.to_s)+".svg", alt: "flag icon", class: "w-12 aspect-square" %>
+
             </li>
-          <% end %>
+            <% end %>
         </ol>
     </div>
 
