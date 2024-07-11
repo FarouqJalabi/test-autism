@@ -66,12 +66,13 @@
             <div class="section-divider"></div>
         </section>
 
-      
-        <section class="px-4 md:px-32 grid gap-5 md:text-4x">
-            <h2 class="text-center text-4xl md:text-5xl mb-2 md:mb-4"><%= t('aboutUs.disclaimer.title')%></h2>
-            <p class="text-center text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description1')%></p>
-            <p class="text-center text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description2')%></p>
 
+
+        <section class="relative">
+            <h2 class="text-4xl font-bold md:text-5xl mb-2 md:mb-4"><%= t('aboutUs.disclaimer.title')%></h2>
+            <p class="text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description1')%></p>
+            <br>
+            <p class="text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description2')%></p>
         </section>
 
       <%= render partial: "language_carousel" %>
