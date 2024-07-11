@@ -1,50 +1,8 @@
 sv:
-  header:
-    title: "Gratis Autismtest"
-    description: "Ta vår gratis autismtest online för en snabb och exakt bedömning. Vår AQ-50 autismtest från Autism Research Center säkerställer pålitliga resultat."
+  language_name: "Svenska"
+  language_phrase: "Gör autism test på svenska"
+  flag_emoji: "🇸🇪"
 
-  navigation:
-    homeButton: "Hem"
-    takeTestButton: "Ta testet"
-    aboutButton: "Om"
-
-  home:
-    title: "Gör en 10-minuters Autismtest"
-    description: "Gör vår snabba och precisa autismtest. Autismtestet kallas AQ-50 och är känt för att vara ett pålitligt screeningsverktyg."
-
-    button1: "Starta testet"
-    button2: "Om oss"
-
-    whatToExpect:
-      title: "Vad du kan förvänta dig"
-      questions:
-        title: "Frågor"
-        description: "50 flervalsfrågor."
-
-      time:
-        title: "Tid"
-        description: "Ungefär 10-15 minuter att slutföra."
-
-      result:
-        title: "Resultat"
-        description: "Testet ger omedelbar återkoppling."
-    
-    madeBy: "Test utvecklad av Cambridge University"
-    blogSectionTitle: "Senaste Blogg"
-    otherBlogs: "Se alla bloggar"
-
-  aboutUs:
-    title: "Om Oss"
-    description: "Vi är ett dedikerat team passionerade om att erbjuda pålitliga och tillgängliga autismtester. Vår mission är att hjälpa individer och familjer att bättre förstå autismpektrumstörningar genom precisa, evidensbaserade resurser och verktyg. Vi strävar efter att skapa en stödjande gemenskap där människor kan hitta den information de behöver för att navigera sina resor med autism."
-    
-    ourVision:
-      title: "Vår Vision"
-      description: "Vår vision är att främja en värld där personer med autism förstås, accepteras och stöds. Vi strävar efter att öka medvetenheten och främja inkludering genom vårt utbildningsinnehåll och praktiska verktyg."
-
-    ourTeam:
-      title: "Vårt Team"
-      description: "Vårt team består av flera mjukvaruutvecklare som arbetar tillsammans för att erbjuda dig den bästa autismtesten och de bästa resurserna tillgängliga på en lättförståelig webbplats. Vi är engagerade i kontinuerligt lärande och förbättring för att säkerställa att vårt innehåll förblir relevant och värdefullt."
-sv:
   header:
     title: "Gratis autismtest"
     description: "Ta vår gratis online autismtest för en snabb och noggrann bedömning. Vår AQ-50 autismtest från Autism Research Center garanterar tillförlitliga resultat."

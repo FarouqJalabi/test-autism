@@ -1,4 +1,8 @@
 fr:
+  language_name: "Français"
+  language_phrase: "Passez le test de l'autisme en français"
+  flag_emoji: "🇫🇷"
+
   header:
     title: "Test d'Autisme Gratuit"
     description: "Faites notre test d'autisme en ligne gratuit pour une évaluation rapide et précise. Notre test d'autisme n'est pas court et précis. Le test d'autisme est l'AQ-50 du centre de recherche sur l'autisme."
