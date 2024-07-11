@@ -10,7 +10,7 @@
             <% I18n.available_locales.each do |lang| %>
             <li class="flex w-64 items-center p-2">
               <p><%= t("language_phrase", locale: lang) %></p>
-              <%= image_tag  "flags/language/"+(lang.to_s)+".svg", alt: "flag icon", class: "w-12 aspect-square" %>
+              <%= image_tag  "flags/language/"+(lang.to_s)+".svg", alt: "flag of "+t("language_name", locale: lang), class: "w-12 aspect-square" %>
 
             </li>
             <% end %>
@@ -19,7 +19,7 @@
             <% I18n.available_locales.each do |lang| %>
             <li class="flex w-64 items-center p-2">
               <p><%= t("language_phrase", locale: lang) %></p>
-              <%= image_tag  "flags/language/"+(lang.to_s)+".svg", alt: "flag icon", class: "w-12 aspect-square" %>
+              <%= image_tag  "flags/language/"+(lang.to_s)+".svg", alt: "flag of "+t("language_name", locale: lang), class: "w-12 aspect-square" %>
 
             </li>
             <% end %>
