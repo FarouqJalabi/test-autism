@@ -1,4 +1,4 @@
-class StaticPagesController < ApplicationController
+class PagesController < ApplicationController
   def index
     @blogs = Blog.all.sort_by(&:updated_at).reverse
   end
