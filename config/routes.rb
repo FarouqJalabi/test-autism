@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     get "/blogs", to: "blog_posts#index"
 
     # Your routes here
-    root "homes#index"
+    root "static_pages#index"
 
     get "/test", to: "tests#show"
 
