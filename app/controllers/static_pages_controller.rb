@@ -24,6 +24,7 @@ class StaticPagesController < ApplicationController
     @range_data.each do |range, data|
       data[:percentage] = (data[:count].to_f / total_scores * 100).round(2)
     end
+  end
   
   def translations
   end
