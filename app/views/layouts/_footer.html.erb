@@ -1,9 +1,6 @@
 <footer class="footer bg-base-200 text-base-content p-10 mt-20">
   <nav>
     <h6 class="footer-title">Services</h6>
-    <a class="link link-hover" href="<%= root_path %>">
-      <%= image_tag "Logo.svg", alt: "logo" %>
-    </a>
     <a class="link link-hover" href="<%= test_path %>"><%= t("navigation.takeTestButton") %></a>
     <%= link_to t('footer.translations'), static_pages_faq_path, data: { turbo_frame: 'main' } %>
     <%= link_to t('footer.translations'), static_pages_faq_path, data: { turbo_frame: 'main' } %>
@@ -27,7 +24,9 @@
 <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
   <aside class="grid-flow-col items-center">
 
-    <%= image_tag "Logo.svg", alt: "logo", class: "w-fit h-fit"%>
+    <a class="link link-hover" href="<%= root_path %>">
+      <%= image_tag "Logo.svg", alt: "logo", class: "w-fit h-fit"%>
+    </a>
 
     <p>Copyright © <%= Date.current.year %> - All right reserved</p>
   </aside>
