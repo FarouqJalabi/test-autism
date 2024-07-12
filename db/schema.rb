@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.1].define(version: 2024_06_28_084450) do
-  create_table "blog_posts", force: :cascade do |t|
+  create_table "blogs", force: :cascade do |t|
     t.string "title"
     t.string "content"
     t.datetime "created_at", null: false
