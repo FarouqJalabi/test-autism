@@ -1,0 +1,2 @@
+class TestScore < ApplicationRecord
+end
