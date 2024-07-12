@@ -31,6 +31,7 @@
       <link rel="canonical" href="https://test-autism.com/en">
     <% end %>
 
+
     <!-- Need? It is already in root? -->
     <link rel="shortcut icon" href="<%= image_url("favicon.ico") %>">
 
@@ -115,7 +116,9 @@
 
   <body class="overflow-x-hidden">
     <%= render "layouts/navigation" %>
-    <%= yield %>
+    <turbo-fram id="main">
+    
+    </turbo-fram>
     <%= render "layouts/footer" %>
 
   </body>
