@@ -67,7 +67,11 @@ AQ_50_question.each do |question|
 end
 
 
+number_of_scores = 100
 
+number_of_scores.times do
+  TestScore.create(score: rand(1..100))
+end
 
 
 
