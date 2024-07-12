@@ -6,6 +6,6 @@ module ApplicationHelper
     current_page?(test_path)
   end
   def on_about?
-    current_page?(pages_about_path)
+    current_page?(static_pages_about_path)
   end
 end

@@ -1,4 +1,4 @@
-class Blog < ApplicationRecord
+class BlogPost < ApplicationRecord
   validates_presence_of :title
   validates_presence_of :content
   validates_presence_of :image_src
