@@ -39,7 +39,7 @@ en:
 
   aboutUs:
     title: "About Us"
-    description: "We are a dedicated team passionate about providing reliable and accessible autism test. Our mission is to help individuals and families better understand autism spectrum disorder through accurate, evidence-based blogs and tools. We aim to create a supportive community where people can find the information they need to navigate their journeys with autism"
+    description: "We are a dedicated team passionate about providing reliable and accessible autism test. Our mission is to help individuals and families better understand autism spectrum disorder through accurate, evidence-based resources and tools. We aim to create a supportive community where people can find the information they need to navigate their journeys with autism"
     
     ourVision:
       title: "Our Vision"
@@ -47,7 +47,7 @@ en:
 
     ourTeam:
       title: "Our Team"
-      description: "Our team consists of several software developers all working together to bring you the best autism test and blogs available to a simple to understand website. We are committed to continuous learning and improvement to ensure that our content remains relevant and valuable."
+      description: "Our team consists of several software developers all working together to bring you the best autism test and resources available to a simple to understand website. We are committed to continuous learning and improvement to ensure that our content remains relevant and valuable."
 
     contactUs:
       title: "Contact Us"

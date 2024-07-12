@@ -1,25 +1,25 @@
 <main class="px-8 lg:px-96 md:px-20 w-full mb-20 flex items-center justify-center">
     <div class="m-auto">
         <h1 class="my-12 text-4xl font-bold">
-            <%= @blog.title %>
+            <%= @blog_post.title %>
         </h1>
 
         <div class="">
             <div>
-            <%= image_tag @blog.image_src, alt: @blog.image_alt, class: "w-full" %>
+            <%= image_tag @blog_post.image_src, alt: @blog_post.image_alt, class: "w-full" %>
 
                 <div class="flex items-center justify-center">
                     <div class="flex-1 flex items-center justify-start">
-                        <p class="text-lg"><%= @blog.time_to_read %> min read</p>
+                        <p class="text-lg"><%= @blog_post.time_to_read %> min read</p>
                     </div>
                     <div class="flex-1 flex items-center justify-end">
-                        <p class="text-lg"><%= @blog.created_at.strftime('%b %d, %Y') %></p>
+                        <p class="text-lg"><%= @blog_post.created_at.strftime('%b %d, %Y') %></p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="prose m-auto">
-            <%= simple_format(@blog.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
+            <%= simple_format(@blog_post.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
         </div>
     </div>
 </main>
