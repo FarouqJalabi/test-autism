@@ -7,34 +7,34 @@
           </a>
             <div class="dropdown dropdown-right">
 
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor" >
-                  <title>Hamburger menu icon</title>
-                <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
-            </div>
-            <ul
-                tabindex="0"
-                class="dropdown-content menu rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li>
-                    <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
-                </li>
-                <li>
-                    <%= link_to t('navigation.takeTestButton'), test_path, class: ('selected_nav_element' if on_test?) %>
-                </li>
-                <li>
-                    <%= link_to t('navigation.aboutButton'), static_pages_about_path, class: ('selected_nav_element' if on_about?) %>
-                </li>
-            </ul>
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor" >
+                    <title>Hamburger menu icon</title>
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul
+                    tabindex="0"
+                    class="dropdown-content menu rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li>
+                        <%= link_to t('navigation.homeButton'), root_path, class: ('selected_nav_element' if on_home?) %>
+                    </li>
+                    <li>
+                        <%= link_to t('navigation.takeTestButton'), test_path, class: ('selected_nav_element' if on_test?) %>
+                    </li>
+                    <li>
+                        <%= link_to t('navigation.aboutButton'), static_pages_about_path, class: ('selected_nav_element' if on_about?) %>
+                    </li>
+                </ul>
             </div>
         </div>
 
