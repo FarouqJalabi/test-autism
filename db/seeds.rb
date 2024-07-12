@@ -80,5 +80,5 @@ Blogs = [
 ]
 
 Blogs.each do |blog|
-  BlogPost.find_or_create_by!(**blog)
+  Blog.find_or_create_by!(**blog)
 end
