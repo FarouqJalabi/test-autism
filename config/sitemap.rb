@@ -19,6 +19,7 @@ SitemapGenerator::Sitemap.create do
   end
 
   add "/en/blogs", priority: 0.4, changefreq: 'weekly'
+  
   # Blogs posts
   Blog.find_each do |blog|
     add blog_url(blog, locale: :en, only_path: true), lastmod: blog.updated_at, changefreq: 'daily', priority: 0.5
