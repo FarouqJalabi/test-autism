@@ -10,16 +10,23 @@
     <progress class="progress progress-primary w-full" value="<%= params["score"].to_f %>" max="100"></progress>
   </div>
 
-
-
-
-  <div>
+  <div
+    data-controller="share"
+    data-label="<%= percentage_to_share(params["score"].to_f) %>"
+    data-language="<%= I18n.locale %>"
+  >
     <p class="text-xl md:text-2xl"><%= percentage_to_description(params["score"].to_f) %></p>
-    <button class="btn btn-primary text-lg mt-3 w-full md:w-1/4 hidden"
-            data-controller="share"
-            data-label="<%= percentage_to_share(params["score"].to_f) %>"
-            data-language="<%= I18n.locale %>"
+
+    <div class="hidden" data-share-target="navigatorButtons">
+      <button class="btn btn-primary text-lg mt-3 w-full md:w-1/4 "
             data-action="click->share#share_clicked"><%= t("result.shareButton") %></button>
+    </div>
+
+    <div class="hidden" data-share-target="shareButtons">
+      <a href="https://twitter.com/intent/post?text=<%= percentage_to_share(params["score"].to_f)+"%0A https://test-autism.com/"+I18n.locale.to_s+"/test"%>" target="_blank" rel="noopener" class="btn btn-primary text-lg mt-3 w-full md:w-1/3"><%= t("result.shareTo") %> Twitter</a>
+<!--      <button class="btn btn-primary text-lg mt-3 w-full md:w-1/3"><%#= t("result.shareTo") %> Facebook</button>-->
+<!--      <button class="btn btn-primary text-lg mt-3 w-full md:w-1/3"><%#= t("result.shareTo") %> TikTok</button>-->
+    </div>
 
   </div>
 
