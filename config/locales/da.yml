@@ -178,6 +178,9 @@ da:
     description4: "Din score tyder på, at det er meget sandsynligt, at du viser betydelige tegn på autismespektrumforstyrrelse (ASD). Dette antyder en høj sandsynlighed for autisme, og det anbefales kraftigt at overveje en omfattende vurdering af en sundhedsfaglig for at undersøge dette nærmere."
 
     shareButton: "Del resultat"
+    shareTo: "Del til"
+
+    shareSubject: "Mine autismetestresultater"
 
     share1: "Det er meget usandsynligt, at jeg har autisme. Tag testen for at se, hvor sandsynligt det er for dig!"
     share2: "Det er usandsynligt, at jeg har autisme. Tag testen for at se, hvor sandsynligt det er for dig!"
