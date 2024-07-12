@@ -178,6 +178,9 @@ de:
     description4: "Ihre Punktzahl deutet darauf hin, dass es sehr wahrscheinlich ist, dass Sie signifikante Anzeichen des Autismus-Spektrum-Störung (ASD) zeigen. Dies legt eine hohe Wahrscheinlichkeit von Autismus nahe, und es wird dringend empfohlen, eine umfassende Bewertung durch einen Gesundheitsdienstleister in Betracht zu ziehen, um dies weiter zu untersuchen."
 
     shareButton: "Ergebnis teilen"
+    shareTo: "Teilen auf"
+
+    shareSubject: "Meine Autismus-Testergebnisse"
 
     share1: "Es ist sehr unwahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!"
     share2: "Es ist unwahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!"

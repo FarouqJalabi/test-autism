@@ -178,6 +178,9 @@ en:
     description4: "Your score indicates that it is very likely you exhibit significant signs of autism spectrum disorder (ASD). This suggests a high probability of autism, and it is strongly recommended that you seek a comprehensive assessment by a healthcare professional to explore this possibility further."
 
     shareButton: "Share Result"
+    shareTo: "Share to"
+
+    shareSubject: "My autism test results"
 
     share1: "I am very unlikely to have autism. Take the test to see how likely you are!"
     share2: "I am unlikely to have autism. Take the test to see how likely you are!"
