@@ -179,6 +179,9 @@ pt:
 
     shareButton: "Compartilhar Resultado"
 
+    shareTo: "Compartilhar em"
+    shareSubject: "Meus resultados do teste de autismo"
+
     share1: "É muito improvável que eu tenha autismo. Faça o teste para ver como é provável você!"
     share2: "É improvável que eu tenha autismo. Faça o teste para ver como é provável você!"
     share3: "É provável que eu tenha autismo. Faça o teste para ver como é provável você!"

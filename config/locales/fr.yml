@@ -179,12 +179,15 @@ fr:
     description3: "Votre score suggère qu'il est probable que vous montriez plusieurs signes d'autisme. Bien que non définitif, cela indique une possibilité considérable de TSA. Consulter un professionnel pour une évaluation détaillée est conseillé pour mieux comprendre votre condition."
     description4: "Votre score indique qu'il est très probable que vous présentez des signes significatifs de trouble du spectre autistique (TSA). Cela suggère une forte probabilité d'autisme, et il est fortement recommandé de rechercher une évaluation complète par un professionnel de la santé pour explorer davantage cette possibilité."
 
+    shareButton: "Partager le Résultat"
+    shareTo: "Partager sur"
+
+    shareSubject: "Mes résultats au test de l'autisme"
+
     share1: "Il est très peu probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
     share2: "Il est peu probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
     share3: "Il est probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
     share4: "Il est très probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
-
-    shareButton: "Partager le Résultat"
 
   footer:
     resources: "Ressources"
