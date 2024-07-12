@@ -10,7 +10,6 @@ SitemapGenerator::Sitemap.create do
     { path: '/pages/faq', priority: 0.4 },
     { path: '/pages/privacy_policy', priority: 0.2 },
     { path: '/pages/translations', priority: 0.2 },
-    { path: '/blogs', priority: 0.4 }
   ]
 
   I18n.available_locales.each do |lang|
@@ -19,6 +18,7 @@ SitemapGenerator::Sitemap.create do
     end
   end
 
+  add "/en/blogs", priority: 0.4, changefreq: 'weekly'
   # Blogs posts
   Blog.find_each do |blog|
     add blog_url(blog, locale: :en, only_path: true), lastmod: blog.updated_at, changefreq: 'daily', priority: 0.5
