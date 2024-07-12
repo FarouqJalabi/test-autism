@@ -23,5 +23,5 @@ config/master.key
 
 
 # Ignore node modules eg. tailwind
-node_modules/
+#node_modules/
 
