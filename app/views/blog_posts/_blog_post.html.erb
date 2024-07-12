@@ -1,0 +1,11 @@
+<a class="w-64 lg:w-96 flex-[0_0_auto]" href="<%= blog_post_path(blog_post) %>">
+    <%= image_tag src=blog_post.image_src, alt: blog_post.image_alt, class: ""  %>
+
+    <h2 class="font-bold text-lg"><%=  blog_post.title %></h2>
+  <div class="blog_image_text flex">
+      <p class="text-md mr-auto"><%=  blog_post.time_to_read %> min read</p>
+      <p class="text-md"><%=  blog_post.created_at.strftime('%b %d, %Y') %></p>
+  </div>
+
+
+</a>
