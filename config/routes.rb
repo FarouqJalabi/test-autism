@@ -3,12 +3,12 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
-    resources :blogs, only: [:show]
+    resources :blog_posts, only: [:show]
 
-    get "/blogs", to: "blogs#index"
+    get "/blogs", to: "blog_posts#index"
 
     # Your routes here
-    root "pages#index"
+    root "static_pages#index"
 
     get "/test", to: "tests#show"
 
@@ -16,10 +16,10 @@ Rails.application.routes.draw do
     post 'questions/calculate_answer', to: 'questions#calculate_answer'
 
 
-    get 'pages/translations'
-    get 'pages/privacy_policy'
-    get 'pages/about'
-    get 'pages/faq'
+    get 'static_pages/translations'
+    get 'static_pages/privacy_policy'
+    get 'static_pages/about'
+    get 'static_pages/faq'
 
   end
 
@@ -27,4 +27,6 @@ Rails.application.routes.draw do
   root to: redirect("/#{I18n.default_locale}", status: 302), as: :redirected_root
 
   match '*path', to: 'application#not_found!', via: :all
+
+
 end
