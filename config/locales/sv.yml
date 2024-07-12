@@ -179,6 +179,9 @@ sv:
 
     shareButton: "Dela resultatet"
 
+    shareTo: "Dela till"
+    shareSubject: "Mina autismtestresultat"
+
     share1: "Det är mycket osannolikt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
     share2: "Det är osannolikt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
     share3: "Det är troligt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
