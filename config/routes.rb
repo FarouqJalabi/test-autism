@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
-    resources :blog_posts, only: [:show]
+    resources :blogs, only: [:show]
 
-    get "/blogs", to: "blog_posts#index"
+    get "/blogs", to: "blogs#index"
 
     # Your routes here
     root "static_pages#index"
