@@ -1,6 +1,6 @@
-class PagesController < ApplicationController
+class StaticPagesController < ApplicationController
   def index
-    @blogs = Blog.all.sort_by(&:updated_at).reverse
+    @blog_posts = BlogPost.all.sort_by(&:updated_at).reverse
   end
   
   def translations
