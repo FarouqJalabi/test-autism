@@ -2,21 +2,24 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
   connect() {
+    // global vars
     this.order = Number(this.element.dataset.order);
     this.totalQuestions = Number(this.element.dataset.total);
 
+    // Handle saved answers
     let hasAnsweredQuestion = localStorage.getItem(this.order) !== null
 
     if (hasAnsweredQuestion){
       this.element.style.visibility = "hidden"
       this.element.style.transform = "translateX(-100vw)"
-      this.element.querySelector("#"+localStorage.getItem(this.order)).checked = true
+      this.element.querySelector("#"+localStorage.getItem(this.order.toString())).checked = true
     }
 
     let previousQuestionOrder= this.order-1
-    let hasAnsweredPreviousQuestion = localStorage.getItem(previousQuestionOrder) !== null
+    let hasAnsweredPreviousQuestion = localStorage.getItem(previousQuestionOrder.toString()) !== null
+    let lastQuestion = this.order === this.totalQuestions
 
-    if (!hasAnsweredQuestion &&  hasAnsweredPreviousQuestion){
+    if ((!hasAnsweredQuestion || lastQuestion) &&  hasAnsweredPreviousQuestion){
       this.element.style.visibility = "visible"
       this.element.style.transform = "translateX(0vw)"
     }
@@ -34,7 +37,8 @@ export default class extends Controller {
       }, "502"); // Reason for 502 is because animation lasts is 500
 
     }
-    if (this.order === this.totalQuestions){
+    let lastQuestion = this.order === this.totalQuestions
+    if (lastQuestion){
       document.querySelector("input[type=\"submit\"]").classList.remove("hidden")
     }
 
