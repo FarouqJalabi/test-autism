@@ -15,13 +15,14 @@ class QuestionsController < ApplicationController
 
     percentage = calculate_percentage(total_score, 50)
 
-    redirect_to result_path(score: percentage)
+    redirect_to result_path(score: percentage, answers: answers.values)
   end
 
   def result
-    if params[:score].blank?
+    if params[:score].blank? && params[:answers].blank?
       not_found!
     else
+      @answers = params[:answers]
       params[:score] = params[:score].to_i.clamp(0, 100)
     end
   end
