@@ -2,7 +2,7 @@ require "test_helper"
 
 class PagesControllerTest < ActionDispatch::IntegrationTest
   test "should get privacyPolicy" do
-    get privacyPolicy_url
+    get pages_privacy_policy_url
     assert_response :success
   end
 
