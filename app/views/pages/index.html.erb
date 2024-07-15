@@ -65,7 +65,7 @@
         </section>
       
         <section class="relative grid align-center justify-center">     
-            <div class="stats shadow grid gap-10 px-10 py-5 flex flex-wrap">
+            <div class="stats stats-vertical lg:stats-horizontal shadow grid gap-10 px-10 py-5">
                 <div class="stat">
                     <div class="stat-figure text-secondary">
                         <svg
@@ -82,7 +82,7 @@
                     </div>
                     <div class="grid gap-2">
                         <div class="stat-title text-2xl">Very Unlikly</div>
-                        <div class="stat-value text-7xl"><%= @very_unlikely_percentage %>%</div>
+                        <div class="stat-value text-5xl md:text-6xl"><%= @very_unlikely_percentage %>%</div>
                     </div>
                 </div>
                 <div class="stat">
@@ -101,7 +101,7 @@
                     </div>
                     <div class="grid gap-2">
                         <div class="stat-title text-2xl">Unlikely</div>
-                        <div class="stat-value text-7xl"><%= @unlikely_percentage %>%</div>
+                        <div class="stat-value text-5xl md:text-6xl"><%= @unlikely_percentage %>%</div>
                     </div>
                 </div>
                 <div class="stat">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="grid gap-2">
                         <div class="stat-title text-2xl">Likely</div>
-                        <div class="stat-value text-7xl"><%= @likely_percentage %>%</div>
+                        <div class="stat-value text-5xl md:text-6xl"><%= @likely_percentage %>%</div>
                     </div>
                 </div>
                 <div class="stat">
@@ -139,10 +139,9 @@
                     </div>
                     <div class="grid gap-2">
                         <div class="stat-title text-2xl">Very Likly</div>
-                        <div class="stat-value text-7xl"><%= @very_likely_percentage %>%</div>
+                        <div class="stat-value text-5xl md:text-6xl"><%= @very_likely_percentage %>%</div>
                     </div>
                 </div>
-
             </div>
         </section>
 
