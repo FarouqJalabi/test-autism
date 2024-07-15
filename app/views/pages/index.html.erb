@@ -64,11 +64,8 @@
             <div class="section-divider"></div>
         </section>
       
-        <section class="relative">
-            <h2 class="text-4xl font-bold md:text-5xl mb-2 md:mb-4"><%= t('aboutUs.disclaimer.title')%></h2>
-            <p class="text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description1')%></p>
-            <br>
-            <p class="text-xl md:text-2xl"><%= t('aboutUs.disclaimer.description2')%></p>
+        <section class="relative">            
+            <div class="chart"></div>
         </section>
 
       <%= render partial: "language_carousel" %>
@@ -87,3 +84,88 @@
         <%= link_to t('home.otherBlogs'), blogs_path, class: "btn color-white  m-2 mx-auto bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
       </section>
 </main>
+<script>
+  // Data
+  const data = [
+    { count: 14, percentage: 12.73 },
+    { count: 11, percentage: 10 },
+    { count: 10, percentage: 9.09 },
+    { count: 8, percentage: 7.27 },
+    { count: 11, percentage: 10 },
+    { count: 8, percentage: 7.27 },
+    { count: 13, percentage: 11.82 },
+    { count: 9, percentage: 8.18 },
+    { count: 10, percentage: 9.09 },
+    { count: 16, percentage: 14.55 }
+  ];
+
+  // SVG setup
+  const margin = { top: 20, right: 20, bottom: 70, left: 40 };
+  const width = 600 - margin.left - margin.right;
+  const height = 400 - margin.top - margin.bottom;
+
+  const svg = d3.select(".chart")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+  // X scale and axis
+  const x = d3.scaleBand()
+    .domain(data.map(d => d.count))
+    .range([0, width])
+    .padding(0.1);
+
+  svg.append("g")
+    .attr("class", "axis axis-x")
+    .attr("transform", `translate(0, ${height})`)
+    .call(d3.axisBottom(x));
+
+  // Y scale and axis
+  const y = d3.scaleLinear()
+    .domain([0, d3.max(data, d => d.percentage)])
+    .nice()
+    .range([height, 0]);
+
+  svg.append("g")
+    .attr("class", "axis axis-y")
+    .call(d3.axisLeft(y));
+
+  // Bars
+  svg.selectAll(".bar")
+    .data(data)
+    .enter().append("rect")
+    .attr("class", "bar")
+    .attr("x", d => x(d.count))
+    .attr("width", x.bandwidth())
+    .attr("y", d => y(d.percentage))
+    .attr("height", d => height - y(d.percentage));
+
+  // Add labels
+  svg.selectAll("text.label")
+    .data(data)
+    .enter()
+    .append("text")
+    .attr("class", "label")
+    .attr("x", d => x(d.count) + x.bandwidth() / 2)
+    .attr("y", d => y(d.percentage) - 5)
+    .attr("text-anchor", "middle")
+    .text(d => `${d.percentage}%`);
+
+  // Add axes labels
+  svg.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", `translate(${width / 2}, ${height + margin.top + 10})`)
+    .style("text-anchor", "middle")
+    .text("Count");
+
+  svg.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0 - margin.left)
+    .attr("x", 0 - (height / 2))
+    .attr("dy", "1em")
+    .style("text-anchor", "middle")
+    .text("Percentage (%)");
+</script>
