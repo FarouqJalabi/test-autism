@@ -15,7 +15,7 @@ class QuestionsController < ApplicationController
 
     percentage = calculate_percentage(total_score, 50)
 
-    redirect_to result_path(score: percentage, answers: answers.values)
+    redirect_to result_path(score: percentage, answers: answers.values.reverse)
   end
 
   def result
