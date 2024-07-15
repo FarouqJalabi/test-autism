@@ -2,8 +2,29 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
   connect() {
+    // global vars
     this.order = Number(this.element.dataset.order);
     this.totalQuestions = Number(this.element.dataset.total);
+
+    // Handle saved answers
+    let hasAnsweredQuestion = localStorage.getItem(this.order) !== null
+
+    if (hasAnsweredQuestion){
+      this.element.style.visibility = "hidden"
+      this.element.style.transform = "translateX(-100vw)"
+      this.element.querySelector("#"+localStorage.getItem(this.order.toString())).checked = true
+    }
+
+    let previousQuestionOrder= this.order-1
+    let hasAnsweredPreviousQuestion = localStorage.getItem(previousQuestionOrder.toString()) !== null
+    let lastQuestion = this.order === this.totalQuestions
+
+    if ((!hasAnsweredQuestion || lastQuestion) &&  hasAnsweredPreviousQuestion){
+      this.element.style.visibility = "visible"
+      this.element.style.transform = "translateX(0vw)"
+    }
+
+    this.update_progress_bar()
   }
 
   radio_clicked(event) {
@@ -16,7 +37,8 @@ export default class extends Controller {
       }, "502"); // Reason for 502 is because animation lasts is 500
 
     }
-    if (this.order === this.totalQuestions){
+    let lastQuestion = this.order === this.totalQuestions
+    if (lastQuestion){
       document.querySelector("input[type=\"submit\"]").classList.remove("hidden")
     }
 
@@ -39,7 +61,6 @@ export default class extends Controller {
 
   back_clicked() {
     let targetIndex = this.order-1 ;
-
 
     this.element.style.transform = "translateX(100vw)"
     
@@ -69,8 +90,8 @@ export default class extends Controller {
 
   // Saving answer change to local storage
   save_change() {
-
-    console.log(this.element)
+    const checked_radio = this.element.querySelector('input[type="radio"]:checked')
+    localStorage.setItem(this.order, checked_radio.id)
   }
 
 }
