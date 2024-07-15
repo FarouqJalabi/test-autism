@@ -1,30 +1,28 @@
 class PagesController < ApplicationController
   def index
     @blogs = Blog.all.sort_by(&:updated_at).reverse
-    @scoreRange = scoreRange()
+    
+    @tests_taken = TestScore.count   
+    
+    @very_unlikely_count = TestScore.where('score <= ?', 30).count
+    @unlikely_count = TestScore.where('score > ? AND score <= ?', 30, 50).count
+    @likely_count = TestScore.where('score > ? AND score <= ?', 50, 70).count
+    @very_likely_count = TestScore.where('score > ?', 70).count
 
-  end
-
-  def scoreRange
-    scores = TestScore.all.pluck(:score)
-
-    total_scores = scores.size
-
-    increments = (1..10).map { |i| i * 10 }
-
-    @range_data = {}
-
-    scores.each do |score|
-      range = (score / 10.0).ceil * 10
-      range = 100 if range > 100
-      @range_data[range] ||= { count: 0, percentage: 0 }
-      @range_data[range][:count] += 1
-    end
-
-    @range_data.each do |range, data|
-      data[:percentage] = (data[:count].to_f / total_scores * 100).round(2)
+    if @tests_taken > 0
+      @very_unlikely_percentage = (@very_unlikely_count.to_f / @tests_taken * 100).round(2)
+      @unlikely_percentage = (@unlikely_count.to_f / @tests_taken * 100).round(2)
+      @likely_percentage = (@likely_count.to_f / @tests_taken * 100).round(2)
+      @very_likely_percentage = (@very_likely_count.to_f / @tests_taken * 100).round(2)
+    else
+      @very_unlikely_percentage = 0.0
+      @unlikely_percentage = 0.0
+      @likely_percentage = 0.0
+      @very_likely_percentage = 0.0
     end
   end
+
+
   
   def translations
   end
