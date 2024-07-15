@@ -69,8 +69,8 @@ export default class extends Controller {
 
   // Saving answer change to local storage
   save_change() {
-
-    console.log(this.element)
+    const checked_radio = this.element.querySelector('input[type="radio"]:checked')
+    localStorage.setItem(this.order, checked_radio.id)
   }
 
 }
