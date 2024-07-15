@@ -6,8 +6,18 @@ export default class extends Controller {
     this.totalQuestions = Number(this.element.dataset.total);
 
     if (localStorage.getItem(this.order) !== null){
+      this.element.style.visibility = "hidden"
+      this.element.style.transform = "translateX(-100vw)"
       this.element.querySelector("#"+localStorage.getItem(this.order)).checked = true
     }
+
+    let previousQuestionOrder= this.order-1
+
+    if (localStorage.getItem(this.order) === null && localStorage.getItem(previousQuestionOrder) !== null ){
+      this.element.style.visibility = "visible"
+      this.element.style.transform = "translateX(0vw)"
+    }
+    this.update_progress_bar()
   }
 
   radio_clicked(event) {
@@ -43,7 +53,6 @@ export default class extends Controller {
 
   back_clicked() {
     let targetIndex = this.order-1 ;
-
 
     this.element.style.transform = "translateX(100vw)"
     
