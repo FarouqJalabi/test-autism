@@ -65,4 +65,12 @@ export default class extends Controller {
     let progressBarFill = document.querySelector('.progress');
     progressBarFill.value = progress;
   }
+
+
+  // Saving answer change to local storage
+  save_change() {
+
+    console.log(this.element)
+  }
+
 }
