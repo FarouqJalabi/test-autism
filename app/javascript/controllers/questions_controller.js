@@ -4,6 +4,10 @@ export default class extends Controller {
   connect() {
     this.order = Number(this.element.dataset.order);
     this.totalQuestions = Number(this.element.dataset.total);
+
+    if (localStorage.getItem(this.order) !== null){
+      this.element.querySelector("#"+localStorage.getItem(this.order)).checked = true
+    }
   }
 
   radio_clicked(event) {
