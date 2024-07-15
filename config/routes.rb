@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     get "/blogs", to: "blogs#index"
 
     # Your routes here
-    root "static_pages#index"
+    root "pages#index"
 
     get "/test", to: "tests#show"
 
@@ -16,10 +16,10 @@ Rails.application.routes.draw do
     post 'questions/calculate_answer', to: 'questions#calculate_answer'
 
 
-    get 'static_pages/translations'
-    get 'static_pages/privacy_policy'
-    get 'static_pages/about'
-    get 'static_pages/faq'
+    get 'pages/translations'
+    get 'pages/privacy_policy'
+    get 'pages/about'
+    get 'pages/faq'
 
   end
 

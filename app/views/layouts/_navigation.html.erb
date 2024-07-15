@@ -30,7 +30,7 @@
                         <%= link_to t('navigation.takeTestButton'), test_path, data: { turbo_frame: 'main' }, class: ('selected_nav_element' if on_test?) %>
                     </li>
                     <li>
-                        <%= link_to t('navigation.aboutButton'), static_pages_about_path, data: { turbo_frame: 'main' }, class: ('selected_nav_element' if on_about?) %>
+                        <%= link_to t('navigation.aboutButton'), pages_about_path, data: { turbo_frame: 'main' }, class: ('selected_nav_element' if on_about?) %>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
                     <%= link_to t('navigation.takeTestButton'), test_path, data: { turbo_frame: 'main' }, class: "#{'selected_nav_element' if on_test?} text-2xl" %>
                 </li>
                 <li>
-                    <%= link_to t('navigation.aboutButton'), static_pages_about_path, data: { turbo_frame: 'main' }, class: "#{'selected_nav_element' if on_about?} text-2xl" %>
+                    <%= link_to t('navigation.aboutButton'), pages_about_path, data: { turbo_frame: 'main' }, class: "#{'selected_nav_element' if on_about?} text-2xl" %>
                 </li>
             
             </ul>
