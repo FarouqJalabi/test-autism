@@ -5,18 +5,22 @@ export default class extends Controller {
     this.order = Number(this.element.dataset.order);
     this.totalQuestions = Number(this.element.dataset.total);
 
-    if (localStorage.getItem(this.order) !== null){
+    let hasAnsweredQuestion = localStorage.getItem(this.order) !== null
+
+    if (hasAnsweredQuestion){
       this.element.style.visibility = "hidden"
       this.element.style.transform = "translateX(-100vw)"
       this.element.querySelector("#"+localStorage.getItem(this.order)).checked = true
     }
 
     let previousQuestionOrder= this.order-1
+    let hasAnsweredPreviousQuestion = localStorage.getItem(previousQuestionOrder) !== null
 
-    if (localStorage.getItem(this.order) === null && localStorage.getItem(previousQuestionOrder) !== null ){
+    if (!hasAnsweredQuestion &&  hasAnsweredPreviousQuestion){
       this.element.style.visibility = "visible"
       this.element.style.transform = "translateX(0vw)"
     }
+
     this.update_progress_bar()
   }
 
