@@ -5,26 +5,10 @@ export default class extends Controller {
     // global vars
     this.order = Number(this.element.dataset.order);
     this.totalQuestions = Number(this.element.dataset.total);
+    this.localStorageId = "question_"+this.order.toString()
 
-    // Handle saved answers
-    let hasAnsweredQuestion = localStorage.getItem(this.order) !== null
+    this.handleSavedAnswers()
 
-    if (hasAnsweredQuestion){
-      this.element.style.visibility = "hidden"
-      this.element.style.transform = "translateX(-100vw)"
-      this.element.querySelector("#"+localStorage.getItem(this.order.toString())).checked = true
-    }
-
-    let previousQuestionOrder= this.order-1
-    let hasAnsweredPreviousQuestion = localStorage.getItem(previousQuestionOrder.toString()) !== null
-    let lastQuestion = this.order === this.totalQuestions
-
-    if ((!hasAnsweredQuestion || lastQuestion) &&  hasAnsweredPreviousQuestion){
-      this.element.style.visibility = "visible"
-      this.element.style.transform = "translateX(0vw)"
-    }
-
-    this.update_progress_bar()
   }
 
   radio_clicked(event) {
@@ -91,7 +75,35 @@ export default class extends Controller {
   // Saving answer change to local storage
   save_change() {
     const checked_radio = this.element.querySelector('input[type="radio"]:checked')
-    localStorage.setItem(this.order, checked_radio.id)
+    localStorage.setItem("question_"+this.order.toString(), checked_radio.id)
+  }
+
+  handleSavedAnswers() {
+    let viewed_answers = localStorage.getItem("viewed_result") !== null
+    if (viewed_answers){
+      localStorage.clear()
+    }
+
+    let hasAnsweredQuestion = localStorage.getItem(this.localStorageId) !== null
+
+
+    if (hasAnsweredQuestion){
+      this.element.style.visibility = "hidden"
+      this.element.style.transform = "translateX(-100vw)"
+      this.element.querySelector("#"+localStorage.getItem(this.localStorageId)).checked = true
+    }
+
+    let previousQuestionOrder= this.order-1
+    let previousQuestionLocalStorageId= "question_"+previousQuestionOrder.toString()
+    let hasAnsweredPreviousQuestion = localStorage.getItem(previousQuestionLocalStorageId) !== null
+    let lastQuestion = this.order === this.totalQuestions
+
+    if ((!hasAnsweredQuestion || lastQuestion) &&  hasAnsweredPreviousQuestion){
+      this.element.style.visibility = "visible"
+      this.element.style.transform = "translateX(0vw)"
+    }
+
+    this.update_progress_bar()
   }
 
 }
