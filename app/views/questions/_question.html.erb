@@ -28,7 +28,7 @@
       <% end %>
 
       <% if question.order == question_length(question) %>
-        <%= form.submit t("questions.submit"), class: "btn btn-primary hidden m-auto", onclick: "localStorage.clear();" %>
+        <%= form.submit t("questions.submit"), class: "btn btn-primary hidden m-auto", onclick: "" %>
       <% end %>
     </div>
   </div>

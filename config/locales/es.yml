@@ -188,6 +188,7 @@ es:
     share2: "Es poco probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
     share3: "Es probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
     share4: "Es muy probable que tenga autismo. ¡Haz el test para ver cuán probable es que lo tengas tú!"
+    printAnswers: "Imprimir respuestas"
 
   footer:
     resources: "Recursos"
