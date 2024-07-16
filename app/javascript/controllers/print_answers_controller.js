@@ -10,9 +10,5 @@ export default class extends Controller {
     });
   }
 
-  fogad(){
-    setTimeout(() => {
-      window.print();
-    }, 100); // Adjust delay as necessary
-  }
+
 }
