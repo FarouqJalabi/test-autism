@@ -15,6 +15,8 @@ class QuestionsController < ApplicationController
 
     percentage = calculate_percentage(total_score, 50)
 
+    TestScore.new(score: percentage).save
+
     redirect_to result_path(score: percentage)
   end
 
