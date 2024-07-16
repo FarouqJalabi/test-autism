@@ -9,7 +9,7 @@ Take the test at: [test-autism.com](https://test-autism.com/)
 </div>
 
 # Features:
-- **Translations:** for 4 languages: English 🇺🇸, Español 🇪🇸, Français 🇫🇷, Norsk 🇳🇴
+- **Translations:** for 9 languages: English 🇺🇸, Dansk 🇩🇰, Deutsch 🇩🇪, Español 🇪🇸, Français 🇫🇷, Norsk 🇳🇴, Português 🇵🇹, Svenska 🇸🇪, 中文 🇨🇳
 - **Full AQ-50 Test:** Complete the AQ-50 test with immediate results!
 - **Result Description:** Descriptions that help you understand you result 
 - **Accessible**: Screen reader friendly and fully useable with only a keyboard.
