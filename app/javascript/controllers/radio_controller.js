@@ -4,32 +4,49 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
   connect() {
         this.element.addEventListener('keydown', (event) => {
-            if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
-                event.preventDefault();
-                if (this.element.parentElement.previousElementSibling){
-                    this.element.parentElement.previousElementSibling.children[1].focus()
-                }else if(this.element.parentElement.parentElement.children[0]){
-                    this.element.parentElement.parentElement.children[3].children[1].focus()
-                }
-            }
-            if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
-                event.preventDefault();
-                if (this.element.parentElement.nextElementSibling){
-                    this.element.parentElement.nextElementSibling.children[1].focus()
-                }else if(this.element.parentElement.parentElement.children[0]) {
-                    this.element.parentElement.parentElement.children[0].children[1].focus()
-                }
-            }
-          if (event.key === 'Enter') {
+
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
             event.preventDefault();
-            this.element.checked = true;
 
-            // Won't call because event.preventdefault?
-            // Or it only calls through Dom and not js
-            this.element.dispatchEvent(new Event('click' ));
-            this.element.dispatchEvent(new Event('change' ));
+            const previousSibling = this.element.parentElement.previousElementSibling
+            const parentLastChild = this.element.parentElement.parentElement.children[3]
 
-          }
-        });
+            if (this.element.parentElement.previousElementSibling){
+                const previousSiblingRadio = previousSibling.children[1]
+                previousSiblingRadio.focus()
+            }else if(parentLastChild){
+                const parentLastChildRadio = parentLastChild.children[1]
+                parentLastChildRadio.focus()
+            }
+        }
+
+        if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+            event.preventDefault();
+
+            const nextSibling = this.element.parentElement.nextElementSibling
+            const parentFirstChild = this.element.parentElement.parentElement.children[0]
+
+            if (nextSibling){
+
+                const nextSiblingRadio = nextSibling.children[1]
+                nextSiblingRadio.focus()
+            }else if(parentFirstChild) {
+
+                const parentFirstChildRadio = parentFirstChild.children[1]
+                parentFirstChildRadio.focus()
+            }
+        }
+
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        this.element.checked = true;
+
+        // Won't call because event.preventdefault?
+        // Or it only calls through Dom and not js
+        this.element.dispatchEvent(new Event('click' ));
+        this.element.dispatchEvent(new Event('change' ));
+
+      }
+     });
   }
 }
