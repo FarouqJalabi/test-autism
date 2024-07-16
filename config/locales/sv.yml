@@ -186,6 +186,7 @@ sv:
     share2: "Det är osannolikt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
     share3: "Det är troligt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
     share4: "Det är mycket troligt att jag har autism. Ta testet för att se hur sannolikt det är för dig!"
+    printAnswers: "Skriv ut svaren"
 
   footer:
     resources: "Resurser"

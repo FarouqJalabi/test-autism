@@ -1,4 +1,4 @@
-<footer class="footer bg-base-200 text-base-content p-10 mt-20">
+<footer class="footer bg-base-200 text-base-content p-10 mt-20 print:hidden">
   <nav>
     <h6 class="footer-title">Services</h6>
     <a class="link link-hover" href="<%= test_path %>"><%= t("navigation.takeTestButton") %></a>
@@ -28,10 +28,10 @@
       <%= image_tag "Logo.svg", alt: "logo", class: "w-fit h-fit"%>
     </a>
 
-    <p>Copyright © <%= Date.current.year %> - All right reserved</p>
+    <p>Copyright © <%= Date.current.year %> - All right reserved - autism-test.com</p>
   </aside>
 
-  <nav class="md:place-self-center md:justify-self-end">
+  <nav class="md:place-self-center md:justify-self-end print:hidden">
     <div class="grid grid-flow-col gap-4">
 
       <a target="_blank" rel="noopener" href="https://github.com/FarouqJalabi/test-autism">

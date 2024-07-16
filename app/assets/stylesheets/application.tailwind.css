@@ -2,16 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
 
-@layer components {
-  .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
-  }
+@media print {
+    input[type="radio"]:checked {
+        box-shadow: 0 0 0 200px #1575D1 inset !important;
+    }
 }
-
-*/
-/* Not working on every browser*/
 
 progress {
     transition: 1s;

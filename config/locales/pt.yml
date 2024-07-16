@@ -186,6 +186,7 @@ pt:
     share2: "É improvável que eu tenha autismo. Faça o teste para ver como é provável você!"
     share3: "É provável que eu tenha autismo. Faça o teste para ver como é provável você!"
     share4: "É muito provável que eu tenha autismo. Faça o teste para ver como é provável você!"
+    printAnswers: "Imprimir respostas"
 
   footer:
     resources: "Recursos"
