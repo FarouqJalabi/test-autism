@@ -7,8 +7,17 @@ export default class extends Controller {
     this.totalQuestions = Number(this.element.dataset.total);
     this.localStorageId = "question_"+this.order.toString()
 
-    this.handleSavedAnswers()
 
+
+    this.handleSavedAnswers()
+    
+    let lastQuestion = this.order === this.totalQuestions
+    if (lastQuestion) {
+      let hasCheckedRadio = this.element.querySelector('input[type="radio"]:checked')
+      if (hasCheckedRadio) {
+        document.querySelector("input[type=\"submit\"]").classList.remove("hidden")
+      }
+    }
   }
 
   radio_clicked(event) {
