@@ -2,8 +2,6 @@ class PagesController < ApplicationController
   def index
     @blogs = Blog.all.sort_by(&:updated_at).reverse
     
-    @tests_taken = TestScore.count   
-    
     @tests_taken = TestScore.count
     score_counts = count_scores
     @percentages = calculate_percentages(score_counts, @tests_taken)
