@@ -13,6 +13,7 @@ Take the test at: [test-autism.com](https://test-autism.com/)
 - **Full AQ-50 Test:** Complete the AQ-50 test with immediate results!
 - **Result Description:** Descriptions that help you understand you result 
 - **Accessible**: Screen reader friendly and fully useable with only a keyboard.
+- **Shareable**: You can share you results with your freinds and family!
 
 # Disclaimer
 We are not medical professionals, and the tools provided on this website (The AQ-50 test) are intended solely as screening tools. These tests are designed to help identify traits associated with autism and are not diagnostic instruments.
