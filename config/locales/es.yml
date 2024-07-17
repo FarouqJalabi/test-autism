@@ -32,6 +32,13 @@ es:
         title: "Resultados"
         description: "El test proporciona comentarios inmediatos."
     
+    stats:
+      testsTaken: "Pruebas realizadas"
+      numberOfTestsTaken: "Número de pruebas realizadas"
+      percentageOfUnlikely: "Porcentaje de personas que obtuvieron improbable"
+      percentageOfLikely: "Porcentaje de personas que obtuvieron probable"
+
+    
     madeBy: "Prueba por la Universidad de Cambridge"
     blogSectionTitle: "Último Blog"
     otherBlogs: "Ver todos los blogs"

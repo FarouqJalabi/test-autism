@@ -32,6 +32,13 @@ sv:
       result:
         title: "Resultat"
         description: "Testet ger omedelbar feedback."
+
+    stats:
+      testsTaken: "Tagna tester"
+      numberOfTestsTaken: "Antal tagna tester"
+      percentageOfUnlikely: "Procentandel av personer som fick osannolikt"
+      percentageOfLikely: "Procentandel av personer som fick sannolikt"
+
     
     madeBy: "Test från University of Cambridge"
     blogSectionTitle: "Senaste bloggen"

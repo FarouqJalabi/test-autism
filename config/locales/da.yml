@@ -32,6 +32,13 @@ da:
       result:
         title: "Resultater"
         description: "Testen giver øjeblikkelig feedback."
+
+    stats:
+      testsTaken: "Tagne tests"
+      numberOfTestsTaken: "Antal tagne tests"
+      percentageOfUnlikely: "Procentdel af folk der fik usandsynligt"
+      percentageOfLikely: "Procentdel af folk der fik sandsynligt"
+
     
     madeBy: "Test fra University of Cambridge"
     blogSectionTitle: "Seneste blog"
