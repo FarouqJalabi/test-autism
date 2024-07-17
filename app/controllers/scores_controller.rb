@@ -7,7 +7,7 @@ class ScoresController < ApplicationController
         @question_length = Question.count
     end
 
-    def calculate_answer
+    def create
         answers = params[:answers]
     
         if answers.blank?
