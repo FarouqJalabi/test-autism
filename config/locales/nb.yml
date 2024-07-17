@@ -33,7 +33,12 @@ nb:
       result:
         title: "Resultater"
         description: "Testen gir umiddelbare tilbakemeldinger."
-    
+    stats:
+      testsTaken: "Gjennomførte tester"
+      numberOfTestsTaken: "Antall gjennomførte tester"
+      percentageOfUnlikely: "Prosentandel av personer som fikk usannsynlig"
+      percentageOfLikely: "Prosentandel av personer som fikk sannsynlig"
+
     madeBy: "Test av Cambridge University"
     blogSectionTitle: "Siste blogg"
     otherBlogs: "Se alle blogger"

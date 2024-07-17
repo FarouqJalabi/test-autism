@@ -33,6 +33,13 @@ fr:
         title: "Résultats"
         description: "Le test donne des résultats immédiats."
 
+    stats:
+      testsTaken: "Tests effectués"
+      numberOfTestsTaken: "Nombre de tests effectués"
+      percentageOfUnlikely: "Pourcentage de personnes ayant obtenu improbable"
+      percentageOfLikely: "Pourcentage de personnes ayant obtenu probable"
+
+
     
     madeBy: "Test par l'Université de Cambridge"
     blogSectionTitle: "Dernier blog"

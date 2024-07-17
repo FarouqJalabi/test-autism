@@ -33,9 +33,18 @@ en:
         title: "Results"
         description: "Test comes back with immediate feedback."
     
+    stats:
+      testsTaken: "Tests taken"
+      numberOfTestsTaken: "Number of tests taken"
+
+      percentageOfUnlikely: "Percentage of people who got unlikely"
+
+      percentageOfLikely: "Percentage of people who got likely"
+
     madeBy: "Test By Cambridge University"
     blogSectionTitle: "Latest Blog"
     otherBlogs: "See all blogs"
+
 
   aboutUs:
     title: "About Us"

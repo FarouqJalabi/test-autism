@@ -33,6 +33,13 @@ zh:
         title: "结果"
         description: "测试将立即给出反馈。"
     
+    stats:
+      testsTaken: "参加的测试"
+      numberOfTestsTaken: "参加的测试次数"
+      percentageOfUnlikely: "得到不可能的人的百分比"
+      percentageOfLikely: "得到可能的人的百分比"
+
+    
     madeBy: "由剑桥大学开发的测试"
     blogSectionTitle: "最新博客"
     otherBlogs: "查看所有博客"

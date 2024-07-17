@@ -32,6 +32,13 @@ de:
       result:
         title: "Ergebnisse"
         description: "Der Test liefert sofortiges Feedback."
+
+    stats:
+      testsTaken: "Abgelegte Tests"
+      numberOfTestsTaken: "Anzahl der abgelegten Tests"
+      percentageOfUnlikely: "Prozentsatz der Leute, die unwahrscheinlich erhalten haben"
+      percentageOfLikely: "Prozentsatz der Leute, die wahrscheinlich erhalten haben"
+
     
     madeBy: "Test von der Universität Cambridge"
     blogSectionTitle: "Neuester Blog"

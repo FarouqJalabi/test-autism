@@ -33,6 +33,13 @@ pt:
         title: "Resultados"
         description: "O teste retorna com feedback imediato."
     
+    stats:
+      testsTaken: "Testes realizados"
+      numberOfTestsTaken: "Número de testes realizados"
+      percentageOfUnlikely: "Porcentagem de pessoas que obtiveram improvável"
+      percentageOfLikely: "Porcentagem de pessoas que obtiveram provável"
+
+    
     madeBy: "Teste feito pela Universidade de Cambridge"
     blogSectionTitle: "Último Blog"
     otherBlogs: "Ver todos os blogs"
