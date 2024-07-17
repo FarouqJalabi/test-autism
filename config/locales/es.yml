@@ -79,6 +79,9 @@ es:
     header2: "Nuestro Compromiso"
     description2: "Estamos comprometidos a proporcionar traducciones de alta calidad y apreciamos su colaboración en este esfuerzo. ¡Juntos podemos garantizar que nuestro contenido sea accesible y útil para la mayor cantidad de personas posible!"
 
+    takeAutismTest: "Puedes tomar el test de autismo en español"
+
+
   faq:
     question1: "¿Qué significa mi puntaje en el test de autismo?"
     answer1: "El test es solo una herramienta de detección. Si obtiene una puntuación alta, le recomendamos que busque una evaluación por parte de un profesional de la salud para una investigación más detallada."
