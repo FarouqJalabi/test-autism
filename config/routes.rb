@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     get "/test", to: "scores#new"
 
     get '/result', to: 'scores#show'
-    post 'questions/calculate_answer', to: 'scores#calculate_answer'
+    post 'questions/calculate_answer', to: 'scores#create', as: "create_score"
 
 
     get 'pages/translations'
