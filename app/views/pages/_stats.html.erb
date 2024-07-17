@@ -2,7 +2,7 @@
 <section class="relative grid align-center justify-center overflow-visible">
   <div class="stats stats-vertical xl:stats-horizontal grid gap-10 px-10 py-5 overflow-visible border border-gray-300 rounded-xl shadow-md">
     <div class="stat ">
-      <div class="stat-figure text-secondary tooltip custom-tooltip" data-tip="The percentage of test takers that got very unlikely">
+      <div class="stat-figure text-secondary tooltip custom-tooltip" data-tip="Number of tests taken">
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@
       </div>
       <div class="grid gap-2">
         <div class="stat-title text-2xl"><%= t("result.label1").capitalize %></div>
-        <div class="stat-value text-5xl md:text-6xl"><%= @very_unlikely_percentage %>%</div>
+        <div class="stat-value text-5xl md:text-6xl"><%= @tests_taken .to_i%></div>
       </div>
     </div>
     <div class="stat">
@@ -66,28 +66,6 @@
       <div class="grid gap-2">
         <div class="stat-title text-2xl"><%= t("result.label3").capitalize %></div>
         <div class="stat-value text-5xl md:text-6xl"><%= @likely_percentage %>%</div>
-      </div>
-    </div>
-    <div class="stat">
-      <div class="stat-figure text-secondary tooltip custom-tooltip" data-tip="The percentage of test takers that got very likely">
-        <button>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            class="text-primary inline-block h-8 w-8 stroke-current">
-            <title>i with circle around</title>
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-          </svg>
-        </button>
-      </div>
-      <div class="grid gap-2">
-        <div class="stat-title text-2xl"><%= t("result.label4").capitalize %></div>
-        <div class="stat-value text-5xl md:text-6xl"><%= @very_likely_percentage %>%</div>
       </div>
     </div>
   </div>
