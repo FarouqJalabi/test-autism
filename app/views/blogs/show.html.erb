@@ -1,25 +1,24 @@
-<main class="px-8 lg:px-96 md:px-20 w-full mb-20 flex items-center justify-center">
-    <div class="m-auto">
-        <h1 class="my-12 text-4xl font-bold">
-            <%= @blog.title %>
-        </h1>
+<main class="px-8 w-full max-w-[85ch] xl:max-w-[105ch] m-auto">
 
-        <div class="">
-            <div>
-            <%= image_tag @blog.image_src, alt: @blog.image_alt, class: "w-full" %>
+  <h1 class="mb-5 text-4xl font-bold">
+      <%= @blog.title %>
+  </h1>
 
-                <div class="flex items-center justify-center">
-                    <div class="flex-1 flex items-center justify-start">
-                        <p class="text-lg"><%= @blog.time_to_read %> min read</p>
-                    </div>
-                    <div class="flex-1 flex items-center justify-end">
-                        <p class="text-lg"><%= @blog.created_at.strftime('%b %d, %Y') %></p>
-                    </div>
-                </div>
-            </div>
+  <div class="">
+    <%= image_tag @blog.image_src, alt: @blog.image_alt, class: "w-full" %>
+
+    <div class="flex items-center justify-center">
+        <div class="flex-1 flex items-center justify-start">
+          <p class="text-lg"><%= @blog.time_to_read %> min read</p>
         </div>
-        <div class="prose m-auto">
-            <%= simple_format(@blog.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
+        <div class="flex-1 flex items-center justify-end">
+          <p class="text-lg"><%= @blog.created_at.strftime('%b %d, %Y') %></p>
         </div>
     </div>
+
+  </div>
+
+  <div class="prose m-auto max-w-[85ch] xl:max-w-[105ch]">
+      <%= simple_format(@blog.content, {}, { sanitize_options: { attributes: %w[target href] } }) %>
+  </div>
 </main>
