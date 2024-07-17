@@ -21,6 +21,6 @@ class ApplicationController < ActionController::Base
     brackets = [0.0..29.9, 30.0..49.9, 50.0..69.9, 70.0..100.0].freeze
 
     index = brackets.index { |range| range.include? x }
-    index.nil? ? -1 : index
+    index.nil? ? -1 : index+1
   end
 end
