@@ -6,7 +6,8 @@
 
             <%= t("footer.translations") %>
         </h2>
-        <ol class="gap-5 flex animate-carousel align-center justify-left min-w-screen absolute ">
+      <div class="translate-x-[-180px]">
+        <ol class="gap-5 flex animate-carousel align-center justify-left min-w-screen absolute">
 
             <% I18n.available_locales.each do |lang| %>
               <li class="flex w-56 md:w-72 gap-2 items-center rounded-xl px-4 md:p-5 md:gap-3 border border-gray-300 p-5 shadow-md">
@@ -25,6 +26,8 @@
               </li>
             <% end %>
         </ol>
+      </div>
+
     </div>
 
     <div class="section-divider mt-24"></div>
