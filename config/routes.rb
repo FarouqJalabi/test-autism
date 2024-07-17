@@ -10,7 +10,7 @@ Rails.application.routes.draw do
     # Your routes here
     root "pages#index"
 
-    get "/test", to: "tests#show"
+    get "/test", to: "scores#show"
 
     get '/result', to: 'questions#result'
     post 'questions/calculate_answer', to: 'questions#calculate_answer'
