@@ -18,7 +18,7 @@
 
           <!-- Repeat twice for invite scroll, don't need to repeat twice way to much-->
             <% I18n.available_locales.each do |lang| %>
-              <li class="flex w-56 md:w-72 gap-2 items-center rounded-xl px-4 md:p-5 md:gap-3 border border-gray-300 p-5 shadow-m">
+              <li class="flex w-56 md:w-72 gap-2 items-center rounded-xl px-4 md:p-5 md:gap-3 border border-gray-300 p-5 shadow-md">
                 <p class=""><%= t("language_phrase", locale: lang) %></p>
                 <%= image_tag  "flags/language/"+(lang.to_s)+".svg", alt: "flag of "+t("language_name", locale: lang), class: "w-8 md:w-12 aspect-square ml-auto" %>
 
