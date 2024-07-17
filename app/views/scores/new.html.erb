@@ -23,7 +23,7 @@
 <main class="grid px-3 md:gap-28 sm:px-20 lg:px-40 overflow-hidden">
   <progress class="progress progress-primary w-full" value="0" max="100"></progress>
 
-  <%= form_with(url: scores_path, method: :post, local: true) do |form| %>
+  <%= form_with model: @test_score  do |form| %>
     <div class="relative h-[25rem] w-full flex items-center justify-center ">
       <%= render partial: 'question', collection: @questions, as: :question, locals: { form: form } %>
     </div>

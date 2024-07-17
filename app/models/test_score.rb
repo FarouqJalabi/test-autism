@@ -1,2 +1,0 @@
-class TestScore < ApplicationRecord
-end

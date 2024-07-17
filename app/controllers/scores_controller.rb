@@ -1,26 +1,30 @@
 class ScoresController < ApplicationController
     def show
-    end
+        @score = Score.find(params[:id])
+     end
     def new
         @test = Test.first
         @questions = @test.questions.sort_by(&:order).reverse
         @question_length = Question.count
+
+        @test_score = Score.new
     end
 
     def create
         answers = params[:answers]
     
         if answers.blank?
-          redirect_to result_path and return
+          # redirect_to show and return
         end
     
         total_score = calculate_total_score(answers)
     
         percentage = calculate_percentage(total_score, 50)
     
-        TestScore.new(score: percentage).save
-    
-        redirect_to result_path(score: percentage)
+        Score.new(score: percentage).save
+
+
+        # redirect_to score_path(score: percentage)
     end
     
     def result
