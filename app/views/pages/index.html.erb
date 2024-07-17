@@ -84,7 +84,7 @@
 
         <div class="flex gap-10 overflow-x-auto overflow-y-auto w-full">
             <!-- 5 newest blogs -->
-            <%= render @blogs[0..4] %>
+            <%= render @blogs %>
         </div>
 
         <%= link_to t('home.otherBlogs'), blogs_path, class: "btn color-white  m-2 mx-auto bg-whitesmoke text-gray-700 px-4 py-2 rounded-lg shadow-md md:text-2xl" %>
