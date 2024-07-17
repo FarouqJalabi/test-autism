@@ -18,7 +18,7 @@
         </button>
       </div>
       <div class="grid gap-2">
-        <div class="stat-title text-2xl">Very Unlikely</div>
+        <div class="stat-title text-2xl"><%= t("result.label1").capitalize %></div>
         <div class="stat-value text-5xl md:text-6xl"><%= @very_unlikely_percentage %>%</div>
       </div>
     </div>
@@ -39,7 +39,7 @@
         </button>
       </div>
       <div class="grid gap-2">
-        <div class="stat-title text-2xl">Unlikely</div>
+        <div class="stat-title text-2xl"><%= t("result.label2").capitalize %></div>
         <div class="stat-value text-5xl md:text-6xl"><%= @unlikely_percentage %>%</div>
       </div>
     </div>
@@ -60,7 +60,7 @@
         </button>
       </div>
       <div class="grid gap-2">
-        <div class="stat-title text-2xl">Likely</div>
+        <div class="stat-title text-2xl"><%= t("result.label3").capitalize %></div>
         <div class="stat-value text-5xl md:text-6xl"><%= @likely_percentage %>%</div>
       </div>
     </div>
@@ -81,7 +81,7 @@
         </button>
       </div>
       <div class="grid gap-2">
-        <div class="stat-title text-2xl">Very likely</div>
+        <div class="stat-title text-2xl"><%= t("result.label4").capitalize %></div>
         <div class="stat-value text-5xl md:text-6xl"><%= @very_likely_percentage %>%</div>
       </div>
     </div>
