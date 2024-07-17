@@ -80,6 +80,9 @@ fr:
     header2: "Notre Engagement"
     description2: "Nous nous engageons à fournir des traductions de haute qualité et nous apprécions votre collaboration dans cet effort. Ensemble, nous pouvons garantir que notre contenu soit accessible et utile au plus grand nombre de personnes possible !"
 
+    takeAutismTest: "Vous pouvez passer le test de l'autisme en français"
+
+
   faq:
     question1: "Que signifie mon score au test de l'autisme ?"
     answer1: "Le test est simplement un outil de dépistage. Si vous obtenez un score élevé, nous vous recommandons de consulter un professionnel de la santé pour une évaluation plus approfondie."

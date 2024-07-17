@@ -79,6 +79,9 @@ sv:
     header2: "Vårt åtagande"
     description2: "Vi strävar efter att erbjuda högkvalitativa översättningar och uppskattar ditt samarbete i denna strävan. Tillsammans kan vi säkerställa att vårt innehåll är tillgängligt och användbart för så många människor som möjligt!"
 
+    takeAutismTest: "Du kan göra autismtestet på svenska"
+
+
   faq:
     question1: "Vad betyder min autismtestscore?"
     answer1: "Testet är endast ett screeningsverktyg. Om du får höga poäng rekommenderar vi att du överväger en bedömning från en hälso- och sjukvårdspersonal för ytterligare undersökning."
