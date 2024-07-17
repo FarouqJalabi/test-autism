@@ -70,7 +70,7 @@ end
 number_of_scores = 100
 
 number_of_scores.times do
-  TestScore.create(score: rand(1..100))
+  Score.create(score: rand(1..100))
 end
 
 

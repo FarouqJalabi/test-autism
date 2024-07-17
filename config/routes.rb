@@ -4,15 +4,12 @@ Rails.application.routes.draw do
 
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
     resources :blogs, only: [:show]
+    resources :scores, only: [:new, :create, :show]
 
     get "/blogs", to: "blogs#index"
 
     # Your routes here
     root "pages#index"
-
-
-    resources :scores, only: [:new, :create, :show]
-
 
     get 'pages/translations'
     get 'pages/privacy_policy'
