@@ -198,6 +198,8 @@ da:
     share4: "Det er meget sandsynligt, at jeg har autisme. Tag testen for at se, hvor sandsynligt det er for dig!"
 
     printAnswers: "Udskriv svar"
+    copyLink: "Kopiér testlink"
+
 
   footer:
     resources: "Ressourcer"
