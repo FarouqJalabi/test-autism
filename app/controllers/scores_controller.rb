@@ -11,10 +11,10 @@ class ScoresController < ApplicationController
     end
 
     def create
-        answers = params[:score][:answers]
-    
-        if answers.blank?
-          render :new, status: :unprocessable_entity
+        answers = params[:score]
+
+        if answers.nil?
+          render :new, status: :unprocessable_entity and return
         end
     
         total_score = calculate_total_score(answers)
