@@ -79,6 +79,9 @@ en:
     header2: "Our Commitment"
     description2: "We are committed to providing high-quality translations and appreciate your collaboration in this effort. Together, we can ensure that our content is accessible and helpful to as many people as possible!"
 
+    takeAutismTest: "You can take autism test in English"
+
+
   faq:
       question1: "What does my autism test score mean?"
       answer1: "The test is just a screening tool. If you score high we recommended that you seek an assessment by a healthcare professional for further investigation."
