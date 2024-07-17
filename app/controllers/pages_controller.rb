@@ -14,7 +14,7 @@ class PagesController < ApplicationController
   def count_scores
     tests = Score.all
     {
-      tests_taken: TestScore.count,
+      tests_taken: Score.count,
       unlikely:      tests.select{|score| get_test_bracket(score.score)==2 }.count,
       likely:        tests.select{|score| get_test_bracket(score.score)==3 }.count,
     }
