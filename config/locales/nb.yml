@@ -79,6 +79,9 @@ nb:
     header2: "Vårt Forpliktelse"
     description2: "Vi er forpliktet til å levere oversettelser av høy kvalitet og setter pris på ditt samarbeid i denne innsatsen. Sammen kan vi sikre at innholdet vårt er tilgjengelig og nyttig for så mange som mulig!"
 
+    takeAutismTest: "Du kan ta autisme test på norsk"
+
+
   faq:
     question1: "Hva betyr autisme test resultatet mitt?"
     answer1: "Testen er bare et verktøy for screening. Hvis du får høy score, anbefaler vi at du søker en vurdering hos en helsepersonell for videre undersøkelse."

@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def index
-    @blogs = Blog.all.sort_by(&:updated_at).reverse
+    @blogs = Blog.recent
     
     @tests_taken = TestScore.count
     score_counts = count_scores
@@ -13,11 +13,12 @@ class PagesController < ApplicationController
   end
 
   def count_scores
+    tests = TestScore.all
     {
-      very_unlikely: TestScore.where('score <= ?', 30).count,
-      unlikely: TestScore.where('score > ? AND score <= ?', 30, 50).count,
-      likely: TestScore.where('score > ? AND score <= ?', 50, 70).count,
-      very_likely: TestScore.where('score > ?', 70).count
+      very_unlikely: tests.select{|score| get_test_bracket(score.score)==1 }.count,
+      unlikely:      tests.select{|score| get_test_bracket(score.score)==2 }.count,
+      likely:        tests.select{|score| get_test_bracket(score.score)==3 }.count,
+      very_likely:   tests.select{|score| get_test_bracket(score.score)==4 }.count,
     }
   end
   

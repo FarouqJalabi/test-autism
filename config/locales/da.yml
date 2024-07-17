@@ -79,6 +79,9 @@ da:
     header2: "Vores forpligtelse"
     description2: "Vi stræber efter at tilbyde høj kvalitet oversættelser, og vi værdsætter dit samarbejde i denne bestræbelse. Sammen kan vi sikre, at vores indhold er tilgængeligt og nyttigt for så mange mennesker som muligt!"
 
+    takeAutismTest: "Du kan tage autismetest på dansk"
+
+
   faq:
     question1: "Hvad betyder min autismetest score?"
     answer1: "Testen er kun et screeningsværktøj. Hvis du scorer højt, anbefaler vi, at du overvejer en vurdering fra en sundhedspersonale for yderligere undersøgelser."
