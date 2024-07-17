@@ -11,7 +11,7 @@ class ScoresController < ApplicationController
     end
 
     def create
-        answers = params[:answers]
+        answers = params[:score]
     
         if answers.blank?
           # redirect_to show and return
@@ -21,10 +21,14 @@ class ScoresController < ApplicationController
     
         percentage = calculate_percentage(total_score, 50)
     
-        Score.new(score: percentage).save
+        @score = Score.new(score: percentage)
 
+        if @score.save
+          redirect_to @score
+        else
+          render :new, status: :unprocessable_entity
+        end
 
-        # redirect_to score_path(score: percentage)
     end
     
     def result
