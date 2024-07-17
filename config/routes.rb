@@ -10,10 +10,10 @@ Rails.application.routes.draw do
     # Your routes here
     root "pages#index"
 
-    get "/test", to: "scores#show"
+    get "/test", to: "scores#new"
 
-    get '/result', to: 'questions#result'
-    post 'questions/calculate_answer', to: 'questions#calculate_answer'
+    get '/result', to: 'scores#show'
+    post 'questions/calculate_answer', to: 'scores#calculate_answer'
 
 
     get 'pages/translations'

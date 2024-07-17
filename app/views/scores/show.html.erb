@@ -1,33 +1,55 @@
+<section class="max-w-80 md:max-w-[50rem] m-auto grid gap-10 md:px-24 lg:px-12 print:hidden">
+  <h1 class="text-3xl font-bold md:text-5xl mb-8"><%= percentage_to_header(params["score"].to_f) %></h1>
 
-<dialog id="disclaimer_modal" class="modal">
-  <div class="modal-box">
-    <h3 class="text-2xl font-bold"><%= t("aboutUs.disclaimer.title") %></h3>
-    <p class="py-4"><%= t("aboutUs.disclaimer.description1") %></p>
-    <p class="py-4"><%= t("aboutUs.disclaimer.description2") %></p>
+  <div class="relative">
+    <div class="absolute result-progress-percentage" style="left: <%= params["score"].to_f %>%;">
+      <span class="whitespace-nowrap md:text-lg font-light">
+        <%= percentage_to_label(params["score"].to_f) %>
+      </span>
+    </div>
+    <progress class="progress progress-primary w-full" value="<%= params["score"].to_f %>" max="100"></progress>
+  </div>
 
-    <div class="modal-action">
-      <form method="dialog">
-        <button class="btn">Close</button>
-      </form>
+  <div
+    data-controller="share"
+    data-label="<%= percentage_to_share(params["score"].to_f) %>"
+    data-language="<%= I18n.locale %>"
+  >
+    <p class="text-xl md:text-2xl"><%= percentage_to_description(params["score"].to_f) %></p>
+
+    <div class="hidden" data-share-target="navigatorButtons">
+      <button class="btn btn-primary text-lg mt-3 w-full md:w-1/4 "
+            data-action="click->share#share_clicked"><%= t("result.shareButton") %></button>
+    </div>
+
+    <div class="hidden" data-share-target="shareButtons">
+      <div class="flex flex-col gap-2 md:flex-row mt-5">
+      <a href="https://twitter.com/intent/post?text=<%= percentage_to_share(params["score"].to_f)+"%0A https://test-autism.com/"+I18n.locale.to_s+"/test"%>"
+         target="_blank" rel="noopener" role="button"
+         class="btn btn-primary text-[17px] w-full md:w-1/3"
+      ><%= t("result.shareTo") %> Twitter</a>
+      <!-- https://www.facebook.com/sharer/sharer.php?u=YOUR_URL-->
+      <a href="https://www.facebook.com/sharer/sharer.php?u=test-autism.com"
+         target="_blank" rel="noopener" role="button"
+         class="btn btn-primary text-[17px] w-full md:w-1/3"
+      ><%= t("result.shareTo") %> Facebook</a>
+
+      <a href="mailto:?subject=<%= t("result.shareSubject").gsub(" ", "%20") %>&body=<%= percentage_to_share(params["score"].to_f).gsub(" ", "%20")+"%0D%0Ahttps://test-autism.com/"+I18n.locale.to_s+"/test"%>"
+         target="_blank" rel="noopener" role="button"
+         class="btn btn-primary text-[17px] w-full md:w-1/3"
+      ><%= t("result.shareTo") %> Email</a>
+      </div>
+
+      <div class="mt-2">
+
+      <button onclick="window.print()"
+              class="btn btn-primary text-[17px] w-full md:w-1/3"
+      ><%= t("result.printAnswers") %></button>
+      </div>
+
     </div>
 
   </div>
-</dialog>
+</section>
 
-<script>
- // It pop up on the start
- disclaimer_modal.showModal()
-</script>
-
-
-<main class="grid px-3 md:gap-28 sm:px-20 lg:px-40 overflow-hidden">
-  <progress class="progress progress-primary w-full" value="0" max="100"></progress>
-
-  <%= form_with url: questions_calculate_answer_path, method: :post do |form| %>
-    <div class="relative h-[25rem] w-full flex items-center justify-center ">
-      <%= render @questions, form: form %>
-    </div>
-  <% end %>
-
-
-</main>
+<%= render 'answers_to_print' %>
