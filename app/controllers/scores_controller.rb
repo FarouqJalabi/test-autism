@@ -30,14 +30,7 @@ class ScoresController < ApplicationController
         end
 
     end
-    
-    def result
-        if params[:score].blank?
-          not_found!
-        else
-          params[:score] = params[:score].to_i.clamp(0, 100)
-        end
-    end
+
     
     private
     
