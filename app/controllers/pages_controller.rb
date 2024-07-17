@@ -11,19 +11,7 @@ class PagesController < ApplicationController
     @likely_percentage = @percentages[:likely]
   end
 
-  def count_scores
-    tests = Score.all
-    {
-      tests_taken: Score.count,
-      unlikely:      tests.select{|score| get_test_bracket(score.score) == 2 || get_test_bracket(score.score) == 1 }.count,
-      likely:        tests.select{|score| get_test_bracket(score.score) == 3 || get_test_bracket(score.score) == 4 }.count,
-    }
-  end
-  
-  def calculate_percentages(counts, total)
-    counts.transform_values { |count| total > 0 ? (count.to_f / total * 100).round(2) : 0.0 }
-  end
-  
+
   
   def translations
   end
@@ -36,4 +24,19 @@ class PagesController < ApplicationController
 
   def faq
   end
+
+  private
+  def count_scores
+    tests = Score.all
+    {
+      tests_taken: Score.count,
+      unlikely:      tests.select{|score| get_test_bracket(score.score) == 2 || get_test_bracket(score.score) == 1 }.count,
+      likely:        tests.select{|score| get_test_bracket(score.score) == 3 || get_test_bracket(score.score) == 4 }.count,
+    }
+  end
+
+  def calculate_percentages(counts, total)
+    counts.transform_values { |count| total > 0 ? (count.to_f / total * 100).round(2) : 0.0 }
+  end
+
 end
