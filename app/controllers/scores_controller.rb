@@ -11,30 +11,28 @@ class ScoresController < ApplicationController
     end
 
     def create
-        answers = params[:answers]
-    
-        if answers.blank?
-          # redirect_to show and return
+        answers = params[:score]
+
+        if answers.nil?
+          render :new, status: :unprocessable_entity and return
         end
     
         total_score = calculate_total_score(answers)
     
         percentage = calculate_percentage(total_score, 50)
-    
-        Score.new(score: percentage).save
 
 
-        # redirect_to score_path(score: percentage)
-    end
-    
-    def result
-        if params[:score].blank?
-          not_found!
+        @score = Score.new(score: percentage)
+
+        if @score.save
+          redirect_to @score
         else
-          params[:score] = params[:score].to_i.clamp(0, 100)
+          render :new, status: :unprocessable_entity
         end
+
     end
-    
+
+
     private
     
     def calculate_total_score(answers)
