@@ -6,19 +6,17 @@ class PagesController < ApplicationController
     score_counts = count_scores
     @percentages = calculate_percentages(score_counts, @tests_taken)
     
-    @very_unlikely_percentage = @percentages[:very_unlikely]
+    @tests_taken = @percentages[:tests_taken]
     @unlikely_percentage = @percentages[:unlikely]
     @likely_percentage = @percentages[:likely]
-    @very_likely_percentage = @percentages[:very_likely]
   end
 
   def count_scores
     tests = Score.all
     {
-      very_unlikely: tests.select{|score| get_test_bracket(score.score)==1 }.count,
+      tests_taken: TestScore.count,
       unlikely:      tests.select{|score| get_test_bracket(score.score)==2 }.count,
       likely:        tests.select{|score| get_test_bracket(score.score)==3 }.count,
-      very_likely:   tests.select{|score| get_test_bracket(score.score)==4 }.count,
     }
   end
   
