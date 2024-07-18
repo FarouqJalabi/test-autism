@@ -33,6 +33,11 @@ sv:
         title: "Resultat"
         description: "Testet ger omedelbar feedback."
 
+      saving:
+        title: "Svar sparade lokalt"
+        description: "Ta en paus utan att förlora framsteg"
+
+
     stats:
       testsTaken: "Tagna tester"
       numberOfTestsTaken: "Antal tagna tester"

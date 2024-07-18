@@ -32,6 +32,11 @@ pt:
       result:
         title: "Resultados"
         description: "O teste retorna com feedback imediato."
+
+      saving:
+        title: "Respostas salvas localmente"
+        description: "Faça uma pausa sem perder o progresso"
+
     
     stats:
       testsTaken: "Testes realizados"

@@ -33,6 +33,10 @@ da:
         title: "Resultater"
         description: "Testen giver øjeblikkelig feedback."
 
+      saving:
+        title: "Svar gemt lokalt"
+        description: "Tag en pause uden at miste fremskridt"
+
     stats:
       testsTaken: "Tagne tests"
       numberOfTestsTaken: "Antal tagne tests"

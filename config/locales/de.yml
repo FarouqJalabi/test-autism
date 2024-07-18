@@ -33,6 +33,11 @@ de:
         title: "Ergebnisse"
         description: "Der Test liefert sofortiges Feedback."
 
+      saving:
+        title: "Antworten lokal gespeichert"
+        description: "Machen Sie eine Pause, ohne Fortschritte zu verlieren"
+
+
     stats:
       testsTaken: "Abgelegte Tests"
       numberOfTestsTaken: "Anzahl der abgelegten Tests"

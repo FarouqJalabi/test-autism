@@ -32,6 +32,10 @@ zh:
       result:
         title: "结果"
         description: "测试将立即给出反馈。"
+        
+      saving:
+        title: "答案已本地保存"
+        description: "休息一下，不会丢失进度"
     
     stats:
       testsTaken: "参加的测试"
