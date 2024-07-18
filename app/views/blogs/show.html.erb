@@ -5,8 +5,13 @@
   </h1>
 
   <div class="">
-    <%= image_tag @blog.image_src, alt: @blog.image_alt, class: "w-full" %>
+    <div class="indicator max-w-full">
+      <%= image_tag @blog.image_src, alt: @blog.image_alt, class: "w-full" %>
 
+      <% if @blog.new_badge? %>
+        <div class="indicator-item badge badge-primary">New</div>
+      <% end %>
+    </div>
     <div class="flex items-center justify-center">
         <div class="flex-1 flex items-center justify-start">
           <p class="text-lg"><%= @blog.time_to_read %> min read</p>
