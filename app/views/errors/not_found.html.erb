@@ -1,6 +1,6 @@
-<% content_for :title, "404 Error :O" %>
+<% content_for :title, t("errors.404.headTitle") %>
 <%= render "layouts/head" %>
 <div class="flex items-center justify-center flex-col h-screen w-screen prose m-auto text-center">
-  <h1>Errors#not_found</h1>
-  <p>Find me in app/views/errors/not_found.html.erb</p>
+  <h1><%= t("errors.404.title") %></h1>
+  <p><%= t("errors.404.description") %> <%= link_to t("errors.404.home"), root_path %>.</p>
 </div>
