@@ -195,6 +195,8 @@ nb:
     share3: "Det er sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
     share4: "Det er veldig sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
     printAnswers: "Skriv ut svar"
+    copyLink: "Kopier testlenke"
+
 
     shareButton: "Del Resultat"
 

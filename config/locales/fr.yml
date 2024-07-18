@@ -200,6 +200,8 @@ fr:
     share4: "Il est très probable que j'aie de l'autisme. Faites le test pour voir à quel point il est probable que vous en ayez!"
 
     printAnswers: "Imprimer les réponses"
+    copyLink: "Copier le lien du test"
+
 
   footer:
     resources: "Ressources"
