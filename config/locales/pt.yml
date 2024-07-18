@@ -110,6 +110,46 @@ pt:
 
     question7: "Onde posso encontrar o código?"
     answer7: "Nosso código é de código aberto e está disponível online. Você pode visitá-lo aqui: "
+  
+  termsOfUse:
+    title: "Termos de Uso"
+    titleText: "Bem-vindo ao nosso site. Ao acessar e usar nosso site, você concorda em cumprir e estar sujeito aos seguintes termos e condições de uso. Por favor, revise estes termos cuidadosamente. Se você não concordar com estes termos, não deve usar este site."
+
+    acceptOfTerms:
+      title: "Aceitação dos Termos"
+      text: "Ao usar nosso site e as ferramentas fornecidas, você reconhece que leu, entendeu e concorda em estar vinculado por estes termos e condições."
+
+    descriptionOfServices:
+      title: "Descrição dos Serviços"
+      text: "Fornecemos recursos e ferramentas relacionados ao transtorno do espectro autista (TEA), incluindo o teste AQ-50. Essas ferramentas são destinadas apenas como ferramentas de triagem para ajudar a identificar traços associados ao autismo e não são instrumentos de diagnóstico."
+
+    disclaimer:
+      title: "Isenção de responsabilidade"
+      text: "Não somos profissionais de saúde e as informações fornecidas neste site, incluindo o teste AQ-50, são apenas para fins informativos e de entretenimento. Essas ferramentas não devem ser consideradas conselhos médicos, diagnóstico ou tratamento. Sempre procure o conselho de um profissional de saúde qualificado com quaisquer perguntas que você possa ter sobre uma condição médica."
+
+    useOfContent:
+      title: "Uso de Conteúdo"
+      text: "Você pode acessar, baixar e imprimir materiais deste site para seu uso pessoal e não comercial. Você não pode modificar, reproduzir, distribuir, publicar, licenciar, criar trabalhos derivados, transferir ou vender qualquer informação ou conteúdo obtido deste site sem nosso consentimento prévio por escrito."
+
+    privacy:
+      title: "Privacidade"
+      text: "Seu uso de nosso site também está sujeito à nossa Política de Privacidade. Por favor, revise nossa Política de Privacidade para obter informações sobre como coletamos, usamos e protegemos suas informações pessoais."
+
+    limitationOfLiability:
+      title: "Limitação de Responsabilidade"
+      text: "Em nenhum caso seremos responsáveis por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou exemplares, incluindo, mas não se limitando a, danos por perda de lucros, goodwill, uso, dados ou outras perdas intangíveis resultantes do uso ou incapacidade de usar nosso site ou serviços."
+
+    changesToTerms:
+      title: "Alterações aos Termos"
+      text: "Reservamo-nos o direito de modificar estes termos a qualquer momento. Quaisquer alterações serão efetivas imediatamente após sua publicação em nosso site. Seu uso continuado do site após tais alterações constitui sua aceitação dos novos termos."
+
+    governingLaw:
+      title: "Lei Aplicável"
+      text: "Estes termos e condições são regidos e interpretados de acordo com as leis de [Seu país/estado], e você concorda em se submeter à jurisdição exclusiva dos tribunais localizados em [Seu país/estado] para a resolução de quaisquer disputas."
+
+    contactInformation:
+      title: "Informações de Contato"
+      text: "Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco em fogado@rubynor.com."
 
   questions:
     1: "Prefiro fazer as coisas com outras pessoas em vez de sozinho"

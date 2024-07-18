@@ -112,6 +112,46 @@ fr:
     question7: "Où puis-je trouver le code ?"
     answer7: "Notre code est open source et disponible en ligne. Vous pouvez le visiter ici : "
 
+  termsOfUse:
+    title: "Conditions d'utilisation"
+    titleText: "Bienvenue sur notre site web. En accédant à notre site et en l'utilisant, vous acceptez de vous conformer aux conditions d'utilisation suivantes et d'être lié par elles. Veuillez lire attentivement ces conditions. Si vous n'acceptez pas ces conditions, vous ne devez pas utiliser ce site."
+
+    acceptOfTerms:
+      title: "Acceptation des conditions"
+      text: "En utilisant notre site web et les outils fournis, vous reconnaissez avoir lu, compris et accepté d'être lié par ces conditions d'utilisation."
+
+    descriptionOfServices:
+      title: "Description des services"
+      text: "Nous fournissons des ressources et des outils liés aux troubles du spectre autistique (TSA), y compris le test AQ-50. Ces outils sont uniquement destinés à servir d'outils de dépistage pour aider à identifier les traits associés à l'autisme et ne sont pas des instruments de diagnostic."
+
+    disclaimer:
+      title: "Avertissement"
+      text: "Nous ne sommes pas des professionnels de la santé et les informations fournies sur ce site web, y compris le test AQ-50, sont uniquement à des fins informatives et de divertissement. Ces outils ne doivent pas être considérés comme des conseils médicaux, un diagnostic ou un traitement. Consultez toujours un professionnel de santé qualifié pour toute question que vous pourriez avoir concernant un état de santé."
+
+    useOfContent:
+      title: "Utilisation du contenu"
+      text: "Vous pouvez accéder, télécharger et imprimer des documents à partir de ce site pour votre usage personnel et non commercial. Vous ne pouvez pas modifier, reproduire, distribuer, publier, concéder sous licence, créer des œuvres dérivées, transférer ou vendre des informations ou du contenu obtenus à partir de ce site sans notre consentement écrit préalable."
+
+    privacy:
+      title: "Confidentialité"
+      text: "Votre utilisation de notre site web est également soumise à notre Politique de confidentialité. Veuillez consulter notre Politique de confidentialité pour obtenir des informations sur la manière dont nous collectons, utilisons et protégeons vos informations personnelles."
+
+    limitationOfLiability:
+      title: "Limitation de responsabilité"
+      text: "En aucun cas, nous ne serons responsables de tout dommage direct, indirect, accessoire, spécial, consécutif ou exemplaire, y compris, mais sans s'y limiter, les dommages pour perte de profits, de goodwill, d'utilisation, de données ou d'autres pertes intangibles résultant de l'utilisation ou de l'incapacité à utiliser notre site web ou nos services."
+
+    changesToTerms:
+      title: "Modifications des conditions"
+      text: "Nous nous réservons le droit de modifier ces conditions à tout moment. Toute modification sera effective immédiatement après sa publication sur notre site web. Votre utilisation continue du site après toute modification constitue votre acceptation des nouvelles conditions."
+
+    governingLaw:
+      title: "Droit applicable"
+      text: "Ces conditions d'utilisation sont régies par et interprétées conformément aux lois de [Votre pays/état], et vous acceptez de vous soumettre à la juridiction exclusive des tribunaux situés dans [Votre pays/état] pour la résolution de tout litige."
+
+    contactInformation:
+      title: "Informations de contact"
+      text: "Si vous avez des questions concernant ces conditions d'utilisation, veuillez nous contacter à fogado@rubynor.com."
+
 
   questions:
     1: "Je préfère faire des choses avec les autres plutôt que seul"

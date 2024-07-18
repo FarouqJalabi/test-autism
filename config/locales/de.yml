@@ -111,6 +111,47 @@ de:
     question7: "Wo finde ich den Code?"
     answer7: "Unser Code ist Open Source und online verfügbar. Sie können ihn hier besuchen: "
 
+  termsOfUse:
+    title: "Nutzungsbedingungen"
+    titleText: "Willkommen auf unserer Website. Durch den Zugriff und die Nutzung unserer Seite stimmen Sie zu, die folgenden Nutzungsbedingungen einzuhalten und an diese gebunden zu sein. Bitte überprüfen Sie diese Bedingungen sorgfältig. Wenn Sie diesen Bedingungen nicht zustimmen, sollten Sie diese Seite nicht nutzen."
+
+    acceptOfTerms:
+      title: "Annahme der Bedingungen"
+      text: "Durch die Nutzung unserer Website und der bereitgestellten Tools erkennen Sie an, dass Sie diese Bedingungen und Konditionen gelesen, verstanden und akzeptiert haben."
+
+    descriptionOfServices:
+      title: "Beschreibung der Dienstleistungen"
+      text: "Wir bieten Ressourcen und Tools im Zusammenhang mit Autismus-Spektrum-Störung (ASD) an, einschließlich des AQ-50-Tests. Diese Tools dienen ausschließlich als Screening-Tools zur Identifizierung von Merkmalen, die mit Autismus verbunden sind, und sind keine diagnostischen Instrumente."
+
+    disclaimer:
+      title: "Haftungsausschluss"
+      text: "Wir sind keine medizinischen Fachkräfte, und die auf dieser Website bereitgestellten Informationen, einschließlich des AQ-50-Tests, dienen ausschließlich Informations- und Unterhaltungszwecken. Diese Tools sollten nicht als medizinische Beratung, Diagnose oder Behandlung betrachtet werden. Suchen Sie immer den Rat eines qualifizierten Gesundheitsdienstleisters bei Fragen zu einer medizinischen Erkrankung."
+
+    useOfContent:
+      title: "Nutzung von Inhalten"
+      text: "Sie dürfen Materialien von dieser Seite für Ihren persönlichen, nicht-kommerziellen Gebrauch abrufen, herunterladen und ausdrucken. Sie dürfen keine Informationen oder Inhalte von dieser Seite ohne unsere vorherige schriftliche Zustimmung ändern, reproduzieren, verteilen, veröffentlichen, lizenzieren, abgeleitete Werke erstellen, übertragen oder verkaufen."
+
+    privacy:
+      title: "Datenschutz"
+      text: "Ihre Nutzung unserer Website unterliegt auch unserer Datenschutzrichtlinie. Bitte überprüfen Sie unsere Datenschutzrichtlinie, um Informationen darüber zu erhalten, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen."
+
+    limitationOfLiability:
+      title: "Haftungsbeschränkung"
+      text: "In keinem Fall haften wir für direkte, indirekte, zufällige, spezielle, Folge- oder exemplarische Schäden, einschließlich, aber nicht beschränkt auf Schäden für entgangenen Gewinn, Goodwill, Nutzung, Daten oder andere immaterielle Verluste, die aus der Nutzung oder der Unfähigkeit zur Nutzung unserer Website oder Dienstleistungen resultieren."
+
+    changesToTerms:
+      title: "Änderungen der Bedingungen"
+      text: "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten sofort nach ihrer Veröffentlichung auf unserer Website in Kraft. Ihre fortgesetzte Nutzung der Seite nach solchen Änderungen stellt Ihre Annahme der neuen Bedingungen dar."
+
+    governingLaw:
+      title: "Geltendes Recht"
+      text: "Diese Bedingungen und Konditionen unterliegen den Gesetzen von [Ihr Land/Ihr Bundesland] und werden in Übereinstimmung mit diesen ausgelegt, und Sie stimmen zu, sich der ausschließlichen Zuständigkeit der in [Ihr Land/Ihr Bundesland] gelegenen Gerichte zur Beilegung von Streitigkeiten zu unterwerfen."
+
+    contactInformation:
+      title: "Kontaktinformationen"
+      text: "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter fogado@rubynor.com."
+
+
   questions:
     1: "Ich ziehe es vor, Dinge mit anderen zusammen zu tun, anstatt alleine"
     2: "Ich ziehe es vor, Dinge immer auf die gleiche Weise zu tun"

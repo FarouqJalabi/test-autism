@@ -111,6 +111,47 @@ sv:
     question7: "Var kan jag hitta koden?"
     answer7: "Vår kod är öppen källkod och tillgänglig online. Du kan besöka den här: "
 
+  termsOfUse:
+    title: "Användarvillkor"
+    titleText: "Välkommen till vår webbplats. Genom att komma åt och använda vår webbplats godkänner du att följa och vara bunden av följande användarvillkor. Vänligen granska dessa villkor noggrant. Om du inte godkänner dessa villkor bör du inte använda denna webbplats."
+
+    acceptOfTerms:
+      title: "Godkännande av villkor"
+      text: "Genom att använda vår webbplats och de verktyg som tillhandahålls, erkänner du att du har läst, förstått och godkänner att vara bunden av dessa användarvillkor."
+
+    descriptionOfServices:
+      title: "Beskrivning av tjänster"
+      text: "Vi tillhandahåller resurser och verktyg relaterade till autism spektrum störning (ASD), inklusive AQ-50-testet. Dessa verktyg är endast avsedda som screeningverktyg för att hjälpa till att identifiera drag associerade med autism och är inte diagnostiska instrument."
+
+    disclaimer:
+      title: "Ansvarsfriskrivning"
+      text: "Vi är inte medicinska yrkesverksamma, och informationen som tillhandahålls på denna webbplats, inklusive AQ-50-testet, är endast för informations- och underhållningsändamål. Dessa verktyg ska inte betraktas som medicinsk rådgivning, diagnos eller behandling. Sök alltid råd från en kvalificerad vårdgivare med eventuella frågor du kan ha angående ett medicinskt tillstånd."
+
+    useOfContent:
+      title: "Användning av innehåll"
+      text: "Du kan komma åt, ladda ner och skriva ut material från denna webbplats för din personliga, icke-kommersiella användning. Du får inte modifiera, reproducera, distribuera, publicera, licensiera, skapa derivatverk, överföra eller sälja någon information eller innehåll som erhållits från denna webbplats utan vårt skriftliga förhandsgodkännande."
+
+    privacy:
+      title: "Integritet"
+      text: "Din användning av vår webbplats är också föremål för vår integritetspolicy. Vänligen granska vår integritetspolicy för information om hur vi samlar in, använder och skyddar din personliga information."
+
+    limitationOfLiability:
+      title: "Ansvarsbegränsning"
+      text: "Under inga omständigheter ska vi vara ansvariga för några direkta, indirekta, tillfälliga, speciella, följd- eller exemplariska skador, inklusive men inte begränsat till, skador för förlust av vinster, goodwill, användning, data eller andra immateriella förluster som härrör från användningen av eller oförmågan att använda vår webbplats eller tjänster."
+
+    changesToTerms:
+      title: "Ändringar av villkor"
+      text: "Vi förbehåller oss rätten att ändra dessa villkor när som helst. Eventuella ändringar träder i kraft omedelbart efter att de har publicerats på vår webbplats. Din fortsatta användning av webbplatsen efter sådana ändringar utgör ditt godkännande av de nya villkoren."
+
+    governingLaw:
+      title: "Tillämplig lag"
+      text: "Dessa villkor och bestämmelser styrs av och tolkas i enlighet med lagarna i [Ditt land/din stat], och du godkänner att underkasta dig den exklusiva jurisdiktionen för domstolarna i [Ditt land/din stat] för att lösa eventuella tvister."
+
+    contactInformation:
+      title: "Kontaktinformation"
+      text: "Om du har några frågor om dessa användarvillkor, vänligen kontakta oss på fogado@rubynor.com."
+
+
   questions:
     1: "Jag föredrar att göra saker tillsammans med andra istället för ensam"
     2: "Jag föredrar alltid att göra saker på samma sätt"

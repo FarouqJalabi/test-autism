@@ -111,6 +111,49 @@ da:
     question7: "Hvor kan jeg finde koden?"
     answer7: "Vores kode er open source og tilgængelig online. Du kan besøge den her: "
 
+  termsOfUse:
+    title: "Brugsbetingelser"
+    titleText: "Velkommen til vores hjemmeside. Ved at få adgang til og bruge vores side accepterer du at overholde og være bundet af følgende vilkår og betingelser for brug. Læs disse vilkår omhyggeligt. Hvis du ikke er enig i disse vilkår, bør du ikke bruge denne side."
+
+    acceptOfTerms:
+      title: "Accept af vilkår"
+      text: "Ved at bruge vores hjemmeside og de værktøjer, der tilbydes, anerkender du, at du har læst, forstået og accepterer at være bundet af disse vilkår og betingelser."
+
+    descriptionOfServices:
+      title: "Beskrivelse af tjenester"
+      text: "Vi tilbyder ressourcer og værktøjer relateret til autismespektrumforstyrrelse (ASD), herunder AQ-50-testen. Disse værktøjer er udelukkende beregnet som screeningsværktøjer til at hjælpe med at identificere træk forbundet med autisme og er ikke diagnostiske instrumenter."
+
+    disclaimer:
+      title: "Ansvarsfraskrivelse"
+      text: "Vi er ikke lægefagfolk, og de oplysninger, der gives på denne hjemmeside, herunder AQ-50-testen, er kun til informations- og underholdningsformål. Disse værktøjer bør ikke betragtes som medicinsk rådgivning, diagnose eller behandling. Søg altid råd fra en kvalificeret sundhedsudbyder med eventuelle spørgsmål, du måtte have vedrørende en medicinsk tilstand."
+
+    useOfContent:
+      title: "Brug af indhold"
+      text: "Du må få adgang til, downloade og udskrive materialer fra denne side til din personlige, ikke-kommercielle brug. Du må ikke ændre, reproducere, distribuere, udgive, licensere, skabe afledte værker fra, overføre eller sælge nogen information eller indhold hentet fra denne side uden vores forudgående skriftlige samtykke."
+
+    privacy:
+      title: "Privatliv"
+      text: "Din brug af vores hjemmeside er også underlagt vores privatlivspolitik. Læs venligst vores privatlivspolitik for information om, hvordan vi indsamler, bruger og beskytter dine personlige oplysninger."
+
+    limitationOfLiability:
+      title: "Ansvarsbegrænsning"
+      text: "Under ingen omstændigheder skal vi være ansvarlige for nogen direkte, indirekte, hændelige, særlige, følgeskader eller eksemplariske skader, herunder men ikke begrænset til skader for tab af fortjeneste, goodwill, brug, data eller andre immaterielle tab som følge af brugen af eller manglende evne til at bruge vores hjemmeside eller tjenester."
+
+    changesToTerms:
+      title: "Ændringer af vilkår"
+      text: "Vi forbeholder os retten til at ændre disse vilkår til enhver tid. Eventuelle ændringer vil være effektive straks ved offentliggørelse på vores hjemmeside. Din fortsatte brug af siden efter sådanne ændringer udgør din accept af de nye vilkår."
+
+    governingLaw:
+      title: "Lovvalg"
+      text: "Disse vilkår og betingelser er underlagt og fortolkes i overensstemmelse med lovene i [Dit land/din stat], og du accepterer at underkaste dig den eksklusive jurisdiktion af domstolene beliggende i [Dit land/din stat] for løsning af eventuelle tvister."
+
+    contactInformation:
+      title: "Kontaktinformation"
+      text: "Hvis du har spørgsmål om disse brugsbetingelser, bedes du kontakte os på fogado@rubynor.com."
+
+
+
+
   questions:
     1: "Jeg foretrækker at gøre ting sammen med andre i stedet for alene"
     2: "Jeg foretrækker altid at gøre tingene på samme måde"
