@@ -4,7 +4,6 @@ export default class extends Controller {
   static targets = [ "navigatorButtons", "shareButtons" ]
 
   connect() {
-    console.log(this.shareButtonsTarget)
     // un-hide if not on mobile
     if (navigator.canShare){
       this.navigatorButtonsTarget.classList.remove("hidden")
