@@ -32,6 +32,11 @@ pt:
       result:
         title: "Resultados"
         description: "O teste retorna com feedback imediato."
+
+      saving:
+        title: "Respostas salvas localmente"
+        description: "Faça uma pausa sem perder o progresso"
+
     
     stats:
       testsTaken: "Testes realizados"
@@ -248,3 +253,20 @@ pt:
     translations: "Traduções"
 
     holding: "© 2024 — Rubynor AS - todos os direitos reservados."
+
+  errors:
+    404:
+      headTitle: "Erro 404 :/"
+      title: "Não é possível encontrar a página 404 :/"
+      description: "A página parece não existir. Você deve voltar para a"
+      home: "página inicial"
+    422:
+      headTitle: "Erro 422 :/"
+      title: "Não é possível processar seus dados 422 :/"
+      description: "Não conseguimos processar seus dados. Tente novamente voltando para a"
+      home: "página inicial"
+    500:
+      headTitle: "Erro 500 :/"
+      title: "Algo deu errado 500 :/"
+      description: "Algo deu errado do nosso lado. Tente novamente voltando para a"
+      home: "página inicial"

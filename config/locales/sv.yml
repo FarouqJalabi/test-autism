@@ -33,6 +33,11 @@ sv:
         title: "Resultat"
         description: "Testet ger omedelbar feedback."
 
+      saving:
+        title: "Svar sparade lokalt"
+        description: "Ta en paus utan att förlora framsteg"
+
+
     stats:
       testsTaken: "Tagna tester"
       numberOfTestsTaken: "Antal tagna tester"
@@ -249,3 +254,21 @@ sv:
     translations: "Översättningar"
 
     holding: "© 2024 — Rubynor AS - alla rättigheter förbehållna."
+
+
+  errors:
+    404:
+      headTitle: "404 fel :/"
+      title: "Kan inte hitta sidan 404 :/"
+      description: "Sidan verkar inte existera. Du bör gå tillbaka till"
+      home: "hemsidan"
+    422:
+      headTitle: "422 fel :/"
+      title: "Kan inte bearbeta dina data 422 :/"
+      description: "Vi kunde inte bearbeta dina data. Försök igen genom att gå tillbaka till"
+      home: "hemsidan"
+    500:
+      headTitle: "500 fel :/"
+      title: "Något gick fel 500 :/"
+      description: "Något gick fel hos oss. Försök igen genom att gå tillbaka till"
+      home: "hemsidan"

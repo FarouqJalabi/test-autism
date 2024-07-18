@@ -33,6 +33,11 @@ de:
         title: "Ergebnisse"
         description: "Der Test liefert sofortiges Feedback."
 
+      saving:
+        title: "Antworten lokal gespeichert"
+        description: "Machen Sie eine Pause, ohne Fortschritte zu verlieren"
+
+
     stats:
       testsTaken: "Abgelegte Tests"
       numberOfTestsTaken: "Anzahl der abgelegten Tests"
@@ -250,3 +255,20 @@ de:
     translations: "Übersetzungen"
 
     holding: "© 2024 — Rubynor AS - alle Rechte vorbehalten."
+
+  errors:
+    404:
+      headTitle: "404 Fehler :/"
+      title: "Seite nicht gefunden 404 :/"
+      description: "Die Seite scheint nicht zu existieren. Sie sollten zurück zur"
+      home: "Startseite"
+    422:
+      headTitle: "422 Fehler :/"
+      title: "Daten können nicht verarbeitet werden 422 :/"
+      description: "Wir konnten Ihre Daten nicht verarbeiten. Versuchen Sie es erneut, indem Sie zur"
+      home: "Startseite"
+    500:
+      headTitle: "500 Fehler :/"
+      title: "Etwas ist schiefgelaufen 500 :/"
+      description: "Bei uns ist etwas schiefgelaufen. Versuchen Sie es erneut, indem Sie zur"
+      home: "Startseite"

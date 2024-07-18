@@ -32,6 +32,10 @@ en:
       result:
         title: "Results"
         description: "Test comes back with immediate feedback."
+
+      saving:
+        title: "Answered saved locally"
+        description: "Take break without loosing progress"
     
     stats:
       testsTaken: "Tests taken"
@@ -250,3 +254,20 @@ en:
     translations: "Translations"
 
     holding: "© 2024 — Rubynor AS - all rights reserved."
+
+  errors:
+    404:
+      headTitle: "404 error :/"
+      title: "Can't find page 404 :/"
+      description: "The page doesn't seem to exist. You should go back to the"
+      home: "homepage"
+    422:
+      headTitle: "422 error :/"
+      title: "Can't process your data 422 :/"
+      description: "We couldn't process your data. Try again by going back to the"
+      home: "homepage"
+    500:
+      headTitle: "500 error :/"
+      title: "Something went wrong 500 :/"
+      description: "Something went wrong at our end. Try again by going back to the"
+      home: "homepage"
