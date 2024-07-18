@@ -1,7 +1,7 @@
 <a class="w-64 lg:w-96 flex-[0_0_auto]" href="<%= blog_path(blog) %>">
   <div class="indicator max-w-full">
 
-    <% if blog.created_at >= 1.week.ago %>
+    <% if blog.new_badge? %>
       <div class="indicator-item badge badge-primary">New</div>
     <% end %>
 
