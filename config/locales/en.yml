@@ -198,6 +198,7 @@ en:
     share3: "I am likely to have autism. Take the test to see how likely you are!"
     share4: "I am very likely to have autism. Take the test to see how likely you are!"
     printAnswers: "Print answers"
+    copyLink: "Copy test link"
 
   footer:
     resources: "Resources"
