@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
   
   
   def not_found!
-    render file: "#{Rails.root}/public/404.html", layout: false, status: :not_found
+    render "errors/not_found", layout: false, status: :not_found
   end
 
   def get_test_bracket(x)
