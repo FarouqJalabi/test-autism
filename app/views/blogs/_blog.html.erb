@@ -1,6 +1,10 @@
 <a class="w-64 lg:w-96 flex-[0_0_auto]" href="<%= blog_path(blog) %>">
   <div class="indicator max-w-full">
-    <div class="indicator-item badge badge-primary">New</div>
+
+    <% if blog.created_at >= 1.week.ago %>
+      <div class="indicator-item badge badge-primary">New</div>
+    <% end %>
+
     <%= image_tag src=blog.image_src, alt: blog.image_alt, class: ""  %>
   </div>
 
