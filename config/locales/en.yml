@@ -32,6 +32,10 @@ en:
       result:
         title: "Results"
         description: "Test comes back with immediate feedback."
+
+      saving:
+        title: "Answered saved locally"
+        description: "Take break without loosing progress"
     
     stats:
       testsTaken: "Tests taken"
