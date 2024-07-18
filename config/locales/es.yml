@@ -249,3 +249,20 @@ es:
     translations: "Traducciones"
 
     holding: "© 2024 — Rubynor AS - todos los derechos reservados."
+
+  errors:
+    404:
+      headTitle: "Error 404 :/"
+      title: "No se puede encontrar la página 404 :/"
+      description: "La página parece no existir. Deberías volver a la"
+      home: "página principal"
+    422:
+      headTitle: "Error 422 :/"
+      title: "No se pueden procesar tus datos 422 :/"
+      description: "No pudimos procesar tus datos. Inténtalo de nuevo volviendo a la"
+      home: "página principal"
+    500:
+      headTitle: "Error 500 :/"
+      title: "Algo salió mal 500 :/"
+      description: "Algo salió mal de nuestro lado. Inténtalo de nuevo volviendo a la"
+      home: "página principal"
