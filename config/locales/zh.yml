@@ -243,3 +243,20 @@ zh:
     translations: "翻译"
 
     holding: "© 2024 - All rights reserved."
+
+  errors:
+    404:
+      headTitle: "404错误 :/"
+      title: "找不到页面 404 :/"
+      description: "该页面似乎不存在。你应该返回到"
+      home: "主页"
+    422:
+      headTitle: "422错误 :/"
+      title: "无法处理您的数据 422 :/"
+      description: "我们无法处理您的数据。请返回到"
+      home: "主页"
+    500:
+      headTitle: "500错误 :/"
+      title: "出了点问题 500 :/"
+      description: "我们的服务器出了点问题。请返回到"
+      home: "主页"
