@@ -24,6 +24,9 @@ class PagesController < ApplicationController
   def faq
   end
 
+  def terms
+  end
+
   private
   def count_scores
     tests = Score.all
