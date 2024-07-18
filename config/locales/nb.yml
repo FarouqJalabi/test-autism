@@ -33,6 +33,11 @@ nb:
       result:
         title: "Resultater"
         description: "Testen gir umiddelbare tilbakemeldinger."
+
+      saving:
+        title: "Svar lagret lokalt"
+        description: "Ta en pause uten å miste fremgang"
+
     stats:
       testsTaken: "Gjennomførte tester"
       numberOfTestsTaken: "Antall gjennomførte tester"
