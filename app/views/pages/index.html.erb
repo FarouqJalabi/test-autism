@@ -77,12 +77,12 @@
       <%= render partial: "language_carousel" %>
 
       <section class="px-8 grid gap-2 md:gap-10">
-        <h2 class="m-auto text-center font-bold text-4xl md:text-5xl mb-2 md:mb-4">
+        <h2 class="m-auto text-center font-bold text-4xl md:text-5xl">
             <%= t('home.blogSectionTitle') %>
         </h2>
 
 
-        <div class="flex gap-10 overflow-x-auto overflow-y-auto w-full">
+        <div class="flex gap-10 overflow-auto pt-5 w-full">
             <!-- 5 newest blogs -->
             <%= render @blogs %>
         </div>
