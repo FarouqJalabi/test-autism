@@ -2,15 +2,15 @@
   <nav>
     <h6 class="footer-title">Services</h6>
     <a class="link link-hover" href="<%= new_score_path %>"><%= t("navigation.takeTestButton") %></a>
-    <%= link_to t('footer.translations'), pages_faq_path, data: { turbo_frame: 'main' } %>
-    <%= link_to t('footer.translations'), pages_faq_path, data: { turbo_frame: 'main' } %>
+    <%= link_to t('footer.blogs'), blogs_path, data: { turbo_frame: 'main' }, class: "link link-hover"  %>
+    <%= link_to "FAQ", pages_faq_path, data: { turbo_frame: 'main' }, class: "link link-hover"  %>
   </nav>
 
   <nav>
     <h6 class="footer-title">Legal</h6>
-     <%= link_to t('footer.privacy'), pages_privacy_policy_path, data: { turbo_frame: 'main' } %>
-     <%= link_to t('footer.translations'), pages_translations_path, data: { turbo_frame: 'main' } %>
-    <a class="link link-hover" href="">Terms of use</a>
+     <%= link_to t('footer.privacy'), pages_privacy_policy_path, data: { turbo_frame: 'main' }, class: "link link-hover"  %>
+     <%= link_to t('footer.translations'), pages_translations_path, data: { turbo_frame: 'main' }, class: "link link-hover"  %>
+    <%= link_to t('footer.about'), pages_about_path, data: { turbo_frame: 'main' }, class: "link link-hover" %>
   </nav>
 
   <nav>
