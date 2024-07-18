@@ -211,3 +211,19 @@ fr:
     translations: "Traductions"
 
     holding: "© 2024 — Rubynor AS - tous droits réservés."
+
+  404:
+    headTitle: "Erreur 404 :/"
+    title: "Page introuvable 404 :/"
+    description: "La page ne semble pas exister. Vous devriez retourner à la"
+    home: "page d'accueil"
+  422:
+    headTitle: "Erreur 422 :/"
+    title: "Impossible de traiter vos données 422 :/"
+    description: "Nous n'avons pas pu traiter vos données. Réessayez en retournant à la"
+    home: "page d'accueil"
+  500:
+    headTitle: "Erreur 500 :/"
+    title: "Quelque chose a mal tourné 500 :/"
+    description: "Quelque chose a mal tourné de notre côté. Réessayez en retournant à la"
+    home: "page d'accueil"

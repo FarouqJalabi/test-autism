@@ -208,3 +208,19 @@ nb:
     translations: "Oversettelser"
 
     holding: "© 2024 — Rubynor AS - alle rettigheter reservert."
+
+  404:
+    headTitle: "404 feil :/"
+    title: "Kan ikke finne siden 404 :/"
+    description: "Siden ser ut til å ikke eksistere. Du bør gå tilbake til"
+    home: "hjemmesiden"
+  422:
+    headTitle: "422 feil :/"
+    title: "Kan ikke behandle dataene dine 422 :/"
+    description: "Vi kunne ikke behandle dataene dine. Prøv igjen ved å gå tilbake til"
+    home: "hjemmesiden"
+  500:
+    headTitle: "500 feil :/"
+    title: "Noe gikk galt 500 :/"
+    description: "Noe gikk galt hos oss. Prøv igjen ved å gå tilbake til"
+    home: "hjemmesiden"
