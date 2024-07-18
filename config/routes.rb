@@ -15,6 +15,7 @@ Rails.application.routes.draw do
     get 'pages/privacy_policy'
     get 'pages/about'
     get 'pages/faq'
+    get 'pages/terms'
 
   end
 
