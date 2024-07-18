@@ -6,4 +6,8 @@ class Blog < ApplicationRecord
   validates_presence_of :time_to_read
 
   scope :recent, -> { order(created_at: :desc).limit(5) }
+
+  def new_badge?
+    created_at >= 1.week.ago
+  end
 end
