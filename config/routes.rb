@@ -18,10 +18,10 @@ Rails.application.routes.draw do
     get 'pages/privacy_policy'
     get 'pages/about'
     get 'pages/faq'
-    
+
     match "/404", to: "errors#not_found", via: :all
     match "/500", to: "errors#internal_server_error", via: :all
-    match "/422", to: "errors#unprocessable", via: :all
+    match "/422", to: "errors#unprocessable_content", via: :all
 
   end
 
