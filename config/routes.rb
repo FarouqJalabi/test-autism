@@ -8,11 +8,12 @@ Rails.application.routes.draw do
   # Redirect root without locale to default locale
   root to: redirect("/#{I18n.default_locale}", status: 302)
 
+  resources :blogs, only: [:show]
+  get "/blogs", to: "blogs#index"
+
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
-    resources :blogs, only: [:show]
     resources :scores, only: [:new, :create, :show]
 
-    get "/blogs", to: "blogs#index"
 
     # Your routes here
     # root "pages#index"
