@@ -30,6 +30,12 @@
     <link rel="canonical" href="https://test-autism.com/en">
   <% end %>
 
+  <% I18n.available_locales.each do |locale| %>
+    <link rel="alternate" hreflang="<%= locale %>" href="<%= request.base_url + url_for(only_path: true, locale: locale) %>">
+  <% end %>
+  <link rel="alternate" hreflang="x-default" href="<%= request.base_url + url_for(only_path: true, locale: I18n.default_locale) %>">
+
+  <%= tag(:link, rel: "canonical", href: request.base_url + url_for(only_path: true, locale: I18n.default_locale)) %>
 
   <!-- Need? It is already in root? -->
   <link rel="shortcut icon" href="<%= image_url("favicon.ico") %>">
