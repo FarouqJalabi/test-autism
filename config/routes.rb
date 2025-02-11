@@ -11,6 +11,10 @@ Rails.application.routes.draw do
   resources :blogs, only: [:show]
   get "/blogs", to: "blogs#index"
 
+  constraints host: 'www.test-autism.com' do
+    redirect_to 'https://test-autism.com', status: 301
+  end
+
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
     resources :scores, only: [:new, :create, :show]
 
