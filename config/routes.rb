@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get "/blogs", to: "blogs#index"
 
   constraints host: 'www.test-autism.com' do
-    redirect_to 'https://test-autism.com', status: 301
+    redirect 'https://test-autism.com', status: 301
   end
 
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
@@ -34,4 +34,4 @@ Rails.application.routes.draw do
     match "/500", to: "errors#internal_server_error", via: :all
     match "/422", to: "errors#unprocessable_content", via: :all
   end
-  end
+end
