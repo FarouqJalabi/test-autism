@@ -44,7 +44,7 @@ de:
       percentageOfUnlikely: "Prozentsatz der Leute, die unwahrscheinlich erhalten haben"
       percentageOfLikely: "Prozentsatz der Leute, die wahrscheinlich erhalten haben"
 
-    
+
     madeBy: "Test von der Universität Cambridge"
     blogSectionTitle: "Neuester Blog"
     otherBlogs: "Alle Blogs anzeigen"
@@ -52,7 +52,7 @@ de:
   aboutUs:
     title: "Über uns"
     description: "Wir sind ein engagiertes Team, das sich leidenschaftlich für die Bereitstellung zuverlässiger und zugänglicher Autismustests einsetzt. Unsere Mission ist es, Einzelpersonen und Familien durch präzise, evidenzbasierte Ressourcen und Tools besser zu verstehen Autismus-Spektrum-Störung. Wir möchten eine unterstützende Gemeinschaft schaffen, in der Menschen die Informationen finden können, die sie benötigen, um ihre Reisen mit Autismus zu bewältigen."
-    
+
     ourVision:
       title: "Unsere Vision"
       description: "Unsere Vision ist es, eine Welt zu fördern, in der Menschen mit Autismus verstanden, akzeptiert und unterstützt werden. Wir streben danach, das Bewusstsein zu erhöhen und die Inklusivität durch unseren Bildungsinhalt und praktische Werkzeuge zu fördern."
@@ -218,6 +218,7 @@ de:
     submit: "Absenden"
 
   result:
+    resultTitle: "Meine Autismus-Testergebnisse"
     label1: "Sehr unwahrscheinlich"
     label2: "Unwahrscheinlich"
     label3: "Wahrscheinlich"

@@ -6,7 +6,7 @@
   <!-- For google search console -->
   <meta name="google-site-verification" content="7sRBnqFSTmJgnaG_zftp6Nyce0HNYg0L515BHyWeWxY" />
 
-  <title><%= content_for?(:title) ? yield(:title) : t('header.title') %></title>
+  <title><%= content_for?(:title) ? content_for(:title) : t('header.title') %></title>
 
   <meta name="description" content="<%= t('header.description') %>">
 

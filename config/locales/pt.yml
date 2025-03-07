@@ -37,14 +37,14 @@ pt:
         title: "Respostas salvas localmente"
         description: "Faça uma pausa sem perder o progresso"
 
-    
+
     stats:
       testsTaken: "Testes realizados"
       numberOfTestsTaken: "Número de testes realizados"
       percentageOfUnlikely: "Porcentagem de pessoas que obtiveram improvável"
       percentageOfLikely: "Porcentagem de pessoas que obtiveram provável"
 
-    
+
     madeBy: "Teste feito pela Universidade de Cambridge"
     blogSectionTitle: "Último Blog"
     otherBlogs: "Ver todos os blogs"
@@ -52,7 +52,7 @@ pt:
   aboutUs:
     title: "Sobre Nós"
     description: "Somos uma equipe dedicada e apaixonada por fornecer um teste de autismo confiável e acessível. Nossa missão é ajudar indivíduos e famílias a entender melhor o transtorno do espectro autista por meio de recursos e ferramentas precisos, baseados em evidências. Nosso objetivo é criar uma comunidade de apoio onde as pessoas possam encontrar as informações necessárias para navegar em suas jornadas com o autismo."
-    
+
     ourVision:
       title: "Nossa Visão"
       description: "Nossa visão é promover um mundo onde pessoas com autismo sejam compreendidas, aceitas e apoiadas. Nos esforçamos para aumentar a conscientização e promover a inclusão por meio de nosso conteúdo educacional e ferramentas práticas."
@@ -115,7 +115,7 @@ pt:
 
     question7: "Onde posso encontrar o código?"
     answer7: "Nosso código é de código aberto e está disponível online. Você pode visitá-lo aqui: "
-  
+
   termsOfUse:
     title: "Termos de Uso"
     titleText: "Bem-vindo ao nosso site. Ao acessar e usar nosso site, você concorda em cumprir e estar sujeito aos seguintes termos e condições de uso. Por favor, revise estes termos cuidadosamente. Se você não concordar com estes termos, não deve usar este site."
@@ -217,6 +217,8 @@ pt:
     submit: "Enviar"
 
   result:
+    resultTitle: "Meus resultados do teste de autismo"
+
     label1: "Muito improvável"
     label2: "Improvável"
     label3: "Provável"

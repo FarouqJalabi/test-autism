@@ -44,7 +44,7 @@ sv:
       percentageOfUnlikely: "Procentandel av personer som fick osannolikt"
       percentageOfLikely: "Procentandel av personer som fick sannolikt"
 
-    
+
     madeBy: "Test från University of Cambridge"
     blogSectionTitle: "Senaste bloggen"
     otherBlogs: "Se alla bloggar"
@@ -218,6 +218,8 @@ sv:
     submit: "Skicka in"
 
   result:
+    resultTitle: "Mina autismtestresultat"
+
     label1: "Mycket osannolikt"
     label2: "Osannolikt"
     label3: "Troligt"

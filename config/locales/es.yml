@@ -36,14 +36,14 @@ es:
         title: "Respuestas guardadas localmente"
         description: "Tómate un descanso sin perder el progreso"
 
-    
+
     stats:
       testsTaken: "Pruebas realizadas"
       numberOfTestsTaken: "Número de pruebas realizadas"
       percentageOfUnlikely: "Porcentaje de personas que obtuvieron improbable"
       percentageOfLikely: "Porcentaje de personas que obtuvieron probable"
 
-    
+
     madeBy: "Prueba por la Universidad de Cambridge"
     blogSectionTitle: "Último Blog"
     otherBlogs: "Ver todos los blogs"
@@ -52,7 +52,7 @@ es:
   aboutUs:
     title: "Sobre nosotros"
     description: "Somos un equipo dedicado y apasionado por proporcionar pruebas de autismo confiables y accesibles. Nuestra misión es ayudar a individuos y familias a comprender mejor el trastorno del espectro autista a través de recursos y herramientas precisas y basadas en evidencia. Nuestro objetivo es crear una comunidad de apoyo donde las personas puedan encontrar la información que necesitan para navegar en sus viajes con el autismo."
-    
+
     ourVision:
       title: "Nuestra visión"
       description: "Nuestra visión es fomentar un mundo donde las personas con autismo sean comprendidas, aceptadas y apoyadas. Nos esforzamos por aumentar la concienciación y promover la inclusividad a través de nuestro contenido educativo y herramientas prácticas."
@@ -218,6 +218,8 @@ es:
     submit: "Enviar"
 
   result:
+    resultTitle: "Mis resultados del test de autismo"
+
     label1: "muy improbable"
     label2: "improbable"
     label3: "probable"

@@ -45,7 +45,7 @@ fr:
       percentageOfLikely: "Pourcentage de personnes ayant obtenu probable"
 
 
-    
+
     madeBy: "Test par l'Université de Cambridge"
     blogSectionTitle: "Dernier blog"
     otherBlogs: "Voir tous les blogs"
@@ -53,7 +53,7 @@ fr:
   aboutUs:
     title: "À propos de nous"
     description: "Nous sommes une équipe dédiée et passionnée par la fourniture de tests d'autisme fiables et accessibles. Notre mission est d'aider les individus et les familles à mieux comprendre le trouble du spectre de l'autisme grâce à des ressources et des outils précis et fondés sur des preuves. Nous visons à créer une communauté de soutien où les gens peuvent trouver les informations dont ils ont besoin pour naviguer dans leurs parcours avec l'autisme."
-    
+
     ourVision:
       title: "Notre vision"
       description: "Notre vision est de favoriser un monde où les personnes autistes sont comprises, acceptées et soutenues. Nous nous efforçons d'accroître la sensibilisation et de promouvoir l'inclusivité grâce à notre contenu éducatif et à nos outils pratiques."
@@ -219,6 +219,8 @@ fr:
     submit: "Soumettre"
 
   result:
+    resultTitle: "Mes résultats au test de l'autisme"
+
     label1: "très improbable"
     label2: "improbable"
     label3: "probable"

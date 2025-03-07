@@ -32,18 +32,18 @@ zh:
       result:
         title: "结果"
         description: "测试将立即给出反馈。"
-        
+
       saving:
         title: "答案已本地保存"
         description: "休息一下，不会丢失进度"
-    
+
     stats:
       testsTaken: "参加的测试"
       numberOfTestsTaken: "参加的测试次数"
       percentageOfUnlikely: "得到不可能的人的百分比"
       percentageOfLikely: "得到可能的人的百分比"
 
-    
+
     madeBy: "由剑桥大学开发的测试"
     blogSectionTitle: "最新博客"
     otherBlogs: "查看所有博客"
@@ -51,7 +51,7 @@ zh:
   aboutUs:
     title: "关于我们"
     description: "我们是一个专注于提供可靠和可访问自闭症测试的团队。我们的使命是通过准确的、基于证据的资源和工具帮助个人和家庭更好地理解自闭症谱系障碍。我们的目标是创建一个支持性社区，让人们能够找到他们在自闭症旅程中所需的信息。"
-    
+
     ourVision:
       title: "我们的愿景"
       description: "我们的愿景是促进一个理解、接纳和支持自闭症患者的世界。通过我们的教育内容和实用工具，我们努力增加意识和促进包容性。"
@@ -212,6 +212,8 @@ zh:
     choice3: "完全同意"
 
   result:
+    resultTitle: "我的自闭症测试结果"
+
     label1: "非常不可能"
     label2: "不太可能"
     label3: "可能性较大"

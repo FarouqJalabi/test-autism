@@ -36,7 +36,7 @@ en:
       saving:
         title: "Answered saved locally"
         description: "Take break without loosing progress"
-    
+
     stats:
       testsTaken: "Tests taken"
       numberOfTestsTaken: "Number of tests taken"
@@ -52,7 +52,7 @@ en:
   aboutUs:
     title: "About Us"
     description: "We are a dedicated team passionate about providing reliable and accessible autism test. Our mission is to help individuals and families better understand autism spectrum disorder through accurate, evidence-based resources and tools. We aim to create a supportive community where people can find the information they need to navigate their journeys with autism"
-    
+
     ourVision:
       title: "Our Vision"
       description: "Our vision is to foster a world where individuals with autism are understood, accepted, and supported. We strive to increase awareness and promote inclusivity through our educational content and practical tools."
@@ -115,7 +115,7 @@ en:
 
       question7: "Where can i find the code?"
       answer7: "Our code is open source and available online. you can visit it here: "
-  
+
   termsOfUse:
     title: "Terms of Use"
     titleText: "Welcome to our website. By accessing and using our site, you agree to comply with and be bound by the following terms and conditions of use. Please review these terms carefully. If you do not agree to these terms, you should not use this site."
@@ -219,6 +219,8 @@ en:
     submit: "Submit"
 
   result:
+    resultTitle: "My autism test results"
+
     label1: "very unlikely"
     label2: "unlikely"
     label3: "likely"

@@ -43,7 +43,7 @@ da:
       percentageOfUnlikely: "Procentdel af folk der fik usandsynligt"
       percentageOfLikely: "Procentdel af folk der fik sandsynligt"
 
-    
+
     madeBy: "Test fra University of Cambridge"
     blogSectionTitle: "Seneste blog"
     otherBlogs: "Se alle blogs"
@@ -51,7 +51,7 @@ da:
   aboutUs:
     title: "Om os"
     description: "Vi er et dedikeret team, der passioneret arbejder på at tilbyde pålidelige og tilgængelige autismetests. Vores mission er at hjælpe enkeltpersoner og familier med at forstå autismespektrumforstyrrelse bedre gennem præcise, evidensbaserede ressourcer og værktøjer. Vi stræber efter at skabe et støttende fællesskab, hvor folk kan finde de oplysninger, de har brug for, til at håndtere deres rejser med autisme."
-    
+
     ourVision:
       title: "Vores vision"
       description: "Vores vision er at fremme en verden, hvor mennesker med autisme bliver forstået, accepteret og støttet. Vi arbejder på at øge bevidstheden og inklusionen gennem vores uddannelsesmæssige indhold og praktiske værktøjer."
@@ -219,6 +219,8 @@ da:
     submit: "Indsend"
 
   result:
+    resultTitle: "Mine autismetestresultater"
+
     label1: "Meget usandsynligt"
     label2: "Usandsynligt"
     label3: "Sandsynligt"

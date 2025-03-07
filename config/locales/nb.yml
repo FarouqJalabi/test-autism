@@ -215,6 +215,8 @@ nb:
     submit: "Send inn"
 
   result:
+    resultTitle: "Mine autismetestresultater"
+
     label1: "svært usannsynlig"
     label2: "usannsynlig"
     label3: "sannsynlig"
