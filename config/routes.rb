@@ -11,6 +11,12 @@ Rails.application.routes.draw do
   resources :blogs, only: [:show]
   get "/blogs", to: "blogs#index"
 
+  scope "(:locale)", locale: /en|nb|de|da|sv/ do
+    resources :blogs
+    resources :pages
+  end
+  
+
   constraints host: 'www.test-autism.com' do
     redirect 'https://test-autism.com', status: 301
   end
