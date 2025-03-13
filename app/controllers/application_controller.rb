@@ -1,14 +1,7 @@
 class ApplicationController < ActionController::Base
   around_action :switch_locale
   helper_method :get_test_bracket
-  before_action :redirect_locale_param
 
-  def redirect_locale_param
-    if params[:locale] && request.query_parameters[:locale]
-      redirect_to url_for(params.except(:locale).merge(locale: params[:locale])), status: :moved_permanently
-    end
-  end
-  
   def switch_locale(&action)
     locale = params[:locale] || I18n.default_locale
     I18n.with_locale(locale, &action)
