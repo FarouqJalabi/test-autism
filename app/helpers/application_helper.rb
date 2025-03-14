@@ -1,4 +1,8 @@
 module ApplicationHelper
+  def canonical_url
+    preferred_domain = "https://test-autism.com"
+    "#{preferred_domain}#{request.path}"
+  end
   def on_home?
     current_page?(root_path)
   end
