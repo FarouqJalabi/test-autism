@@ -26,16 +26,15 @@
   <meta property="og:site_name" content="https://test-autism.com/">
 
 
-  <% if I18n.locale == :en && request.path == '/'%>
-    <link rel="canonical" href="https://test-autism.com/en">
-  <% end %>
+  <%= tag(:meta, name: "viewport", content: "width=device-width, initial-scale=1") %>
+
 
   <% I18n.available_locales.each do |locale| %>
     <link rel="alternate" hreflang="<%= locale %>" href="<%= request.base_url + url_for(only_path: true, locale: locale) %>">
   <% end %>
   <link rel="alternate" hreflang="x-default" href="<%= request.base_url + url_for(only_path: true, locale: I18n.default_locale) %>">
 
-  <%= tag(:link, rel: "canonical", href: request.base_url + url_for(only_path: true, locale: I18n.default_locale)) %>
+  <%= tag(:link, rel: "canonical", href: request.base_url + url_for(only_path: true, locale: I18n.locale)) %>
 
   <!-- Need? It is already in root? -->
   <link rel="shortcut icon" href="<%= image_url("favicon.ico") %>">
