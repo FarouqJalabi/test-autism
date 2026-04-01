@@ -1,7 +1,11 @@
 class ScoresController < ApplicationController
     def show
-        @score = Score.find(params[:id])
-     end
+      # TODO remove old way to find score when adequate time has passed
+      redirect_to Score.find_by(id: params[:slug]), status: 301 and return if Score.find_by(id: params[:slug])
+
+      @score = Score.find_by!(slug: params[:slug])
+    end
+
     def new
         @test = Test.first
         @questions = @test.questions.sort_by(&:order).reverse

@@ -7,6 +7,7 @@ class Question < ApplicationRecord
 
 
   private
+
   def set_order
     if self.test.questions.present?
       self.order = self.test.questions.count+1
