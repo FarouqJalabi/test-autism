@@ -1,4 +1,6 @@
 class ScoresController < ApplicationController
+    invisible_captcha only: [:create]
+
     def show
       # TODO remove old way to find score when adequate time has passed
       redirect_to Score.find_by(id: params[:slug]), status: 301 and return if Score.find_by(id: params[:slug])
@@ -9,9 +11,8 @@ class ScoresController < ApplicationController
     def new
         @test = Test.first
         @questions = @test.questions.sort_by(&:order).reverse
-        @question_length = Question.count
 
-        @test_score = Score.new
+        @score = Score.new
     end
 
     def create
@@ -38,7 +39,7 @@ class ScoresController < ApplicationController
 
 
     private
-    
+
     def calculate_total_score(answers)
         total_score = 0
     

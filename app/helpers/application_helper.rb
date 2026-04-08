@@ -1,7 +1,8 @@
 module ApplicationHelper
   def on_home?
-    current_page?(root_path)
+    current_page?("/#{locale}")
   end
+
   def on_test?
     current_page?(new_score_path)
   end

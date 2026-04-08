@@ -3,6 +3,7 @@ source "https://rubygems.org"
 ruby "3.3.0"
 
 
+gem 'invisible_captcha', '~> 2.3'
 gem 'rails-i18n'
 gem 'tailwindcss-rails', "~> 3.3.1"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
