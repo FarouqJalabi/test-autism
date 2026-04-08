@@ -9,8 +9,6 @@ class PagesController < ApplicationController
     @unlikely_percentage = @percentages[:unlikely]
     @likely_percentage = @percentages[:likely]
   end
-
-
   
   def translations
   end

@@ -10,7 +10,6 @@ class ScoresController < ApplicationController
 
     def new
         @test = Test.first
-        @questions = @test.questions.sort_by(&:order).reverse
 
         @score = Score.new
     end
@@ -22,12 +21,10 @@ class ScoresController < ApplicationController
           render :new, status: :unprocessable_entity and return
         end
     
-        total_score = calculate_total_score(answers)
-    
-        percentage = calculate_percentage(total_score, 50)
+        total_score = answers.values.map(&:to_i).sum
+        percentage = total_score*2 
 
-
-        @score = Score.new(score: percentage)
+        @score = Score.new(score: percentage) # In future we will store score not persantage !
 
         if @score.save
           redirect_to @score
@@ -37,34 +34,4 @@ class ScoresController < ApplicationController
 
     end
 
-
-    private
-
-    def calculate_total_score(answers)
-        total_score = 0
-    
-        answers.each do |question_id, selected_option|
-          question = Question.find_by(id: question_id)
-          next unless question
-    
-          selected_option = reverse_option_if_needed(question, selected_option)
-    
-          total_score += selected_option.to_i
-        end
-    
-        total_score
-    end
-    
-    def reverse_option_if_needed(question, selected_option)
-        if question.negative_key
-          reverse_option = { "0" => "1", "1" => "0" }
-          selected_option = reverse_option[selected_option]
-        end
-    
-        selected_option
-    end
-    
-    def calculate_percentage(score, max_score)
-        (score * 100) / max_score
-    end
 end
