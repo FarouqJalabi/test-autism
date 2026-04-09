@@ -18,12 +18,6 @@
     <p class="text-xl md:text-2xl"><%= percentage_to_description(@score.score_percent) %></p>
 
     <%= render "scores/share_buttons", score: @score %>
-
-    <%- @score.scores_category.each do %>
-
-    <% end %>
-
-
   </div>
 </section>
 
