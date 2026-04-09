@@ -60,7 +60,7 @@ AQ_50_question = [
 
 
 
-AQ_50_test = Test.find_or_create_by!(name:"AQ_50", max_score: 50.0)
+AQ_50_test = Test.find_or_create_by!(name:"AQ-50")
 
 AQ_50_question.each do |question|
   AQ_50_test.questions.find_or_create_by!(**question)
