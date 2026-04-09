@@ -4,7 +4,10 @@ class ScoresController < ApplicationController
 
     def show
       # TODO remove old way to find score when adequate time has passed
-      redirect_to Score.find_by(id: params[:slug]), status: 301 and return if Score.find_by(id: params[:slug])
+      # if score_by_id = Score.find_by(id: params[:slug])
+      #   redirect_to score_by_id, status: 301 
+      #   return 
+      # end
 
       @score = Score.find_by!(slug: params[:slug])
     end
