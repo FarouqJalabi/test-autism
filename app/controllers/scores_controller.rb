@@ -1,65 +1,41 @@
 class ScoresController < ApplicationController
-    def show
-        @score = Score.find(params[:id])
-     end
-    def new
-        @test = Test.first
-        @questions = @test.questions.sort_by(&:order).reverse
-        @question_length = Question.count
+    invisible_captcha only: [:create]
+    before_action :set_test
 
-        @test_score = Score.new
+    def show
+      # TODO remove old way to find score when adequate time has passed
+      redirect_to Score.find_by(id: params[:slug]), status: 301 and return if Score.find_by(id: params[:slug])
+
+      @score = Score.find_by!(slug: params[:slug])
+    end
+
+    def new
+      @score = Score.new
     end
 
     def create
-        answers = params[:score]
+      answers = params[:score]
+      
+      if answers.nil?
+        render :new, status: :unprocessable_entity and return
+      end
 
-        if answers.nil?
-          render :new, status: :unprocessable_entity and return
-        end
-    
-        total_score = calculate_total_score(answers)
-    
-        percentage = calculate_percentage(total_score, 50)
+      # TODO calculate sub categories
+      total_score = answers.values.map(&:to_i).sum
+      @score = Score.new(score: total_score, test: @test)
 
-
-        @score = Score.new(score: percentage)
-
-        if @score.save
-          redirect_to @score
-        else
-          render :new, status: :unprocessable_entity
-        end
-
+      if @score.save
+        redirect_to @score
+      else
+        flash[:error] = @score.errors.full_messages.join (", ") # Should never be the case
+        render :new, status: :unprocessable_entity
+      end
     end
-
 
     private
-    
-    def calculate_total_score(answers)
-        total_score = 0
-    
-        answers.each do |question_id, selected_option|
-          question = Question.find_by(id: question_id)
-          next unless question
-    
-          selected_option = reverse_option_if_needed(question, selected_option)
-    
-          total_score += selected_option.to_i
-        end
-    
-        total_score
+
+    def set_test
+      @test = Test.first
     end
-    
-    def reverse_option_if_needed(question, selected_option)
-        if question.negative_key
-          reverse_option = { "0" => "1", "1" => "0" }
-          selected_option = reverse_option[selected_option]
-        end
-    
-        selected_option
-    end
-    
-    def calculate_percentage(score, max_score)
-        (score * 100) / max_score
-    end
+
 end

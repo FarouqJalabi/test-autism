@@ -16,8 +16,7 @@ Rails.application.routes.draw do
   end
 
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
-    resources :scores, only: [:new, :create, :show]
-
+    resources :scores, param: :slug, only: [:new, :create, :show]
 
     # Your routes here
     # root "pages#index"

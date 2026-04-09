@@ -3,14 +3,11 @@ class PagesController < ApplicationController
     @blogs = Blog.recent
     
     @tests_taken = Score.count
-    score_counts = count_scores
-    @percentages = calculate_percentages(score_counts, @tests_taken)
+    @percentages = calculate_percentages(count_scores, @tests_taken)
     
     @unlikely_percentage = @percentages[:unlikely]
     @likely_percentage = @percentages[:likely]
   end
-
-
   
   def translations
   end
@@ -31,8 +28,8 @@ class PagesController < ApplicationController
   def count_scores
     tests = Score.all
     {
-      unlikely:      tests.select{|score| get_test_bracket(score.score) == 2 || get_test_bracket(score.score) == 1 }.count,
-      likely:        tests.select{|score| get_test_bracket(score.score) == 3 || get_test_bracket(score.score) == 4 }.count,
+      unlikely: Score.where(score: 0..24).count,
+      likely: Score.where(score: 25..50).count,
     }
   end
 
