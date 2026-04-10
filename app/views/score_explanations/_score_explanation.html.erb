@@ -1,0 +1,12 @@
+<h1 class="text-3xl font-bold md:text-5xl mb-8"><%= score_explanation.title %></h1>
+
+<div class="relative my-10">
+  <div class="absolute result-progress-percentage" style="left: <%= score_percent%>%;">
+    <span class="whitespace-nowrap md:text-lg font-light">
+      <%= score_explanation.label %>
+    </span>
+  </div>
+  <progress class="progress progress-primary w-full" value="<%= score_percent %>" max="100"></progress>
+</div>
+
+<p class="text-xl md:text-2xl mb-10"><%= score_explanation.explanation %></p>

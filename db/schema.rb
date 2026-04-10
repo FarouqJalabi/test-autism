@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_04_09_140529) do
+ActiveRecord::Schema[7.1].define(version: 2026_04_10_114258) do
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
     t.string "record_type", null: false
@@ -92,8 +92,17 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_09_140529) do
     t.index ["test_id"], name: "index_questions_on_test_id"
   end
 
+  create_table "score_explanations", force: :cascade do |t|
+    t.integer "test_id", null: false
+    t.integer "min_score"
+    t.integer "max_score"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["test_id"], name: "index_score_explanations_on_test_id"
+  end
+
   create_table "scores", force: :cascade do |t|
-    t.float "score"
+    t.integer "score"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "slug", null: false
@@ -114,5 +123,6 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_09_140529) do
   add_foreign_key "categories", "tests"
   add_foreign_key "questions", "categories"
   add_foreign_key "questions", "tests"
+  add_foreign_key "score_explanations", "tests"
   add_foreign_key "scores", "tests"
 end

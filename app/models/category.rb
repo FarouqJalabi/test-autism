@@ -1,7 +1,6 @@
 class Category < ApplicationRecord
   extend Mobility
   translates :name, type: :string
-  translates :description, type: :string
 
   belongs_to :test
   has_many :questions
