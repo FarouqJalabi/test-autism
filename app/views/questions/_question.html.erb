@@ -6,7 +6,7 @@
      data-order="<%= question.order %>" data-total="<%= question_length(question) %>" >
 
     <div class="card-body flex items-center justify-center md:gap-16">
-    <h1 class="card-title w-full h-32 text-2xl md:text-4xl lg:text-5xl flex items-center justify-center"><%= t("questions."+question.id.to_s) %></h1>
+    <h1 class="card-title w-full h-32 text-2xl md:text-4xl lg:text-5xl flex items-center justify-center"><%= question.content %></h1>
 
     <div class="flex gap-8 items-center justify-center">
       <%- values = [0,0,1,1] %>

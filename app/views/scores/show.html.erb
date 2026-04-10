@@ -17,6 +17,15 @@
   >
     <p class="text-xl md:text-2xl"><%= percentage_to_description(@score.score_percent) %></p>
 
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-4">
+      <% @score.category_scores&.each do |category_id, score| %>
+        <%- category = @score.test.categories.find_by(id: category_id) %>
+        <%- break unless category %>
+        <%= render category, score: score %>
+      <% end %>
+    </div>
+
+
     <%= render "scores/share_buttons", score: @score %>
   </div>
 </section>

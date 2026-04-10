@@ -1,0 +1,13 @@
+<div class="card bg-base-100 border shadow-md p-4">
+  <div class="flex justify-between items-center mb-2">
+    <span class="font-semibold capitalize"><%= category.name %></span>
+    <span class="text-sm opacity-70"><%= score %> / <%= category.max_score %></span>
+  </div>
+
+  <%= %>
+  <progress 
+    class="progress progress-primary w-full" 
+    value="<%= score %>" 
+    max="<%= category.max_score %>">
+  </progress>
+</div>

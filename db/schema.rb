@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_04_08_112426) do
+ActiveRecord::Schema[7.1].define(version: 2026_04_09_140529) do
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
     t.string "record_type", null: false
@@ -49,13 +49,46 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_08_112426) do
     t.string "image_alt"
   end
 
+  create_table "categories", force: :cascade do |t|
+    t.integer "test_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["test_id"], name: "index_categories_on_test_id"
+  end
+
+  create_table "mobility_string_translations", force: :cascade do |t|
+    t.string "locale", null: false
+    t.string "key", null: false
+    t.string "value"
+    t.string "translatable_type"
+    t.integer "translatable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["translatable_id", "translatable_type", "key"], name: "index_mobility_string_translations_on_translatable_attribute"
+    t.index ["translatable_id", "translatable_type", "locale", "key"], name: "index_mobility_string_translations_on_keys", unique: true
+    t.index ["translatable_type", "key", "value", "locale"], name: "index_mobility_string_translations_on_query_keys"
+  end
+
+  create_table "mobility_text_translations", force: :cascade do |t|
+    t.string "locale", null: false
+    t.string "key", null: false
+    t.text "value"
+    t.string "translatable_type"
+    t.integer "translatable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["translatable_id", "translatable_type", "key"], name: "index_mobility_text_translations_on_translatable_attribute"
+    t.index ["translatable_id", "translatable_type", "locale", "key"], name: "index_mobility_text_translations_on_keys", unique: true
+  end
+
   create_table "questions", force: :cascade do |t|
-    t.string "content", default: ""
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "negative_key", default: false
     t.integer "test_id", null: false
     t.integer "order"
+    t.integer "category_id", null: false
+    t.index ["category_id"], name: "index_questions_on_category_id"
     t.index ["test_id"], name: "index_questions_on_test_id"
   end
 
@@ -65,6 +98,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_08_112426) do
     t.datetime "updated_at", null: false
     t.string "slug", null: false
     t.integer "test_id", null: false
+    t.json "category_scores"
     t.index ["slug"], name: "index_scores_on_slug", unique: true
     t.index ["test_id"], name: "index_scores_on_test_id"
   end
@@ -77,6 +111,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_08_112426) do
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "categories", "tests"
+  add_foreign_key "questions", "categories"
   add_foreign_key "questions", "tests"
   add_foreign_key "scores", "tests"
 end

@@ -3,12 +3,6 @@ class ScoresController < ApplicationController
     before_action :set_test
 
     def show
-      # TODO remove old way to find score when adequate time has passed
-      # if score_by_id = Score.find_by(id: params[:slug])
-      #   redirect_to score_by_id, status: 301 
-      #   return 
-      # end
-
       @score = Score.find_by!(slug: params[:slug])
     end
 
@@ -23,9 +17,8 @@ class ScoresController < ApplicationController
         render :new, status: :unprocessable_entity and return
       end
 
-      # TODO calculate sub categories
-      total_score = answers.values.map(&:to_i).sum
-      @score = Score.new(score: total_score, test: @test)
+      total_score, score_by_category = calculate_score(@test.questions, answers)
+      @score = Score.new(score: total_score, test: @test, category_scores: score_by_category)
 
       if @score.save
         redirect_to @score
@@ -41,4 +34,17 @@ class ScoresController < ApplicationController
       @test = Test.first
     end
 
+
+    def calculate_score(questions, answers)
+      total_score = 0
+      score_by_category = Hash.new(0)
+
+      questions.each do |question|
+        answer = answers[question.id.to_s].to_i
+        total_score += answer
+        score_by_category[question.category_id] += answer
+      end
+
+      [total_score, score_by_category]
+    end
 end

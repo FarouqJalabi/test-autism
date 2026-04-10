@@ -18,5 +18,4 @@ module ScoresHelper
   def percentage_to_share(percentage)
     t("result.share"+get_test_bracket(percentage).to_s)
   end
-
 end
