@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "3.3.0"
 
+gem 'deepl-rb', require: 'deepl'
 gem "mobility", "~> 1.3"
 
 gem 'invisible_captcha', '~> 2.3'
