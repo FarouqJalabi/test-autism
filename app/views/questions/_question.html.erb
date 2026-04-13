@@ -3,7 +3,7 @@
      style="<%= question.order != 1 ? 'visibility: hidden; transform: translateX(100vw);' : '' %> "
 
      data-controller="questions"
-     data-order="<%= question.order %>" data-total="<%= question_length(question) %>" >
+     data-order="<%= question.order %>" data-test="<%= question.test.id %>" data-total="<%= question_length(question) %>" >
 
     <div class="card-body flex items-center justify-center md:gap-16">
     <h1 class="card-title w-full h-32 text-2xl md:text-4xl lg:text-5xl flex items-center justify-center"><%= question.content %></h1>
