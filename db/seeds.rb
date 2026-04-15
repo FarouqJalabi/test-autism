@@ -5,7 +5,7 @@
 # Source https://www.wired.com/2001/12/aqtest/
 #
 
-AQ_50_test = Test.find_or_create_by!(name:"AQ-50")
+AQ_50_test = Test.i18n.find_or_create_by!(name: "AQ-50", description: "Screening tool used to indicate whether a full autism assessment may be helpful")
 
 choices = [
   {label: "Disagree", value: 0},
@@ -39,7 +39,7 @@ score_ranges = [
 ]
 
 score_ranges.each do |score_range|
-  ScoreExplanation.find_by(min_score: score_range[:range].first) || ScoreExplanation.create!(score_range: score_range[:range], title: score_range[:title], explanation: score_range[:explanation], label: score_range[:label], test: AQ_50_test)
+  ScoreExplanation.find_by(min_score: score_range[:range].first) || ScoreExplanation.create!(score_range: score_range[:range], title: score_range[:title], explanation: score_range[:explanation], label: score_range[:label], share_label: score_range[:share_label], test: AQ_50_test)
 end
 
 AQ_50_questions = {

@@ -31,7 +31,7 @@ class ScoresController < ApplicationController
     private
 
     def set_test
-      @test = Test.first
+      @test = Test.find_by(id: params[:test_id]) || Test.first
     end
 
 

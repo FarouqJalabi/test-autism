@@ -1,0 +1,34 @@
+<%= form_with(model: test, class: "contents", id:"form") do |form| %>
+
+  <% if test.errors.any? %>
+    <div id="error_explanation" class="bg-red-50 text-red-500 px-3 py-2 font-medium rounded-md mt-3">
+      <h2><%= pluralize(test.errors.count, "error") %> prohibited this test from being saved:</h2>
+
+      <ul class="list-disc ml-6">
+        <% test.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <br/>
+  <div class="bg-primary-content p-5 flex flex-col rounded-xl">
+    <%= form.label :name, class: "label" %>
+    <%= form.text_field :name, class: "textarea" %>
+
+    <%= form.label :description, class: "label" %>
+    <%= form.text_area :description, class: "textarea" %>
+  </div>
+
+  <%- test_assocaties.each do |asso| %>
+    <div class="flex gap-3 items-center mt-4 mx-4">
+      <h2 class="text-xl font-bold"><%= asso.humanize %></h2>
+      <%= form.submit "Add #{asso.singularize.humanize}", class: "btn btn-outline", formaction: build_associate_tests_path(id: form.object.id, associate: asso)%>
+    </div>
+
+    <%= render "#{asso}/fields", form: form %>
+  <% end %>
+  <%= form.submit class: "btn btn-primary", data: { turbo_frame: "_top" } %>
+<% end %>
+

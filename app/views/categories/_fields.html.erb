@@ -1,0 +1,9 @@
+<%# locals: (form:) %>
+
+<div class="flex  overflow-scroll w-screen gap-5">
+  <%= form.fields_for :categories do |category_fields| %>
+    <fieldset class="fieldset bg-primary-content border-base-300 rounded-box w-xs border p-4 mt-8 w-[250px]">
+      <%= category_fields.text_field :name, class: "input"  %>
+    </fieldset>
+  <% end %>
+</div>

@@ -2,15 +2,19 @@ class Question < ApplicationRecord
   extend Mobility
   translates :content, type: :string
 
-  belongs_to :test
+  belongs_to :test do
+    def choices(test)
+      test.choices.map()
+    end
+  end
   belongs_to :category, optional: true # Wait til migrations have run
-  before_create :set_order
+  after_initialize :set_default_order, if: :new_record?
 
-  private
+  def set_default_order
+    # self.category = Category.first
 
-  def set_order
     if test.questions.present?
-      self.order = test.questions.last.order+1
+      self.order = test.questions.length+1 # What happends if we create multiple?
     else
       self.order = 1
     end

@@ -26,6 +26,7 @@
 
   <%= form_with model: @score do |form| %>
     <%= invisible_captcha %>
+    <%= hidden_field_tag "test_id", params[:test_id].to_s || Test.first.id.to_s %>
     <div class="relative h-[25rem] w-full flex items-center justify-center ">
       <%= render @test.questions, form: form %>
     </div>

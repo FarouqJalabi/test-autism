@@ -1,0 +1,28 @@
+<%# locals: (form:) %>
+
+<div class="flex overflow-scroll w-screen gap-5">
+  <%= form.fields_for :score_explanations do |explanation_fields| %>
+    <fieldset class="fieldset bg-primary-content w-full border-base-300 rounded-box w-xs border p-4 mt-8 min-w-[300px]">
+      <%= explanation_fields.label :title, class: "label" %>
+      <%= explanation_fields.text_field :title, class: "input w-full" %>
+
+      <%= explanation_fields.label :explanation, class: "label" %>
+      <%= explanation_fields.text_area :explanation, class: "input w-full" %>
+
+      <%= explanation_fields.label :label, class: "label" %>
+      <%= explanation_fields.text_field :label, class: "input w-full" %>
+
+      <%= explanation_fields.label :share_label, class: "label" %>
+      <%= explanation_fields.text_field :share_label, class: "input w-full" %>
+
+      <div class="grid grid-cols-2 mt-2 gap-x-2">
+        <%= explanation_fields.label :min_score, class: "label" %>
+        <%= explanation_fields.label :max_score, class: "label" %>
+        <%= explanation_fields.number_field :min_score, class: "input" %>
+
+        <%= explanation_fields.number_field :max_score, class: "input" %>
+      </div>
+    </fieldset>
+  <% end %>
+</div>
+

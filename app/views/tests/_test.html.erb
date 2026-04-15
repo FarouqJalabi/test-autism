@@ -1,0 +1,10 @@
+
+<div class="card card-border bg-primary-content w-96 w-164">
+  <div class="card-body">
+    <h2 class="card-title"><%= test.name %></h2>
+    <p><%= test.description %></p>
+    <div class="card-actions justify-end">
+      <%= link_to t("navigation.takeTestButton"), new_score_path(test_id: test.id), class: "btn btn-primary"%>
+    </div>
+  </div>
+</div>
