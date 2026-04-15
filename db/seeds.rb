@@ -7,6 +7,17 @@
 
 AQ_50_test = Test.find_or_create_by!(name:"AQ-50")
 
+choices = [
+  {label: "Disagree", value: 0},
+  {label: "Slightly disagree", value: 0},
+  {label: "Slightly agree", value: 1},
+  {label: "Agree", value: 1}
+]
+
+choices.each do |choice|
+  Choice.i18n.find_or_create_by!(test: AQ_50_test, label: choice[:label], value: choice[:value])
+end
+
 categories = [
   { name: "Social skill" },
   { name: "Attention switching" },

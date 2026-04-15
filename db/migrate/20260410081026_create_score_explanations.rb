@@ -21,6 +21,7 @@ class CreateScoreExplanations < ActiveRecord::Migration[7.1]
   end
 
   def down
+    ScoreExplanation.destroy_all
     drop_table :score_explanations
   end
 end

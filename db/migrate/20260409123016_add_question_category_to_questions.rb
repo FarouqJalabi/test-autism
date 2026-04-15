@@ -25,6 +25,7 @@ class AddQuestionCategoryToQuestions < ActiveRecord::Migration[7.1]
   end
 
   def down
+    Category.destroy_all
     remove_reference :questions, :category, null: false, foreign_key: true
   end
 end

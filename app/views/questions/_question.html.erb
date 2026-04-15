@@ -9,15 +9,15 @@
     <h1 class="card-title w-full h-32 text-2xl md:text-4xl lg:text-5xl flex items-center justify-center"><%= question.content %></h1>
 
     <div class="flex gap-8 items-center justify-center">
-      <%- values = [0,0,1,1] %>
+      <%- values = @test.choices.pluck(:value) %>
       <%- values.reverse! if question.negative_key? %>
 
-      <% values.each_with_index  do |value, index| %>
+      <% @test.choices.each_with_index  do |choice, index| %>
         <div class="flex flex-col items-center gap-4">
           <label class="m-auto md:text-2xl lg:text-3xl" for="question_<%= question.id %>_radio_<%= index %>">
-            <%= t("questions.choice"+index.to_s) %>
+            <%= choice.label %>
           </label>
-          <%= form.radio_button(question.id, value, id:"question_#{question.id }_radio_#{index}", autocomplete: "off", class:"radio radio-primary radio-lg", "data-controller":"radio",  "data-action":"click->questions#radio_clicked change->questions#save_change") %>
+          <%= form.radio_button(question.id, values[index], id:"question_#{question.id }_radio_#{index}", autocomplete: "off", class:"radio radio-primary radio-lg", "data-controller":"radio",  "data-action":"click->questions#radio_clicked change->questions#save_change") %>
         </div>
       <% end %>
     </div>
