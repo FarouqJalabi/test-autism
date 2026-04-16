@@ -19,6 +19,9 @@
 
     <%= form.label :description, class: "label" %>
     <%= form.text_area :description, class: "textarea" %>
+
+    <%= form.label :visible, class: "label" %>
+    <%= form.check_box :visible, class: "checkbox" %>
   </div>
 
   <%- test_assocaties.each do |asso| %>

@@ -56,6 +56,6 @@ class TestsController < ApplicationController
     end
 
     def test_params
-      params.require(:test).permit(:name, :description, questions_attributes: {}, categories_attributes: {}, choices_attributes: {}, score_explanations_attributes: {}) # TODO plesas allow only 
+      params.require(:test).permit(:name, :description, :visible, questions_attributes: {}, categories_attributes: {}, choices_attributes: {}, score_explanations_attributes: {}) # TODO plesas allow only 
     end
 end

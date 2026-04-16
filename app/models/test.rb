@@ -12,11 +12,15 @@ class Test < ApplicationRecord
   accepts_nested_attributes_for :score_explanations, allow_destroy: true
   accepts_nested_attributes_for :choices, allow_destroy: true
 
-  def min_score
-    questions.count*0.0
+  validates :visible, presence: true
+
+  scope :visible, -> { where(visible: true) }
+
+  def min_score # Not actually used?
+    questions.count*choices.minimum(:value)
   end
 
   def max_score
-    questions.count*1.0
+    questions.count*choices.maximum(:value)
   end
 end

@@ -4,6 +4,7 @@ class ScoresController < ApplicationController
 
     def show
       @score = Score.find_by!(slug: params[:slug])
+      @other_tests = Test.visible.excluding(@score.test)
     end
 
     def new

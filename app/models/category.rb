@@ -6,10 +6,10 @@ class Category < ApplicationRecord
   has_many :questions
 
   def min_score
-    questions.count*0
+    questions.count*test.choices.minimum(:value)
   end
 
   def max_score
-    questions.count*1
+    questions.count*test.choices.maximum(:value)
   end
 end
