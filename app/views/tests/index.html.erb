@@ -1,0 +1,27 @@
+<% content_for :title, "Tests" %>
+
+<div class="w-full">
+  <div class="flex justify-between items-center">
+    <h1 class="font-bold text-4xl">Tests</h1>
+    <%= link_to "New test", new_test_path, class: "btn btn-primary" %>
+
+  </div>
+
+  <div id="tests" class="flex flex-wrap justify-center gap-5 min-w-full">
+    <% if @tests.any? %>
+      <% @tests.each do |test| %>
+        <div>
+          <%= render test %>
+
+          <div class="flex w-full gap-2">
+            <%= link_to "Show this test", test, class: "btn btn-outline flex-1" %>
+            <%= link_to "Edit", [:edit, test], class: "btn btn-outline flex-1" %>
+            <%= button_to "Destroy", test, method: :delete, class: "btn btn-error flex-1", data: { turbo_confirm: "Are you sure?" } %>
+          </div>
+        </div>
+      <% end %>
+    <% else %>
+      <p class="text-center my-10">No tests found.</p>
+    <% end %>
+  </div>
+</div>

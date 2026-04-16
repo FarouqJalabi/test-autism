@@ -1,274 +1,221 @@
+---
 de:
-  language_name: "Deutsch"
-  language_phrase: "Machen Sie den Autismus Test auf Deutsch"
-  flag_emoji: "🇩🇪"
-
-  header:
-    title: "Kostenloser Autismus-Test"
-    description: "Machen Sie unseren kostenlosen Online-Autismustest für eine schnelle und genaue Bewertung. Unser AQ-50 Autismustest vom Autism Research Center garantiert zuverlässige Ergebnisse."
-
-  navigation:
-    homeButton: "Startseite"
-    takeTestButton: "Test machen"
-    aboutButton: "Über uns"
-
-  home:
-    title: "Machen Sie einen 10-minütigen Autismus-Test"
-    description: "Machen Sie unseren schnellen und genauen Autismustest. Der Autismustest wird AQ-50 genannt und gilt als zuverlässiges Screening-Werkzeug."
-
-    button1: "Test starten"
-    button2: "Über uns"
-
-    whatToExpect:
-      title: "Was Sie erwarten können"
-      questions:
-        title: "Fragen"
-        description: "50 Multiple-Choice-Fragen."
-
-      time:
-        title: "Zeit"
-        description: "Etwa 10-15 Minuten zum Abschluss."
-
-      result:
-        title: "Ergebnisse"
-        description: "Der Test liefert sofortiges Feedback."
-
-      saving:
-        title: "Antworten lokal gespeichert"
-        description: "Machen Sie eine Pause, ohne Fortschritte zu verlieren"
-
-
-    stats:
-      testsTaken: "Abgelegte Tests"
-      numberOfTestsTaken: "Anzahl der abgelegten Tests"
-      percentageOfUnlikely: "Prozentsatz der Leute, die unwahrscheinlich erhalten haben"
-      percentageOfLikely: "Prozentsatz der Leute, die wahrscheinlich erhalten haben"
-
-    
-    madeBy: "Test von der Universität Cambridge"
-    blogSectionTitle: "Neuester Blog"
-    otherBlogs: "Alle Blogs anzeigen"
-
   aboutUs:
-    title: "Über uns"
-    description: "Wir sind ein engagiertes Team, das sich leidenschaftlich für die Bereitstellung zuverlässiger und zugänglicher Autismustests einsetzt. Unsere Mission ist es, Einzelpersonen und Familien durch präzise, evidenzbasierte Ressourcen und Tools besser zu verstehen Autismus-Spektrum-Störung. Wir möchten eine unterstützende Gemeinschaft schaffen, in der Menschen die Informationen finden können, die sie benötigen, um ihre Reisen mit Autismus zu bewältigen."
-    
-    ourVision:
-      title: "Unsere Vision"
-      description: "Unsere Vision ist es, eine Welt zu fördern, in der Menschen mit Autismus verstanden, akzeptiert und unterstützt werden. Wir streben danach, das Bewusstsein zu erhöhen und die Inklusivität durch unseren Bildungsinhalt und praktische Werkzeuge zu fördern."
-
-    ourTeam:
-      title: "Unser Team"
-      description: "Unser Team besteht aus mehreren Softwareentwicklern, die gemeinsam daran arbeiten, Ihnen den besten Autismustest und die besten verfügbaren Ressourcen auf einer leicht verständlichen Website anzubieten. Wir sind bestrebt, kontinuierliches Lernen und Verbesserung sicherzustellen, damit unser Inhalt relevant und wertvoll bleibt."
-
     contactUs:
-      title: "Kontaktieren Sie uns"
-      description: "Ob um Hallo zu sagen oder einen Fehler zu melden, wir freuen uns immer, von Ihnen zu hören! Ihr Feedback hilft uns, uns zu verbessern und Sie besser zu bedienen. Kontaktieren Sie uns unter "
-
+      description: 'Ob um Hallo zu sagen oder einen Fehler zu melden, wir freuen uns immer, von Ihnen zu hören! Ihr Feedback hilft uns, uns zu verbessern und Sie besser zu bedienen. Kontaktieren Sie uns unter '
+      title: Kontaktieren Sie uns
+    description: Wir sind ein engagiertes Team, das sich leidenschaftlich für die Bereitstellung zuverlässiger und zugänglicher Autismustests einsetzt. Unsere Mission ist es, Einzelpersonen und Familien durch präzise, evidenzbasierte Ressourcen und Tools besser zu verstehen Autismus-Spektrum-Störung. Wir möchten eine unterstützende Gemeinschaft schaffen, in der Menschen die Informationen finden können, die sie benötigen, um ihre Reisen mit Autismus zu bewältigen.
     disclaimer:
-      title: "Haftungsausschluss!"
-      description1: "Wir sind keine medizinischen Fachkräfte, und die auf dieser Website bereitgestellten Tools (der AQ-50-Test) dienen ausschließlich als Screening-Tools. Diese Tests sind darauf ausgelegt, Merkmale im Zusammenhang mit Autismus zu identifizieren und sind keine Diagnoseinstrumente."
-      description2: "Durch die Nutzung unserer Website und der bereitgestellten Screening-Tools erkennen Sie an und stimmen zu, dass diese Tools nur zu Informations- und Unterhaltungszwecken dienen und nicht als medizinische Beratung angesehen werden sollten."
-
-  privacy:
-    title: "Datenschutz und Richtlinie"
-    aboutData:
-      title: "Über die von uns erhobenen Daten"
-      description: "Wir sammeln keine Daten über Sie. Wir sammeln keine Ihrer Antworten auf den Autismustest. Wir verwenden eine Software eines Drittanbieters, Plausible, um Verkehrsdaten zu sammeln. Dies gewährleistet, dass Ihre Privatsphäre geschützt ist, während wir die notwendigen Erkenntnisse zur Verbesserung unserer Website sammeln. Plausible liefert uns anonymisierte, aggregierte Daten, sodass Ihre persönlichen Informationen vollständig privat bleiben."
-
-    cookies:
-      title: "Cookies"
-      description: "Unsere Website verwendet keine Cookies, um Ihre Aktivitäten zu verfolgen oder personenbezogene Daten zu sammeln. Wir glauben daran, eine Browser-Erfahrung frei von invasiven Tracking-Technologien zu bieten."
-
-
-  translation:
-    title: "Übersetzungen"
-    description: "Wir möchten, dass unser Inhalt so viele Menschen wie möglich erreicht, daher verwenden wir ChatGPT für Übersetzungen. Obwohl er normalerweise gute Arbeit leistet, kann er gelegentlich Fehler machen. Wenn Sie Fehler bemerken, würden wir Ihre Hilfe schätzen!"
-
-    header1: "Helfen Sie uns, uns zu verbessern!"
-    description1: "Wenn Sie in unseren Übersetzungen etwas Falsches bemerken, lassen Sie es uns bitte wissen! Ihr Feedback ist von unschätzbarem Wert, um sicherzustellen, dass unser Inhalt klar und genau ist. Kontaktieren Sie uns unter: "
-
-    header2: "Unsere Verpflichtung"
-    description2: "Wir sind bestrebt, hochwertige Übersetzungen anzubieten, und schätzen Ihre Zusammenarbeit in diesem Bemühen. Gemeinsam können wir sicherstellen, dass unser Inhalt für so viele Menschen wie möglich zugänglich und hilfreich ist!"
-
-    takeAutismTest: "Sie können den Autismus-Test auf Deutsch machen"
-
-
-  faq:
-    question1: "Was bedeutet meine Autismustest-Punktzahl?"
-    answer1: "Der Test ist nur ein Screening-Tool. Wenn Sie eine hohe Punktzahl erreichen, empfehlen wir Ihnen, eine Bewertung durch einen Gesundheitsdienstleister für weitere Untersuchungen in Betracht zu ziehen."
-
-    question2: "Wo finde ich weitere Informationen über den Autismustest?"
-    answer2: "Wir verwenden einen bekannten Autismustest namens AQ-50. Er wurde vom Autismus-Forschungszentrum an der Universität Cambridge entwickelt. Für weitere Informationen können Sie das Paper einsehen: "
-
-    question3: "Sind meine Daten privat und sicher?"
-    answer3: "Ja, wir legen Wert auf Ihre Privatsphäre und Sicherheit. Wir sammeln keine persönlichen Daten. Wir verwenden eine Software eines Drittanbieters, Plausible, um anonymisierte Verkehrsdaten zu sammeln, um sicherzustellen, dass Ihre persönlichen Informationen vollständig privat bleiben."
-
-    question4: "Was passiert, wenn ich beim Autismustest eine hohe Punktzahl erreiche?"
-    answer4: "Eine hohe Punktzahl beim Autismustest deutet darauf hin, dass Sie einige Merkmale im Zusammenhang mit Autismus aufweisen könnten. Es wird empfohlen, eine umfassende Bewertung durch einen Gesundheitsdienstleister durchzuführen, um diese Möglichkeit weiter zu erkunden."
-
-    question5: "Ich habe einen Übersetzungsfehler gefunden, was soll ich tun?"
-    answer5: "Bitte kontaktieren Sie uns unter: "
-
-    question6: "Ich sehe meine Sprache nicht, wo soll ich sie hinzufügen?"
-    answer6: "Der beste Weg, um in Ihre eigene Sprache zu übersetzen, ist über GitHub. Übersetzen Sie die Fragen und wir fügen sie unserer Website hinzu. Besuchen Sie unsere GitHub-Seite: "
-
-    question7: "Wo finde ich den Code?"
-    answer7: "Unser Code ist Open Source und online verfügbar. Sie können ihn hier besuchen: "
-
-  termsOfUse:
-    title: "Nutzungsbedingungen"
-    titleText: "Willkommen auf unserer Website. Durch den Zugriff und die Nutzung unserer Seite stimmen Sie zu, die folgenden Nutzungsbedingungen einzuhalten und an diese gebunden zu sein. Bitte überprüfen Sie diese Bedingungen sorgfältig. Wenn Sie diesen Bedingungen nicht zustimmen, sollten Sie diese Seite nicht nutzen."
-
-    acceptOfTerms:
-      title: "Annahme der Bedingungen"
-      text: "Durch die Nutzung unserer Website und der bereitgestellten Tools erkennen Sie an, dass Sie diese Bedingungen und Konditionen gelesen, verstanden und akzeptiert haben."
-
-    descriptionOfServices:
-      title: "Beschreibung der Dienstleistungen"
-      text: "Wir bieten Ressourcen und Tools im Zusammenhang mit Autismus-Spektrum-Störung (ASD) an, einschließlich des AQ-50-Tests. Diese Tools dienen ausschließlich als Screening-Tools zur Identifizierung von Merkmalen, die mit Autismus verbunden sind, und sind keine diagnostischen Instrumente."
-
-    disclaimer:
-      title: "Haftungsausschluss"
-      text: "Wir sind keine medizinischen Fachkräfte, und die auf dieser Website bereitgestellten Informationen, einschließlich des AQ-50-Tests, dienen ausschließlich Informations- und Unterhaltungszwecken. Diese Tools sollten nicht als medizinische Beratung, Diagnose oder Behandlung betrachtet werden. Suchen Sie immer den Rat eines qualifizierten Gesundheitsdienstleisters bei Fragen zu einer medizinischen Erkrankung."
-
-    useOfContent:
-      title: "Nutzung von Inhalten"
-      text: "Sie dürfen Materialien von dieser Seite für Ihren persönlichen, nicht-kommerziellen Gebrauch abrufen, herunterladen und ausdrucken. Sie dürfen keine Informationen oder Inhalte von dieser Seite ohne unsere vorherige schriftliche Zustimmung ändern, reproduzieren, verteilen, veröffentlichen, lizenzieren, abgeleitete Werke erstellen, übertragen oder verkaufen."
-
-    privacy:
-      title: "Datenschutz"
-      text: "Ihre Nutzung unserer Website unterliegt auch unserer Datenschutzrichtlinie. Bitte überprüfen Sie unsere Datenschutzrichtlinie, um Informationen darüber zu erhalten, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen."
-
-    limitationOfLiability:
-      title: "Haftungsbeschränkung"
-      text: "In keinem Fall haften wir für direkte, indirekte, zufällige, spezielle, Folge- oder exemplarische Schäden, einschließlich, aber nicht beschränkt auf Schäden für entgangenen Gewinn, Goodwill, Nutzung, Daten oder andere immaterielle Verluste, die aus der Nutzung oder der Unfähigkeit zur Nutzung unserer Website oder Dienstleistungen resultieren."
-
-    changesToTerms:
-      title: "Änderungen der Bedingungen"
-      text: "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten sofort nach ihrer Veröffentlichung auf unserer Website in Kraft. Ihre fortgesetzte Nutzung der Seite nach solchen Änderungen stellt Ihre Annahme der neuen Bedingungen dar."
-
-    governingLaw:
-      title: "Geltendes Recht"
-      text: "Diese Bedingungen und Konditionen unterliegen den Gesetzen von [Ihr Land/Ihr Bundesland] und werden in Übereinstimmung mit diesen ausgelegt, und Sie stimmen zu, sich der ausschließlichen Zuständigkeit der in [Ihr Land/Ihr Bundesland] gelegenen Gerichte zur Beilegung von Streitigkeiten zu unterwerfen."
-
-    contactInformation:
-      title: "Kontaktinformationen"
-      text: "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter fogado@rubynor.com."
-
-
-  questions:
-    1: "Ich ziehe es vor, Dinge mit anderen zusammen zu tun, anstatt alleine"
-    2: "Ich ziehe es vor, Dinge immer auf die gleiche Weise zu tun"
-    3: "Wenn ich versuche, mir etwas vorzustellen, finde ich es sehr einfach, ein Bild in meinem Kopf zu erstellen"
-    4: "Ich vertiefe mich oft so sehr in eine Sache, dass ich andere Dinge aus den Augen verliere"
-    5: "Ich bemerke oft kleine Geräusche, die andere nicht bemerken"
-    6: "Ich bemerke normalerweise Autokennzeichen oder ähnliche Informationsketten"
-    7: "Andere Leute sagen mir oft, dass das, was ich gesagt habe, unhöflich ist, obwohl ich denke, dass es höflich ist"
-    8: "Wenn ich eine Geschichte lese, kann ich mir leicht vorstellen, wie die Charaktere aussehen könnten"
-    9: "Ich bin fasziniert von Daten"
-    10: "In einer sozialen Gruppe kann ich leicht mehrere Gespräche verschiedener Personen verfolgen"
-    11: "Ich finde soziale Situationen einfach"
-    12: "Ich neige dazu, Details zu bemerken, die andere nicht bemerken"
-    13: "Ich gehe lieber in eine Bibliothek als auf eine Party"
-    14: "Ich finde es leicht, Geschichten zu erfinden"
-    15: "Ich fühle mich mehr zu Menschen hingezogen als zu Dingen"
-    16: "Ich habe oft sehr starke Interessen, über die ich aufgebracht bin, wenn ich ihnen nicht nachgehen kann"
-    17: "Ich mag Smalltalk"
-    18: "Wenn ich spreche, ist es für andere nicht immer leicht, dazwischen zu kommen"
-    19: "Ich bin fasziniert von Zahlen"
-    20: "Wenn ich eine Geschichte lese, finde ich es schwierig, die Absichten der Charaktere herauszufinden"
-    21: "Ich mag es nicht besonders, Fiktion zu lesen"
-    22: "Ich finde es schwer, neue Freunde zu finden"
-    23: "Ich bemerke ständig Muster in Dingen"
-    24: "Ich gehe lieber ins Theater als ins Museum"
-    25: "Es stört mich nicht, wenn meine tägliche Routine gestört wird"
-    26: "Ich finde oft heraus, dass ich nicht weiß, wie ich ein Gespräch am Laufen halten soll"
-    27: "Ich finde es leicht, 'zwischen den Zeilen zu lesen', wenn jemand mit mir spricht"
-    28: "Ich konzentriere mich normalerweise mehr auf das Gesamtbild als auf die kleinen Details"
-    29: "Ich bin nicht sehr gut darin, Telefonnummern zu merken"
-    30: "Ich bemerke normalerweise keine kleinen Veränderungen in einer Situation oder im Aussehen einer Person"
-    31: "Ich weiß, wie ich erkennen kann, ob jemand mir zuhört, dass er gelangweilt ist"
-    32: "Ich finde es leicht, mehr als eine Sache gleichzeitig zu tun"
-    33: "Wenn ich am Telefon spreche, bin ich mir nicht sicher, wann ich an der Reihe bin zu sprechen"
-    34: "Ich genieße es, spontane Dinge zu tun"
-    35: "Ich bin oft der Letzte, der den Witz versteht"
-    36: "Ich finde es einfach herauszufinden, was jemand denkt oder fühlt, nur indem ich ihn anschaue"
-    37: "Wenn es eine Unterbrechung gibt, kann ich schnell zu dem zurückkehren, was ich getan habe"
-    38: "Ich bin gut im Smalltalk"
-    39: "Die Leute sagen mir oft, dass ich immer wieder über dasselbe Thema spreche"
-    40: "Als ich jung war, habe ich es genossen, Spiele zu spielen, bei denen ich mit anderen Kindern so tat, als ob"
-    41: "Ich sammle gerne Informationen über Kategorien von Dingen (z.B. Arten von Autos, Vögeln, Zügen, Pflanzen)"
-    42: "Ich finde es schwierig, mir vorzustellen, wie es wäre, jemand anderes zu sein"
-    43: "Ich plane gerne jede Aktivität, an der ich teilnehme, sorgfältig"
-    44: "Ich genieße soziale Anlässe"
-    45: "Ich finde es schwierig, die Absichten der Menschen zu verstehen"
-    46: "Neue Situationen machen mir Angst"
-    47: "Ich genieße es, neue Leute kennenzulernen"
-    48: "Ich bin ein guter Diplomat"
-    49: "Ich bin nicht sehr gut darin, mich an die Geburtstage von Menschen zu erinnern"
-    50: "Ich finde es sehr einfach, Spiele mit Kindern zu spielen, die sich um so tun, als ob"
-
-    choice0: "Stimme überhaupt nicht zu"
-    choice1: "Stimme eher nicht zu"
-    choice2: "Stimme eher zu"
-    choice3: "Stimme zu"
-
-    backButton: "Zurück"
-    submit: "Absenden"
-
-  result:
-    label1: "Sehr unwahrscheinlich"
-    label2: "Unwahrscheinlich"
-    label3: "Wahrscheinlich"
-    label4: "Sehr wahrscheinlich"
-
-    fullLabel1: "Es ist sehr unwahrscheinlich, dass Sie Autismus haben"
-    fullLabel2: "Es ist unwahrscheinlich, dass Sie Autismus haben"
-    fullLabel3: "Es ist wahrscheinlich, dass Sie Autismus haben"
-    fullLabel4: "Es ist sehr wahrscheinlich, dass Sie Autismus haben"
-
-    description1: "Ihre Punktzahl legt nahe, dass es sehr unwahrscheinlich ist, dass Sie Autismus haben. Die Testergebnisse deuten auf minimale Anzeichen von ASD hin, und in der Regel sind keine weiteren Maßnahmen erforderlich. Wenn Sie jedoch spezifische Bedenken oder Verhaltensweisen haben, die Sorgen verursachen, kann eine Beratung durch einen Gesundheitsdienstleister zusätzliche Beruhigung und Anleitung bieten."
-    description2: "Ihre Punktzahl zeigt an, dass es unwahrscheinlich ist, dass Sie Autismus haben. Die Anzeichen sind nicht stark oder zahlreich genug, um eine hohe Wahrscheinlichkeit von ASD zu suggerieren. Wenn Sie jedoch anhaltende Bedenken oder andere Symptome haben, könnte es dennoch sinnvoll sein, professionellen Rat einzuholen."
-    description3: "Ihre Punktzahl deutet darauf hin, dass es wahrscheinlich ist, dass Sie mehrere Anzeichen von Autismus zeigen. Obwohl nicht endgültig, deutet dies auf eine beträchtliche Möglichkeit von ASD hin. Es ist ratsam, sich zur besseren Verständnis Ihrer Situation einer detaillierten Bewertung durch einen Fachmann zu unterziehen."
-    description4: "Ihre Punktzahl deutet darauf hin, dass es sehr wahrscheinlich ist, dass Sie signifikante Anzeichen des Autismus-Spektrum-Störung (ASD) zeigen. Dies legt eine hohe Wahrscheinlichkeit von Autismus nahe, und es wird dringend empfohlen, eine umfassende Bewertung durch einen Gesundheitsdienstleister in Betracht zu ziehen, um dies weiter zu untersuchen."
-
-    shareButton: "Ergebnis teilen"
-    shareTo: "Teilen auf"
-
-    shareSubject: "Meine Autismus-Testergebnisse"
-
-    share1: "Es ist sehr unwahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!"
-    share2: "Es ist unwahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!"
-    share3: "Es ist wahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!"
-    share4: "Es ist sehr wahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!"
-    printAnswers: "Antworten drucken"
-    copyLink: "Testlink kopieren"
-
-
-
-  footer:
-    resources: "Ressourcen"
-    privacy: "Datenschutz"
-    about: "Über uns"
-    blogs: "Blogs"
-    translations: "Übersetzungen"
-
-    holding: "© 2024 — Rubynor AS - alle Rechte vorbehalten."
-
+      description1: Wir sind keine medizinischen Fachkräfte, und die auf dieser Website bereitgestellten Tools (der AQ-50-Test) dienen ausschließlich als Screening-Tools. Diese Tests sind darauf ausgelegt, Merkmale im Zusammenhang mit Autismus zu identifizieren und sind keine Diagnoseinstrumente.
+      description2: Durch die Nutzung unserer Website und der bereitgestellten Screening-Tools erkennen Sie an und stimmen zu, dass diese Tools nur zu Informations- und Unterhaltungszwecken dienen und nicht als medizinische Beratung angesehen werden sollten.
+      title: Haftungsausschluss!
+    ourTeam:
+      description: Unser Team besteht aus mehreren Softwareentwicklern, die gemeinsam daran arbeiten, Ihnen den besten Autismustest und die besten verfügbaren Ressourcen auf einer leicht verständlichen Website anzubieten. Wir sind bestrebt, kontinuierliches Lernen und Verbesserung sicherzustellen, damit unser Inhalt relevant und wertvoll bleibt.
+      title: Unser Team
+    ourVision:
+      description: Unsere Vision ist es, eine Welt zu fördern, in der Menschen mit Autismus verstanden, akzeptiert und unterstützt werden. Wir streben danach, das Bewusstsein zu erhöhen und die Inklusivität durch unseren Bildungsinhalt und praktische Werkzeuge zu fördern.
+      title: Unsere Vision
+    title: Über uns
   errors:
-    404:
-      headTitle: "404 Fehler :/"
-      title: "Seite nicht gefunden 404 :/"
-      description: "Die Seite scheint nicht zu existieren. Sie sollten zurück zur"
-      home: "Startseite"
-    422:
-      headTitle: "422 Fehler :/"
-      title: "Daten können nicht verarbeitet werden 422 :/"
-      description: "Wir konnten Ihre Daten nicht verarbeiten. Versuchen Sie es erneut, indem Sie zur"
-      home: "Startseite"
-    500:
-      headTitle: "500 Fehler :/"
-      title: "Etwas ist schiefgelaufen 500 :/"
-      description: "Bei uns ist etwas schiefgelaufen. Versuchen Sie es erneut, indem Sie zur"
-      home: "Startseite"
+    '404':
+      description: Die Seite scheint nicht zu existieren. Sie sollten zurück zur
+      headTitle: 404 Fehler :/
+      home: Startseite
+      title: Seite nicht gefunden 404 :/
+    '422':
+      description: Wir konnten Ihre Daten nicht verarbeiten. Versuchen Sie es erneut, indem Sie zur
+      headTitle: 422 Fehler :/
+      home: Startseite
+      title: Daten können nicht verarbeitet werden 422 :/
+    '500':
+      description: Bei uns ist etwas schiefgelaufen. Versuchen Sie es erneut, indem Sie zur
+      headTitle: 500 Fehler :/
+      home: Startseite
+      title: Etwas ist schiefgelaufen 500 :/
+  faq:
+    answer1: Der Test ist nur ein Screening-Tool. Wenn Sie eine hohe Punktzahl erreichen, empfehlen wir Ihnen, eine Bewertung durch einen Gesundheitsdienstleister für weitere Untersuchungen in Betracht zu ziehen.
+    answer2: 'Wir verwenden einen bekannten Autismustest namens AQ-50. Er wurde vom Autismus-Forschungszentrum an der Universität Cambridge entwickelt. Für weitere Informationen können Sie das Paper einsehen: '
+    answer3: Ja, wir legen Wert auf Ihre Privatsphäre und Sicherheit. Wir sammeln keine persönlichen Daten. Wir verwenden eine Software eines Drittanbieters, Plausible, um anonymisierte Verkehrsdaten zu sammeln, um sicherzustellen, dass Ihre persönlichen Informationen vollständig privat bleiben.
+    answer4: Eine hohe Punktzahl beim Autismustest deutet darauf hin, dass Sie einige Merkmale im Zusammenhang mit Autismus aufweisen könnten. Es wird empfohlen, eine umfassende Bewertung durch einen Gesundheitsdienstleister durchzuführen, um diese Möglichkeit weiter zu erkunden.
+    answer5: 'Bitte kontaktieren Sie uns unter: '
+    answer6: 'Der beste Weg, um in Ihre eigene Sprache zu übersetzen, ist über GitHub. Übersetzen Sie die Fragen und wir fügen sie unserer Website hinzu. Besuchen Sie unsere GitHub-Seite: '
+    answer7: 'Unser Code ist Open Source und online verfügbar. Sie können ihn hier besuchen: '
+    question1: Was bedeutet meine Autismustest-Punktzahl?
+    question2: Wo finde ich weitere Informationen über den Autismustest?
+    question3: Sind meine Daten privat und sicher?
+    question4: Was passiert, wenn ich beim Autismustest eine hohe Punktzahl erreiche?
+    question5: Ich habe einen Übersetzungsfehler gefunden, was soll ich tun?
+    question6: Ich sehe meine Sprache nicht, wo soll ich sie hinzufügen?
+    question7: Wo finde ich den Code?
+  flag_emoji: "🇩🇪"
+  footer:
+    about: Über uns
+    blogs: Blogs
+    holding: "© 2024 — Rubynor AS - alle Rechte vorbehalten."
+    privacy: Datenschutz
+    resources: Ressourcen
+    translations: Übersetzungen
+  header:
+    description: Machen Sie unseren kostenlosen Online-Autismustest für eine schnelle und genaue Bewertung. Unser AQ-50 Autismustest vom Autism Research Center garantiert zuverlässige Ergebnisse.
+    title: Kostenloser Autismus-Test
+  home:
+    blogSectionTitle: Neuester Blog
+    button1: Test starten
+    button2: Über uns
+    description: Machen Sie unseren schnellen und genauen Autismustest. Der Autismustest wird AQ-50 genannt und gilt als zuverlässiges Screening-Werkzeug.
+    madeBy: Test von der Universität Cambridge
+    otherBlogs: Alle Blogs anzeigen
+    stats:
+      numberOfTestsTaken: Anzahl der abgelegten Tests
+      percentageOfLikely: Prozentsatz der Leute, die wahrscheinlich erhalten haben
+      percentageOfUnlikely: Prozentsatz der Leute, die unwahrscheinlich erhalten haben
+      testsTaken: Abgelegte Tests
+    title: Machen Sie einen 10-minütigen Autismus-Test
+    whatToExpect:
+      questions:
+        description: 50 Multiple-Choice-Fragen.
+        title: Fragen
+      result:
+        description: Der Test liefert sofortiges Feedback.
+        title: Ergebnisse
+      saving:
+        description: Machen Sie eine Pause, ohne Fortschritte zu verlieren
+        title: Antworten lokal gespeichert
+      time:
+        description: Etwa 10-15 Minuten zum Abschluss.
+        title: Zeit
+      title: Was Sie erwarten können
+  language_name: Deutsch
+  language_phrase: Machen Sie den Autismus Test auf Deutsch
+  navigation:
+    aboutButton: Über uns
+    homeButton: Startseite
+    takeTestButton: Test machen
+  privacy:
+    aboutData:
+      description: Wir sammeln keine Daten über Sie. Wir sammeln keine Ihrer Antworten auf den Autismustest. Wir verwenden eine Software eines Drittanbieters, Plausible, um Verkehrsdaten zu sammeln. Dies gewährleistet, dass Ihre Privatsphäre geschützt ist, während wir die notwendigen Erkenntnisse zur Verbesserung unserer Website sammeln. Plausible liefert uns anonymisierte, aggregierte Daten, sodass Ihre persönlichen Informationen vollständig privat bleiben.
+      title: Über die von uns erhobenen Daten
+    cookies:
+      description: Unsere Website verwendet keine Cookies, um Ihre Aktivitäten zu verfolgen oder personenbezogene Daten zu sammeln. Wir glauben daran, eine Browser-Erfahrung frei von invasiven Tracking-Technologien zu bieten.
+      title: Cookies
+    title: Datenschutz und Richtlinie
+  questions:
+    '1': Ich ziehe es vor, Dinge mit anderen zusammen zu tun, anstatt alleine
+    '10': In einer sozialen Gruppe kann ich leicht mehrere Gespräche verschiedener Personen verfolgen
+    '11': Ich finde soziale Situationen einfach
+    '12': Ich neige dazu, Details zu bemerken, die andere nicht bemerken
+    '13': Ich gehe lieber in eine Bibliothek als auf eine Party
+    '14': Ich finde es leicht, Geschichten zu erfinden
+    '15': Ich fühle mich mehr zu Menschen hingezogen als zu Dingen
+    '16': Ich habe oft sehr starke Interessen, über die ich aufgebracht bin, wenn ich ihnen nicht nachgehen kann
+    '17': Ich mag Smalltalk
+    '18': Wenn ich spreche, ist es für andere nicht immer leicht, dazwischen zu kommen
+    '19': Ich bin fasziniert von Zahlen
+    '2': Ich ziehe es vor, Dinge immer auf die gleiche Weise zu tun
+    '20': Wenn ich eine Geschichte lese, finde ich es schwierig, die Absichten der Charaktere herauszufinden
+    '21': Ich mag es nicht besonders, Fiktion zu lesen
+    '22': Ich finde es schwer, neue Freunde zu finden
+    '23': Ich bemerke ständig Muster in Dingen
+    '24': Ich gehe lieber ins Theater als ins Museum
+    '25': Es stört mich nicht, wenn meine tägliche Routine gestört wird
+    '26': Ich finde oft heraus, dass ich nicht weiß, wie ich ein Gespräch am Laufen halten soll
+    '27': Ich finde es leicht, 'zwischen den Zeilen zu lesen', wenn jemand mit mir spricht
+    '28': Ich konzentriere mich normalerweise mehr auf das Gesamtbild als auf die kleinen Details
+    '29': Ich bin nicht sehr gut darin, Telefonnummern zu merken
+    '3': Wenn ich versuche, mir etwas vorzustellen, finde ich es sehr einfach, ein Bild in meinem Kopf zu erstellen
+    '30': Ich bemerke normalerweise keine kleinen Veränderungen in einer Situation oder im Aussehen einer Person
+    '31': Ich weiß, wie ich erkennen kann, ob jemand mir zuhört, dass er gelangweilt ist
+    '32': Ich finde es leicht, mehr als eine Sache gleichzeitig zu tun
+    '33': Wenn ich am Telefon spreche, bin ich mir nicht sicher, wann ich an der Reihe bin zu sprechen
+    '34': Ich genieße es, spontane Dinge zu tun
+    '35': Ich bin oft der Letzte, der den Witz versteht
+    '36': Ich finde es einfach herauszufinden, was jemand denkt oder fühlt, nur indem ich ihn anschaue
+    '37': Wenn es eine Unterbrechung gibt, kann ich schnell zu dem zurückkehren, was ich getan habe
+    '38': Ich bin gut im Smalltalk
+    '39': Die Leute sagen mir oft, dass ich immer wieder über dasselbe Thema spreche
+    '4': Ich vertiefe mich oft so sehr in eine Sache, dass ich andere Dinge aus den Augen verliere
+    '40': Als ich jung war, habe ich es genossen, Spiele zu spielen, bei denen ich mit anderen Kindern so tat, als ob
+    '41': Ich sammle gerne Informationen über Kategorien von Dingen (z.B. Arten von Autos, Vögeln, Zügen, Pflanzen)
+    '42': Ich finde es schwierig, mir vorzustellen, wie es wäre, jemand anderes zu sein
+    '43': Ich plane gerne jede Aktivität, an der ich teilnehme, sorgfältig
+    '44': Ich genieße soziale Anlässe
+    '45': Ich finde es schwierig, die Absichten der Menschen zu verstehen
+    '46': Neue Situationen machen mir Angst
+    '47': Ich genieße es, neue Leute kennenzulernen
+    '48': Ich bin ein guter Diplomat
+    '49': Ich bin nicht sehr gut darin, mich an die Geburtstage von Menschen zu erinnern
+    '5': Ich bemerke oft kleine Geräusche, die andere nicht bemerken
+    '50': Ich finde es sehr einfach, Spiele mit Kindern zu spielen, die sich um so tun, als ob
+    '6': Ich bemerke normalerweise Autokennzeichen oder ähnliche Informationsketten
+    '7': Andere Leute sagen mir oft, dass das, was ich gesagt habe, unhöflich ist, obwohl ich denke, dass es höflich ist
+    '8': Wenn ich eine Geschichte lese, kann ich mir leicht vorstellen, wie die Charaktere aussehen könnten
+    '9': Ich bin fasziniert von Daten
+    backButton: Zurück
+    choice0: Stimme überhaupt nicht zu
+    choice1: Stimme eher nicht zu
+    choice2: Stimme eher zu
+    choice3: Stimme zu
+    submit: Absenden
+  result:
+    copyLink: Testlink kopieren
+    description1: Ihre Punktzahl legt nahe, dass es sehr unwahrscheinlich ist, dass Sie Autismus haben. Die Testergebnisse deuten auf minimale Anzeichen von ASD hin, und in der Regel sind keine weiteren Maßnahmen erforderlich. Wenn Sie jedoch spezifische Bedenken oder Verhaltensweisen haben, die Sorgen verursachen, kann eine Beratung durch einen Gesundheitsdienstleister zusätzliche Beruhigung und Anleitung bieten.
+    description2: Ihre Punktzahl zeigt an, dass es unwahrscheinlich ist, dass Sie Autismus haben. Die Anzeichen sind nicht stark oder zahlreich genug, um eine hohe Wahrscheinlichkeit von ASD zu suggerieren. Wenn Sie jedoch anhaltende Bedenken oder andere Symptome haben, könnte es dennoch sinnvoll sein, professionellen Rat einzuholen.
+    description3: Ihre Punktzahl deutet darauf hin, dass es wahrscheinlich ist, dass Sie mehrere Anzeichen von Autismus zeigen. Obwohl nicht endgültig, deutet dies auf eine beträchtliche Möglichkeit von ASD hin. Es ist ratsam, sich zur besseren Verständnis Ihrer Situation einer detaillierten Bewertung durch einen Fachmann zu unterziehen.
+    description4: Ihre Punktzahl deutet darauf hin, dass es sehr wahrscheinlich ist, dass Sie signifikante Anzeichen des Autismus-Spektrum-Störung (ASD) zeigen. Dies legt eine hohe Wahrscheinlichkeit von Autismus nahe, und es wird dringend empfohlen, eine umfassende Bewertung durch einen Gesundheitsdienstleister in Betracht zu ziehen, um dies weiter zu untersuchen.
+    fullLabel1: Es ist sehr unwahrscheinlich, dass Sie Autismus haben
+    fullLabel2: Es ist unwahrscheinlich, dass Sie Autismus haben
+    fullLabel3: Es ist wahrscheinlich, dass Sie Autismus haben
+    fullLabel4: Es ist sehr wahrscheinlich, dass Sie Autismus haben
+    label1: Sehr unwahrscheinlich
+    label2: Unwahrscheinlich
+    label3: Wahrscheinlich
+    label4: Sehr wahrscheinlich
+    printAnswers: Antworten drucken
+    share1: Es ist sehr unwahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!
+    share2: Es ist unwahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!
+    share3: Es ist wahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!
+    share4: Es ist sehr wahrscheinlich, dass ich Autismus habe. Machen Sie den Test, um zu sehen, wie wahrscheinlich es bei Ihnen ist!
+    shareButton: Ergebnis teilen
+    shareSubject: Meine Autismus-Testergebnisse
+    shareTo: Teilen auf
+  scores:
+    show:
+      other_tests: Weitere Tests
+  termsOfUse:
+    acceptOfTerms:
+      text: Durch die Nutzung unserer Website und der bereitgestellten Tools erkennen Sie an, dass Sie diese Bedingungen und Konditionen gelesen, verstanden und akzeptiert haben.
+      title: Annahme der Bedingungen
+    changesToTerms:
+      text: Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten sofort nach ihrer Veröffentlichung auf unserer Website in Kraft. Ihre fortgesetzte Nutzung der Seite nach solchen Änderungen stellt Ihre Annahme der neuen Bedingungen dar.
+      title: Änderungen der Bedingungen
+    contactInformation:
+      text: Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter fogado@rubynor.com.
+      title: Kontaktinformationen
+    descriptionOfServices:
+      text: Wir bieten Ressourcen und Tools im Zusammenhang mit Autismus-Spektrum-Störung (ASD) an, einschließlich des AQ-50-Tests. Diese Tools dienen ausschließlich als Screening-Tools zur Identifizierung von Merkmalen, die mit Autismus verbunden sind, und sind keine diagnostischen Instrumente.
+      title: Beschreibung der Dienstleistungen
+    disclaimer:
+      text: Wir sind keine medizinischen Fachkräfte, und die auf dieser Website bereitgestellten Informationen, einschließlich des AQ-50-Tests, dienen ausschließlich Informations- und Unterhaltungszwecken. Diese Tools sollten nicht als medizinische Beratung, Diagnose oder Behandlung betrachtet werden. Suchen Sie immer den Rat eines qualifizierten Gesundheitsdienstleisters bei Fragen zu einer medizinischen Erkrankung.
+      title: Haftungsausschluss
+    governingLaw:
+      text: Diese Bedingungen und Konditionen unterliegen den Gesetzen von [Ihr Land/Ihr Bundesland] und werden in Übereinstimmung mit diesen ausgelegt, und Sie stimmen zu, sich der ausschließlichen Zuständigkeit der in [Ihr Land/Ihr Bundesland] gelegenen Gerichte zur Beilegung von Streitigkeiten zu unterwerfen.
+      title: Geltendes Recht
+    limitationOfLiability:
+      text: In keinem Fall haften wir für direkte, indirekte, zufällige, spezielle, Folge- oder exemplarische Schäden, einschließlich, aber nicht beschränkt auf Schäden für entgangenen Gewinn, Goodwill, Nutzung, Daten oder andere immaterielle Verluste, die aus der Nutzung oder der Unfähigkeit zur Nutzung unserer Website oder Dienstleistungen resultieren.
+      title: Haftungsbeschränkung
+    privacy:
+      text: Ihre Nutzung unserer Website unterliegt auch unserer Datenschutzrichtlinie. Bitte überprüfen Sie unsere Datenschutzrichtlinie, um Informationen darüber zu erhalten, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen.
+      title: Datenschutz
+    title: Nutzungsbedingungen
+    titleText: Willkommen auf unserer Website. Durch den Zugriff und die Nutzung unserer Seite stimmen Sie zu, die folgenden Nutzungsbedingungen einzuhalten und an diese gebunden zu sein. Bitte überprüfen Sie diese Bedingungen sorgfältig. Wenn Sie diesen Bedingungen nicht zustimmen, sollten Sie diese Seite nicht nutzen.
+    useOfContent:
+      text: Sie dürfen Materialien von dieser Seite für Ihren persönlichen, nicht-kommerziellen Gebrauch abrufen, herunterladen und ausdrucken. Sie dürfen keine Informationen oder Inhalte von dieser Seite ohne unsere vorherige schriftliche Zustimmung ändern, reproduzieren, verteilen, veröffentlichen, lizenzieren, abgeleitete Werke erstellen, übertragen oder verkaufen.
+      title: Nutzung von Inhalten
+  translation:
+    description: Wir möchten, dass unser Inhalt so viele Menschen wie möglich erreicht, daher verwenden wir ChatGPT für Übersetzungen. Obwohl er normalerweise gute Arbeit leistet, kann er gelegentlich Fehler machen. Wenn Sie Fehler bemerken, würden wir Ihre Hilfe schätzen!
+    description1: 'Wenn Sie in unseren Übersetzungen etwas Falsches bemerken, lassen Sie es uns bitte wissen! Ihr Feedback ist von unschätzbarem Wert, um sicherzustellen, dass unser Inhalt klar und genau ist. Kontaktieren Sie uns unter: '
+    description2: Wir sind bestrebt, hochwertige Übersetzungen anzubieten, und schätzen Ihre Zusammenarbeit in diesem Bemühen. Gemeinsam können wir sicherstellen, dass unser Inhalt für so viele Menschen wie möglich zugänglich und hilfreich ist!
+    header1: Helfen Sie uns, uns zu verbessern!
+    header2: Unsere Verpflichtung
+    takeAutismTest: Sie können den Autismus-Test auf Deutsch machen
+    title: Übersetzungen

@@ -5,6 +5,10 @@ class Score < ApplicationRecord
 
   before_create :set_slug
 
+  def score_explanation
+    @score_explaination ||= ScoreExplanation.find_by(test: test, min_score: ..score, max_score: score..)
+  end
+
   def score_percent
     (score-test.min_score) * 100.0 / (test.max_score-test.min_score)
   end

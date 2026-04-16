@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 ruby "3.3.0"
 
+gem 'i18n-tasks', '~> 1.1.2', group: :development
+gem 'deepl-rb', require: 'deepl'
+gem "mobility", "~> 1.3"
 
 gem 'invisible_captcha', '~> 2.3'
 gem 'rails-i18n'
@@ -26,9 +29,6 @@ gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
-
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
 
 group :production do
   gem "pg"

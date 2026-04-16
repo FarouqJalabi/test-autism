@@ -4,11 +4,13 @@ export default class extends Controller {
   connect() {
     // global vars
     this.order = Number(this.element.dataset.order);
+    this.test = Number(this.element.dataset.test);
     this.totalQuestions = Number(this.element.dataset.total);
-    this.localStorageId = "question_"+this.order.toString()
+    this.oldLocalStorageId = "question_"+this.order.toString()
+    this.localStorageId = `test_${this.test}_question_${this.order.toString()}`
+    
 
-
-
+    this.renameOldSavedAnswers() // TODO remove when good time has passed
     this.handleSavedAnswers()
     
     let lastQuestion = this.order === this.totalQuestions
@@ -84,7 +86,15 @@ export default class extends Controller {
   // Saving answer change to local storage
   save_change() {
     const checked_radio = this.element.querySelector('input[type="radio"]:checked')
-    localStorage.setItem("question_"+this.order.toString(), checked_radio.id)
+    localStorage.setItem(this.localStorageId, checked_radio.id)
+  }
+
+  renameOldSavedAnswers() {
+    let oldItemExists = localStorage.getItem(this.oldLocalStorageId) !== null
+    if (oldItemExists) {
+      localStorage.setItem(this.localStorageId, localStorage.getItem(this.oldLocalStorageId))
+      localStorage.removeItem(this.oldLocalStorageId)
+    }
   }
 
   handleSavedAnswers() {
@@ -103,7 +113,7 @@ export default class extends Controller {
     }
 
     let previousQuestionOrder= this.order-1
-    let previousQuestionLocalStorageId= "question_"+previousQuestionOrder.toString()
+    let previousQuestionLocalStorageId= `test_${this.test}_question_`+previousQuestionOrder.toString()
     let hasAnsweredPreviousQuestion = localStorage.getItem(previousQuestionLocalStorageId) !== null
     let lastQuestion = this.order === this.totalQuestions
 

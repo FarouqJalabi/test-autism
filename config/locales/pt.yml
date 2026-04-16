@@ -1,272 +1,221 @@
+---
 pt:
-  language_name: "Português"
-  language_phrase: "Faça o teste de autismo em português"
-  flag_emoji: "🇵🇹"
-
-  header:
-    title: "Teste Gratuito de Autismo"
-    description: "Faça o nosso teste gratuito de autismo online para uma avaliação rápida e precisa. Nosso teste de autismo AQ-50 do Autism Research Center garante resultados confiáveis."
-
-  navigation:
-    homeButton: "Início"
-    takeTestButton: "Fazer teste"
-    aboutButton: "Sobre"
-
-  home:
-    title: "Faça um Teste de Autismo de 10 Minutos"
-    description: "Realize nosso teste de autismo rápido e preciso. O teste de autismo é chamado AQ-50 e é conhecido por ser uma ferramenta de triagem confiável."
-
-    button1: "Iniciar teste"
-    button2: "Sobre nós"
-
-    whatToExpect:
-      title: "O que Esperar"
-      questions:
-        title: "Perguntas"
-        description: "50 perguntas de múltipla escolha."
-
-      time:
-        title: "Tempo"
-        description: "Aproximadamente 10-15 minutos para completar."
-
-      result:
-        title: "Resultados"
-        description: "O teste retorna com feedback imediato."
-
-      saving:
-        title: "Respostas salvas localmente"
-        description: "Faça uma pausa sem perder o progresso"
-
-    
-    stats:
-      testsTaken: "Testes realizados"
-      numberOfTestsTaken: "Número de testes realizados"
-      percentageOfUnlikely: "Porcentagem de pessoas que obtiveram improvável"
-      percentageOfLikely: "Porcentagem de pessoas que obtiveram provável"
-
-    
-    madeBy: "Teste feito pela Universidade de Cambridge"
-    blogSectionTitle: "Último Blog"
-    otherBlogs: "Ver todos os blogs"
-
   aboutUs:
-    title: "Sobre Nós"
-    description: "Somos uma equipe dedicada e apaixonada por fornecer um teste de autismo confiável e acessível. Nossa missão é ajudar indivíduos e famílias a entender melhor o transtorno do espectro autista por meio de recursos e ferramentas precisos, baseados em evidências. Nosso objetivo é criar uma comunidade de apoio onde as pessoas possam encontrar as informações necessárias para navegar em suas jornadas com o autismo."
-    
-    ourVision:
-      title: "Nossa Visão"
-      description: "Nossa visão é promover um mundo onde pessoas com autismo sejam compreendidas, aceitas e apoiadas. Nos esforçamos para aumentar a conscientização e promover a inclusão por meio de nosso conteúdo educacional e ferramentas práticas."
-
-    ourTeam:
-      title: "Nossa Equipe"
-      description: "Nossa equipe é composta por vários desenvolvedores de software trabalhando juntos para trazer o melhor teste de autismo e recursos disponíveis para um site fácil de entender. Estamos comprometidos com a aprendizagem contínua e melhoria para garantir que nosso conteúdo permaneça relevante e valioso."
-
     contactUs:
-      title: "Entre em Contato"
-      description: "Seja para dizer oi ou relatar um problema, adoraremos ouvir você! Seu feedback nos ajuda a melhorar e atendê-lo melhor. Entre em contato conosco em "
-
+      description: 'Seja para dizer oi ou relatar um problema, adoraremos ouvir você! Seu feedback nos ajuda a melhorar e atendê-lo melhor. Entre em contato conosco em '
+      title: Entre em Contato
+    description: Somos uma equipe dedicada e apaixonada por fornecer um teste de autismo confiável e acessível. Nossa missão é ajudar indivíduos e famílias a entender melhor o transtorno do espectro autista por meio de recursos e ferramentas precisos, baseados em evidências. Nosso objetivo é criar uma comunidade de apoio onde as pessoas possam encontrar as informações necessárias para navegar em suas jornadas com o autismo.
     disclaimer:
-      title: "Aviso Legal!"
-      description1: "Não somos profissionais médicos, e as ferramentas fornecidas neste site (o teste AQ-50) são destinadas exclusivamente como ferramentas de triagem. Esses testes são projetados para ajudar a identificar traços associados ao autismo e não são instrumentos de diagnóstico."
-      description2: "Ao usar nosso site e as ferramentas de triagem fornecidas, você reconhece e concorda que essas ferramentas são apenas para fins informativos e de entretenimento e não devem ser consideradas como aconselhamento médico."
-
-  privacy:
-    title: "Política de Privacidade"
-    aboutData:
-      title: "Sobre os Dados que Coletamos"
-      description: "Não coletamos nenhum dado sobre você. Não coletamos suas respostas no teste de autismo. Usamos um software de terceiros, Plausible, para coletar dados de tráfego. Isso garante que sua privacidade seja protegida enquanto obtemos as informações necessárias para melhorar nosso site. O Plausible nos fornece dados anonimizados e agregados, portanto suas informações pessoais permanecem completamente privadas."
-
-    cookies:
-      title: "Cookies"
-      description: "Nosso site não utiliza cookies para rastrear sua atividade ou coletar informações pessoais. Acreditamos em proporcionar uma experiência de navegação livre de tecnologias invasivas de rastreamento."
-
-
-  translation:
-    title: "Traduções"
-    description: "Queremos que nosso conteúdo alcance o maior número possível de pessoas, então usamos o ChatGPT para traduções. Embora geralmente faça um ótimo trabalho, ocasionalmente pode cometer erros. Se você notar algum erro, agradecemos sua ajuda!"
-
-    header1: "Ajude-nos a Melhorar!"
-    description1: "Se você encontrar algo errado em nossas traduções, por favor nos avise! Seu feedback é inestimável para garantir que nosso conteúdo seja claro e preciso. Entre em contato conosco em: "
-
-    header2: "Nosso Compromisso"
-    description2: "Estamos comprometidos em fornecer traduções de alta qualidade e agradecemos sua colaboração neste esforço. Juntos, podemos garantir que nosso conteúdo seja acessível e útil para o maior número possível de pessoas!"
-
-    takeAutismTest: "Você pode fazer o teste de autismo em português"
-
-
-  faq:
-    question1: "O que significa a pontuação do meu teste de autismo?"
-    answer1: "O teste é apenas uma ferramenta de triagem. Se você obter uma pontuação alta, recomendamos que procure uma avaliação por um profissional de saúde para investigação adicional."
-
-    question2: "Onde posso encontrar mais informações sobre o teste de autismo?"
-    answer2: "Usamos um teste de autismo conhecido chamado AQ-50. Ele é desenvolvido pelo centro de pesquisa de autismo da Universidade de Cambridge. Para mais informações, você pode ver o artigo: "
-
-    question3: "Meus dados são privados e seguros?"
-    answer3: "Sim, priorizamos sua privacidade e segurança. Não coletamos dados pessoais. Usamos um software de terceiros, Plausible, para coletar dados de tráfego anonimizados, garantindo que suas informações pessoais permaneçam completamente privadas."
-
-    question4: "O que acontece se eu obtiver uma pontuação alta no teste de autismo?"
-    answer4: "Uma pontuação alta no teste de autismo sugere que você pode ter alguns traços associados ao autismo. É recomendável procurar uma avaliação profissional para um diagnóstico."
-
-    question5: "Encontrei um erro de tradução, o que devo fazer?"
-    answer5: "Por favor, entre em contato conosco em: "
-
-    question6: "Não vejo meu idioma, onde devo adicioná-lo?"
-    answer6: "A melhor maneira de traduzir para seu próprio idioma é fazer isso via GitHub. Traduza as perguntas e nós as adicionaremos ao nosso site. Veja nosso site no GitHub: "
-
-    question7: "Onde posso encontrar o código?"
-    answer7: "Nosso código é de código aberto e está disponível online. Você pode visitá-lo aqui: "
-  
-  termsOfUse:
-    title: "Termos de Uso"
-    titleText: "Bem-vindo ao nosso site. Ao acessar e usar nosso site, você concorda em cumprir e estar sujeito aos seguintes termos e condições de uso. Por favor, revise estes termos cuidadosamente. Se você não concordar com estes termos, não deve usar este site."
-
-    acceptOfTerms:
-      title: "Aceitação dos Termos"
-      text: "Ao usar nosso site e as ferramentas fornecidas, você reconhece que leu, entendeu e concorda em estar vinculado por estes termos e condições."
-
-    descriptionOfServices:
-      title: "Descrição dos Serviços"
-      text: "Fornecemos recursos e ferramentas relacionados ao transtorno do espectro autista (TEA), incluindo o teste AQ-50. Essas ferramentas são destinadas apenas como ferramentas de triagem para ajudar a identificar traços associados ao autismo e não são instrumentos de diagnóstico."
-
-    disclaimer:
-      title: "Isenção de responsabilidade"
-      text: "Não somos profissionais de saúde e as informações fornecidas neste site, incluindo o teste AQ-50, são apenas para fins informativos e de entretenimento. Essas ferramentas não devem ser consideradas conselhos médicos, diagnóstico ou tratamento. Sempre procure o conselho de um profissional de saúde qualificado com quaisquer perguntas que você possa ter sobre uma condição médica."
-
-    useOfContent:
-      title: "Uso de Conteúdo"
-      text: "Você pode acessar, baixar e imprimir materiais deste site para seu uso pessoal e não comercial. Você não pode modificar, reproduzir, distribuir, publicar, licenciar, criar trabalhos derivados, transferir ou vender qualquer informação ou conteúdo obtido deste site sem nosso consentimento prévio por escrito."
-
-    privacy:
-      title: "Privacidade"
-      text: "Seu uso de nosso site também está sujeito à nossa Política de Privacidade. Por favor, revise nossa Política de Privacidade para obter informações sobre como coletamos, usamos e protegemos suas informações pessoais."
-
-    limitationOfLiability:
-      title: "Limitação de Responsabilidade"
-      text: "Em nenhum caso seremos responsáveis por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou exemplares, incluindo, mas não se limitando a, danos por perda de lucros, goodwill, uso, dados ou outras perdas intangíveis resultantes do uso ou incapacidade de usar nosso site ou serviços."
-
-    changesToTerms:
-      title: "Alterações aos Termos"
-      text: "Reservamo-nos o direito de modificar estes termos a qualquer momento. Quaisquer alterações serão efetivas imediatamente após sua publicação em nosso site. Seu uso continuado do site após tais alterações constitui sua aceitação dos novos termos."
-
-    governingLaw:
-      title: "Lei Aplicável"
-      text: "Estes termos e condições são regidos e interpretados de acordo com as leis de [Seu país/estado], e você concorda em se submeter à jurisdição exclusiva dos tribunais localizados em [Seu país/estado] para a resolução de quaisquer disputas."
-
-    contactInformation:
-      title: "Informações de Contato"
-      text: "Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco em fogado@rubynor.com."
-
-  questions:
-    1: "Prefiro fazer as coisas com outras pessoas em vez de sozinho"
-    2: "Prefiro fazer as coisas da mesma maneira repetidamente"
-    3: "Se eu tentar imaginar algo, acho muito fácil criar uma imagem na minha mente"
-    4: "Frequentemente me absorvo tanto em uma coisa que perco de vista outras coisas"
-    5: "Muitas vezes noto pequenos sons que os outros não percebem"
-    6: "Costumo notar placas de carro ou informações semelhantes"
-    7: "As pessoas frequentemente me dizem que o que eu disse é rude, mesmo que eu ache que seja educado"
-    8: "Quando estou lendo uma história, consigo imaginar facilmente como os personagens podem ser"
-    9: "Sou fascinado por datas"
-    10: "Em um grupo social, consigo acompanhar facilmente as conversas de várias pessoas diferentes"
-    11: "Acho fácil situações sociais"
-    12: "Tendo a notar detalhes que os outros não notam"
-    13: "Prefiro ir a uma biblioteca do que a uma festa"
-    14: "Acho fácil inventar histórias"
-    15: "Sinto-me mais atraído por pessoas do que por coisas"
-    16: "Tendo a ter interesses muito fortes, pelos quais fico chateado se não posso seguir"
-    17: "Gosto de conversa fiada social"
-    18: "Quando estou falando, nem sempre é fácil para os outros conseguirem falar"
-    19: "Sou fascinado por números"
-    20: "Quando estou lendo uma história, acho difícil entender as intenções dos personagens"
-    21: "Não gosto muito de ler ficção"
-    22: "Acho difícil fazer novos amigos"
-    23: "Sempre noto padrões nas coisas"
-    24: "Prefiro ir ao teatro do que a um museu"
-    25: "Não me incomoda se minha rotina diária for perturbada"
-    26: "Frequentemente descubro que não sei como manter uma conversa"
-    27: "Acho fácil 'ler nas entrelinhas' quando alguém está falando comigo"
-    28: "Costumo concentrar-me mais na imagem completa do que nos pequenos detalhes"
-    29: "Não sou muito bom em lembrar números de telefone"
-    30: "Normalmente não percebo pequenas mudanças em uma situação ou aparência de uma pessoa"
-    31: "Sei como perceber se alguém está ficando entediado ao me ouvir"
-    32: "Acho fácil fazer mais de uma coisa ao mesmo tempo"
-    33: "Quando estou ao telefone, não tenho certeza de quando é minha vez de falar"
-    34: "Gosto de fazer coisas espontaneamente"
-    35: "Muitas vezes sou o último a entender a piada"
-    36: "Acho fácil descobrir o que alguém está pensando ou sentindo apenas olhando para o rosto deles"
-    37: "Se houver uma interrupção, consigo voltar rapidamente ao que estava fazendo"
-    38: "Sou bom em conversa fiada social"
-    39: "As pessoas frequentemente me dizem que falo repetidamente sobre a mesma coisa"
-    40: "Quando era jovem, gostava de brincar de jogos envolvendo fingir com outras crianças"
-    41: "Gosto de coletar informações sobre categorias de coisas (por exemplo, tipos de carros, pássaros, trens, plantas)"
-    42: "Acho difícil imaginar como seria ser outra pessoa"
-    43: "Gosto de planejar cuidadosamente as atividades das quais participo"
-    44: "Gosto de ocasiões sociais"
-    45: "Acho difícil entender as intenções das pessoas"
-    46: "Novas situações me deixam ansioso"
-    47: "Gosto de conhecer pessoas novas"
-    48: "Sou um bom diplomata"
-    49: "Não sou muito bom em lembrar a data de nascimento das pessoas"
-    50: "Acho muito fácil brincar de jogos com crianças que envolvem fingir"
-
-    choice0: "Discordo"
-    choice1: "Discordo um pouco"
-    choice2: "Concordo um pouco"
-    choice3: "Concordo"
-
-    backButton: "Botão de volta"
-    submit: "Enviar"
-
-  result:
-    label1: "Muito improvável"
-    label2: "Improvável"
-    label3: "Provável"
-    label4: "Muito provável"
-
-    fullLabel1: "É muito improvável que você tenha autismo"
-    fullLabel2: "É improvável que você tenha autismo"
-    fullLabel3: "É provável que você tenha autismo"
-    fullLabel4: "É muito provável que você tenha autismo"
-
-    description1: "Sua pontuação sugere que é muito improvável que você tenha autismo. Os resultados do teste indicam sinais mínimos de TEA, e geralmente não são necessárias outras ações. No entanto, se você tiver preocupações específicas ou comportamentos que causam preocupação, uma consulta com um profissional de saúde pode fornecer tranquilidade e orientação adicionais."
-    description2: "Sua pontuação indica que é improvável que você tenha autismo. Os sinais não são fortes ou numerosos o suficiente para sugerir uma alta probabilidade de TEA. No entanto, se você tiver preocupações contínuas ou outros sintomas, ainda pode valer a pena buscar conselho profissional."
-    description3: "Sua pontuação sugere que é provável que você apresente vários sinais de autismo. Embora não seja definitivo, indica uma possibilidade considerável de TEA. Consultar um profissional para uma avaliação detalhada é aconselhável para entender melhor sua condição."
-    description4: "Sua pontuação indica que é muito provável que você exiba sinais significativos do transtorno do espectro autista (TEA). Isso sugere uma alta probabilidade de autismo, e é altamente recomendável que você busque uma avaliação abrangente por um profissional de saúde para explorar essa possibilidade mais a fundo."
-
-    shareButton: "Compartilhar Resultado"
-
-    shareTo: "Compartilhar em"
-    shareSubject: "Meus resultados do teste de autismo"
-
-    share1: "É muito improvável que eu tenha autismo. Faça o teste para ver como é provável você!"
-    share2: "É improvável que eu tenha autismo. Faça o teste para ver como é provável você!"
-    share3: "É provável que eu tenha autismo. Faça o teste para ver como é provável você!"
-    share4: "É muito provável que eu tenha autismo. Faça o teste para ver como é provável você!"
-    printAnswers: "Imprimir respostas"
-    copyLink: "Copiar link do teste"
-
-
-  footer:
-    resources: "Recursos"
-    privacy: "Privacidade"
-    about: "Sobre"
-    blogs: "Blogs"
-    translations: "Traduções"
-
-    holding: "© 2024 — Rubynor AS - todos os direitos reservados."
-
+      description1: Não somos profissionais médicos, e as ferramentas fornecidas neste site (o teste AQ-50) são destinadas exclusivamente como ferramentas de triagem. Esses testes são projetados para ajudar a identificar traços associados ao autismo e não são instrumentos de diagnóstico.
+      description2: Ao usar nosso site e as ferramentas de triagem fornecidas, você reconhece e concorda que essas ferramentas são apenas para fins informativos e de entretenimento e não devem ser consideradas como aconselhamento médico.
+      title: Aviso Legal!
+    ourTeam:
+      description: Nossa equipe é composta por vários desenvolvedores de software trabalhando juntos para trazer o melhor teste de autismo e recursos disponíveis para um site fácil de entender. Estamos comprometidos com a aprendizagem contínua e melhoria para garantir que nosso conteúdo permaneça relevante e valioso.
+      title: Nossa Equipe
+    ourVision:
+      description: Nossa visão é promover um mundo onde pessoas com autismo sejam compreendidas, aceitas e apoiadas. Nos esforçamos para aumentar a conscientização e promover a inclusão por meio de nosso conteúdo educacional e ferramentas práticas.
+      title: Nossa Visão
+    title: Sobre Nós
   errors:
-    404:
-      headTitle: "Erro 404 :/"
-      title: "Não é possível encontrar a página 404 :/"
-      description: "A página parece não existir. Você deve voltar para a"
-      home: "página inicial"
-    422:
-      headTitle: "Erro 422 :/"
-      title: "Não é possível processar seus dados 422 :/"
-      description: "Não conseguimos processar seus dados. Tente novamente voltando para a"
-      home: "página inicial"
-    500:
-      headTitle: "Erro 500 :/"
-      title: "Algo deu errado 500 :/"
-      description: "Algo deu errado do nosso lado. Tente novamente voltando para a"
-      home: "página inicial"
+    '404':
+      description: A página parece não existir. Você deve voltar para a
+      headTitle: Erro 404 :/
+      home: página inicial
+      title: Não é possível encontrar a página 404 :/
+    '422':
+      description: Não conseguimos processar seus dados. Tente novamente voltando para a
+      headTitle: Erro 422 :/
+      home: página inicial
+      title: Não é possível processar seus dados 422 :/
+    '500':
+      description: Algo deu errado do nosso lado. Tente novamente voltando para a
+      headTitle: Erro 500 :/
+      home: página inicial
+      title: Algo deu errado 500 :/
+  faq:
+    answer1: O teste é apenas uma ferramenta de triagem. Se você obter uma pontuação alta, recomendamos que procure uma avaliação por um profissional de saúde para investigação adicional.
+    answer2: 'Usamos um teste de autismo conhecido chamado AQ-50. Ele é desenvolvido pelo centro de pesquisa de autismo da Universidade de Cambridge. Para mais informações, você pode ver o artigo: '
+    answer3: Sim, priorizamos sua privacidade e segurança. Não coletamos dados pessoais. Usamos um software de terceiros, Plausible, para coletar dados de tráfego anonimizados, garantindo que suas informações pessoais permaneçam completamente privadas.
+    answer4: Uma pontuação alta no teste de autismo sugere que você pode ter alguns traços associados ao autismo. É recomendável procurar uma avaliação profissional para um diagnóstico.
+    answer5: 'Por favor, entre em contato conosco em: '
+    answer6: 'A melhor maneira de traduzir para seu próprio idioma é fazer isso via GitHub. Traduza as perguntas e nós as adicionaremos ao nosso site. Veja nosso site no GitHub: '
+    answer7: 'Nosso código é de código aberto e está disponível online. Você pode visitá-lo aqui: '
+    question1: O que significa a pontuação do meu teste de autismo?
+    question2: Onde posso encontrar mais informações sobre o teste de autismo?
+    question3: Meus dados são privados e seguros?
+    question4: O que acontece se eu obtiver uma pontuação alta no teste de autismo?
+    question5: Encontrei um erro de tradução, o que devo fazer?
+    question6: Não vejo meu idioma, onde devo adicioná-lo?
+    question7: Onde posso encontrar o código?
+  flag_emoji: "🇵🇹"
+  footer:
+    about: Sobre
+    blogs: Blogs
+    holding: "© 2024 — Rubynor AS - todos os direitos reservados."
+    privacy: Privacidade
+    resources: Recursos
+    translations: Traduções
+  header:
+    description: Faça o nosso teste gratuito de autismo online para uma avaliação rápida e precisa. Nosso teste de autismo AQ-50 do Autism Research Center garante resultados confiáveis.
+    title: Teste Gratuito de Autismo
+  home:
+    blogSectionTitle: Último Blog
+    button1: Iniciar teste
+    button2: Sobre nós
+    description: Realize nosso teste de autismo rápido e preciso. O teste de autismo é chamado AQ-50 e é conhecido por ser uma ferramenta de triagem confiável.
+    madeBy: Teste feito pela Universidade de Cambridge
+    otherBlogs: Ver todos os blogs
+    stats:
+      numberOfTestsTaken: Número de testes realizados
+      percentageOfLikely: Porcentagem de pessoas que obtiveram provável
+      percentageOfUnlikely: Porcentagem de pessoas que obtiveram improvável
+      testsTaken: Testes realizados
+    title: Faça um Teste de Autismo de 10 Minutos
+    whatToExpect:
+      questions:
+        description: 50 perguntas de múltipla escolha.
+        title: Perguntas
+      result:
+        description: O teste retorna com feedback imediato.
+        title: Resultados
+      saving:
+        description: Faça uma pausa sem perder o progresso
+        title: Respostas salvas localmente
+      time:
+        description: Aproximadamente 10-15 minutos para completar.
+        title: Tempo
+      title: O que Esperar
+  language_name: Português
+  language_phrase: Faça o teste de autismo em português
+  navigation:
+    aboutButton: Sobre
+    homeButton: Início
+    takeTestButton: Fazer teste
+  privacy:
+    aboutData:
+      description: Não coletamos nenhum dado sobre você. Não coletamos suas respostas no teste de autismo. Usamos um software de terceiros, Plausible, para coletar dados de tráfego. Isso garante que sua privacidade seja protegida enquanto obtemos as informações necessárias para melhorar nosso site. O Plausible nos fornece dados anonimizados e agregados, portanto suas informações pessoais permanecem completamente privadas.
+      title: Sobre os Dados que Coletamos
+    cookies:
+      description: Nosso site não utiliza cookies para rastrear sua atividade ou coletar informações pessoais. Acreditamos em proporcionar uma experiência de navegação livre de tecnologias invasivas de rastreamento.
+      title: Cookies
+    title: Política de Privacidade
+  questions:
+    '1': Prefiro fazer as coisas com outras pessoas em vez de sozinho
+    '10': Em um grupo social, consigo acompanhar facilmente as conversas de várias pessoas diferentes
+    '11': Acho fácil situações sociais
+    '12': Tendo a notar detalhes que os outros não notam
+    '13': Prefiro ir a uma biblioteca do que a uma festa
+    '14': Acho fácil inventar histórias
+    '15': Sinto-me mais atraído por pessoas do que por coisas
+    '16': Tendo a ter interesses muito fortes, pelos quais fico chateado se não posso seguir
+    '17': Gosto de conversa fiada social
+    '18': Quando estou falando, nem sempre é fácil para os outros conseguirem falar
+    '19': Sou fascinado por números
+    '2': Prefiro fazer as coisas da mesma maneira repetidamente
+    '20': Quando estou lendo uma história, acho difícil entender as intenções dos personagens
+    '21': Não gosto muito de ler ficção
+    '22': Acho difícil fazer novos amigos
+    '23': Sempre noto padrões nas coisas
+    '24': Prefiro ir ao teatro do que a um museu
+    '25': Não me incomoda se minha rotina diária for perturbada
+    '26': Frequentemente descubro que não sei como manter uma conversa
+    '27': Acho fácil 'ler nas entrelinhas' quando alguém está falando comigo
+    '28': Costumo concentrar-me mais na imagem completa do que nos pequenos detalhes
+    '29': Não sou muito bom em lembrar números de telefone
+    '3': Se eu tentar imaginar algo, acho muito fácil criar uma imagem na minha mente
+    '30': Normalmente não percebo pequenas mudanças em uma situação ou aparência de uma pessoa
+    '31': Sei como perceber se alguém está ficando entediado ao me ouvir
+    '32': Acho fácil fazer mais de uma coisa ao mesmo tempo
+    '33': Quando estou ao telefone, não tenho certeza de quando é minha vez de falar
+    '34': Gosto de fazer coisas espontaneamente
+    '35': Muitas vezes sou o último a entender a piada
+    '36': Acho fácil descobrir o que alguém está pensando ou sentindo apenas olhando para o rosto deles
+    '37': Se houver uma interrupção, consigo voltar rapidamente ao que estava fazendo
+    '38': Sou bom em conversa fiada social
+    '39': As pessoas frequentemente me dizem que falo repetidamente sobre a mesma coisa
+    '4': Frequentemente me absorvo tanto em uma coisa que perco de vista outras coisas
+    '40': Quando era jovem, gostava de brincar de jogos envolvendo fingir com outras crianças
+    '41': Gosto de coletar informações sobre categorias de coisas (por exemplo, tipos de carros, pássaros, trens, plantas)
+    '42': Acho difícil imaginar como seria ser outra pessoa
+    '43': Gosto de planejar cuidadosamente as atividades das quais participo
+    '44': Gosto de ocasiões sociais
+    '45': Acho difícil entender as intenções das pessoas
+    '46': Novas situações me deixam ansioso
+    '47': Gosto de conhecer pessoas novas
+    '48': Sou um bom diplomata
+    '49': Não sou muito bom em lembrar a data de nascimento das pessoas
+    '5': Muitas vezes noto pequenos sons que os outros não percebem
+    '50': Acho muito fácil brincar de jogos com crianças que envolvem fingir
+    '6': Costumo notar placas de carro ou informações semelhantes
+    '7': As pessoas frequentemente me dizem que o que eu disse é rude, mesmo que eu ache que seja educado
+    '8': Quando estou lendo uma história, consigo imaginar facilmente como os personagens podem ser
+    '9': Sou fascinado por datas
+    backButton: Botão de volta
+    choice0: Discordo
+    choice1: Discordo um pouco
+    choice2: Concordo um pouco
+    choice3: Concordo
+    submit: Enviar
+  result:
+    copyLink: Copiar link do teste
+    description1: Sua pontuação sugere que é muito improvável que você tenha autismo. Os resultados do teste indicam sinais mínimos de TEA, e geralmente não são necessárias outras ações. No entanto, se você tiver preocupações específicas ou comportamentos que causam preocupação, uma consulta com um profissional de saúde pode fornecer tranquilidade e orientação adicionais.
+    description2: Sua pontuação indica que é improvável que você tenha autismo. Os sinais não são fortes ou numerosos o suficiente para sugerir uma alta probabilidade de TEA. No entanto, se você tiver preocupações contínuas ou outros sintomas, ainda pode valer a pena buscar conselho profissional.
+    description3: Sua pontuação sugere que é provável que você apresente vários sinais de autismo. Embora não seja definitivo, indica uma possibilidade considerável de TEA. Consultar um profissional para uma avaliação detalhada é aconselhável para entender melhor sua condição.
+    description4: Sua pontuação indica que é muito provável que você exiba sinais significativos do transtorno do espectro autista (TEA). Isso sugere uma alta probabilidade de autismo, e é altamente recomendável que você busque uma avaliação abrangente por um profissional de saúde para explorar essa possibilidade mais a fundo.
+    fullLabel1: É muito improvável que você tenha autismo
+    fullLabel2: É improvável que você tenha autismo
+    fullLabel3: É provável que você tenha autismo
+    fullLabel4: É muito provável que você tenha autismo
+    label1: Muito improvável
+    label2: Improvável
+    label3: Provável
+    label4: Muito provável
+    printAnswers: Imprimir respostas
+    share1: É muito improvável que eu tenha autismo. Faça o teste para ver como é provável você!
+    share2: É improvável que eu tenha autismo. Faça o teste para ver como é provável você!
+    share3: É provável que eu tenha autismo. Faça o teste para ver como é provável você!
+    share4: É muito provável que eu tenha autismo. Faça o teste para ver como é provável você!
+    shareButton: Compartilhar Resultado
+    shareSubject: Meus resultados do teste de autismo
+    shareTo: Compartilhar em
+  scores:
+    show:
+      other_tests: Outros testes
+  termsOfUse:
+    acceptOfTerms:
+      text: Ao usar nosso site e as ferramentas fornecidas, você reconhece que leu, entendeu e concorda em estar vinculado por estes termos e condições.
+      title: Aceitação dos Termos
+    changesToTerms:
+      text: Reservamo-nos o direito de modificar estes termos a qualquer momento. Quaisquer alterações serão efetivas imediatamente após sua publicação em nosso site. Seu uso continuado do site após tais alterações constitui sua aceitação dos novos termos.
+      title: Alterações aos Termos
+    contactInformation:
+      text: Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco em fogado@rubynor.com.
+      title: Informações de Contato
+    descriptionOfServices:
+      text: Fornecemos recursos e ferramentas relacionados ao transtorno do espectro autista (TEA), incluindo o teste AQ-50. Essas ferramentas são destinadas apenas como ferramentas de triagem para ajudar a identificar traços associados ao autismo e não são instrumentos de diagnóstico.
+      title: Descrição dos Serviços
+    disclaimer:
+      text: Não somos profissionais de saúde e as informações fornecidas neste site, incluindo o teste AQ-50, são apenas para fins informativos e de entretenimento. Essas ferramentas não devem ser consideradas conselhos médicos, diagnóstico ou tratamento. Sempre procure o conselho de um profissional de saúde qualificado com quaisquer perguntas que você possa ter sobre uma condição médica.
+      title: Isenção de responsabilidade
+    governingLaw:
+      text: Estes termos e condições são regidos e interpretados de acordo com as leis de [Seu país/estado], e você concorda em se submeter à jurisdição exclusiva dos tribunais localizados em [Seu país/estado] para a resolução de quaisquer disputas.
+      title: Lei Aplicável
+    limitationOfLiability:
+      text: Em nenhum caso seremos responsáveis por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou exemplares, incluindo, mas não se limitando a, danos por perda de lucros, goodwill, uso, dados ou outras perdas intangíveis resultantes do uso ou incapacidade de usar nosso site ou serviços.
+      title: Limitação de Responsabilidade
+    privacy:
+      text: Seu uso de nosso site também está sujeito à nossa Política de Privacidade. Por favor, revise nossa Política de Privacidade para obter informações sobre como coletamos, usamos e protegemos suas informações pessoais.
+      title: Privacidade
+    title: Termos de Uso
+    titleText: Bem-vindo ao nosso site. Ao acessar e usar nosso site, você concorda em cumprir e estar sujeito aos seguintes termos e condições de uso. Por favor, revise estes termos cuidadosamente. Se você não concordar com estes termos, não deve usar este site.
+    useOfContent:
+      text: Você pode acessar, baixar e imprimir materiais deste site para seu uso pessoal e não comercial. Você não pode modificar, reproduzir, distribuir, publicar, licenciar, criar trabalhos derivados, transferir ou vender qualquer informação ou conteúdo obtido deste site sem nosso consentimento prévio por escrito.
+      title: Uso de Conteúdo
+  translation:
+    description: Queremos que nosso conteúdo alcance o maior número possível de pessoas, então usamos o ChatGPT para traduções. Embora geralmente faça um ótimo trabalho, ocasionalmente pode cometer erros. Se você notar algum erro, agradecemos sua ajuda!
+    description1: 'Se você encontrar algo errado em nossas traduções, por favor nos avise! Seu feedback é inestimável para garantir que nosso conteúdo seja claro e preciso. Entre em contato conosco em: '
+    description2: Estamos comprometidos em fornecer traduções de alta qualidade e agradecemos sua colaboração neste esforço. Juntos, podemos garantir que nosso conteúdo seja acessível e útil para o maior número possível de pessoas!
+    header1: Ajude-nos a Melhorar!
+    header2: Nosso Compromisso
+    takeAutismTest: Você pode fazer o teste de autismo em português
+    title: Traduções

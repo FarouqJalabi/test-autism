@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :tests do
+    patch :build_associate, on: :collection
+    post :build_associate, on: :collection
+  end
+
   get 'errors/not_found'
   get 'errors/internal_server_error'
   get 'errors/unprocessable_content'
