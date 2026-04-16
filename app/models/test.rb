@@ -12,8 +12,6 @@ class Test < ApplicationRecord
   accepts_nested_attributes_for :score_explanations, allow_destroy: true
   accepts_nested_attributes_for :choices, allow_destroy: true
 
-  validates :visible, presence: true
-
   scope :visible, -> { where(visible: true) }
 
   def min_score # Not actually used?

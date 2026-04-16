@@ -16,7 +16,7 @@ class CreateScoreExplanations < ActiveRecord::Migration[7.1]
     ]
 
     score_ranges.each do |score_range|
-      ScoreExplanation.find_by(min_score: score_range[:range].first) || ScoreExplanation.create!(score_range: score_range[:range], title: score_range[:title], explanation: score_range[:explanation], label: score_range[:label], test: AQ_50_test)
+      ScoreExplanation.find_by(min_score: score_range[:range].first) || ScoreExplanation.create!(score_range: score_range[:range], title: score_range[:title], explanation: score_range[:explanation], label: score_range[:label], test: Test.first)
     end
   end
 
