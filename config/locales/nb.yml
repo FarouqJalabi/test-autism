@@ -1,272 +1,221 @@
+---
 nb:
-  language_name: "Norsk"
-  language_phrase: "Ta autisme test på norsk"
-  flag_emoji: "🇳🇴"
-
-  header:
-    title: "Gratis Autisme test"
-    description: "Ta vår gratis online autisme test for en nøyaktig og rask vurdering. Vår autisme test er ikke kort og nøyaktig. Autisme testen er AQ-50 fra autismeforskningssenteret."
-
-  navigation:
-    homeButton: "Hjem"
-    takeTestButton: "Ta testen"
-    aboutButton: "Om oss"
-
-  home:
-    title: "Gratis Autisme test"
-    description: "Ta vår raske og nøyaktige autisme test. Autisme testen heter AQ-50 og er kjent for å være et pålitelig screeningsverktøy."
-
-
-    button1: "Start test"
-    button2: "Om oss"
-
-    whatToExpect:
-      title: "Hva du kan forvente"
-      questions:
-        title: "Spørsmål"
-        description: "50 flervalgsspørsmål."
-
-      time:
-        title: "Tid"
-        description: "Omtrent 10-15 minutter å fullføre."
-
-      result:
-        title: "Resultater"
-        description: "Testen gir umiddelbare tilbakemeldinger."
-
-      saving:
-        title: "Svar lagret lokalt"
-        description: "Ta en pause uten å miste fremgang"
-
-    stats:
-      testsTaken: "Gjennomførte tester"
-      numberOfTestsTaken: "Antall gjennomførte tester"
-      percentageOfUnlikely: "Prosentandel av personer som fikk usannsynlig"
-      percentageOfLikely: "Prosentandel av personer som fikk sannsynlig"
-
-    madeBy: "Test av Cambridge University"
-    blogSectionTitle: "Siste blogg"
-    otherBlogs: "Se alle blogger"
-
   aboutUs:
-    title: "Om oss"
-    description: "Vi er et dedikert team som brenner for å tilby pålitelige og tilgjengelige autisme tester. Vårt oppdrag er å hjelpe enkeltpersoner og familier til bedre å forstå autismespekterforstyrrelser gjennom nøyaktige, evidensbaserte ressurser og verktøy. Vi har som mål å skape et støttende samfunn der folk kan finne informasjonen de trenger for å navigere sine reiser med autisme."
-
-    ourVision:
-      title: "Vår visjon"
-      description: "Vår visjon er å fremme en verden hvor personer med autisme blir forstått, akseptert og støttet. Vi streber etter å øke bevisstheten og fremme inkludering gjennom vårt pedagogiske innhold og praktiske verktøy."
-
-    ourTeam:
-      title: "Vårt team"
-      description: "Vårt team består av flere programvareutviklere som jobber sammen for å gi deg den beste autisme testen og ressursene tilgjengelig på en enkel å forstå nettside. Vi er forpliktet til kontinuerlig læring og forbedring for å sikre at innholdet vårt forblir relevant og verdifullt."
-
     contactUs:
-      title: "Kontakt oss"
-      description: "Enten for å si hei eller rapportere en feil, vil vi alltid gjerne høre fra deg! Din tilbakemelding hjelper oss med å forbedre og betjene deg bedre. Ta kontakt med oss på "
-
+      description: 'Enten for å si hei eller rapportere en feil, vil vi alltid gjerne høre fra deg! Din tilbakemelding hjelper oss med å forbedre og betjene deg bedre. Ta kontakt med oss på '
+      title: Kontakt oss
+    description: Vi er et dedikert team som brenner for å tilby pålitelige og tilgjengelige autisme tester. Vårt oppdrag er å hjelpe enkeltpersoner og familier til bedre å forstå autismespekterforstyrrelser gjennom nøyaktige, evidensbaserte ressurser og verktøy. Vi har som mål å skape et støttende samfunn der folk kan finne informasjonen de trenger for å navigere sine reiser med autisme.
     disclaimer:
-      title: "Ansvarsfraskrivelse!"
-      description1: "Vi er ikke medisinske fagpersoner, og verktøyene som tilbys på denne nettsiden (AQ-50 testen) er kun ment som screeningverktøy. Disse testene er utformet for å hjelpe med å identifisere trekk forbundet med autisme og er ikke diagnostiske instrumenter."
-      description2: "Ved å bruke vårt nettsted og screeningverktøyene som tilbys, erkjenner og godtar du at disse verktøyene kun er for informasjons- og underholdningsformål og ikke skal anses som medisinsk rådgivning."
-
-  privacy:
-    title: "Personvern og retningslinjer"
-    aboutData:
-      title: "Om dataene vi samler inn"
-      description: "Vi samler ikke inn noen data om deg. Vi samler ikke inn noen av dine svar på autisme testen. Vi bruker tredjeparts programvare, Plausible, for å samle inn trafikkdata. Dette sikrer at personvernet ditt er beskyttet mens vi samler inn nødvendig innsikt for å forbedre nettstedet vårt. Plausible gir oss anonymiserte, aggregerte data, slik at din personlige informasjon forblir helt privat."
-
-    cookies:
-      title: "Informasjonskapsler"
-      description: "Vårt nettsted bruker ikke informasjonskapsler for å spore din aktivitet eller samle inn personlig informasjon. Vi tror på å tilby en nettleseropplevelse fri fra invasive sporings-teknologier."
-
-  translation:
-    title: "Oversettelser"
-    description: "Vi ønsker at innholdet vårt skal nå så mange som mulig, så vi bruker ChatGPT til oversettelser. Selv om det vanligvis gjør en god jobb, kan det noen ganger gjøre feil. Hvis du legger merke til noen feil, setter vi pris på din hjelp!"
-
-    header1: "Hjelp Oss å Forbedre!"
-    description1: "Hvis du finner feil i oversettelsene våre, vennligst gi oss beskjed! Din tilbakemelding er uvurderlig for å sikre at innholdet vårt er klart og nøyaktig. Kontakt oss på: "
-
-    header2: "Vårt Forpliktelse"
-    description2: "Vi er forpliktet til å levere oversettelser av høy kvalitet og setter pris på ditt samarbeid i denne innsatsen. Sammen kan vi sikre at innholdet vårt er tilgjengelig og nyttig for så mange som mulig!"
-
-    takeAutismTest: "Du kan ta autisme test på norsk"
-
-
-  faq:
-    question1: "Hva betyr autisme test resultatet mitt?"
-    answer1: "Testen er bare et verktøy for screening. Hvis du får høy score, anbefaler vi at du søker en vurdering hos en helsepersonell for videre undersøkelse."
-
-    question2: "Hvor kan jeg finne mer informasjon om autisme testen?"
-    answer2: "Vi bruker en kjent autisme test kalt AQ-50. Den er laget av autismeforskningssenteret ved Cambridge University. For mer informasjon bør du se på artikkelen: "
-
-    question3: "Er dataene mine private og sikre?"
-    answer3: "Ja, vi prioriterer ditt personvern og din sikkerhet. Vi samler ikke inn personopplysninger. Vi bruker tredjeparts programvare, Plausible, for å samle anonymisert trafikkdata, noe som sikrer at dine personlige opplysninger forblir helt private."
-
-    question4: "Hva skjer hvis jeg får høy score på autisme testen?"
-    answer4: "En høy score på autisme testen tyder på at du kan ha noen trekk forbundet med autisme. Det anbefales å søke en profesjonell evaluering for en diagnose."
-
-    question5: "Jeg fant en oversettelsesfeil, hva skal jeg gjøre?"
-    answer5: "Vennligst kontakt oss på: "
-
-    question6: "Jeg ser ikke språket mitt, hvor kan jeg legge det til?"
-    answer6: "Den beste måten å oversette til ditt eget språk på er å gjøre det via GitHub. Oversett spørsmålene og vi legger dem til på nettsiden vår. Se vår GitHub-side: "
-
-    question7: "Hvor kan jeg finne koden?"
-    answer7: "Koden vår er åpen kildekode og tilgjengelig online. Du kan besøke den her: "
-
-  termsOfUse:
-    title: "Bruksvilkår"
-    titleText: "Velkommen til vårt nettsted. Ved å få tilgang til og bruke nettstedet vårt, godtar du å overholde og være bundet av følgende vilkår og betingelser for bruk. Vennligst les disse vilkårene nøye. Hvis du ikke godtar disse vilkårene, bør du ikke bruke dette nettstedet."
-
-    acceptOfTerms:
-      title: "Aksept av vilkår"
-      text: "Ved å bruke vårt nettsted og verktøyene som tilbys, erkjenner du at du har lest, forstått og godtar å være bundet av disse vilkårene og betingelsene."
-
-    descriptionOfServices:
-      title: "Beskrivelse av tjenester"
-      text: "Vi tilbyr ressurser og verktøy relatert til autismespekterforstyrrelse (ASD), inkludert AQ-50-testen. Disse verktøyene er kun ment som screeningverktøy for å hjelpe til med å identifisere trekk forbundet med autisme og er ikke diagnostiske instrumenter."
-
-    disclaimer:
-      title: "Ansvarsfraskrivelse"
-      text: "Vi er ikke medisinske fagfolk, og informasjonen som tilbys på dette nettstedet, inkludert AQ-50-testen, er kun til informasjons- og underholdningsformål. Disse verktøyene skal ikke betraktes som medisinske råd, diagnose eller behandling. Søk alltid råd fra en kvalifisert helsepersonell med spørsmål du måtte ha angående en medisinsk tilstand."
-
-    useOfContent:
-      title: "Bruk av innhold"
-      text: "Du kan få tilgang til, laste ned og skrive ut materialer fra dette nettstedet for din personlige, ikke-kommersielle bruk. Du kan ikke endre, reprodusere, distribuere, publisere, lisensiere, lage avledede verk fra, overføre eller selge informasjon eller innhold som er hentet fra dette nettstedet uten vårt forutgående skriftlige samtykke."
-
-    privacy:
-      title: "Personvern"
-      text: "Din bruk av vårt nettsted er også underlagt vår personvernpolicy. Vennligst gjennomgå vår personvernpolicy for informasjon om hvordan vi samler inn, bruker og beskytter din personlige informasjon."
-
-    limitationOfLiability:
-      title: "Ansvarsbegrensning"
-      text: "Under ingen omstendigheter skal vi være ansvarlige for noen direkte, indirekte, tilfeldige, spesielle, konsekvente eller eksemplariske skader, inkludert, men ikke begrenset til, skader for tap av fortjeneste, goodwill, bruk, data eller andre immaterielle tap som følge av bruk eller manglende evne til å bruke vårt nettsted eller tjenester."
-
-    changesToTerms:
-      title: "Endringer i vilkår"
-      text: "Vi forbeholder oss retten til å endre disse vilkårene når som helst. Eventuelle endringer trer i kraft umiddelbart etter at de er lagt ut på vårt nettsted. Din fortsatte bruk av nettstedet etter eventuelle slike endringer utgjør din aksept av de nye vilkårene."
-
-    governingLaw:
-      title: "Gjeldende lov"
-      text: "Disse vilkårene og betingelsene er underlagt og tolkes i samsvar med lovene i [Ditt land/stat], og du godtar å underkaste deg den eksklusive jurisdiksjonen til domstolene som ligger i [Ditt land/stat] for løsningen av eventuelle tvister."
-
-    contactInformation:
-      title: "Kontaktinformasjon"
-      text: "Hvis du har spørsmål om disse bruksvilkårene, vennligst kontakt oss på fogado@rubynor.com."
-
-  questions:
-    1: "Jeg foretrekker å gjøre ting sammen med andre i stedet for alene"
-    2: "Jeg foretrekker å gjøre ting på samme måte om og om igjen"
-    3: "Hvis jeg prøver å forestille meg noe, er det veldig enkelt for meg å lage et bilde i hodet"
-    4: "Jeg blir ofte så sterkt oppslukt av en ting at jeg mister synet av andre ting"
-    5: "Jeg legger ofte merke til små lyder som andre ikke gjør"
-    6: "Jeg legger vanligvis merke til bilskilt eller lignende informasjonsstrenger"
-    7: "Andre mennesker forteller meg ofte at det jeg har sagt er uhøflig, selv om jeg synes det er høflig"
-    8: "Når jeg leser en historie, kan jeg lett forestille meg hvordan karakterene kan se ut"
-    9: "Jeg er fascinert av datoer"
-    10: "I en sosial gruppe kan jeg lett holde styr på flere forskjellige samtaler"
-    11: "Jeg finner sosiale situasjoner enkle"
-    12: "Jeg legger ofte merke til detaljer som andre ikke gjør"
-    13: "Jeg går heller til et bibliotek enn til en fest"
-    14: "Jeg synes det er lett å lage historier"
-    15: "Jeg føler meg mer tiltrukket av mennesker enn ting"
-    16: "Jeg har en tendens til å ha veldig sterke interesser, som jeg blir opprørt over hvis jeg ikke kan forfølge dem"
-    17: "Jeg liker sosialt småprat"
-    18: "Når jeg snakker, er det ikke alltid lett for andre å få et ord innført"
-    19: "Jeg er fascinert av tall"
-    20: "Når jeg leser en historie, har jeg vanskelig for å forstå karakterenes intensjoner"
-    21: "Jeg liker ikke spesielt å lese skjønnlitteratur"
-    22: "Jeg har vanskelig for å få nye venner"
-    23: "Jeg legger merke til mønstre i ting hele tiden"
-    24: "Jeg går heller på teater enn på museum"
-    25: "Det plager meg ikke om min daglige rutine blir forstyrret"
-    26: "Jeg oppdager ofte at jeg ikke vet hvordan jeg skal holde en samtale gående"
-    27: "Jeg synes det er lett å 'lese mellom linjene' når noen snakker til meg"
-    28: "Jeg konsentrerer meg vanligvis mer om det store bildet enn de små detaljene"
-    29: "Jeg er ikke veldig flink til å huske telefonnumre"
-    30: "Jeg legger vanligvis ikke merke til små endringer i en situasjon eller en persons utseende"
-    31: "Jeg vet hvordan jeg skal si om noen som lytter til meg, kjeder seg"
-    32: "Jeg synes det er lett å gjøre mer enn én ting samtidig"
-    33: "Når jeg snakker i telefonen, er jeg ikke sikker på når det er min tur til å snakke"
-    34: "Jeg liker å gjøre ting spontant"
-    35: "Jeg er ofte den siste som forstår poenget med en vits"
-    36: "Jeg synes det er lett å finne ut hva noen tenker eller føler bare ved å se på ansiktet deres"
-    37: "Hvis det er en avbrytelse, kan jeg raskt gå tilbake til det jeg gjorde"
-    38: "Jeg er god på sosialt småprat"
-    39: "Folk sier ofte til meg at jeg fortsetter å snakke om det samme"
-    40: "Da jeg var ung, likte jeg å leke med andre barn"
-    41: "Jeg liker å samle informasjon om kategorier av ting (f.eks. typer biler, fugler, tog, planter)"
-    42: "Jeg har vanskelig for å forestille meg hvordan det ville være å være en annen"
-    43: "Jeg liker å planlegge nøye alle aktiviteter jeg deltar i"
-    44: "Jeg liker sosiale anledninger"
-    45: "Jeg har vanskelig for å forstå andres intensjoner"
-    46: "Nye situasjoner gjør meg engstelig"
-    47: "Jeg liker å møte nye mennesker"
-    48: "Jeg er en god diplomat"
-    49: "Jeg er ikke veldig flink til å huske folks fødselsdatoer"
-    50: "Jeg synes det er veldig lett å leke med barn som involverer å late som"
-
-    choice0: "Uenig"
-    choice1: "Litt uenig"
-    choice2: "Litt enig"
-    choice3: "Enig"
-
-    backButton: "Tilbake-knapp"
-    submit: "Send inn"
-
-  result:
-    label1: "svært usannsynlig"
-    label2: "usannsynlig"
-    label3: "sannsynlig"
-    label4: "svært sannsynlig"
-
-    fullLabel1: "Det er veldig usannsynlig at du har autisme"
-    fullLabel2: "Det er usannsynlig at du har autisme"
-    fullLabel3: "Det er sannsynlig at du har autisme"
-    fullLabel4: "Det er veldig sannsynlig at du har autisme"
-
-
-    description1: "Din score antyder at det er svært usannsynlig at du har autisme. Testresultatene indikerer minimale tegn på ASD, og ingen ytterligere tiltak er vanligvis nødvendig. Hvis du imidlertid har spesifikke bekymringer eller atferd som forårsaker bekymring, kan en konsultasjon med en helsepersonell gi ekstra trygghet og veiledning."
-    description2: "Din score indikerer at det er usannsynlig at du har autisme. Tegnene er ikke sterke eller tallrike nok til å antyde en høy sannsynlighet for ASD. Hvis du imidlertid har vedvarende bekymringer eller andre symptomer, kan det fortsatt være nyttig å søke profesjonell rådgivning."
-    description3: "Din score antyder at det er sannsynlig at du viser flere tegn på autisme. Selv om det ikke er definitivt, indikerer det en betydelig mulighet for ASD. Det er tilrådelig å konsultere en profesjonell for en detaljert vurdering for å bedre forstå tilstanden din."
-    description4: "Din score indikerer at det er svært sannsynlig at du viser betydelige tegn på autisme spektrum lidelse (ASD). Dette antyder en høy sannsynlighet for autisme, og det anbefales sterkt at du søker en omfattende vurdering av en helsepersonell for å utforske denne muligheten videre."
-
-    shareTo: "Del til"
-    shareSubject: "Mine autismetestresultater"
-
-    share1: "Det er veldig usannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
-    share2: "Det er usannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
-    share3: "Det er sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
-    share4: "Det er veldig sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!"
-    printAnswers: "Skriv ut svar"
-    copyLink: "Kopier testlenke"
-
-
-    shareButton: "Del Resultat"
-
-  footer:
-    resources: "Ressurser"
-    privacy: "Personvern"
-    about: "Om oss"
-    blogs: "Blogger"
-    translations: "Oversettelser"
-
-    holding: "© 2024 — Rubynor AS - alle rettigheter reservert."
-
-
+      description1: Vi er ikke medisinske fagpersoner, og verktøyene som tilbys på denne nettsiden (AQ-50 testen) er kun ment som screeningverktøy. Disse testene er utformet for å hjelpe med å identifisere trekk forbundet med autisme og er ikke diagnostiske instrumenter.
+      description2: Ved å bruke vårt nettsted og screeningverktøyene som tilbys, erkjenner og godtar du at disse verktøyene kun er for informasjons- og underholdningsformål og ikke skal anses som medisinsk rådgivning.
+      title: Ansvarsfraskrivelse!
+    ourTeam:
+      description: Vårt team består av flere programvareutviklere som jobber sammen for å gi deg den beste autisme testen og ressursene tilgjengelig på en enkel å forstå nettside. Vi er forpliktet til kontinuerlig læring og forbedring for å sikre at innholdet vårt forblir relevant og verdifullt.
+      title: Vårt team
+    ourVision:
+      description: Vår visjon er å fremme en verden hvor personer med autisme blir forstått, akseptert og støttet. Vi streber etter å øke bevisstheten og fremme inkludering gjennom vårt pedagogiske innhold og praktiske verktøy.
+      title: Vår visjon
+    title: Om oss
   errors:
-    404:
-      headTitle: "404 feil :/"
-      title: "Kan ikke finne siden 404 :/"
-      description: "Siden ser ut til å ikke eksistere. Du bør gå tilbake til"
-      home: "hjemmesiden"
-    422:
-      headTitle: "422 feil :/"
-      title: "Kan ikke behandle dataene dine 422 :/"
-      description: "Vi kunne ikke behandle dataene dine. Prøv igjen ved å gå tilbake til"
-      home: "hjemmesiden"
-    500:
-      headTitle: "500 feil :/"
-      title: "Noe gikk galt 500 :/"
-      description: "Noe gikk galt hos oss. Prøv igjen ved å gå tilbake til"
-      home: "hjemmesiden"
+    '404':
+      description: Siden ser ut til å ikke eksistere. Du bør gå tilbake til
+      headTitle: 404 feil :/
+      home: hjemmesiden
+      title: Kan ikke finne siden 404 :/
+    '422':
+      description: Vi kunne ikke behandle dataene dine. Prøv igjen ved å gå tilbake til
+      headTitle: 422 feil :/
+      home: hjemmesiden
+      title: Kan ikke behandle dataene dine 422 :/
+    '500':
+      description: Noe gikk galt hos oss. Prøv igjen ved å gå tilbake til
+      headTitle: 500 feil :/
+      home: hjemmesiden
+      title: Noe gikk galt 500 :/
+  faq:
+    answer1: Testen er bare et verktøy for screening. Hvis du får høy score, anbefaler vi at du søker en vurdering hos en helsepersonell for videre undersøkelse.
+    answer2: 'Vi bruker en kjent autisme test kalt AQ-50. Den er laget av autismeforskningssenteret ved Cambridge University. For mer informasjon bør du se på artikkelen: '
+    answer3: Ja, vi prioriterer ditt personvern og din sikkerhet. Vi samler ikke inn personopplysninger. Vi bruker tredjeparts programvare, Plausible, for å samle anonymisert trafikkdata, noe som sikrer at dine personlige opplysninger forblir helt private.
+    answer4: En høy score på autisme testen tyder på at du kan ha noen trekk forbundet med autisme. Det anbefales å søke en profesjonell evaluering for en diagnose.
+    answer5: 'Vennligst kontakt oss på: '
+    answer6: 'Den beste måten å oversette til ditt eget språk på er å gjøre det via GitHub. Oversett spørsmålene og vi legger dem til på nettsiden vår. Se vår GitHub-side: '
+    answer7: 'Koden vår er åpen kildekode og tilgjengelig online. Du kan besøke den her: '
+    question1: Hva betyr autisme test resultatet mitt?
+    question2: Hvor kan jeg finne mer informasjon om autisme testen?
+    question3: Er dataene mine private og sikre?
+    question4: Hva skjer hvis jeg får høy score på autisme testen?
+    question5: Jeg fant en oversettelsesfeil, hva skal jeg gjøre?
+    question6: Jeg ser ikke språket mitt, hvor kan jeg legge det til?
+    question7: Hvor kan jeg finne koden?
+  flag_emoji: "🇳🇴"
+  footer:
+    about: Om oss
+    blogs: Blogger
+    holding: "© 2024 — Rubynor AS - alle rettigheter reservert."
+    privacy: Personvern
+    resources: Ressurser
+    translations: Oversettelser
+  header:
+    description: Ta vår gratis online autisme test for en nøyaktig og rask vurdering. Vår autisme test er ikke kort og nøyaktig. Autisme testen er AQ-50 fra autismeforskningssenteret.
+    title: Gratis Autisme test
+  home:
+    blogSectionTitle: Siste blogg
+    button1: Start test
+    button2: Om oss
+    description: Ta vår raske og nøyaktige autisme test. Autisme testen heter AQ-50 og er kjent for å være et pålitelig screeningsverktøy.
+    madeBy: Test av Cambridge University
+    otherBlogs: Se alle blogger
+    stats:
+      numberOfTestsTaken: Antall gjennomførte tester
+      percentageOfLikely: Prosentandel av personer som fikk sannsynlig
+      percentageOfUnlikely: Prosentandel av personer som fikk usannsynlig
+      testsTaken: Gjennomførte tester
+    title: Gratis Autisme test
+    whatToExpect:
+      questions:
+        description: 50 flervalgsspørsmål.
+        title: Spørsmål
+      result:
+        description: Testen gir umiddelbare tilbakemeldinger.
+        title: Resultater
+      saving:
+        description: Ta en pause uten å miste fremgang
+        title: Svar lagret lokalt
+      time:
+        description: Omtrent 10-15 minutter å fullføre.
+        title: Tid
+      title: Hva du kan forvente
+  language_name: Norsk
+  language_phrase: Ta autisme test på norsk
+  navigation:
+    aboutButton: Om oss
+    homeButton: Hjem
+    takeTestButton: Ta testen
+  privacy:
+    aboutData:
+      description: Vi samler ikke inn noen data om deg. Vi samler ikke inn noen av dine svar på autisme testen. Vi bruker tredjeparts programvare, Plausible, for å samle inn trafikkdata. Dette sikrer at personvernet ditt er beskyttet mens vi samler inn nødvendig innsikt for å forbedre nettstedet vårt. Plausible gir oss anonymiserte, aggregerte data, slik at din personlige informasjon forblir helt privat.
+      title: Om dataene vi samler inn
+    cookies:
+      description: Vårt nettsted bruker ikke informasjonskapsler for å spore din aktivitet eller samle inn personlig informasjon. Vi tror på å tilby en nettleseropplevelse fri fra invasive sporings-teknologier.
+      title: Informasjonskapsler
+    title: Personvern og retningslinjer
+  questions:
+    '1': Jeg foretrekker å gjøre ting sammen med andre i stedet for alene
+    '10': I en sosial gruppe kan jeg lett holde styr på flere forskjellige samtaler
+    '11': Jeg finner sosiale situasjoner enkle
+    '12': Jeg legger ofte merke til detaljer som andre ikke gjør
+    '13': Jeg går heller til et bibliotek enn til en fest
+    '14': Jeg synes det er lett å lage historier
+    '15': Jeg føler meg mer tiltrukket av mennesker enn ting
+    '16': Jeg har en tendens til å ha veldig sterke interesser, som jeg blir opprørt over hvis jeg ikke kan forfølge dem
+    '17': Jeg liker sosialt småprat
+    '18': Når jeg snakker, er det ikke alltid lett for andre å få et ord innført
+    '19': Jeg er fascinert av tall
+    '2': Jeg foretrekker å gjøre ting på samme måte om og om igjen
+    '20': Når jeg leser en historie, har jeg vanskelig for å forstå karakterenes intensjoner
+    '21': Jeg liker ikke spesielt å lese skjønnlitteratur
+    '22': Jeg har vanskelig for å få nye venner
+    '23': Jeg legger merke til mønstre i ting hele tiden
+    '24': Jeg går heller på teater enn på museum
+    '25': Det plager meg ikke om min daglige rutine blir forstyrret
+    '26': Jeg oppdager ofte at jeg ikke vet hvordan jeg skal holde en samtale gående
+    '27': Jeg synes det er lett å 'lese mellom linjene' når noen snakker til meg
+    '28': Jeg konsentrerer meg vanligvis mer om det store bildet enn de små detaljene
+    '29': Jeg er ikke veldig flink til å huske telefonnumre
+    '3': Hvis jeg prøver å forestille meg noe, er det veldig enkelt for meg å lage et bilde i hodet
+    '30': Jeg legger vanligvis ikke merke til små endringer i en situasjon eller en persons utseende
+    '31': Jeg vet hvordan jeg skal si om noen som lytter til meg, kjeder seg
+    '32': Jeg synes det er lett å gjøre mer enn én ting samtidig
+    '33': Når jeg snakker i telefonen, er jeg ikke sikker på når det er min tur til å snakke
+    '34': Jeg liker å gjøre ting spontant
+    '35': Jeg er ofte den siste som forstår poenget med en vits
+    '36': Jeg synes det er lett å finne ut hva noen tenker eller føler bare ved å se på ansiktet deres
+    '37': Hvis det er en avbrytelse, kan jeg raskt gå tilbake til det jeg gjorde
+    '38': Jeg er god på sosialt småprat
+    '39': Folk sier ofte til meg at jeg fortsetter å snakke om det samme
+    '4': Jeg blir ofte så sterkt oppslukt av en ting at jeg mister synet av andre ting
+    '40': Da jeg var ung, likte jeg å leke med andre barn
+    '41': Jeg liker å samle informasjon om kategorier av ting (f.eks. typer biler, fugler, tog, planter)
+    '42': Jeg har vanskelig for å forestille meg hvordan det ville være å være en annen
+    '43': Jeg liker å planlegge nøye alle aktiviteter jeg deltar i
+    '44': Jeg liker sosiale anledninger
+    '45': Jeg har vanskelig for å forstå andres intensjoner
+    '46': Nye situasjoner gjør meg engstelig
+    '47': Jeg liker å møte nye mennesker
+    '48': Jeg er en god diplomat
+    '49': Jeg er ikke veldig flink til å huske folks fødselsdatoer
+    '5': Jeg legger ofte merke til små lyder som andre ikke gjør
+    '50': Jeg synes det er veldig lett å leke med barn som involverer å late som
+    '6': Jeg legger vanligvis merke til bilskilt eller lignende informasjonsstrenger
+    '7': Andre mennesker forteller meg ofte at det jeg har sagt er uhøflig, selv om jeg synes det er høflig
+    '8': Når jeg leser en historie, kan jeg lett forestille meg hvordan karakterene kan se ut
+    '9': Jeg er fascinert av datoer
+    backButton: Tilbake-knapp
+    choice0: Uenig
+    choice1: Litt uenig
+    choice2: Litt enig
+    choice3: Enig
+    submit: Send inn
+  result:
+    copyLink: Kopier testlenke
+    description1: Din score antyder at det er svært usannsynlig at du har autisme. Testresultatene indikerer minimale tegn på ASD, og ingen ytterligere tiltak er vanligvis nødvendig. Hvis du imidlertid har spesifikke bekymringer eller atferd som forårsaker bekymring, kan en konsultasjon med en helsepersonell gi ekstra trygghet og veiledning.
+    description2: Din score indikerer at det er usannsynlig at du har autisme. Tegnene er ikke sterke eller tallrike nok til å antyde en høy sannsynlighet for ASD. Hvis du imidlertid har vedvarende bekymringer eller andre symptomer, kan det fortsatt være nyttig å søke profesjonell rådgivning.
+    description3: Din score antyder at det er sannsynlig at du viser flere tegn på autisme. Selv om det ikke er definitivt, indikerer det en betydelig mulighet for ASD. Det er tilrådelig å konsultere en profesjonell for en detaljert vurdering for å bedre forstå tilstanden din.
+    description4: Din score indikerer at det er svært sannsynlig at du viser betydelige tegn på autisme spektrum lidelse (ASD). Dette antyder en høy sannsynlighet for autisme, og det anbefales sterkt at du søker en omfattende vurdering av en helsepersonell for å utforske denne muligheten videre.
+    fullLabel1: Det er veldig usannsynlig at du har autisme
+    fullLabel2: Det er usannsynlig at du har autisme
+    fullLabel3: Det er sannsynlig at du har autisme
+    fullLabel4: Det er veldig sannsynlig at du har autisme
+    label1: svært usannsynlig
+    label2: usannsynlig
+    label3: sannsynlig
+    label4: svært sannsynlig
+    printAnswers: Skriv ut svar
+    share1: Det er veldig usannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!
+    share2: Det er usannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!
+    share3: Det er sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!
+    share4: Det er veldig sannsynlig at jeg har autisme. Ta testen for å se hvor sannsynlig det er at du har det!
+    shareButton: Del Resultat
+    shareSubject: Mine autismetestresultater
+    shareTo: Del til
+  scores:
+    show:
+      other_tests: Andre tester
+  termsOfUse:
+    acceptOfTerms:
+      text: Ved å bruke vårt nettsted og verktøyene som tilbys, erkjenner du at du har lest, forstått og godtar å være bundet av disse vilkårene og betingelsene.
+      title: Aksept av vilkår
+    changesToTerms:
+      text: Vi forbeholder oss retten til å endre disse vilkårene når som helst. Eventuelle endringer trer i kraft umiddelbart etter at de er lagt ut på vårt nettsted. Din fortsatte bruk av nettstedet etter eventuelle slike endringer utgjør din aksept av de nye vilkårene.
+      title: Endringer i vilkår
+    contactInformation:
+      text: Hvis du har spørsmål om disse bruksvilkårene, vennligst kontakt oss på fogado@rubynor.com.
+      title: Kontaktinformasjon
+    descriptionOfServices:
+      text: Vi tilbyr ressurser og verktøy relatert til autismespekterforstyrrelse (ASD), inkludert AQ-50-testen. Disse verktøyene er kun ment som screeningverktøy for å hjelpe til med å identifisere trekk forbundet med autisme og er ikke diagnostiske instrumenter.
+      title: Beskrivelse av tjenester
+    disclaimer:
+      text: Vi er ikke medisinske fagfolk, og informasjonen som tilbys på dette nettstedet, inkludert AQ-50-testen, er kun til informasjons- og underholdningsformål. Disse verktøyene skal ikke betraktes som medisinske råd, diagnose eller behandling. Søk alltid råd fra en kvalifisert helsepersonell med spørsmål du måtte ha angående en medisinsk tilstand.
+      title: Ansvarsfraskrivelse
+    governingLaw:
+      text: Disse vilkårene og betingelsene er underlagt og tolkes i samsvar med lovene i [Ditt land/stat], og du godtar å underkaste deg den eksklusive jurisdiksjonen til domstolene som ligger i [Ditt land/stat] for løsningen av eventuelle tvister.
+      title: Gjeldende lov
+    limitationOfLiability:
+      text: Under ingen omstendigheter skal vi være ansvarlige for noen direkte, indirekte, tilfeldige, spesielle, konsekvente eller eksemplariske skader, inkludert, men ikke begrenset til, skader for tap av fortjeneste, goodwill, bruk, data eller andre immaterielle tap som følge av bruk eller manglende evne til å bruke vårt nettsted eller tjenester.
+      title: Ansvarsbegrensning
+    privacy:
+      text: Din bruk av vårt nettsted er også underlagt vår personvernpolicy. Vennligst gjennomgå vår personvernpolicy for informasjon om hvordan vi samler inn, bruker og beskytter din personlige informasjon.
+      title: Personvern
+    title: Bruksvilkår
+    titleText: Velkommen til vårt nettsted. Ved å få tilgang til og bruke nettstedet vårt, godtar du å overholde og være bundet av følgende vilkår og betingelser for bruk. Vennligst les disse vilkårene nøye. Hvis du ikke godtar disse vilkårene, bør du ikke bruke dette nettstedet.
+    useOfContent:
+      text: Du kan få tilgang til, laste ned og skrive ut materialer fra dette nettstedet for din personlige, ikke-kommersielle bruk. Du kan ikke endre, reprodusere, distribuere, publisere, lisensiere, lage avledede verk fra, overføre eller selge informasjon eller innhold som er hentet fra dette nettstedet uten vårt forutgående skriftlige samtykke.
+      title: Bruk av innhold
+  translation:
+    description: Vi ønsker at innholdet vårt skal nå så mange som mulig, så vi bruker ChatGPT til oversettelser. Selv om det vanligvis gjør en god jobb, kan det noen ganger gjøre feil. Hvis du legger merke til noen feil, setter vi pris på din hjelp!
+    description1: 'Hvis du finner feil i oversettelsene våre, vennligst gi oss beskjed! Din tilbakemelding er uvurderlig for å sikre at innholdet vårt er klart og nøyaktig. Kontakt oss på: '
+    description2: Vi er forpliktet til å levere oversettelser av høy kvalitet og setter pris på ditt samarbeid i denne innsatsen. Sammen kan vi sikre at innholdet vårt er tilgjengelig og nyttig for så mange som mulig!
+    header1: Hjelp Oss å Forbedre!
+    header2: Vårt Forpliktelse
+    takeAutismTest: Du kan ta autisme test på norsk
+    title: Oversettelser

@@ -1,273 +1,221 @@
+---
 en:
-  language_name: "English"
-  language_phrase: "Take autism test in english"
-  flag_emoji: "🇬🇧"
-
-  header:
-    title: "Free Autism Test"
-    description: "Take our free online autism test for a quick, accurate assessment. Our AQ-50 autism test from the Autism Research Center ensures reliable results."
-
-  navigation:
-    homeButton: "Home"
-    takeTestButton: "Take test"
-    aboutButton: "About"
-
-  home:
-    title: "Take a 10-Minute Autism Test"
-    description: "Take our quick and accurate autism test. The autism test is called AQ-50 and known to be reliable screening tool."
-
-    button1: "Start test"
-    button2: "About Us"
-
-    whatToExpect:
-      title: "What to Expect"
-      questions:
-        title: "Questions"
-        description: "50 multiple-choice questions."
-
-      time:
-        title: "Time"
-        description: "Approximately 10-15 minutes to complete."
-
-      result:
-        title: "Results"
-        description: "Test comes back with immediate feedback."
-
-      saving:
-        title: "Answered saved locally"
-        description: "Take break without loosing progress"
-    
-    stats:
-      testsTaken: "Tests taken"
-      numberOfTestsTaken: "Number of tests taken"
-
-      percentageOfUnlikely: "Percentage of people who got unlikely"
-
-      percentageOfLikely: "Percentage of people who got likely"
-
-    madeBy: "Test By Cambridge University"
-    blogSectionTitle: "Latest Blog"
-    otherBlogs: "See all blogs"
-
   aboutUs:
-    title: "About Us"
-    description: "We are a dedicated team passionate about providing reliable and accessible autism test. Our mission is to help individuals and families better understand autism spectrum disorder through accurate, evidence-based resources and tools. We aim to create a supportive community where people can find the information they need to navigate their journeys with autism"
-    
-    ourVision:
-      title: "Our Vision"
-      description: "Our vision is to foster a world where individuals with autism are understood, accepted, and supported. We strive to increase awareness and promote inclusivity through our educational content and practical tools."
-
-    ourTeam:
-      title: "Our Team"
-      description: "Our team consists of several software developers all working together to bring you the best autism test and resources available to a simple to understand website. We are committed to continuous learning and improvement to ensure that our content remains relevant and valuable."
-
     contactUs:
-      title: "Contact Us"
-      description: "Whether to say hi or report a bug, we will always love to hear from you! Your feedback helps us improve and serve you better. Reach out to us at "
-
+      description: 'Whether to say hi or report a bug, we will always love to hear from you! Your feedback helps us improve and serve you better. Reach out to us at '
+      title: Contact Us
+    description: We are a dedicated team passionate about providing reliable and accessible autism test. Our mission is to help individuals and families better understand autism spectrum disorder through accurate, evidence-based resources and tools. We aim to create a supportive community where people can find the information they need to navigate their journeys with autism
     disclaimer:
-      title: "Disclaimer!"
-      description1: "We are not medical professionals, and the tools provided on this website (The AQ-50 test) are intend solely as screening tools. These test are designed to help identify traits associated with autism and are not diagnosis instruments."
-      description2: "By using our website and the screening tools provided, you acknowledge and agree that these tools are for informational and entertainment purposes only and should not be considered as medical advice."
-
-  privacy:
-    title: "Privacy And Policy"
-    aboutData:
-      title: "About The Data We Collect"
-      description: "We don't collect any data about you. We don't collect any of your answers to the autism test. We use a third-party software, Plausible, to collect traffic data. This ensures that your privacy is protected while we gather the necessary insights to improve our website. Plausible provides us with anonymized, aggregated data, so your personal information remains completely private."
-
-    cookies:
-      title: "Cookies"
-      description: "Our website does not use cookies to track your activity or collect personal information. We believe in providing a browsing experience free from invasive tracking technologies."
-
-
-  translation:
-    title: "Translations"
-    description: "We want our content to reach as many people as possible, so we use a ChatGPT for translations. While it usually does a great job, it can slip up now and then. If you notice any mistakes, we’d appreciate your help!"
-
-    header1: "Help Us Improve!"
-    description1: "If you spot something wrong in our translations, please let us know! Your feedback is invaluable in making sure our content is clear and accurate. Reach out to us at: "
-
-    header2: "Our Commitment"
-    description2: "We are committed to providing high-quality translations and appreciate your collaboration in this effort. Together, we can ensure that our content is accessible and helpful to as many people as possible!"
-
-    takeAutismTest: "You can take autism test in English"
-
-
-  faq:
-      question1: "What does my autism test score mean?"
-      answer1: "The test is just a screening tool. If you score high we recommended that you seek an assessment by a healthcare professional for further investigation."
-
-      question2: "Where can I find more information about the autism test?"
-      answer2: "We use a known autism test called AQ-50. It is made by autism research center at Cambridge University. For more information you should view the paper:  "
-
-      question3: "Is my data private and secure?"
-      answer3: "Yes, we prioritize your privacy and security. We do not collect personal data. We use a third-party software, Plausible, to collect anonymized traffic data, ensuring that your personal information remains completely private."
-
-      question4: "What happens if I score high on the autism test?"
-      answer4: "A high score on the autism test suggest that you may have some traits associated with autism. It is recommended to seek a professional evaluation for a diagnosis."
-
-      question5: "I found a translation error, what should I do?"
-      answer5: "Please contact us at: "
-
-      question6: "I don't see my language where do I add it?"
-      answer6: "The best way to translate to your own language is to do it via github. Translate the questions and we will add it to our website. See our github site: "
-
-      question7: "Where can i find the code?"
-      answer7: "Our code is open source and available online. you can visit it here: "
-  
-  termsOfUse:
-    title: "Terms of Use"
-    titleText: "Welcome to our website. By accessing and using our site, you agree to comply with and be bound by the following terms and conditions of use. Please review these terms carefully. If you do not agree to these terms, you should not use this site."
-
-    acceptOfTerms:
-      title: "Acceptance of Terms"
-      text: "By using our website and the tools provided, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions."
-
-    descriptionOfServices:
-      title: "Description of Services"
-      text: "We provide resources and tools related to autism spectrum disorder (ASD), including the AQ-50 test. These tools are intended solely as screening tools to help identify traits associated with autism and are not diagnostic instruments."
-
-    disclaimer:
-      title: "Disclaimer"
-      text: "We are not medical professionals, and the information provided on this website, including the AQ-50 test, is for informational and entertainment purposes only. These tools should not be considered medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition."
-
-    useOfContent:
-      title: "Use of Content"
-      text: "You may access, download, and print materials from this site for your personal, non-commercial use. You may not modify, reproduce, distribute, publish, license, create derivative works from, transfer, or sell any information or content obtained from this site without our prior written consent."
-
-    privacy:
-      title: "Privacy"
-      text: "Your use of our website is also subject to our Privacy Policy. Please review our Privacy Policy for information on how we collect, use, and protect your personal information."
-
-    limitationOfLiability:
-      title: "Limitation of Liability"
-      text: "In no event shall we be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data, or other intangible losses resulting from the use or inability to use our website or services."
-
-    changesToTerms:
-      title: "Changes to Terms"
-      text: "We reserve the right to modify these terms at any time. Any changes will be effective immediately upon posting on our website. Your continued use of the site following any such changes constitutes your acceptance of the new terms."
-
-    governingLaw:
-      title: "Governing Law"
-      text: "These terms and conditions are governed by and construed in accordance with the laws of [Your Country/State], and you agree to submit to the exclusive jurisdiction of the courts located in [Your Country/State] for the resolution of any disputes."
-
-    contactInformation:
-      title: "Contact Information"
-      text: "If you have any questions about these Terms of Use, please contact us at fogado@rubynor.com."
-
-
-
-  questions:
-    1: "I prefer to do things with others rather than on my own"
-    2: "I prefer to do things the same way over and over again"
-    3: "If I try to imagine something, I find it very easy to create a picture in my mind"
-    4: "I frequently get so strongly absorbed in one thing that I lose sight of other things"
-    5: "I often notice small sounds when others do not"
-    6: "I usually notice car number plates or similar strings of information"
-    7: "Other people frequently tell me that what I’ve said is impolite, even though I think it is polite"
-    8: "When I’m reading a story, I can easily imagine what the characters might look like"
-    9: "I am fascinated by dates"
-    10: "In a social group, I can easily keep track of several different people’s conversations"
-    11: "I find social situations easy"
-    12: "I tend to notice details that others do not"
-    13: "I would rather go to a library than to a party"
-    14: "I find making up stories easy"
-    15: "I find myself drawn more strongly to people than to things"
-    16: "I tend to have very strong interests, which I get upset about if I can’t pursue"
-    17: "I enjoy social chitchat"
-    18: "When I talk, it isn’t always easy for others to get a word in edgewise"
-    19: "I am fascinated by numbers"
-    20: "When I’m reading a story, I find it difficult to work out the characters’ intentions"
-    21: "I don’t particularly enjoy reading fiction"
-    22: "I find it hard to make new friends"
-    23: "I notice patterns in things all the time"
-    24: "I would rather go to the theater than to a museum"
-    25: "It does not upset me if my daily routine is disturbed"
-    26: "I frequently find that I don’t know how to keep a conversation going"
-    27: "I find it easy to ‘read between the lines’ when someone is talking to me"
-    28: "I usually concentrate more on the whole picture, rather than on the small details"
-    29: "I am not very good at remembering phone numbers"
-    30: "I don’t usually notice small changes in a situation or a person’s appearance"
-    31: "I know how to tell if someone listening to me is getting bored"
-    32: "I find it easy to do more than one thing at once"
-    33: "When I talk on the phone, I’m not sure when it’s my turn to speak"
-    34: "I enjoy doing things spontaneously"
-    35: "I am often the last to understand the point of a joke"
-    36: "I find it easy to work out what someone is thinking or feeling just by looking at their face"
-    37: "If there is an interruption, I can switch back to what I was doing very quickly"
-    38: "I am good at social chitchat"
-    39: "People often tell me that I keep going on and on about the same thing"
-    40: "When I was young, I used to enjoy playing games involving pretending with other children"
-    41: "I like to collect information about categories of things (e.g., types of cars, birds, trains, plants)"
-    42: "I find it difficult to imagine what it would be like to be someone else"
-    43: "I like to carefully plan any activities I participate in"
-    44: "I enjoy social occasions"
-    45: "I find it difficult to work out people’s intentions"
-    46: "New situations make me anxious"
-    47: "I enjoy meeting new people"
-    48: "I am a good diplomat"
-    49: "I am not very good at remembering people’s date of birth"
-    50: "I find it very easy to play games with children that involve pretending"
-
-    choice0: "Disagree"
-    choice1: "Slightly disagree"
-    choice2: "Slightly agree"
-    choice3: "Agree"
-
-    backButton: "Back button"
-    submit: "Submit"
-
-  result:
-    label1: "very unlikely"
-    label2: "unlikely"
-    label3: "likely"
-    label4: "very likely"
-
-    fullLabel1: "You are very unlikely to have autism"
-    fullLabel2: "You are unlikely to have autism"
-    fullLabel3: "You are likely to have autism"
-    fullLabel4: "You are very likely to have autism"
-
-    description1: "Your score suggests that it is very unlikely you have autism. The test results indicate minimal signs of ASD, and no further action is usually required. However, if you have specific concerns or behaviors causing worry, a consultation with a healthcare professional can provide additional reassurance and guidance."
-    description2: "Your score indicates that it is unlikely you have autism. The signs are not strong or numerous enough to suggest a high probability of ASD. However, if you have ongoing concerns or other symptoms, it may still be worthwhile to seek professional advice."
-    description3: "Your score suggests that it is likely you display several signs of autism. While not definitive, it indicates a considerable possibility of ASD. Consulting with a professional for a detailed evaluation is advisable to better understand your condition."
-    description4: "Your score indicates that it is very likely you exhibit significant signs of autism spectrum disorder (ASD). This suggests a high probability of autism, and it is strongly recommended that you seek a comprehensive assessment by a healthcare professional to explore this possibility further."
-
-    shareButton: "Share Result"
-    shareTo: "Share to"
-
-    shareSubject: "My autism test results"
-
-    share1: "I am very unlikely to have autism. Take the test to see how likely you are!"
-    share2: "I am unlikely to have autism. Take the test to see how likely you are!"
-    share3: "I am likely to have autism. Take the test to see how likely you are!"
-    share4: "I am very likely to have autism. Take the test to see how likely you are!"
-    printAnswers: "Print answers"
-    copyLink: "Copy test link"
-
-  footer:
-    resources: "Resources"
-    privacy: "Privacy"
-    about: "About"
-    blogs: "Blogs"
-    translations: "Translations"
-
-    holding: "© 2024 — Rubynor AS - all rights reserved."
-
+      description1: We are not medical professionals, and the tools provided on this website (The AQ-50 test) are intend solely as screening tools. These test are designed to help identify traits associated with autism and are not diagnosis instruments.
+      description2: By using our website and the screening tools provided, you acknowledge and agree that these tools are for informational and entertainment purposes only and should not be considered as medical advice.
+      title: Disclaimer!
+    ourTeam:
+      description: Our team consists of several software developers all working together to bring you the best autism test and resources available to a simple to understand website. We are committed to continuous learning and improvement to ensure that our content remains relevant and valuable.
+      title: Our Team
+    ourVision:
+      description: Our vision is to foster a world where individuals with autism are understood, accepted, and supported. We strive to increase awareness and promote inclusivity through our educational content and practical tools.
+      title: Our Vision
+    title: About Us
   errors:
-    404:
-      headTitle: "404 error :/"
-      title: "Can't find page 404 :/"
-      description: "The page doesn't seem to exist. You should go back to the"
-      home: "homepage"
-    422:
-      headTitle: "422 error :/"
-      title: "Can't process your data 422 :/"
-      description: "We couldn't process your data. Try again by going back to the"
-      home: "homepage"
-    500:
-      headTitle: "500 error :/"
-      title: "Something went wrong 500 :/"
-      description: "Something went wrong at our end. Try again by going back to the"
-      home: "homepage"
+    '404':
+      description: The page doesn't seem to exist. You should go back to the
+      headTitle: 404 error :/
+      home: homepage
+      title: Can't find page 404 :/
+    '422':
+      description: We couldn't process your data. Try again by going back to the
+      headTitle: 422 error :/
+      home: homepage
+      title: Can't process your data 422 :/
+    '500':
+      description: Something went wrong at our end. Try again by going back to the
+      headTitle: 500 error :/
+      home: homepage
+      title: Something went wrong 500 :/
+  faq:
+    answer1: The test is just a screening tool. If you score high we recommended that you seek an assessment by a healthcare professional for further investigation.
+    answer2: 'We use a known autism test called AQ-50. It is made by autism research center at Cambridge University. For more information you should view the paper:  '
+    answer3: Yes, we prioritize your privacy and security. We do not collect personal data. We use a third-party software, Plausible, to collect anonymized traffic data, ensuring that your personal information remains completely private.
+    answer4: A high score on the autism test suggest that you may have some traits associated with autism. It is recommended to seek a professional evaluation for a diagnosis.
+    answer5: 'Please contact us at: '
+    answer6: 'The best way to translate to your own language is to do it via github. Translate the questions and we will add it to our website. See our github site: '
+    answer7: 'Our code is open source and available online. you can visit it here: '
+    question1: What does my autism test score mean?
+    question2: Where can I find more information about the autism test?
+    question3: Is my data private and secure?
+    question4: What happens if I score high on the autism test?
+    question5: I found a translation error, what should I do?
+    question6: I don't see my language where do I add it?
+    question7: Where can i find the code?
+  flag_emoji: "🇬🇧"
+  footer:
+    about: About
+    blogs: Blogs
+    holding: "© 2024 — Rubynor AS - all rights reserved."
+    privacy: Privacy
+    resources: Resources
+    translations: Translations
+  header:
+    description: Take our free online autism test for a quick, accurate assessment. Our AQ-50 autism test from the Autism Research Center ensures reliable results.
+    title: Free Autism Test
+  home:
+    blogSectionTitle: Latest Blog
+    button1: Start test
+    button2: About Us
+    description: Take our quick and accurate autism test. The autism test is called AQ-50 and known to be reliable screening tool.
+    madeBy: Test By Cambridge University
+    otherBlogs: See all blogs
+    stats:
+      numberOfTestsTaken: Number of tests taken
+      percentageOfLikely: Percentage of people who got likely
+      percentageOfUnlikely: Percentage of people who got unlikely
+      testsTaken: Tests taken
+    title: Take a 10-Minute Autism Test
+    whatToExpect:
+      questions:
+        description: 50 multiple-choice questions.
+        title: Questions
+      result:
+        description: Test comes back with immediate feedback.
+        title: Results
+      saving:
+        description: Take break without loosing progress
+        title: Answered saved locally
+      time:
+        description: Approximately 10-15 minutes to complete.
+        title: Time
+      title: What to Expect
+  language_name: English
+  language_phrase: Take autism test in english
+  navigation:
+    aboutButton: About
+    homeButton: Home
+    takeTestButton: Take test
+  privacy:
+    aboutData:
+      description: We don't collect any data about you. We don't collect any of your answers to the autism test. We use a third-party software, Plausible, to collect traffic data. This ensures that your privacy is protected while we gather the necessary insights to improve our website. Plausible provides us with anonymized, aggregated data, so your personal information remains completely private.
+      title: About The Data We Collect
+    cookies:
+      description: Our website does not use cookies to track your activity or collect personal information. We believe in providing a browsing experience free from invasive tracking technologies.
+      title: Cookies
+    title: Privacy And Policy
+  questions:
+    '1': I prefer to do things with others rather than on my own
+    '10': In a social group, I can easily keep track of several different people’s conversations
+    '11': I find social situations easy
+    '12': I tend to notice details that others do not
+    '13': I would rather go to a library than to a party
+    '14': I find making up stories easy
+    '15': I find myself drawn more strongly to people than to things
+    '16': I tend to have very strong interests, which I get upset about if I can’t pursue
+    '17': I enjoy social chitchat
+    '18': When I talk, it isn’t always easy for others to get a word in edgewise
+    '19': I am fascinated by numbers
+    '2': I prefer to do things the same way over and over again
+    '20': When I’m reading a story, I find it difficult to work out the characters’ intentions
+    '21': I don’t particularly enjoy reading fiction
+    '22': I find it hard to make new friends
+    '23': I notice patterns in things all the time
+    '24': I would rather go to the theater than to a museum
+    '25': It does not upset me if my daily routine is disturbed
+    '26': I frequently find that I don’t know how to keep a conversation going
+    '27': I find it easy to ‘read between the lines’ when someone is talking to me
+    '28': I usually concentrate more on the whole picture, rather than on the small details
+    '29': I am not very good at remembering phone numbers
+    '3': If I try to imagine something, I find it very easy to create a picture in my mind
+    '30': I don’t usually notice small changes in a situation or a person’s appearance
+    '31': I know how to tell if someone listening to me is getting bored
+    '32': I find it easy to do more than one thing at once
+    '33': When I talk on the phone, I’m not sure when it’s my turn to speak
+    '34': I enjoy doing things spontaneously
+    '35': I am often the last to understand the point of a joke
+    '36': I find it easy to work out what someone is thinking or feeling just by looking at their face
+    '37': If there is an interruption, I can switch back to what I was doing very quickly
+    '38': I am good at social chitchat
+    '39': People often tell me that I keep going on and on about the same thing
+    '4': I frequently get so strongly absorbed in one thing that I lose sight of other things
+    '40': When I was young, I used to enjoy playing games involving pretending with other children
+    '41': I like to collect information about categories of things (e.g., types of cars, birds, trains, plants)
+    '42': I find it difficult to imagine what it would be like to be someone else
+    '43': I like to carefully plan any activities I participate in
+    '44': I enjoy social occasions
+    '45': I find it difficult to work out people’s intentions
+    '46': New situations make me anxious
+    '47': I enjoy meeting new people
+    '48': I am a good diplomat
+    '49': I am not very good at remembering people’s date of birth
+    '5': I often notice small sounds when others do not
+    '50': I find it very easy to play games with children that involve pretending
+    '6': I usually notice car number plates or similar strings of information
+    '7': Other people frequently tell me that what I’ve said is impolite, even though I think it is polite
+    '8': When I’m reading a story, I can easily imagine what the characters might look like
+    '9': I am fascinated by dates
+    backButton: Back button
+    choice0: Disagree
+    choice1: Slightly disagree
+    choice2: Slightly agree
+    choice3: Agree
+    submit: Submit
+  result:
+    copyLink: Copy test link
+    description1: Your score suggests that it is very unlikely you have autism. The test results indicate minimal signs of ASD, and no further action is usually required. However, if you have specific concerns or behaviors causing worry, a consultation with a healthcare professional can provide additional reassurance and guidance.
+    description2: Your score indicates that it is unlikely you have autism. The signs are not strong or numerous enough to suggest a high probability of ASD. However, if you have ongoing concerns or other symptoms, it may still be worthwhile to seek professional advice.
+    description3: Your score suggests that it is likely you display several signs of autism. While not definitive, it indicates a considerable possibility of ASD. Consulting with a professional for a detailed evaluation is advisable to better understand your condition.
+    description4: Your score indicates that it is very likely you exhibit significant signs of autism spectrum disorder (ASD). This suggests a high probability of autism, and it is strongly recommended that you seek a comprehensive assessment by a healthcare professional to explore this possibility further.
+    fullLabel1: You are very unlikely to have autism
+    fullLabel2: You are unlikely to have autism
+    fullLabel3: You are likely to have autism
+    fullLabel4: You are very likely to have autism
+    label1: very unlikely
+    label2: unlikely
+    label3: likely
+    label4: very likely
+    printAnswers: Print answers
+    share1: I am very unlikely to have autism. Take the test to see how likely you are!
+    share2: I am unlikely to have autism. Take the test to see how likely you are!
+    share3: I am likely to have autism. Take the test to see how likely you are!
+    share4: I am very likely to have autism. Take the test to see how likely you are!
+    shareButton: Share Result
+    shareSubject: My autism test results
+    shareTo: Share to
+  scores:
+    show:
+      other_tests: Other tests
+  termsOfUse:
+    acceptOfTerms:
+      text: By using our website and the tools provided, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
+      title: Acceptance of Terms
+    changesToTerms:
+      text: We reserve the right to modify these terms at any time. Any changes will be effective immediately upon posting on our website. Your continued use of the site following any such changes constitutes your acceptance of the new terms.
+      title: Changes to Terms
+    contactInformation:
+      text: If you have any questions about these Terms of Use, please contact us at fogado@rubynor.com.
+      title: Contact Information
+    descriptionOfServices:
+      text: We provide resources and tools related to autism spectrum disorder (ASD), including the AQ-50 test. These tools are intended solely as screening tools to help identify traits associated with autism and are not diagnostic instruments.
+      title: Description of Services
+    disclaimer:
+      text: We are not medical professionals, and the information provided on this website, including the AQ-50 test, is for informational and entertainment purposes only. These tools should not be considered medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition.
+      title: Disclaimer
+    governingLaw:
+      text: These terms and conditions are governed by and construed in accordance with the laws of [Your Country/State], and you agree to submit to the exclusive jurisdiction of the courts located in [Your Country/State] for the resolution of any disputes.
+      title: Governing Law
+    limitationOfLiability:
+      text: In no event shall we be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data, or other intangible losses resulting from the use or inability to use our website or services.
+      title: Limitation of Liability
+    privacy:
+      text: Your use of our website is also subject to our Privacy Policy. Please review our Privacy Policy for information on how we collect, use, and protect your personal information.
+      title: Privacy
+    title: Terms of Use
+    titleText: Welcome to our website. By accessing and using our site, you agree to comply with and be bound by the following terms and conditions of use. Please review these terms carefully. If you do not agree to these terms, you should not use this site.
+    useOfContent:
+      text: You may access, download, and print materials from this site for your personal, non-commercial use. You may not modify, reproduce, distribute, publish, license, create derivative works from, transfer, or sell any information or content obtained from this site without our prior written consent.
+      title: Use of Content
+  translation:
+    description: We want our content to reach as many people as possible, so we use a ChatGPT for translations. While it usually does a great job, it can slip up now and then. If you notice any mistakes, we’d appreciate your help!
+    description1: 'If you spot something wrong in our translations, please let us know! Your feedback is invaluable in making sure our content is clear and accurate. Reach out to us at: '
+    description2: We are committed to providing high-quality translations and appreciate your collaboration in this effort. Together, we can ensure that our content is accessible and helpful to as many people as possible!
+    header1: Help Us Improve!
+    header2: Our Commitment
+    takeAutismTest: You can take autism test in English
+    title: Translations

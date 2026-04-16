@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "3.3.0"
 
+gem 'i18n-tasks', '~> 1.1.2', group: :development
 gem 'deepl-rb', require: 'deepl'
 gem "mobility", "~> 1.3"
 
