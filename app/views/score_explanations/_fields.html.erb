@@ -2,7 +2,7 @@
 
 <div class="flex overflow-scroll w-screen gap-5">
   <%= form.fields_for :score_explanations do |explanation_fields| %>
-    <fieldset class="fieldset bg-primary-content w-full border-base-300 rounded-box w-xs border p-4 mt-8 min-w-[300px]">
+    <fieldset class="fieldset bg-primary-content w-full border-base-300 rounded-box w-xs border p-4 mt-8 min-w-[300px] relative">
       <%= explanation_fields.label :title, class: "label" %>
       <%= explanation_fields.text_field :title, class: "input w-full" %>
 
@@ -22,6 +22,8 @@
 
         <%= explanation_fields.number_field :max_score, class: "input" %>
       </div>
+
+      <%= render "shared/destroy_button", object: explanation_fields.object %>
     </fieldset>
   <% end %>
 </div>

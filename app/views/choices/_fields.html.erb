@@ -2,19 +2,14 @@
 
 <div class="flex overflow-scroll w-screen gap-5">
   <%= form.fields_for :choices do |choice_fields| %>
-    <fieldset class="fieldset grid  grid-cols-[1fr_2fr] items-center content-start gap-2 bg-primary-content w-full border-base-300 rounded-box w-xs border p-4 mt-8 w-[340px]">
+    <fieldset class="fieldset grid  grid-cols-[1fr_2fr] items-center content-start gap-2 bg-primary-content w-full border-base-300 rounded-box w-xs border p-4 mt-8 w-[340px] relative">
       <%= choice_fields.label :label, class: "label" %>
       <%= choice_fields.text_field :label, class: "input" %>
 
       <%= choice_fields.label :value, class: "label" %>
       <%= choice_fields.number_field :value, class: "input" %>
 
-
-      <% if choice_fields.object.persisted? %>
-        <%= choice_fields.label :_destroy, "Destroy?", class: "label" %>
-        <%= choice_fields.check_box :_destroy, class: "checkbox", autocomplete: "off" %>
-      <% end %>
-
+      <%= render "shared/destroy_button", object: choice_fields.object %>
     </fieldset>
   <% end %>
 </div>

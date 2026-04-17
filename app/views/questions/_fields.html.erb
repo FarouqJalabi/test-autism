@@ -1,26 +1,27 @@
 <%# locals: (form:) %>
+
 <%- categories = form.object.categories.select(&:persisted?) %>
 <div class="flex overflow-scroll w-screen gap-5">
-  <%= form.fields_for :questions do |questions_fields| %>
-    <fieldset class="fieldset bg-primary-content w-full border-base-300 rounded-box w-xs border p-4 mt-8 ">
+  <%= form.fields_for :questions do |question_fields| %>
+    <fieldset class="fieldset bg-primary-content w-[580px] border-base-300 rounded-box w-xs border p-4 mt-8 relative">
       <div class="flex items-center">
-        <%= questions_fields.label :content, class: "label" %>
-        <%= questions_fields.text_field :content, class: "input w-full", autofocus: (questions_fields.object.new_record? && questions_fields.object.order == @test.questions.length)  %>
+        <%= question_fields.label :content, class: "label" %>
+        <%= question_fields.text_field :content, class: "input w-full", autofocus: (question_fields.object.new_record? && question_fields.object.order == @test.questions.length)  %>
       </div>
 
       <div class="flex items-center mt-2">
-        <%= questions_fields.label :order, class: "label" %>
-        <%= questions_fields.text_field :order, class: "input ml-4" %>
+        <%= question_fields.label :order, class: "label" %>
+        <%= question_fields.text_field :order, class: "input ml-4" %>
 
-        <%= questions_fields.label :category, class: "label ml-5" %>
-        <%= questions_fields.collection_select :category_id, categories, :id, :name, {}, {autocomplete: "off", class: "select"} %>
+        <%= question_fields.label :category, class: "label ml-5" %>
+        <%= question_fields.collection_select :category_id, categories, :id, :name, {}, {autocomplete: "off", class: "select"} %>
 
-        <% if questions_fields.object.persisted? %>
-          <%= questions_fields.label :_destroy, "Destroy?", class: "label ml-5" %>
-          <%= questions_fields.check_box :_destroy, class: "checkbox", autocomplete: "off" %>
-        <% end %>
+        <%= question_fields.label :negative_key, class: "label ml-5" %>
+        <%= question_fields.check_box :negative_key, class: "checkbox", autocomplete: "off" %>
       </div>
+      <%= render "shared/destroy_button", object: question_fields.object %>
     </fieldset>
+
   <% end %>
 </div>
 
