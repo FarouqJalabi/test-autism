@@ -65,6 +65,7 @@ zh:
     description: 进行我们快速准确的自闭症测试。这个自闭症测试称为AQ-50，被认为是一种可靠的筛查工具。
     madeBy: 由剑桥大学开发的测试
     otherBlogs: 查看所有博客
+    our_tests: 我们的测试
     stats:
       numberOfTestsTaken: 参加的测试次数
       percentageOfLikely: 得到可能的人的百分比

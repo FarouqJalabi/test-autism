@@ -59,6 +59,7 @@ en:
     description: Take our free online autism test for a quick, accurate assessment. Our AQ-50 autism test from the Autism Research Center ensures reliable results.
     title: Free Autism Test
   home:
+    our_tests: Our tests
     blogSectionTitle: Latest Blog
     button1: Start test
     button2: About Us

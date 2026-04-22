@@ -65,6 +65,7 @@ pt:
     description: Realize nosso teste de autismo rápido e preciso. O teste de autismo é chamado AQ-50 e é conhecido por ser uma ferramenta de triagem confiável.
     madeBy: Teste feito pela Universidade de Cambridge
     otherBlogs: Ver todos os blogs
+    our_tests: Os nossos testes
     stats:
       numberOfTestsTaken: Número de testes realizados
       percentageOfLikely: Porcentagem de pessoas que obtiveram provável

@@ -65,6 +65,7 @@ fr:
     description: Faites notre test d'autisme rapide et précis. Le test d'autisme s'appelle AQ-50 et est connu pour être un outil de dépistage fiable.
     madeBy: Test par l'Université de Cambridge
     otherBlogs: Voir tous les blogs
+    our_tests: Nos tests
     stats:
       numberOfTestsTaken: Nombre de tests effectués
       percentageOfLikely: Pourcentage de personnes ayant obtenu probable

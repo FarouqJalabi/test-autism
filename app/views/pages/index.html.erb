@@ -83,6 +83,19 @@
 
       <%= render partial: "language_carousel" %>
 
+
+      <section class="px-8 grid gap-2 md:gap-10">
+        <h2 class="m-auto text-center font-bold text-4xl md:text-5xl">
+            <%= t('home.our_tests') %>
+        </h2>
+
+        <div class="flex flex-wrap gap-10 overflow-auto pt-5 w-full">
+          <%= render Test.visible %>
+        </div>
+      </section>
+
+
+
       <section class="px-8 grid gap-2 md:gap-10">
         <h2 class="m-auto text-center font-bold text-4xl md:text-5xl">
             <%= t('home.blogSectionTitle') %>
