@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  post "auto_translate/run", to: "auto_translate#run", as: :run_auto_translate
   resources :tests do
     patch :build_associate, on: :collection
     post :build_associate, on: :collection

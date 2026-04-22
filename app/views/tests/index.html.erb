@@ -25,3 +25,20 @@
     <% end %>
   </div>
 </div>
+
+
+
+<div class="card bg-base-100 border shadow-md p-4 w-96 mt-10 mx-5">
+  <div class="flex justify-between items-center mb-2">
+    <span class="font-semibold capitalize">Auto translations usage</span>
+    <span class="text-sm opacity-70"><%= DeepL.usage.character_count %> / <%= DeepL.usage.character_limit %></span>
+  </div>
+
+  <progress class="progress progress-primary w-full mb-4" value="<%= DeepL.usage.character_count %>" max="<%= DeepL.usage.character_limit %>"></progress>
+  <p>Auto translates missing translations to other languages.</p>
+  <p class="mt-2">Translated outdated translations</p>
+  <%= button_to "Translate", run_auto_translate_path, method: :post, class: "btn btn-primary mt-2 w-full" %>
+</div>
+
+
+
